@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>eBay.Service.SDK.Attribute</name>
+    </assembly>
+    <members>
+        <member name="T:eBay.Service.SDK.Util.IKeyValue">
+            <summary>
+            Defines key/value string pair object.
+            </summary>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.IKeyValue.Key">
+            <summary>
+            Name of the key.
+            </summary>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.IKeyValue.Value">
+            <summary>
+            Value for the key.
+            </summary>
+        </member>
+        <member name="T:eBay.Service.SDK.Util.KeyValue">
+            <summary>
+            Implements <c>IKeyValue</c>.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValue.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValue.#ctor(System.String,System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="key">Name of the key.</param>
+            <param name="val">Value for the key.</param>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.KeyValue.Key">
+            <summary>
+            Name of the key.
+            </summary>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.KeyValue.Value">
+            <summary>
+            Value for the key.
+            </summary>
+        </member>
+        <member name="T:eBay.Service.SDK.Util.IKeyValueCollection">
+            <summary>
+            IKeyValue collection. This interface simulates <c>System.Collectionis.Specialized.NameValueCollection</c>
+            but it's COM-friendly that can be called from any language.
+            </summary>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.IKeyValueCollection.Item(System.Int32)">
+            <summary>
+            Gets an element at the specified index in the collection.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.Add(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Add element.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.AddRange(eBay.Service.SDK.Util.IKeyValue[])">
+            <summary>
+            Add an array of IKeyValue.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.AddRange(eBay.Service.SDK.Util.IKeyValueCollection)">
+            <summary>
+            Adds the contents of the specified IKeyValueCollection 
+            to the end of the collection.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.Contains(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Indicates whether a specified object is contained in the list.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.CopyTo(eBay.Service.SDK.Util.IKeyValue[],System.Int32)">
+            <summary>
+            Copies the collection objects to a one-dimensional Array 
+            instance beginning at the specified index.
+            </summary>
+            <param name="array"></param>
+            <param name="index"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.IndexOf(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Get index of an element.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.Insert(System.Int32,eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Insert element to list.
+            </summary>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.ItemCount">
+            <summary>
+            Returns number of items in the collection.
+            </summary>
+            <returns>Number of items.</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.ItemAt(System.Int32)">
+            <summary>
+            Returns item by index. 
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.Remove(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Remove element from list.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.IKeyValueCollection.Find(System.String)">
+            <summary>
+            Search node by key.
+            </summary>
+            <param name="key">The key string to search.</param>
+            <returns>null means not found.</returns>
+        </member>
+        <member name="T:eBay.Service.SDK.Util.KeyValueCollection">
+            <summary>
+            Strong typed IKeyValue collection
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.#ctor(eBay.Service.SDK.Util.IKeyValue[])">
+            <summary>
+            Initializes a new instance containing the specified array 
+            of IKeyValue objects
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.#ctor(eBay.Service.SDK.Util.IKeyValueCollection)">
+            <summary>
+            Initializes a new instance containing the elements of 
+            the specified source collection.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:eBay.Service.SDK.Util.KeyValueCollection.Item(System.Int32)">
+            <summary>
+            Gets an element at the specified index in the collection.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.Add(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Add element.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.AddRange(eBay.Service.SDK.Util.IKeyValue[])">
+            <summary>
+            Add an array of IKeyValue.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.AddRange(eBay.Service.SDK.Util.IKeyValueCollection)">
+            <summary>
+            Adds the contents of the specified IKeyValueCollection 
+            to the end of the collection.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.Contains(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Indicates whether a specified object is contained in the list.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.CopyTo(eBay.Service.SDK.Util.IKeyValue[],System.Int32)">
+            <summary>
+            Copies the collection objects to a one-dimensional Array 
+            instance beginning at the specified index.
+            </summary>
+            <param name="array"></param>
+            <param name="index"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.IndexOf(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Get index of an element.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.Insert(System.Int32,eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Insert element to list.
+            </summary>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.ItemCount">
+            <summary>
+            Returns number of items in the collection.
+            </summary>
+            <returns>Number of items.</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.ItemAt(System.Int32)">
+            <summary>
+            Returns item by index. 
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.Remove(eBay.Service.SDK.Util.IKeyValue)">
+            <summary>
+            Remove element from list.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.KeyValueCollection.Find(System.String)">
+            <summary>
+            Search node by key.
+            </summary>
+            <param name="key">The key string to search.</param>
+            <returns>null means not found.</returns>
+        </member>
+        <member name="T:eBay.Service.SDK.Util.SDKUtil">
+            <summary>
+            Contains utility functions for SDK.
+            </summary>
+        </member>
+        <member name="F:eBay.Service.SDK.Util.SDKUtil.NULL_TIME">
+            <summary>
+            DateTime value that represents NULL.
+            </summary>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.ParseEBayTime(System.String)">
+            <summary>
+            Convert an eBay date time string to <d>DateTime</d> object.
+            </summary>
+            <param name="dt">The string to be converted.</param>
+            <returns>The <c>DateTime</c> object</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.ToEBayTime(System.DateTime)">
+            <summary>
+            Convert <c>DateTime</c> object to eBay time string.
+            </summary>
+            <param name="dt">The DateTime object.</param>
+            <returns>The converted string.</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.ParseEBayDate(System.String)">
+            <summary>
+            Convert an eBay date string to <d>DateTime</d> object.
+            </summary>
+            <param name="date">The date string to be converted.</param>
+            <returns>The <c>DateTime</c> object</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.ToEBayDate(System.DateTime)">
+            <summary>
+            Convert <c>DateTime</c> object to eBay date string (yyyy-mm-dd).
+            </summary>
+            <param name="date">The DateTime object.</param>
+            <returns>The converted date string.</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.GetStringDigest(System.String)">
+            <summary>
+            Compute the MD5 digest of input string then encode the results.
+            </summary>
+            <param name="strData">The input string.</param>
+            <returns>The result string.</returns>
+        </member>
+        <member name="M:eBay.Service.SDK.Util.SDKUtil.IsNonZeroString(System.String)">
+            <summary>
+            Determines if the length of a string is greater than 0.
+            </summary>
+            <param name="str">The string object.</param>
+            <returns>true means the input string is not null and its size > 0.</returns>
+        </member>
+    </members>
+</doc>

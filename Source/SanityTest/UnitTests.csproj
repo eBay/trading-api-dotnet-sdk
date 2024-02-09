@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="packages\NUnit.4.0.1\build\NUnit.props" Condition="Exists('packages\NUnit.4.0.1\build\NUnit.props')" />
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBB827BD-3BBF-4A0D-9A1A-6973668DF3A0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>UnitTests</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UnitTests</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="eBay.Service, Version=3.787.0.0, Culture=neutral, PublicKeyToken=1d9d786a5932eaf0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\eBay.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSXML2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=c7506f8c5fa78874">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Interop.MSXML2.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>packages\NUnitTestAdapter.WithFramework.2.0.0\lib\nunit.core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.core.interfaces, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>packages\NUnitTestAdapter.WithFramework.2.0.0\lib\nunit.core.interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>packages\NUnitTestAdapter.WithFramework.2.0.0\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework.legacy, Version=4.0.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>packages\NUnit.4.0.1\lib\net462\nunit.framework.legacy.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>packages\NUnitTestAdapter.WithFramework.2.0.0\lib\nunit.util.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NUnit.VisualStudio.TestAdapter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac, processorArchitecture=MSIL">
+      <HintPath>packages\NUnitTestAdapter.WithFramework.2.0.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Content Include="App.ico" />
+    <Content Include="eBayLogoTM.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helper\CategoryHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\ItemHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\ReflectHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\TestData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_AddItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_GetBidderListLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_GeteBayOfficialTimeLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_GetFeedbackLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_GetMemberMessagesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_010_GetStoreLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_015_AddItemsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_020_GetCategoriesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_020_GetItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_020_GetItemsAwaitingFeedbackLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_020_GetMyeBayBuyingLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_020_GetSellerTransactionsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_030_AddToItemDescriptionLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_030_GetItemTransactionsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_030_GetMyeBaySellingLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_030_GetMyMessagesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_030_LeaveFeedbackLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_040_DeleteMyMessagesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_040_GetAllBiddersLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_040_RespondToFeedbackLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_040_SetUserNotesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_050_GetNotificationPreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_050_ReviseItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_050_ReviseMyMessagesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_060_CompleteSaleLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_060_GetCategoryFeaturesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_060_GetCrossPromotionsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_060_ReviseMyMessagesFoldersLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_060_SetNotificationPreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_070_AddMemberMessagesAAQToBidderLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_070_AddOrderLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_070_GetCategoryMappingsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_070_GetUserLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_080_AddMemberMessageAAQToPartnerLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_080_GetOrdersLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_080_GetPromotionRulesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_080_GetStoreCategoryUpdateStatusLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_080_GetUserPreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_AddMemberMessageRTQLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_GetBestOffersLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_GetItemShippingLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_GetSuggestedCategoriesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_SetStoreCategoriesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_090_SetUserPreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_100_GetItemRecommendationsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_100_GetMessagePreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_100_GetTaxTableLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_100_RespondToBestOfferLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_110_SendInvoiceLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_110_SetMessagePreferencesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_110_SetTaxTableLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_120_EndItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_120_GetDescriptionTemplatesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_125_EndItemsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_130_GetAccountLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_130_RelistItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_140_GetSellerListLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_150_GetAdFormatLeadsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_160_AddToWatchListLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_170_FetchTokenLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_170_RemoveFromWatchListLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_180_GeteBayDetailsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_185_PlaceOfferLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_200_AddSecondChanceItemLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_210_GetSellerEventsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_230_GetUserContactDetailsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_260_GetChallengeTokenLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_270_ValidateChallengeInputLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_300_GetVeROReasonCodeDetailsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_310_GetVeROReportStatusLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_320_VeROReportItemsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_350_GetShippingDiscountProfilesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_380_SetShippingDiscountProfilesLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoapSdk\T_400_SiteHostedPictures.cs" />
+    <Compile Include="SOAPTestBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTestBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\ApiContextLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\NUnit.4.0.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NUnit.4.0.1\build\NUnit.props'))" />
+  </Target>
+</Project>

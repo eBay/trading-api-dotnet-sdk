@@ -1,0 +1,48 @@
+
+<HTML><HEAD><TITLE>WebForm1</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>
+<META content="Visual Basic 7.0" name=CODE_LANGUAGE>
+<META content=JavaScript name=vs_defaultClientScript>
+<META content=http://schemas.microsoft.com/intellisense/ie5 
+name=vs_targetSchema></HEAD>
+<BODY MS_POSITIONING="GridLayout">
+
+<p align="center"><b><font size="5">SOAP API Demo - VB.NET</font></b></p>
+<p><b>Overview</b></p>
+<p>SoapApiDemo VB.NET demonstrates how to use SDK API wrapper classes (AddItemCall,  
+GetItemCall, etc).&nbsp;</p> 
+<p><b>Build Instructions</b></p>  
+<p>Run Visual Studio .NET, open SoapApiDemo.sln and build it.</p> 
+<p><b>How it works</b></p> 
+<ul>
+  <li>SoapApiDemo&nbsp; lists all available SDK API classes in its main window.  
+    Each SDK API class is represented by its verb in the list box (e.g., &quot;AddItem&quot;  
+    in the list represents AddItemCall class of SDK)</li> 
+  <li>Click &quot;Config Api Account&quot; button in the main window will pop up 
+    FormAccount dialog. It demonstrates how to collection user input to 
+    construct an ApiContext object, which is required to call each API class. </li>
+  <li>When the user clicks the the &quot;Run [Verb]&quot; (e.g., &quot;Run 
+    AddItem&quot;) button, SoapApiDemo will invoke a form with the name 
+    convention of &quot;Form[Verb]&quot;. E.g., if you click &quot;Run AddItem&quot;, 
+    FormAddItem will be displayed.</li>
+  <li>Each API form (e.g., FormAddItem) follows the same pattern to call SDK API 
+    class:<br>
+    1) Collect user input in form. For AddItem, user needs to enter Title, 
+    Description, StartPrice, Quantity, etc.<br>
+    2) Create SDK call class. e.g., for AddItemCall:<br>
+    <font SIZE="2" COLOR="#0000ff">&nbsp;&nbsp; </font> <font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2"> 
+    item </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2"> ItemType 
+    = FillItem()<br>
+    </font><font SIZE="2" COLOR="#0000ff">&nbsp;&nbsp; </font><font size="2"> </font><font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2"> 
+    ApiCall </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2"> 
+    AddItemCall = </font><font SIZE="2" COLOR="#0000ff">New</font><font SIZE="2"> 
+    AddItemCall(Context)<br>
+    3</font>) Call the verb method in the call class.<br>
+    <font SIZE="2" COLOR="#0000ff">&nbsp;&nbsp; </font> <font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2"> 
+    fees </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2"> 
+    FeeTypeCollection = ApiCall.AddItem(item)<br>
+    4</font>) Display call results in form.
+    <p>&nbsp;</li>
+</ul>
+</BODY></HTML>

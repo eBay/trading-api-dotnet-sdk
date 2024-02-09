@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen", "CodeGen.csproj", "{F90A425F-5082-4CC7-B3CE-1720F7D4555B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBayCodeGenerator", "..\Generator\eBayCodeGenerator.csproj", "{3F2008E7-727E-4B26-BAB7-43E02198176E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F90A425F-5082-4CC7-B3CE-1720F7D4555B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90A425F-5082-4CC7-B3CE-1720F7D4555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90A425F-5082-4CC7-B3CE-1720F7D4555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90A425F-5082-4CC7-B3CE-1720F7D4555B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2008E7-727E-4B26-BAB7-43E02198176E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2008E7-727E-4B26-BAB7-43E02198176E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2008E7-727E-4B26-BAB7-43E02198176E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2008E7-727E-4B26-BAB7-43E02198176E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5BAA76B-3E75-4BFC-BD70-95ECDD68E8AF}
+	EndGlobalSection
+EndGlobal

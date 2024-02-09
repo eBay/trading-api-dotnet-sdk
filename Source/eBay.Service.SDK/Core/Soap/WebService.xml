@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+        <!-- please change the wsdl location accordingly -->
+  <WSDLFile>https://developer.ebay.com/webservices/latest/eBaySvc.wsdl</WSDLFile>
+</configuration>

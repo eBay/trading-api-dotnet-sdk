@@ -1,0 +1,940 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Samples.Helper</name>
+    </assembly>
+    <members>
+        <member name="T:Samples.Helper.AppSettingHelper">
+            <summary>
+            Summary description for ConfigurationSettingHelper.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetApiContext">
+            <summary>
+            
+            </summary>
+            <returns> the API context for the default user </returns>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetUser2ApiContext">
+            <summary>
+            
+            </summary>
+            <returns> the API context for the second user </returns>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetGenericApiContext">
+            <summary>
+            
+            </summary>
+            <returns> API Context without user crendials
+            </returns>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SetApiContext(eBay.Service.Core.Sdk.ApiContext)">
+            <summary>
+            
+            </summary>
+            <param name="apiContext"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetConfiguration">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetConfiguration(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SaveAppSetting(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <param name="val"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SetAppSetting(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <param name="val"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SaveAppSettings">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SaveAppSettings(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SaveAppSettings(System.Xml.XmlDocument)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.SaveAppSettings(System.String,System.Xml.XmlDocument)">
+            <summary>
+            
+            </summary>
+            <param name="fileName"></param>
+            <param name="doc"></param>
+        </member>
+        <member name="M:Samples.Helper.AppSettingHelper.GetLoggingProperties">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.DB_CONNECTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.VERSION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.TIME_OUT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.DEMO_ENV">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.DEMO_USER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.LOG_FILE_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.LOG_PAYLOAD_ERROR_CODES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.LOG_PAYLOAD_HTTP_STATUS_CODES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.LOG_PAYLOAD_EXCEPTIONS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.ENABLE_METRICS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.ENV_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.ENV_DESC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.USER_DESC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.USER_AUTH_TYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_SERVER_URL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EPS_SERVER_URL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.SIGNIN_URL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.DEV_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.APP_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.CERT_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EBAY_USER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EBAY_PASSWORD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EBAY_USER2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EBAY_PASSWORD2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN_EXP_DATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN_CREATION_DATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN_SECRET">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.API_TOKEN_SECRET_CREATION_DATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.EBAY_USER_SITE_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.AppSettingHelper.RULE_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.LoggingProperties">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.LoggingProperties.LogFileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.LoggingProperties.LogPayloadErrorCodes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.LoggingProperties.LogPayloadHttpStatusCodes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.LoggingProperties.LogPayloadExceptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.Cache.BaseDownloader">
+            <summary>
+             
+             Base class for meta-data cache
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.Cache.BaseDownloader.filePrefix">
+            <summary>
+            cached file prefix, must be explicitly set by subclass.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.Cache.BaseDownloader.fileSuffix">
+            <summary>
+            cached file suffix, must be explicitly set by subclass.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.Cache.BaseDownloader.objType">
+            <summary>
+            object type of the cached data, must be explicitly set by subclass
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.Cache.BaseDownloader.context">
+            <summary>
+            ApiContext object
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.BaseDownloader.saveToDisk(System.Object)">
+            <summary>
+            cache object as disk file
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Samples.Helper.Cache.BaseDownloader.getFromFile(System.String)">
+            <summary>
+            get object from cached data file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.Cache.BaseDownloader.getObject">
+            <summary>
+            get object from xml data
+            </summary>
+            <returns>generic object</returns>
+        </member>
+        <member name="M:Samples.Helper.Cache.BaseDownloader.callApi">
+            <summary>
+            subclass should implement specific API call
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.BaseDownloader.getLastUpdateTime">
+            <summary>
+            ssubclass should implement specific API call to get last update time
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.Cache.CategoriesDownloader">
+            <summary>
+            Helper class with cache function for GetCategories call
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.CategoriesDownloader.#ctor(eBay.Service.Core.Sdk.ApiContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Samples.Helper.Cache.CategoriesDownloader.GetAllCategories">
+            <summary>
+            Get all categories for a given site
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.CategoriesDownloader.getLastUpdateTime">
+            <summary>
+            get last update time from site
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Samples.Helper.Cache.CategoriesDownloader.callApi">
+            <summary>
+            call GetCategories to get all categories for a given site
+            </summary>
+            <returns>generic object</returns>
+        </member>
+        <member name="T:Samples.Helper.Cache.DetailsDownloader">
+            <summary>
+            Helper class with cache function for GeteBayDetails call
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.DetailsDownloader.#ctor(eBay.Service.Core.Sdk.ApiContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Samples.Helper.Cache.DetailsDownloader.GeteBayDetails">
+            <summary>
+            Get eBay details
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.DetailsDownloader.getLastUpdateTime">
+            <summary>
+            get last update time from site
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Samples.Helper.Cache.DetailsDownloader.callApi">
+            <summary>
+            call GeteBayDetails to get eBay details for a given site
+            </summary>
+            <returns>generic object</returns>
+        </member>
+        <member name="T:Samples.Helper.Cache.FeaturesDownloader">
+            <summary>
+            Helper class with cache function for GetCategoryFeatures call
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.FeaturesDownloader.#ctor(eBay.Service.Core.Sdk.ApiContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Samples.Helper.Cache.FeaturesDownloader.GetCategoryFeatures">
+            <summary>
+            Get all features for a given category
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.Cache.FeaturesDownloader.getLastUpdateTime">
+            <summary>
+            get last update time from site
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Samples.Helper.Cache.FeaturesDownloader.callApi">
+            <summary>
+            call GetCategories to get all categories for a given site
+            </summary>
+            <returns>generic object</returns>
+        </member>
+        <member name="T:Samples.Helper.PaymentServiceHelper">
+            <summary>
+            Summary description for PaymentServiceHelper.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.PaymentServiceHelper.GetInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.PaymentServiceHelper.GetPaymentMethods(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Samples.Helper.ShippingServiceHelper">
+            <summary>
+            Summary description for ShippingServiceHelper.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.InitShipToLocations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetShippingServiceControlTagItems(eBay.Service.Core.Soap.SiteCodeType,eBay.Service.Core.Soap.ShippingTypeCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetInternationalShippingServiceControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetInsuranceOptionControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetShippingPackSizeControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetStateControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetItemShipToLocationControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.ShippingServiceHelper.GetServiceShipToLocationControlTagItems(eBay.Service.Core.Soap.SiteCodeType)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Samples.Helper.UI.CheckBoxControlBuilder">
+            <summary>
+            Summary description for CheckBoxControlBuilder.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxControlBuilder.CreateCheckBoxControls(System.Windows.Forms.Panel,System.String[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="panel"></param>
+            <param name="labels"></param>
+            <param name="xOffset"></param>
+            <param name="yOffset"></param>
+            <param name="height"></param>
+            <param name="widthFactor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxControlBuilder.CreateCheckBoxControls(System.Windows.Forms.Panel,Samples.Helper.UI.ControlTagItem[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="panel"></param>
+            <param name="items"></param>
+            <param name="xOffset"></param>
+            <param name="yOffset"></param>
+            <param name="height"></param>
+            <param name="widthFactor"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Samples.Helper.UI.CheckBoxGroupControl">
+            <summary>
+            Summary description for UserControl1.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.CheckBoxGroupControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.WidthFactor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.XOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.YOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.ItemHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.CheckBoxes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.CheckBoxGroupControl.CheckedCheckBoxes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxGroupControl.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxGroupControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxGroupControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxGroupControl.SetCheckBoxControls(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="names"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.CheckBoxGroupControl.SetCheckBoxControls(Samples.Helper.UI.ControlTagItem[])">
+            <summary>
+            
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="T:Samples.Helper.UI.IControlTagItem">
+            <summary>
+            Defines object to associate object with string.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.IControlTagItem.Text">
+            <summary>
+            The string.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.IControlTagItem.Tag">
+            <summary>
+            The object that is associated with the string.
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.ControlTagItem">
+            <summary>
+            A helper class for associate string with an object.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ControlTagItem.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ControlTagItem.#ctor(System.String,System.Object)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="text"></param>
+            <param name="tag"></param>
+        </member>
+        <member name="P:Samples.Helper.UI.ControlTagItem.Text">
+            <summary>
+            The string.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.ControlTagItem.Tag">
+            <summary>
+            The object that is associated with the string.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ControlTagItem.ToString">
+            <summary>
+            Overrided ToString().
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Samples.Helper.UI.HeaderInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.HeaderInfo.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.HeaderInfo.width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.EditListView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.EditListView.editBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.ELVDoubleClick(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.ELVKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.ELVMouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.Initialize(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            This method must be called to iniitialize the ListView.
+            </summary>
+            <param name="infos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.InitHeaderInfo(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.InitListView(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="P:Samples.Helper.UI.EditListView.ListViewItemSelected">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.EditListView.ProcessDoubleClick(System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="action"></param>
+            <param name="spos"></param>
+            <param name="epos"></param>
+        </member>
+        <member name="P:Samples.Helper.UI.EditListView.SelectedListViewItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.EditListView.SelectedListViewSubItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.EditListView.SubItemSelectedIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.EditListView.SubItemSelectedText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.InternationalShippingServiceControl">
+            <summary>
+            Summary description for InternationalShippingServiceControl.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.InternationalShippingServiceControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.InternationalShippingServiceControl.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.InternationalShippingServiceControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.InternationalShippingServiceControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.InternationalShippingServiceControl.EditListView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.IntlShippingServiceListView">
+            <summary>
+            Summary description for ShippingServiceListView.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.IntlShippingServiceListView.listBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.IntlShippingServiceListView.ShipToLocations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.IntlShippingServiceListView.ShipToLocationControlTagItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.IntlShippingServiceListView.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.IntlShippingServiceListView.Initialize(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            This method must be called to iniitialize the ListView.
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.IntlShippingServiceListView.InitListView(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.IntlShippingServiceListView.ProcessDoubleClick(System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="action"></param>
+            <param name="spos"></param>
+            <param name="epos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.IntlShippingServiceListView.GetShippingServiceOptions">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Samples.Helper.UI.IntlShippingServiceListView.DELIMITER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.ShippingServiceControl">
+            <summary>
+            Summary description for ShippingServiceControl.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.ShippingServiceControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceControl.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.ShippingServiceControl.EditListView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Samples.Helper.UI.ShippingServiceListView">
+            <summary>
+            Summary description for ShippingServiceListView.
+            </summary>
+        </member>
+        <member name="F:Samples.Helper.UI.ShippingServiceListView.cmbBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.ShippingServiceListView.ComboBoxColumnName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.ShippingServiceListView.StringOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Samples.Helper.UI.ShippingServiceListView.TagItemOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.Initialize(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            This method must be called to iniitialize the ListView.
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.InitListView(Samples.Helper.UI.HeaderInfo[])">
+            <summary>
+            
+            </summary>
+            <param name="headerInfos"></param>
+        </member>
+        <member name="P:Samples.Helper.UI.ShippingServiceListView.ComboColumnName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.GetShippingServiceOptions">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.SetComboBoxOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.SetComboBoxOptions(Samples.Helper.UI.ControlTagItem[])">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:Samples.Helper.UI.ShippingServiceListView.ProcessDoubleClick(System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="action"></param>
+            <param name="spos"></param>
+            <param name="epos"></param>
+        </member>
+    </members>
+</doc>

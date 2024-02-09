@@ -1,0 +1,1 @@
+bin\CodeGen -f WebService.cs  -m 1 -n eBay.Service.Core.Soap -l language  -p ..\..\Source\eBay.Service.SDK\Core\Soap -w https://developer.ebay.com/webservices/latest/eBaySvc.wsdl

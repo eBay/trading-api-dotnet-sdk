@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29E39FCD-C8DC-41D7-B944-E05D59228052}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SoapApiDemo</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>SoapApiDemo</RootNamespace>
+    <StartupObject>SoapApiDemo.SimpleListForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SoapApiDemo.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SoapApiDemo.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="eBay.Service, Version=3.631.0.0, Culture=neutral, PublicKeyToken=1d9d786a5932eaf0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\eBay.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="eBay.Service.SDK.Attribute, Version=3.613.0.0, Culture=neutral, PublicKeyToken=1d9d786a5932eaf0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\eBay.Service.SDK.Attribute.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddDispute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddDisputeResponse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddSecondChanceItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddToItemDescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApiDemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEndItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetAllBidders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetApiAccessRules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetBestOffers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetCategories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetDispute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGeteBayOfficialTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetFeedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetItemShipping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetItemTransactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetMemberMessages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetNotificationPreferences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetSellerEvents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetSellerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetSellerTransactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetStore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetStoreCustomPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetStoreOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetSuggestedCategories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetTokenStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGetUserDisputes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLeaveFeedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelistItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRespondToBestOffer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReviseCheckoutStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReviseItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSellerReverseDispute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSendInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetNotificationPreferences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetStore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUploadPictures.Designer.vb">
+      <DependentUpon>FormUploadPictures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUploadPictures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FormAccount.resx">
+      <DependentUpon>FormAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddDispute.resx">
+      <DependentUpon>FormAddDispute.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddDisputeResponse.resx">
+      <DependentUpon>FormAddDisputeResponse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddItem.resx">
+      <DependentUpon>FormAddItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddOrder.resx">
+      <DependentUpon>FormAddOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddSecondChanceItem.resx">
+      <DependentUpon>FormAddSecondChanceItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddToItemDescription.resx">
+      <DependentUpon>FormAddToItemDescription.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApiDemo.resx">
+      <DependentUpon>FormApiDemo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEndItem.resx">
+      <DependentUpon>FormEndItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetAccount.resx">
+      <DependentUpon>FormGetAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetAllBidders.resx">
+      <DependentUpon>FormGetAllBidders.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetApiAccessRules.resx">
+      <DependentUpon>FormGetApiAccessRules.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetBestOffers.resx">
+      <DependentUpon>FormGetBestOffers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetCategories.resx">
+      <DependentUpon>FormGetCategories.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetDispute.resx">
+      <DependentUpon>FormGetDispute.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGeteBayOfficialTime.resx">
+      <DependentUpon>FormGeteBayOfficialTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetFeedback.resx">
+      <DependentUpon>FormGetFeedback.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetItem.resx">
+      <DependentUpon>FormGetItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetItemShipping.resx">
+      <DependentUpon>FormGetItemShipping.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetItemTransactions.resx">
+      <DependentUpon>FormGetItemTransactions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetMemberMessages.resx">
+      <DependentUpon>FormGetMemberMessages.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetNotificationPreferences.resx">
+      <DependentUpon>FormGetNotificationPreferences.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetOrders.resx">
+      <DependentUpon>FormGetOrders.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetSellerEvents.resx">
+      <DependentUpon>FormGetSellerEvents.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetSellerList.resx">
+      <DependentUpon>FormGetSellerList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetSellerTransactions.resx">
+      <DependentUpon>FormGetSellerTransactions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetStore.resx">
+      <DependentUpon>FormGetStore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetStoreCustomPage.resx">
+      <DependentUpon>FormGetStoreCustomPage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetStoreOptions.resx">
+      <DependentUpon>FormGetStoreOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetSuggestedCategories.resx">
+      <DependentUpon>FormGetSuggestedCategories.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetTokenStatus.resx">
+      <DependentUpon>FormGetTokenStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetUser.resx">
+      <DependentUpon>FormGetUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGetUserDisputes.resx">
+      <DependentUpon>FormGetUserDisputes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLeaveFeedback.resx">
+      <DependentUpon>FormLeaveFeedback.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelistItem.resx">
+      <DependentUpon>FormRelistItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRespondToBestOffer.resx">
+      <DependentUpon>FormRespondToBestOffer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReviseCheckoutStatus.resx">
+      <DependentUpon>FormReviseCheckoutStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReviseItem.resx">
+      <DependentUpon>FormReviseItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSellerReverseDispute.resx">
+      <DependentUpon>FormSellerReverseDispute.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSendInvoice.resx">
+      <DependentUpon>FormSendInvoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetNotificationPreferences.resx">
+      <DependentUpon>FormSetNotificationPreferences.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetStore.resx">
+      <DependentUpon>FormSetStore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUploadPictures.resx">
+      <DependentUpon>FormUploadPictures.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

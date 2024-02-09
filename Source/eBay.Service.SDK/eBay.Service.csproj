@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{068A6C45-FAAF-49F5-B3F2-3928DA55D01A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>eBay.Service</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\eBay.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <OutputType>Library</OutputType>
+    <RootNamespace>eBay.Service</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\eBay.Service.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\eBay.Service.XML</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="eBay.Service.SDK.Attribute">
+      <HintPath>..\eBay.Service.SDK.Attribute\bin\Debug\eBay.Service.SDK.Attribute.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddFixedPriceItemCall.cs" />
+    <Compile Include="Call\AddItemCall.cs" />
+    <Compile Include="Call\AddItemsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddMemberMessageAAQToPartnerCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddMemberMessageRTQCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddMemberMessagesAAQToBidderCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddOrderCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddSecondChanceItemCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddToItemDescriptionCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\AddToWatchListCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\CompleteSaleCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ConfirmIdentityCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\DeleteMyMessagesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\EndFixedPriceItemCall.cs" />
+    <Compile Include="Call\EndItemCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\EndItemsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ExtendSiteHostedPicturesCall.cs" />
+    <Compile Include="Call\FetchTokenCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetAccountCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetAdFormatLeadsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetAllBiddersCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetBestOffersCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetBidderListCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetCategoriesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetCategoryFeaturesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetCategoryMappingsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetChallengeTokenCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetClientAlertsAuthTokenCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetDescriptionTemplatesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GeteBayDetailsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GeteBayOfficialTimeCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetFeedbackCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetItemCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetItemsAwaitingFeedbackCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetItemShippingCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetItemTransactionsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetMemberMessagesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetMessagePreferencesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetMyeBayBuyingCall.cs" />
+    <Compile Include="Call\GetMyeBaySellingCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetMyMessagesCall.cs" />
+    <Compile Include="Call\GetNotificationPreferencesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetNotificationsUsageCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetOrdersCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetSellerEventsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetSellerListCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetSellerTransactionsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetSessionIDCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetShippingDiscountProfilesCall.cs" />
+    <Compile Include="Call\GetStoreCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetStoreCategoryUpdateStatusCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetSuggestedCategoriesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetTaxTableCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetTokenStatusCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetUserCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetUserContactDetailsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetUserPreferencesCall.cs" />
+    <Compile Include="Call\GetVeROReasonCodeDetailsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\GetVeROReportStatusCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\LeaveFeedbackCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\PlaceOfferCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\RelistFixedPriceItemCall.cs" />
+    <Compile Include="Call\RelistItemCall.cs" />
+    <Compile Include="Call\RemoveFromWatchListCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\RespondToBestOfferCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\RespondToFeedbackCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ReviseFixedPriceItemCall.cs" />
+    <Compile Include="Call\ReviseInventoryStatusCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ReviseItemCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ReviseMyMessagesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ReviseMyMessagesFoldersCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\RevokeTokenCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SendInvoiceCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetMessagePreferencesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetNotificationPreferencesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetShippingDiscountProfilesCall.cs" />
+    <Compile Include="Call\SetStoreCategoriesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetTaxTableCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetUserNotesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\SetUserPreferencesCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ValidateChallengeInputCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\ValidateTestUserRegistrationCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\VerifyAddFixedPriceItemCall.cs" />
+    <Compile Include="Call\VerifyAddItemCall.cs" />
+    <Compile Include="Call\VerifyAddSecondChanceItemCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call\VerifyRelistItemCall.cs" />
+    <Compile Include="Call\VeROReportItemsCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiCredential.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ApiLogManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\CallMetricsEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\CallMetricsTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\CallRetry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\eBayAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\eBayAPIInterfaceService2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\ExceptionFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\HttpException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\HttpWebResponseDecompressed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Sdk\SdkException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Soap\eBayXmlAPIInterfaceService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Soap\ErrorLanguageCodeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Soap\TimeFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Soap\TypeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Soap\WebService.cs">
+      <DependentUpon>WebService.xml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="EPS\eBayPictureService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\ApiLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\ConsoleLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\CurrencyUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\EBayDetailsHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\ErrorLangUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\EventLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\FileLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\GetCategoryFeaturesHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\SdkUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\SiteUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\XmlUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\eBay.snk">
+      <Link>eBay.snk</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Call\save\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Soap\WebService.xml">
+      <Generator>eBayCodeGenerator</Generator>
+      <LastGenOutput>WebService.cs</LastGenOutput>
+      <CustomToolNamespace>eBay.Service.Core.Soap</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

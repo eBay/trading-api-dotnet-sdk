@@ -1,0 +1,7 @@
+*.cache
+**/.vs/**
+*.FileListAbsolute.txt
+*.CopyComplete
+**/listing_log.txt
+*.AssemblyAttributes.vb
+*.AssemblyAttributes.cs

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="eBay DotNET SDK" default="help">
+  <description>Build file for the eBay SDK for .Net 4.0.</description>
+
+  <!--change the wsdl version you want to sync -->
+  <property name="Version" value="latest" />
+  <property name="WSDLURL" value="https://developer.ebay.com/webservices/${Version}/eBaySvc.wsdl" />
+  <!--set the root folder of the sdk-->
+  <property name="RootDir" value="." />
+  <!--<property name="VS2005Dir" value="C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE" />-->
+  <property name="VS2005Dir" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE" />
+  
+  <!--we strongly recommend that following information should not be changed-->
+  <property name="RootDir.Tools" value="${RootDir}\Tools" />
+  <property name="RootDir.Tools.CodeGen" value="${RootDir.Tools}\CodeGen" />
+  <property name="RootDir.Tools.CodeGen.Exe" value="${RootDir.Tools.CodeGen}\bin" />
+  <property name="RootDir.Tools.Generator" value="${RootDir.Tools}\Generator" />
+  <property name="RootDir.Source" value="${RootDir}\Source" />
+  <property name="RootDir.Source.SDK" value="${RootDir.Source}\eBay.Service.SDK" />
+  <property name="RootDir.Source.Attribute" value="${RootDir.Source}\eBay.Service.SDK.Attribute" />
+  <property name="RootDir.Source.Helper" value="${RootDir.Source}\Helper" />
+  <property name="RootDir.Source.SDK.Call" value="${RootDir.Source.SDK}\Call" />
+  <property name="RootDir.Source.SDK.Core" value="${RootDir.Source.SDK}\Core" />
+  <property name="RootDir.Docs" value="${RootDir}\docs\Libref" />
+  <property name="RootDir.WSDL" value="${RootDir}\wsdl" />
+  <property name="nant.onfailure" value="fail"/>
+  <!--dotnet framework settings-->
+  <property name="nant.settings.currentframework" value="net-4.0" />
+
+  <!-- for internal use -->
+  <target name="BuildAllInRelease" description="Build the whole SDK in release mode"
+	        depends="GetWSDL, GenProxy, GenWrapper, BuildSourceInRelease, CopyLibraryInRelease" />
+
+  <!-- for internal use -->
+  <target name="BuildAllInDebug" description="Build the whole SDK in debug mode"
+    depends="GetWSDL, GenProxy, GenWrapper, BuildSourceInDebug, CopyLibraryInDebug" />
+
+  <target name="GetWSDL" description="Get wsdl from ebay developer site">
+    <echo message="get wsdl from ebay developer site."/>
+    <get src="${WSDLURL}" dest="${RootDir.WSDL}\eBaySvc.wsdl"/>
+  </target>
+
+  <target name="BuildSourceInRelease" description="Build SDK Source in Release Mode">
+    <echo message="build sdk source in release mode"/>
+    <echo message="build in progress ... "/>
+    <exec verbose="true" program="${VS2005Dir}\devenv.exe"
+          commandline="/rebuild Release ${RootDir.Source}\DOTNET.SOAP.sln" />
+  </target>
+
+  <target name="BuildSourceInDebug" description="Build SDK Source in Debug Mode">
+    <echo message="build sdk source in debug mode"/>
+    <echo message="build in progress ... "/>
+    <exec verbose="true" program="${VS2005Dir}\devenv.exe"
+          commandline="/rebuild debug ${RootDir.Source}\DOTNET.SOAP.sln" />
+  </target>
+
+  <target name="CopyLibraryInDebug" description="Copy debug libraries to SDK home directory">
+    <echo message="copy eBay.Serice.SDK debug libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.SDK}\bin\Debug">
+        <include name="eBay.Service.dll"/>
+        <include name="eBay.Service.xml"/>
+        <include name="eBay.Service.pdb"/>
+      </fileset>
+    </copy>
+    <echo message="copy eBay.Serice.SDK.Attribute debug libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.Attribute}\bin\Debug">
+        <include name="eBay.Service.SDK.Attribute.dll"/>
+        <include name="eBay.Service.SDK.Attribute.xml"/>
+        <include name="eBay.Service.SDK.Attribute.pdb"/>
+      </fileset>
+    </copy>
+    <echo message="copy Samples.Helper debug libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.Helper}\bin\Debug">
+        <include name="Samples.Helper.dll"/>
+        <include name="Samples.Helper.xml"/>
+        <include name="Samples.Helper.pdb"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="CopyLibraryInRelease" description="Copy release libaries to SDK home directory">
+    <echo message="copy eBay.Serice.SDK release libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.SDK}\bin\Release">
+        <include name="eBay.Service.dll"/>
+        <include name="eBay.Service.xml"/>
+        <include name="eBay.Service.tlb"/>
+      </fileset>
+    </copy>
+    <delete file="${RootDir}\eBay.Service.pdb"/>
+    <echo message="copy eBay.Serice.SDK.Attribute release libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.Attribute}\bin\Release">
+        <include name="eBay.Service.SDK.Attribute.dll"/>
+        <include name="eBay.Service.SDK.Attribute.xml"/>
+      </fileset>
+    </copy>
+    <delete file="${RootDir}\eBay.Service.SDK.Attribute.pdb"/>
+    <echo message="copy Samples.Helper release libraries to SDK home directory"/>
+    <copy todir="${RootDir}">
+      <fileset basedir="${RootDir.Source.Helper}\bin\Release">
+        <include name="Samples.Helper.dll"/>
+        <include name="Samples.Helper.xml"/>
+      </fileset>
+    </copy>
+    <delete file="${RootDir}\Samples.Helper.pdb"/>
+  </target>
+
+  <!-- for internal use -->
+  <target name="GenWrapper" description="Generate Wrapper.">
+    <echo message="delete wrapper classes in SDK source folder"/>
+    <delete>
+      <fileset basedir="${RootDir.Source.SDK.Call}">
+        <include name="*.cs"/>
+      </fileset>
+    </delete>
+
+    <echo message="delete temp folder for wrapper classes"/>
+    <delete dir="${RootDir.Tools}/WrapperGen/Call"/>
+
+    <echo message="generate wrapper classes"/>
+    <exec verbose="true" program="perl.exe" commandline="dotnetgen.pl ${path::get-full-path(RootDir.WSDL)}\eBaySvc.wsdl"
+          workingdir="${RootDir.Tools}/WrapperGen"/>
+
+    <echo message="copy wrapper classes to SDK source folder"/>
+    <copy todir="${RootDir.Source.SDK.Call}">
+      <fileset basedir="${RootDir.Tools}/WrapperGen/Call">
+        <include name="*.cs"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="GenProxy" description="Generate Proxy.">
+    <exec program="CodeGen05.exe" basedir="${RootDir.Tools.CodeGen.Exe}">
+      <arg value="-f" />
+      <arg value="WebService.cs" />
+      <arg value="-m" />
+      <arg value="1" />
+      <arg value="-n" />
+      <arg value="eBay.Service.Core.Soap" />
+      <arg value="-l" />
+      <arg value="cs" />
+      <arg value="-p" />
+      <arg>
+        <path>
+          <pathelement path="Source\eBay.Service.SDK\Core\Soap" />
+        </path>
+      </arg>
+      <arg value="-w" />
+      <arg value="${path::get-full-path(RootDir.WSDL)}\eBaySvc.wsdl" />
+    </exec>
+  </target>
+
+  <target name="fail">
+    <echo message="build failed!"/>
+  </target>
+
+  <!-- for internal use -->
+  <target name="GenDoc" description="generate library reference">
+    <exec program="SandcastleGUI.exe" commandline="/document NetSoapSDK.SandcastleGUI"
+          basedir="${RootDir.Source}" workingdir="${RootDir.Source}" />
+  </target>
+
+  <!-- for internal use -->
+  <target name="ZipDoc" description="zip library reference">
+    <zip zipfile="LibRef.zip">
+      <fileset basedir="${RootDir}\docs\LibRef" prefix="LibRef">
+        <include name="**/*"/>
+        <exclude name="Documentation.chm"/>
+      </fileset>
+    </zip>
+  </target>
+
+  <!-- for internal use -->
+  <target name="BuildPackage" description="Build SDK package for release">
+    <echo message="build SDK package for release"/>
+    <exec verbose="true" program="${VS2005Dir}\devenv.exe"
+          commandline="/rebuild Release ${RootDir}\Setup\Setup.sln" />
+  </target>
+
+  <target name="help">
+    <echo message="GetWSDL -- get wsdl from ebay developer site"/>
+    <echo message="GenProxy -- generate proxy from wsdl"/>
+    <echo message="BuildSourceInRelease -- build SDK source in release mode"/>
+    <echo message="CopyLibraryInRelease -- copy SDK release libraries to SDK home directory"/>
+    <echo message="BuildSourceInDebug -- build SDK source in debug mode"/>
+    <echo message="CopyLibraryInDebug -- copy SDK debug libraries to SDK home directory"/>
+  </target>
+
+</project>
