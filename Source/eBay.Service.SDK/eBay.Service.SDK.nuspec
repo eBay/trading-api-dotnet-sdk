@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>eBay.Service.SDK</id>
+        <version>1.0.0</version>
+        <title>eBay Service SDK</title>
+        <owners>eBay Inc.</owners>
+        <authors>Zhuowei Yang, Lokesh Rishi</authors>
+        <licenseUrl>https://github.com/eBay/trading-api-dotnet-sdk/blob/main/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/eBay/trading-api-dotnet-sdk/</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <summary>eBay Service SDK for .NET</summary>
+        <description>This SDK provides a .NET interface for interacting with eBay's APIs.</description>
+        <releaseNotes>Initial commit: Adding all files</releaseNotes>
+        <copyright>Copyright 2024 eBay Inc.</copyright>
+        <readme>README.md</readme>
+        <tags>Trading API .NET SDK</tags>
+    </metadata>
+    <files>
+        <file src="../../README.md" target="" />
+        <file src="bin/Release/*.dll" target="lib/net48" />
+    </files>
+</package>

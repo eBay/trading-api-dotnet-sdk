@@ -6,6 +6,78 @@
 
 Please note that upgrades to an SDK should always be done in a test environment. Additionally, before using a version of the SDK, please read this Readme file. Please also read the [Trading API Release Notes](https://developer.ebay.com/DevZone/XML/docs/ReleaseNotes.html) (which contain tables showing schema changes that occur every two weeks) for all Trading API versions released after your current version.
 
+## Add the eBay.Service.SDK NuGet Package
+
+**Current Version** : 1.0.0
+
+Use of this source code is governed by [Apache-2.0 license](https://opensource.org/licenses/Apache-2.0). If you’re looking for the latest stable version, you can get it directly from NuGet.org.
+
+<https://www.nuget.org/packages/eBay.Service.SDK>
+
+
+## NuGet Package Manager UI
+
+- In **Solution Explorer**, right-click NuGet in .csproj and choose
+  **Add Package**.
+
+- Search for **eBay.Service.SDK**, select that package in the list, and
+  click on **Add Package**
+
+
+## Package Manager Console
+
+- Use the following command in your project directory, to install the
+  **eBay.Service.SDK** package:
+
+``` xml
+Install-Package eBay.Service.SDK -Version 1.0.0
+```
+
+- After the command completes, open the **.csproj** file to see the
+  added reference:
+
+``` xml
+<ItemGroup>
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.0" />
+</ItemGroup>
+```
+
+## .NET CLI
+
+- Use the following command in your project directory, to install the
+  **eBay.Service.SDK** package:
+
+``` xml
+dotnet add package eBay.Service.SDK --version 1.0.0
+```
+
+- After the command completes, open the **.csproj** file to see the
+  added reference:
+
+``` xml
+<ItemGroup>
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.0" />
+</ItemGroup>
+```
+
+## Paket CLI
+
+- Use the following command in your project directory, to install the
+  **eBay.Service.SDK** package:
+
+``` xml
+paket add eBay.Service.SDK --version 1.0.0
+```
+
+- After the command completes, open the **.csproj** file to see the
+  added reference:
+
+``` xml
+<ItemGroup>
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.0" />
+</ItemGroup>
+```
+
 ## Release Information for the eBay SDK for .NET
 
 **Important:** Changes to the Trading API affect the SDK. For example, in schema version latest, deprecated objects in the schema were deleted, creating backward incompatibility. Please see the [Trading API Release Notes](https://developer.ebay.com/DevZone/XML/docs/ReleaseNotes.html) for ongoing updates to the schema (including occasional removals of schema elements). Please also see [Versioning Strategy](https://developer.ebay.com/DevZone/XML/docs/HowTo/eBayWS/eBaySchemaVersioning.html) and [Deprecated Objects](https://developer.ebay.com/DevZone/XML/docs/Reference/ebay/deprObjects.html).
