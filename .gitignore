@@ -5,3 +5,4 @@
 **/listing_log.txt
 *.AssemblyAttributes.vb
 *.AssemblyAttributes.cs
+*.nupkg
