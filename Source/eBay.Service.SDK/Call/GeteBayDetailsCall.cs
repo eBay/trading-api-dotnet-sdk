@@ -219,14 +219,6 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets the returned <see cref="GeteBayDetailsResponseType.UnitOfMeasurementDetails"/> of type <see cref="UnitOfMeasurementDetailsTypeCollection"/>.
-		/// </summary>
-		public UnitOfMeasurementDetailsTypeCollection UnitOfMeasurementDetailList
-		{ 
-			get { return ApiResponse.UnitOfMeasurementDetails; }
-		}
-		
- 		/// <summary>
 		/// Gets the returned <see cref="GeteBayDetailsResponseType.RegionOfOriginDetails"/> of type <see cref="RegionOfOriginDetailsTypeCollection"/>.
 		/// </summary>
 		public RegionOfOriginDetailsTypeCollection RegionOfOriginDetailList
@@ -256,14 +248,6 @@ namespace eBay.Service.Call
 		public ReturnPolicyDetailsType ReturnPolicyDetails
 		{ 
 			get { return ApiResponse.ReturnPolicyDetails; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GeteBayDetailsResponseType.InternationalReturnPolicyDetails"/> of type <see cref="ReturnPolicyDetailsType"/>.
-		/// </summary>
-		public ReturnPolicyDetailsType InternationalReturnPolicyDetails
-		{ 
-			get { return ApiResponse.InternationalReturnPolicyDetails; }
 		}
 		
  		/// <summary>

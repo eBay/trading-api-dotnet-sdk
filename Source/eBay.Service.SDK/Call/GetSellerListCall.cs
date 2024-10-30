@@ -67,12 +67,6 @@ namespace eBay.Service.Call
 		/// This call also requires that pagination be used.
 		/// </summary>
 		/// 
-		/// <param name="UserID">
-		/// <span class="tablenote"><strong>Note:</strong>
-		/// This field should no longer be used, and will be ignored if it is included in a <b>GetSellerList</b> request. There are plans to remove this field from the public WSDL. The only eBay user ID that can be used is the one associated with the authentication token.
-		/// </span>
-		/// </param>
-		///
 		/// <param name="MotorsDealerUserList">
 		/// Specifies the list of Motors Dealer sellers for which a special set of
 		/// metrics can be requested. Applies to eBay Motors Pro applications only.
@@ -149,9 +143,8 @@ namespace eBay.Service.Call
 		/// </span>
 		/// </param>
 		///
-		public ItemTypeCollection GetSellerList(string UserID, UserIDArrayType MotorsDealerUserList, DateTime EndTimeFrom, DateTime EndTimeTo, int Sort, DateTime StartTimeFrom, DateTime StartTimeTo, PaginationType Pagination, GranularityLevelCodeType GranularityLevel, StringCollection SKUArrayList, bool IncludeWatchCount, bool AdminEndedItemsOnly, int CategoryID, bool IncludeVariations)
+		public ItemTypeCollection GetSellerList(UserIDArrayType MotorsDealerUserList, DateTime EndTimeFrom, DateTime EndTimeTo, int Sort, DateTime StartTimeFrom, DateTime StartTimeTo, PaginationType Pagination, GranularityLevelCodeType GranularityLevel, StringCollection SKUArrayList, bool IncludeWatchCount, bool AdminEndedItemsOnly, int CategoryID, bool IncludeVariations)
 		{
-			this.UserID = UserID;
 			this.MotorsDealerUserList = MotorsDealerUserList;
 			this.EndTimeFrom = EndTimeFrom;
 			this.EndTimeTo = EndTimeTo;
@@ -212,15 +205,6 @@ namespace eBay.Service.Call
 			get { return (GetSellerListResponseType) AbstractResponse; }
 		}
 
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetSellerListRequestType.UserID"/> of type <see cref="string"/>.
-		/// </summary>
-		public string UserID
-		{ 
-			get { return ApiRequest.UserID; }
-			set { ApiRequest.UserID = value; }
-		}
 		
  		/// <summary>
 		/// Gets or sets the <see cref="GetSellerListRequestType.MotorsDealerUsers"/> of type <see cref="UserIDArrayType"/>.

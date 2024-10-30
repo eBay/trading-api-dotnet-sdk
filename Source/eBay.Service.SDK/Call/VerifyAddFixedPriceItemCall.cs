@@ -232,23 +232,7 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.Fees; }
 		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="VerifyAddFixedPriceItemResponseType.ExpressListing"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool ExpressListing
-		{ 
-			get { return ApiResponse.ExpressListing; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="VerifyAddFixedPriceItemResponseType.ExpressItemRequirements"/> of type <see cref="ExpressItemRequirementsType"/>.
-		/// </summary>
-		public ExpressItemRequirementsType ExpressItemRequirements
-		{ 
-			get { return ApiResponse.ExpressItemRequirements; }
-		}
-		
+
  		/// <summary>
 		/// Gets the returned <see cref="VerifyAddFixedPriceItemResponseType.CategoryID"/> of type <see cref="string"/>.
 		/// </summary>

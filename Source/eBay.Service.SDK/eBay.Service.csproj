@@ -189,9 +189,6 @@
     <Compile Include="Call\GetChallengeTokenCall.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Call\GetClientAlertsAuthTokenCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Call\GetDescriptionTemplatesCall.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -253,9 +250,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetStoreCategoryUpdateStatusCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GetSuggestedCategoriesCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetTaxTableCall.cs">
