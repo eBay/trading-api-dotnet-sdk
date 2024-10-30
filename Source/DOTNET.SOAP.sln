@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B0755A7-8F00-4AB9-977B-885C18041CEA}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csp
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBay.Service.SDK.Attribute", "eBay.Service.SDK.Attribute\eBay.Service.SDK.Attribute.csproj", "{3F7B51BE-720D-44EF-86D2-F80FE3AE5081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBay.Service_4.7.2", "eBay.Service.SDK_4.7.2\eBay.Service_4.7.2.csproj", "{C65D1598-D91F-4BDC-BCB9-B91534597F38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,8 +39,15 @@ Global
 		{3F7B51BE-720D-44EF-86D2-F80FE3AE5081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7B51BE-720D-44EF-86D2-F80FE3AE5081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7B51BE-720D-44EF-86D2-F80FE3AE5081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65D1598-D91F-4BDC-BCB9-B91534597F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65D1598-D91F-4BDC-BCB9-B91534597F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65D1598-D91F-4BDC-BCB9-B91534597F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65D1598-D91F-4BDC-BCB9-B91534597F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {811F2C1A-F42D-4ACA-B5F8-3BCA311ABA6C}
 	EndGlobalSection
 EndGlobal
