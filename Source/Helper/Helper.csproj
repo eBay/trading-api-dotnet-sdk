@@ -93,9 +93,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="eBay.Service">
-      <HintPath>..\eBay.Service.SDK\bin\Debug\eBay.Service.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -205,6 +202,10 @@
     <ProjectReference Include="..\eBay.Service.SDK.Attribute\eBay.Service.SDK.Attribute.csproj">
       <Project>{3f7b51be-720d-44ef-86d2-f80fe3ae5081}</Project>
       <Name>eBay.Service.SDK.Attribute</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eBay.Service.SDK\eBay.Service.csproj">
+      <Project>{068a6c45-faaf-49f5-b3f2-3928da55d01a}</Project>
+      <Name>eBay.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
