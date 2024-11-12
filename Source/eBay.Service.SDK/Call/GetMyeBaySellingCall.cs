@@ -91,18 +91,6 @@ namespace eBay.Service.Call
 		/// This container is deprecated as a Bid List is no longer returned in <b>GetMyeBaySelling</b>.
 		/// </param>
 		///
-		/// <param name="DeletedFromSoldList">
-		/// Include this container and set the <b>DeletedFromSoldList.Include</b> field to <code>true</code> to return the list of sold order line items that have since been deleted from the seller's My eBay page.
-		/// 
-		/// The user also has the option of using pagination and sorting for the list of deleted, sold items that will be returned.
-		/// </param>
-		///
-		/// <param name="DeletedFromUnsoldList">
-		/// Include this container and set the <b>DeletedFromUnsoldList.Include</b> field to <code>true</code> to return the list of unsold order line items that have since been deleted from the seller's My eBay page.
-		/// 
-		/// The user also has the option of using pagination and sorting for the list of deleted, unsold items that will be returned.
-		/// </param>
-		///
 		/// <param name="SellingSummary">
 		/// Include this container and set the <b>SellingSummary.Include</b> field to <code>true</code> to return the <b>SellingSummary</b> container in the response. The <b>SellingSummary</b> container consists of selling activity counts and values.
 		/// </param>
@@ -112,14 +100,12 @@ namespace eBay.Service.Call
 		/// 
 		/// </param>
 		///
-		public SellingSummaryType GetMyeBaySelling(ItemListCustomizationType ScheduledList, ItemListCustomizationType ActiveList, ItemListCustomizationType SoldList, ItemListCustomizationType UnsoldList, ItemListCustomizationType BidList, ItemListCustomizationType DeletedFromSoldList, ItemListCustomizationType DeletedFromUnsoldList, ItemListCustomizationType SellingSummary, bool HideVariations)
+		public SellingSummaryType GetMyeBaySelling(ItemListCustomizationType ScheduledList, ItemListCustomizationType ActiveList, ItemListCustomizationType SoldList, ItemListCustomizationType UnsoldList, ItemListCustomizationType BidList, ItemListCustomizationType SellingSummary, bool HideVariations)
 		{
 			this.ScheduledList = ScheduledList;
 			this.ActiveList = ActiveList;
 			this.SoldList = SoldList;
 			this.UnsoldList = UnsoldList;
-			this.DeletedFromSoldList = DeletedFromSoldList;
-			this.DeletedFromUnsoldList = DeletedFromUnsoldList;
 			this.SellingSummary = SellingSummary;
 			this.HideVariations = HideVariations;
 			Execute();
@@ -204,23 +190,6 @@ namespace eBay.Service.Call
 			set { ApiRequest.UnsoldList = value; }
 		}
  		 
-		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.DeletedFromSoldList"/> of type <see cref="ItemListCustomizationType"/>.
-		/// </summary>
-		public ItemListCustomizationType DeletedFromSoldList
-		{ 
-			get { return ApiRequest.DeletedFromSoldList; }
-			set { ApiRequest.DeletedFromSoldList = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.DeletedFromUnsoldList"/> of type <see cref="ItemListCustomizationType"/>.
-		/// </summary>
-		public ItemListCustomizationType DeletedFromUnsoldList
-		{ 
-			get { return ApiRequest.DeletedFromUnsoldList; }
-			set { ApiRequest.DeletedFromUnsoldList = value; }
-		}
-		
  		/// <summary>
 		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.SellingSummary"/> of type <see cref="ItemListCustomizationType"/>.
 		/// </summary>
@@ -287,23 +256,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.Summary; }
 		}
-
- 		/// <summary>
-		/// Gets the returned <see cref="GetMyeBaySellingResponseType.DeletedFromSoldList"/> of type <see cref="PaginatedOrderTransactionArrayType"/>.
-		/// </summary>
-		public PaginatedOrderTransactionArrayType DeletedFromSoldListReturn
-		{ 
-			get { return ApiResponse.DeletedFromSoldList; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GetMyeBaySellingResponseType.DeletedFromUnsoldList"/> of type <see cref="PaginatedItemArrayType"/>.
-		/// </summary>
-		public PaginatedItemArrayType DeletedFromUnsoldListReturn
-		{ 
-			get { return ApiResponse.DeletedFromUnsoldList; }
-		}
-		
 
 		#endregion
 
