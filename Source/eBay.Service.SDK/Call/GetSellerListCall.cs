@@ -204,7 +204,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return (GetSellerListResponseType) AbstractResponse; }
 		}
-
 		
  		/// <summary>
 		/// Gets or sets the <see cref="GetSellerListRequestType.MotorsDealerUsers"/> of type <see cref="UserIDArrayType"/>.

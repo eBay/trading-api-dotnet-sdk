@@ -179,7 +179,7 @@ namespace eBay.Service.Call
 		/// The currency used in this field must be the same currency of the listing site. A positive value in this field indicates that the amount is an extra charge being paid to the seller by the buyer, and a negative value indicates that the amount is a discount given to the buyer by the seller.
 		/// </param>
 		///
-		public void SendInvoice(string ItemID, string TransactionID, string OrderID, InternationalShippingServiceOptionsTypeCollection InternationalShippingServiceOptionsList, ShippingServiceOptionsTypeCollection ShippingServiceOptionsList, SalesTaxType SalesTax, BuyerPaymentMethodCodeTypeCollection PaymentMethodsList, string CheckoutInstructions, bool EmailCopyToSeller, AmountType CODCost, string SKU, string OrderLineItemID, AmountType AdjustmentAmount)
+		public void SendInvoice(string ItemID, string TransactionID, string OrderID, InternationalShippingServiceOptionsTypeCollection InternationalShippingServiceOptionsList, ShippingServiceOptionsTypeCollection ShippingServiceOptionsList, SalesTaxType SalesTax, AmountType InsuranceFee, BuyerPaymentMethodCodeTypeCollection PaymentMethodsList, string PayPalEmailAddress, string CheckoutInstructions, bool EmailCopyToSeller, AmountType CODCost, string SKU, string OrderLineItemID, AmountType AdjustmentAmount)
 		{
 			this.ItemID = ItemID;
 			this.TransactionID = TransactionID;

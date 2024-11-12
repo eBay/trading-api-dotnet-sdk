@@ -489,7 +489,7 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.RequiredShipPhoneNumberPreference; }
 		}
-				
+		
  		/// <summary>
 		/// Gets the returned <see cref="GetUserPreferencesResponseType.UnpaidItemAssistancePreferences"/> of type <see cref="UnpaidItemAssistancePreferencesType"/>.
 		/// </summary>
@@ -513,7 +513,7 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.PurchaseReminderEmailPreferences; }
 		}
-	
+		
  		/// <summary>
 		/// Gets the returned <see cref="GetUserPreferencesResponseType.SellerProfilePreferences"/> of type <see cref="SellerProfilePreferencesType"/>.
 		/// </summary>
@@ -577,15 +577,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.OutOfStockControlPreference; }
 		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GetUserPreferencesResponseType.eBayPLUSPreference"/> of type <see cref="eBayPLUSPreferenceTypeCollection"/>.
-		/// </summary>
-        //public eBayPLUSPreferenceTypeCollection eBayPLUSPreferenceList
-        //{ 
-        //    get { return ApiResponse.eBayPLUSPreference; }
-        //} Commeted on 27/12/2023
-		
 
 		#endregion
 

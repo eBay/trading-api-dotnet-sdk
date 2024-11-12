@@ -264,7 +264,7 @@ namespace eBay.Service.Call
 		{ 
 			get { return (GetSellerEventsResponseType) AbstractResponse; }
 		}
-
+		
  		/// <summary>
 		/// Gets or sets the <see cref="GetSellerEventsRequestType.StartTimeFrom"/> of type <see cref="DateTime"/>.
 		/// </summary>

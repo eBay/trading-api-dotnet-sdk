@@ -43,7 +43,7 @@ namespace CodeGen
                 { "-l", "language" },
                 { "-m", "1" },
                 { "-n", "eBay.Service.Core.Soap" },
-                { "-p" , @"/Users/lrishi/Documents/TradingAPISDK-.NET/Source/eBay.Service.SDK/Core/Soap" },
+                { "-p" , @"trading-api-dotnet-sdk/Source/eBay.Service.SDK/Core/Soap" },
                 { "-w",  "https://developer.ebay.com/webservices/latest/eBaySvc.wsdl" }
             };
 

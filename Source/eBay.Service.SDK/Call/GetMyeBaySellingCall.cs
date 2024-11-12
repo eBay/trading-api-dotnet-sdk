@@ -189,7 +189,7 @@ namespace eBay.Service.Call
 			get { return ApiRequest.UnsoldList; }
 			set { ApiRequest.UnsoldList = value; }
 		}
- 		 
+		
  		/// <summary>
 		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.SellingSummary"/> of type <see cref="ItemListCustomizationType"/>.
 		/// </summary>

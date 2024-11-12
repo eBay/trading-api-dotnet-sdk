@@ -232,7 +232,7 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.Fees; }
 		}
-
+		
  		/// <summary>
 		/// Gets the returned <see cref="VerifyAddFixedPriceItemResponseType.CategoryID"/> of type <see cref="string"/>.
 		/// </summary>
