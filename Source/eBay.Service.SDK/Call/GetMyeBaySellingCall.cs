@@ -118,8 +118,6 @@ namespace eBay.Service.Call
 			this.ActiveList = ActiveList;
 			this.SoldList = SoldList;
 			this.UnsoldList = UnsoldList;
-			this.DeletedFromSoldList = DeletedFromSoldList;
-			this.DeletedFromUnsoldList = DeletedFromUnsoldList;
 			this.SellingSummary = SellingSummary;
 			this.HideVariations = HideVariations;
 			Execute();
@@ -203,23 +201,6 @@ namespace eBay.Service.Call
 			get { return ApiRequest.UnsoldList; }
 			set { ApiRequest.UnsoldList = value; }
 		}
- 		 
-		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.DeletedFromSoldList"/> of type <see cref="ItemListCustomizationType"/>.
-		/// </summary>
-		public ItemListCustomizationType DeletedFromSoldList
-		{ 
-			get { return ApiRequest.DeletedFromSoldList; }
-			set { ApiRequest.DeletedFromSoldList = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.DeletedFromUnsoldList"/> of type <see cref="ItemListCustomizationType"/>.
-		/// </summary>
-		public ItemListCustomizationType DeletedFromUnsoldList
-		{ 
-			get { return ApiRequest.DeletedFromUnsoldList; }
-			set { ApiRequest.DeletedFromUnsoldList = value; }
-		}
 		
  		/// <summary>
 		/// Gets or sets the <see cref="GetMyeBaySellingRequestType.SellingSummary"/> of type <see cref="ItemListCustomizationType"/>.
@@ -288,22 +269,6 @@ namespace eBay.Service.Call
 			get { return ApiResponse.Summary; }
 		}
 
- 		/// <summary>
-		/// Gets the returned <see cref="GetMyeBaySellingResponseType.DeletedFromSoldList"/> of type <see cref="PaginatedOrderTransactionArrayType"/>.
-		/// </summary>
-		public PaginatedOrderTransactionArrayType DeletedFromSoldListReturn
-		{ 
-			get { return ApiResponse.DeletedFromSoldList; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GetMyeBaySellingResponseType.DeletedFromUnsoldList"/> of type <see cref="PaginatedItemArrayType"/>.
-		/// </summary>
-		public PaginatedItemArrayType DeletedFromUnsoldListReturn
-		{ 
-			get { return ApiResponse.DeletedFromUnsoldList; }
-		}
-		
 
 		#endregion
 

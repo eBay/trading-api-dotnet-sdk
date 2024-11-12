@@ -151,7 +151,6 @@ namespace eBay.Service.Call
 		///
 		public ItemTypeCollection GetSellerList(string UserID, UserIDArrayType MotorsDealerUserList, DateTime EndTimeFrom, DateTime EndTimeTo, int Sort, DateTime StartTimeFrom, DateTime StartTimeTo, PaginationType Pagination, GranularityLevelCodeType GranularityLevel, StringCollection SKUArrayList, bool IncludeWatchCount, bool AdminEndedItemsOnly, int CategoryID, bool IncludeVariations)
 		{
-			this.UserID = UserID;
 			this.MotorsDealerUserList = MotorsDealerUserList;
 			this.EndTimeFrom = EndTimeFrom;
 			this.EndTimeTo = EndTimeTo;
@@ -210,16 +209,6 @@ namespace eBay.Service.Call
 		public GetSellerListResponseType ApiResponse
 		{ 
 			get { return (GetSellerListResponseType) AbstractResponse; }
-		}
-
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetSellerListRequestType.UserID"/> of type <see cref="string"/>.
-		/// </summary>
-		public string UserID
-		{ 
-			get { return ApiRequest.UserID; }
-			set { ApiRequest.UserID = value; }
 		}
 		
  		/// <summary>

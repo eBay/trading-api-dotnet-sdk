@@ -198,7 +198,6 @@ namespace eBay.Service.Call
 		///
 		public void GetSellerEvents(string UserID, DateTime StartTimeFrom, DateTime StartTimeTo, DateTime EndTimeFrom, DateTime EndTimeTo, DateTime ModTimeFrom, DateTime ModTimeTo, bool IncludeNewItem, bool IncludeWatchCount, bool IncludeVariationSpecifics, bool HideVariations)
 		{
-			this.UserID = UserID;
 			this.StartTimeFrom = StartTimeFrom;
 			this.StartTimeTo = StartTimeTo;
 			this.EndTimeFrom = EndTimeFrom;
@@ -264,16 +263,6 @@ namespace eBay.Service.Call
 		public GetSellerEventsResponseType ApiResponse
 		{ 
 			get { return (GetSellerEventsResponseType) AbstractResponse; }
-		}
-
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetSellerEventsRequestType.UserID"/> of type <see cref="string"/>.
-		/// </summary>
-		public string UserID
-		{ 
-			get { return ApiRequest.UserID; }
-			set { ApiRequest.UserID = value; }
 		}
 		
  		/// <summary>

@@ -246,22 +246,6 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets the returned <see cref="VerifyAddItemResponseType.ExpressListing"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool ExpressListing
-		{ 
-			get { return ApiResponse.ExpressListing; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="VerifyAddItemResponseType.ExpressItemRequirements"/> of type <see cref="ExpressItemRequirementsType"/>.
-		/// </summary>
-		public ExpressItemRequirementsType ExpressItemRequirements
-		{ 
-			get { return ApiResponse.ExpressItemRequirements; }
-		}
-		
- 		/// <summary>
 		/// Gets the returned <see cref="VerifyAddItemResponseType.CategoryID"/> of type <see cref="string"/>.
 		/// </summary>
 		public string CategoryID

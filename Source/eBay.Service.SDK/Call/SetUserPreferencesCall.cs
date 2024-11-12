@@ -138,11 +138,10 @@ namespace eBay.Service.Call
 		/// <span class="tablenote"><b>IMPORTANT: </b> When a listing using the Out-of-Stock feature has zero quantity, the seller has 90 days to add inventory without incurring a listing fee. Fees are changed at the end of each the billing cycle but are then refunded if the item is out-of-stock for an entire billing period. See <a href="../../../../guides/features-guide/default.html#development/Listings-UseOutOfStock.html#FeesForaListingWithZeroQuantity">Fees For a Listing With Zero Quantity</a> for details. </span>
 		/// </param>
 		///
-		public void SetUserPreferences(BidderNoticePreferencesType BidderNoticePreferences, CombinedPaymentPreferencesType CombinedPaymentPreferences, CrossPromotionPreferencesType CrossPromotionPreferences, SellerPaymentPreferencesType SellerPaymentPreferences, SellerFavoriteItemPreferencesType SellerFavoriteItemPreferences, EndOfAuctionEmailPreferencesType EndOfAuctionEmailPreferences, bool EmailShipmentTrackingNumberPreference, bool RequiredShipPhoneNumberPreference, UnpaidItemAssistancePreferencesType UnpaidItemAssistancePreferences, PurchaseReminderEmailPreferencesType PurchaseReminderEmailPreferences, bool SellerThirdPartyCheckoutDisabled, DispatchCutoffTimePreferencesType DispatchCutoffTimePreference, bool GlobalShippingProgramListingPreference, bool OverrideGSPserviceWithIntlService, bool OutOfStockControlPreference)
+		public void SetUserPreferences(BidderNoticePreferencesType BidderNoticePreferences, CombinedPaymentPreferencesType CombinedPaymentPreferences, SellerPaymentPreferencesType SellerPaymentPreferences, SellerFavoriteItemPreferencesType SellerFavoriteItemPreferences, EndOfAuctionEmailPreferencesType EndOfAuctionEmailPreferences, bool EmailShipmentTrackingNumberPreference, bool RequiredShipPhoneNumberPreference, UnpaidItemAssistancePreferencesType UnpaidItemAssistancePreferences, PurchaseReminderEmailPreferencesType PurchaseReminderEmailPreferences, bool SellerThirdPartyCheckoutDisabled, DispatchCutoffTimePreferencesType DispatchCutoffTimePreference, bool GlobalShippingProgramListingPreference, bool OverrideGSPserviceWithIntlService, bool OutOfStockControlPreference)
 		{
 			this.BidderNoticePreferences = BidderNoticePreferences;
 			this.CombinedPaymentPreferences = CombinedPaymentPreferences;
-			this.CrossPromotionPreferences = CrossPromotionPreferences;
 			this.SellerPaymentPreferences = SellerPaymentPreferences;
 			this.SellerFavoriteItemPreferences = SellerFavoriteItemPreferences;
 			this.EndOfAuctionEmailPreferences = EndOfAuctionEmailPreferences;
@@ -150,7 +149,6 @@ namespace eBay.Service.Call
 			this.RequiredShipPhoneNumberPreference = RequiredShipPhoneNumberPreference;
 			this.UnpaidItemAssistancePreferences = UnpaidItemAssistancePreferences;
 			this.PurchaseReminderEmailPreferences = PurchaseReminderEmailPreferences;
-			this.SellerThirdPartyCheckoutDisabled = SellerThirdPartyCheckoutDisabled;
 			this.DispatchCutoffTimePreference = DispatchCutoffTimePreference;
 			this.GlobalShippingProgramListingPreference = GlobalShippingProgramListingPreference;
 			this.OverrideGSPserviceWithIntlService = OverrideGSPserviceWithIntlService;
@@ -171,11 +169,10 @@ namespace eBay.Service.Call
 		/// <summary>
 		/// For backward compatibility with old wrappers.
 		/// </summary>
-		public void SetUserPreferences(BidderNoticePreferencesType BidderNoticePreferences, CombinedPaymentPreferencesType CombinedPaymentPreferences, CrossPromotionPreferencesType CrossPromotionPreferences, SellerPaymentPreferencesType SellerPaymentPreferences, SellerFavoriteItemPreferencesType SellerFavoriteItemPreferences, EndOfAuctionEmailPreferencesType EndOfAuctionEmailPreferences)
+		public void SetUserPreferences(BidderNoticePreferencesType BidderNoticePreferences, CombinedPaymentPreferencesType CombinedPaymentPreferences, SellerPaymentPreferencesType SellerPaymentPreferences, SellerFavoriteItemPreferencesType SellerFavoriteItemPreferences, EndOfAuctionEmailPreferencesType EndOfAuctionEmailPreferences)
 		{
 			this.BidderNoticePreferences = BidderNoticePreferences;
 			this.CombinedPaymentPreferences = CombinedPaymentPreferences;
-			this.CrossPromotionPreferences = CrossPromotionPreferences;
 			this.SellerPaymentPreferences = SellerPaymentPreferences;
 			this.SellerFavoriteItemPreferences = SellerFavoriteItemPreferences;
 			this.EndOfAuctionEmailPreferences = EndOfAuctionEmailPreferences;
@@ -233,15 +230,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiRequest.CombinedPaymentPreferences; }
 			set { ApiRequest.CombinedPaymentPreferences = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="SetUserPreferencesRequestType.CrossPromotionPreferences"/> of type <see cref="CrossPromotionPreferencesType"/>.
-		/// </summary>
-		public CrossPromotionPreferencesType CrossPromotionPreferences
-		{ 
-			get { return ApiRequest.CrossPromotionPreferences; }
-			set { ApiRequest.CrossPromotionPreferences = value; }
 		}
 		
  		/// <summary>
@@ -305,15 +293,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiRequest.PurchaseReminderEmailPreferences; }
 			set { ApiRequest.PurchaseReminderEmailPreferences = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="SetUserPreferencesRequestType.SellerThirdPartyCheckoutDisabled"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool SellerThirdPartyCheckoutDisabled
-		{ 
-			get { return ApiRequest.SellerThirdPartyCheckoutDisabled; }
-			set { ApiRequest.SellerThirdPartyCheckoutDisabled = value; }
 		}
 		
  		/// <summary>

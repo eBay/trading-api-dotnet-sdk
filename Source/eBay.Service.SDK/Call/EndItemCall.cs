@@ -79,7 +79,6 @@ namespace eBay.Service.Call
 		{
 			this.ItemID = ItemID;
 			this.EndingReason = EndingReason;
-			this.SellerInventoryID = SellerInventoryID;
 
 			Execute();
 			return ApiResponse.EndTime;
@@ -146,16 +145,6 @@ namespace eBay.Service.Call
 			get { return ApiRequest.EndingReason; }
 			set { ApiRequest.EndingReason = value; }
 		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="EndItemRequestType.SellerInventoryID"/> of type <see cref="string"/>.
-		/// </summary>
-		public string SellerInventoryID
-		{ 
-			get { return ApiRequest.SellerInventoryID; }
-			set { ApiRequest.SellerInventoryID = value; }
-		}
-		
 		
  		/// <summary>
 		/// Gets the returned <see cref="EndItemResponseType.EndTime"/> of type <see cref="DateTime"/>.

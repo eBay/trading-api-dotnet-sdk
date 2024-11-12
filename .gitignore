@@ -405,3 +405,5 @@ FodyWeavers.xsd
 *.AssemblyAttributes.vb
 *.AssemblyAttributes.cs
 *.nupkg
+
+**/.idea/**

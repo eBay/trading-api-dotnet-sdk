@@ -97,8 +97,6 @@ namespace eBay.Service.Call
 		{
 			this.FeedbackScore = FeedbackScore;
 			this.RegistrationDate = RegistrationDate;
-			this.SubscribeSA = SubscribeSA;
-			this.SubscribeSAPro = SubscribeSAPro;
 			this.SubscribeSM = SubscribeSM;
 			this.SubscribeSMPro = SubscribeSMPro;
 
@@ -164,24 +162,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiRequest.RegistrationDate; }
 			set { ApiRequest.RegistrationDate = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="ValidateTestUserRegistrationRequestType.SubscribeSA"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool SubscribeSA
-		{ 
-			get { return ApiRequest.SubscribeSA; }
-			set { ApiRequest.SubscribeSA = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="ValidateTestUserRegistrationRequestType.SubscribeSAPro"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool SubscribeSAPro
-		{ 
-			get { return ApiRequest.SubscribeSAPro; }
-			set { ApiRequest.SubscribeSAPro = value; }
 		}
 		
  		/// <summary>

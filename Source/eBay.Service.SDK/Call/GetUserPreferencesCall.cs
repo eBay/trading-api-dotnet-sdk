@@ -177,11 +177,9 @@ namespace eBay.Service.Call
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;
-			this.ShowCrossPromotionPreferences = ShowCrossPromotionPreferences;
 			this.ShowSellerPaymentPreferences = ShowSellerPaymentPreferences;
 			this.ShowEndOfAuctionEmailPreferences = ShowEndOfAuctionEmailPreferences;
 			this.ShowSellerFavoriteItemPreferences = ShowSellerFavoriteItemPreferences;
-			this.ShowProStoresPreferences = ShowProStoresPreferences;
 			this.ShowEmailShipmentTrackingNumberPreference = ShowEmailShipmentTrackingNumberPreference;
 			this.ShowRequiredShipPhoneNumberPreference = ShowRequiredShipPhoneNumberPreference;
 			this.ShowSellerExcludeShipToLocationPreference = ShowSellerExcludeShipToLocationPreference;
@@ -210,7 +208,6 @@ namespace eBay.Service.Call
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;
-			this.ShowCrossPromotionPreferences = ShowCrossPromotionPreferences;
 			this.ShowSellerPaymentPreferences = ShowSellerPaymentPreferences;
 			this.ShowSellerFavoriteItemPreferences = ShowSellerFavoriteItemPreferences;
 			Execute();
@@ -222,7 +219,6 @@ namespace eBay.Service.Call
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;
-			this.ShowCrossPromotionPreferences = ShowCrossPromotionPreferences;
 			this.ShowSellerPaymentPreferences = ShowSellerPaymentPreferences;
 			this.ShowEndOfAuctionEmailPreferences = ShowEndOfAuctionEmailPreferences;
 			this.ShowSellerFavoriteItemPreferences = ShowSellerFavoriteItemPreferences;
@@ -284,15 +280,6 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets or sets the <see cref="GetUserPreferencesRequestType.ShowCrossPromotionPreferences"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool ShowCrossPromotionPreferences
-		{ 
-			get { return ApiRequest.ShowCrossPromotionPreferences; }
-			set { ApiRequest.ShowCrossPromotionPreferences = value; }
-		}
-		
- 		/// <summary>
 		/// Gets or sets the <see cref="GetUserPreferencesRequestType.ShowSellerPaymentPreferences"/> of type <see cref="bool"/>.
 		/// </summary>
 		public bool ShowSellerPaymentPreferences
@@ -317,15 +304,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiRequest.ShowSellerFavoriteItemPreferences; }
 			set { ApiRequest.ShowSellerFavoriteItemPreferences = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="GetUserPreferencesRequestType.ShowProStoresPreferences"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool ShowProStoresPreferences
-		{ 
-			get { return ApiRequest.ShowProStoresPreferences; }
-			set { ApiRequest.ShowProStoresPreferences = value; }
 		}
 		
  		/// <summary>
@@ -481,14 +459,6 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets the returned <see cref="GetUserPreferencesResponseType.CrossPromotionPreferences"/> of type <see cref="CrossPromotionPreferencesType"/>.
-		/// </summary>
-		public CrossPromotionPreferencesType CrossPromotionPreferences
-		{ 
-			get { return ApiResponse.CrossPromotionPreferences; }
-		}
-		
- 		/// <summary>
 		/// Gets the returned <see cref="GetUserPreferencesResponseType.SellerPaymentPreferences"/> of type <see cref="SellerPaymentPreferencesType"/>.
 		/// </summary>
 		public SellerPaymentPreferencesType SellerPaymentPreferences
@@ -529,14 +499,6 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets the returned <see cref="GetUserPreferencesResponseType.ProStoresPreference"/> of type <see cref="ProStoresCheckoutPreferenceType"/>.
-		/// </summary>
-		public ProStoresCheckoutPreferenceType ProStoresPreference
-		{ 
-			get { return ApiResponse.ProStoresPreference; }
-		}
-		
- 		/// <summary>
 		/// Gets the returned <see cref="GetUserPreferencesResponseType.UnpaidItemAssistancePreferences"/> of type <see cref="UnpaidItemAssistancePreferencesType"/>.
 		/// </summary>
 		public UnpaidItemAssistancePreferencesType UnpaidItemAssistancePreferences
@@ -558,14 +520,6 @@ namespace eBay.Service.Call
 		public PurchaseReminderEmailPreferencesType PurchaseReminderEmailPreferences
 		{ 
 			get { return ApiResponse.PurchaseReminderEmailPreferences; }
-		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GetUserPreferencesResponseType.SellerThirdPartyCheckoutDisabled"/> of type <see cref="bool"/>.
-		/// </summary>
-		public bool SellerThirdPartyCheckoutDisabled
-		{ 
-			get { return ApiResponse.SellerThirdPartyCheckoutDisabled; }
 		}
 		
  		/// <summary>
@@ -631,15 +585,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.OutOfStockControlPreference; }
 		}
-		
- 		/// <summary>
-		/// Gets the returned <see cref="GetUserPreferencesResponseType.eBayPLUSPreference"/> of type <see cref="eBayPLUSPreferenceTypeCollection"/>.
-		/// </summary>
-        //public eBayPLUSPreferenceTypeCollection eBayPLUSPreferenceList
-        //{ 
-        //    get { return ApiResponse.eBayPLUSPreference; }
-        //} Commeted on 27/12/2023
-		
 
 		#endregion
 
