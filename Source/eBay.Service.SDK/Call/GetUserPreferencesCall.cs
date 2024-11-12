@@ -72,10 +72,6 @@ namespace eBay.Service.Call
 		/// 
 		/// </param>
 		///
-		/// <param name="ShowCrossPromotionPreferences">
-		/// This field is deprecated.
-		/// </param>
-		///
 		/// <param name="ShowSellerPaymentPreferences">
 		/// If included and set to <code>true</code>, the seller's payment preferences are returned in the response.
 		/// </param>
@@ -86,10 +82,6 @@ namespace eBay.Service.Call
 		///
 		/// <param name="ShowSellerFavoriteItemPreferences">
 		/// If included and set to <code>true</code>, the seller's favorite item preferences are returned in the response.
-		/// </param>
-		///
-		/// <param name="ShowProStoresPreferences">
-		/// This field is deprecated.
 		/// </param>
 		///
 		/// <param name="ShowEmailShipmentTrackingNumberPreference">
@@ -173,7 +165,7 @@ namespace eBay.Service.Call
 		/// </span>
 		/// </param>
 		///
-		public BidderNoticePreferencesType GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowCrossPromotionPreferences, bool ShowSellerPaymentPreferences, bool ShowEndOfAuctionEmailPreferences, bool ShowSellerFavoriteItemPreferences, bool ShowProStoresPreferences, bool ShowEmailShipmentTrackingNumberPreference, bool ShowRequiredShipPhoneNumberPreference, bool ShowSellerExcludeShipToLocationPreference, bool ShowUnpaidItemAssistancePreference, bool ShowPurchaseReminderEmailPreferences, bool ShowUnpaidItemAssistanceExclusionList, bool ShowSellerProfilePreferences, bool ShowSellerReturnPreferences, bool ShowGlobalShippingProgramPreference, bool ShowDispatchCutoffTimePreferences, bool ShowGlobalShippingProgramListingPreference, bool ShowOverrideGSPServiceWithIntlServicePreference, bool ShowPickupDropoffPreferences, bool ShowOutOfStockControlPreference, bool ShoweBayPLUSPreference)
+		public BidderNoticePreferencesType GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowSellerPaymentPreferences, bool ShowEndOfAuctionEmailPreferences, bool ShowSellerFavoriteItemPreferences, bool ShowEmailShipmentTrackingNumberPreference, bool ShowRequiredShipPhoneNumberPreference, bool ShowSellerExcludeShipToLocationPreference, bool ShowUnpaidItemAssistancePreference, bool ShowPurchaseReminderEmailPreferences, bool ShowUnpaidItemAssistanceExclusionList, bool ShowSellerProfilePreferences, bool ShowSellerReturnPreferences, bool ShowGlobalShippingProgramPreference, bool ShowDispatchCutoffTimePreferences, bool ShowGlobalShippingProgramListingPreference, bool ShowOverrideGSPServiceWithIntlServicePreference, bool ShowPickupDropoffPreferences, bool ShowOutOfStockControlPreference, bool ShoweBayPLUSPreference)
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;
@@ -204,7 +196,7 @@ namespace eBay.Service.Call
 		/// <summary>
 		/// For backward compatibility with old wrappers.
 		/// </summary>
-		public void GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowCrossPromotionPreferences, bool ShowSellerPaymentPreferences, bool ShowSellerFavoriteItemPreferences)
+		public void GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowSellerPaymentPreferences, bool ShowSellerFavoriteItemPreferences)
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;
@@ -215,7 +207,7 @@ namespace eBay.Service.Call
 		/// <summary>
 		/// For backward compatibility with old wrappers.
 		/// </summary>
-		public BidderNoticePreferencesType GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowCrossPromotionPreferences, bool ShowSellerPaymentPreferences, bool ShowEndOfAuctionEmailPreferences, bool ShowSellerFavoriteItemPreferences)
+		public BidderNoticePreferencesType GetUserPreferences(bool ShowBidderNoticePreferences, bool ShowCombinedPaymentPreferences, bool ShowSellerPaymentPreferences, bool ShowEndOfAuctionEmailPreferences, bool ShowSellerFavoriteItemPreferences)
 		{
 			this.ShowBidderNoticePreferences = ShowBidderNoticePreferences;
 			this.ShowCombinedPaymentPreferences = ShowCombinedPaymentPreferences;

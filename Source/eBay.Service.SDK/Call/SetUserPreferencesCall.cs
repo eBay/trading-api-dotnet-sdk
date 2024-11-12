@@ -71,10 +71,6 @@ namespace eBay.Service.Call
 		/// This container is included if the seller wishes to set the preference for allowing Combined Invoice orders for cases where the buyer has multiple unpaid order line items from the same seller.
 		/// </param>
 		///
-		/// <param name="CrossPromotionPreferences">
-		/// This container is deprecated.
-		/// </param>
-		///
 		/// <param name="SellerPaymentPreferences">
 		/// This container is included if the seller wishes to set various payment preferences. One or more preferences may be set or modified under this container. Payment preferences specified in a <b>SetUserPreferences</b> call override the settings in My eBay payment preferences.
 		/// </param>
@@ -101,10 +97,6 @@ namespace eBay.Service.Call
 		///
 		/// <param name="PurchaseReminderEmailPreferences">
 		/// This container is included if the seller wishes to set the preference for sending a purchase reminder email to buyers.
-		/// </param>
-		///
-		/// <param name="SellerThirdPartyCheckoutDisabled">
-		/// This field is no longer applicable, as third-party checkout on eBay is no longer possible.
 		/// </param>
 		///
 		/// <param name="DispatchCutoffTimePreference">

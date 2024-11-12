@@ -365,7 +365,6 @@ namespace eBay.Service.Call
 			get { return ApiResponse.TransactionArray; }
 		}
 		
-
 		#endregion
 
 		

@@ -22,6 +22,7 @@ using System;
 using System.IO;
 using System.Collections;
 using eBay.WebService.CodeGenerator;
+using System.Collections.Generic;
 
 namespace CodeGen
 {
@@ -36,15 +37,15 @@ namespace CodeGen
         [STAThread]
         static void Main(string[] args)
         {
-            string[] inputs = {
-                "-f", "WebService.cs",
-                "-l", "language",
-                "-m", "1",
-                "-n", "eBay.Service.Core.Soap",
-                "-p", Path.Combine("trading-api-dotnet-sdk", "Source", "eBay.Service.SDK", "Core", "Soap"),
-                "-w",  "https://developer.ebay.com/webservices/latest/eBaySvc.wsdl"
+            Dictionary<string, string> defaultInputs = new Dictionary<string, string>()
+            {
+                { "-f", "WebService.cs" },
+                { "-l", "language" },
+                { "-m", "1" },
+                { "-n", "eBay.Service.Core.Soap" },
+                { "-p" , @"trading-api-dotnet-sdk/Source/eBay.Service.SDK/Core/Soap" },
+                { "-w",  "https://developer.ebay.com/webservices/latest/eBaySvc.wsdl" }
             };
-            args = inputs;
 
             Hashtable ht = null;
             bool inputError = false;
@@ -55,6 +56,11 @@ namespace CodeGen
             catch
             {
                 inputError = true;
+            }
+
+            foreach (var key in defaultInputs.Keys)
+            {
+                if (!ht.ContainsKey(key)) ht.Add(key, defaultInputs[key]);
             }
 
             object obj = ht[InputParamParser.H];

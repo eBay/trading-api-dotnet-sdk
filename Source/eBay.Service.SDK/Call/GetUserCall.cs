@@ -75,15 +75,11 @@ namespace eBay.Service.Call
 		/// requesting user (as specified with the <strong>eBayAuthToken</strong> value).
 		/// </param>
 		///
-		/// <param name="IncludeExpressRequirements">
-		/// This field is deprecated.
-		/// </param>
-		///
 		/// <param name="IncludeFeatureEligibility">
 		/// If the <b>IncludeFeatureEligibility</b> flag is included and set to 'true', the call response will include a <b>QualifiesForSelling</b> flag which indicates if the eBay user is eligible to sell on eBay, and a <b>IncludeFeatureEligibility</b> container which indicates which selling features are available to the user.
 		/// </param>
 		///
-		public UserType GetUser(string ItemID, string UserID, bool IncludeExpressRequirements, bool IncludeFeatureEligibility)
+		public UserType GetUser(string ItemID, string UserID, bool IncludeFeatureEligibility)
 		{
 			this.ItemID = ItemID;
 			this.UserID = UserID;

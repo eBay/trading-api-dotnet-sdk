@@ -178,7 +178,7 @@ namespace eBay.Service.Call
 		/// Parts Compatibility lists are only applicable to motor parts and accessory categories on the sites that support eBay Motors - US, CA, UK, and DE.
 		/// </param>
 		///
-		public ItemType GetItem(string ItemID, bool IncludeWatchCount, bool IncludeCrossPromotion, bool IncludeItemSpecifics, bool IncludeTaxTable, string SKU, string VariationSKU, NameValueListTypeCollection VariationSpecificList, string TransactionID, bool IncludeItemCompatibilityList)
+		public ItemType GetItem(string ItemID, bool IncludeWatchCount, bool IncludeItemSpecifics, bool IncludeTaxTable, string SKU, string VariationSKU, NameValueListTypeCollection VariationSpecificList, string TransactionID, bool IncludeItemCompatibilityList)
 		{
 			this.ItemID = ItemID;
 			this.IncludeWatchCount = IncludeWatchCount;

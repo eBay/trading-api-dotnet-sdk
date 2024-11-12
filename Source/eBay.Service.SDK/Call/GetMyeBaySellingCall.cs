@@ -91,18 +91,6 @@ namespace eBay.Service.Call
 		/// This container is deprecated as a Bid List is no longer returned in <b>GetMyeBaySelling</b>.
 		/// </param>
 		///
-		/// <param name="DeletedFromSoldList">
-		/// Include this container and set the <b>DeletedFromSoldList.Include</b> field to <code>true</code> to return the list of sold order line items that have since been deleted from the seller's My eBay page.
-		/// 
-		/// The user also has the option of using pagination and sorting for the list of deleted, sold items that will be returned.
-		/// </param>
-		///
-		/// <param name="DeletedFromUnsoldList">
-		/// Include this container and set the <b>DeletedFromUnsoldList.Include</b> field to <code>true</code> to return the list of unsold order line items that have since been deleted from the seller's My eBay page.
-		/// 
-		/// The user also has the option of using pagination and sorting for the list of deleted, unsold items that will be returned.
-		/// </param>
-		///
 		/// <param name="SellingSummary">
 		/// Include this container and set the <b>SellingSummary.Include</b> field to <code>true</code> to return the <b>SellingSummary</b> container in the response. The <b>SellingSummary</b> container consists of selling activity counts and values.
 		/// </param>
@@ -112,7 +100,7 @@ namespace eBay.Service.Call
 		/// 
 		/// </param>
 		///
-		public SellingSummaryType GetMyeBaySelling(ItemListCustomizationType ScheduledList, ItemListCustomizationType ActiveList, ItemListCustomizationType SoldList, ItemListCustomizationType UnsoldList, ItemListCustomizationType BidList, ItemListCustomizationType DeletedFromSoldList, ItemListCustomizationType DeletedFromUnsoldList, ItemListCustomizationType SellingSummary, bool HideVariations)
+		public SellingSummaryType GetMyeBaySelling(ItemListCustomizationType ScheduledList, ItemListCustomizationType ActiveList, ItemListCustomizationType SoldList, ItemListCustomizationType UnsoldList, ItemListCustomizationType BidList, ItemListCustomizationType SellingSummary, bool HideVariations)
 		{
 			this.ScheduledList = ScheduledList;
 			this.ActiveList = ActiveList;
@@ -268,7 +256,6 @@ namespace eBay.Service.Call
 		{ 
 			get { return ApiResponse.Summary; }
 		}
-
 
 		#endregion
 

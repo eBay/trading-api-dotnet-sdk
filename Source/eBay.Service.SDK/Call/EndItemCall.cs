@@ -71,28 +71,13 @@ namespace eBay.Service.Call
 		/// The seller's reason for ending the listing early is input into this required field. The seller is not allowed to use the <code>ProductDeleted</code> value, as this ending reason can only be used internally by eBay to administratively end a listing due to the associated Catalog product being removed from the eBay Catalog.
 		/// </param>
 		///
-		/// <param name="SellerInventoryID">
-		/// This field was previously only used to identify and end Half.com listings, and since the Half.com site has been shut down, this element is no longer applicable.
-		/// </param>
-		///
-		public DateTime EndItem(string ItemID, EndReasonCodeType EndingReason, string SellerInventoryID)
+		public DateTime EndItem(string ItemID, EndReasonCodeType EndingReason)
 		{
 			this.ItemID = ItemID;
 			this.EndingReason = EndingReason;
 
 			Execute();
 			return ApiResponse.EndTime;
-		}
-
-
-		/// <summary>
-		/// For backward compatibility with old wrappers.
-		/// </summary>
-		public void EndItem(string ItemID, EndReasonCodeType EndingReason)
-		{
-			this.ItemID = ItemID;
-			this.EndingReason = EndingReason;
-			Execute();
 		}
 
 		#endregion

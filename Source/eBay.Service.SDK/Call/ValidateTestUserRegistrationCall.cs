@@ -93,7 +93,7 @@ namespace eBay.Service.Call
 		/// Selling Manager Pro. You cannot request to unsubscribe a user.
 		/// </param>
 		///
-		public void ValidateTestUserRegistration(int FeedbackScore, DateTime RegistrationDate, bool SubscribeSA, bool SubscribeSAPro, bool SubscribeSM, bool SubscribeSMPro)
+		public void ValidateTestUserRegistration(int FeedbackScore, DateTime RegistrationDate, bool SubscribeSM, bool SubscribeSMPro)
 		{
 			this.FeedbackScore = FeedbackScore;
 			this.RegistrationDate = RegistrationDate;

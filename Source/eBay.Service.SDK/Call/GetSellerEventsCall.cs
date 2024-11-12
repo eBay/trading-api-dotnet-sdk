@@ -196,7 +196,7 @@ namespace eBay.Service.Call
 		/// <b>IncludeVariationSpecifics</b> has no effect). This may be useful for applications that use other calls, notifications, alerts, or reports to track price and quantity details.
 		/// </param>
 		///
-		public void GetSellerEvents(string UserID, DateTime StartTimeFrom, DateTime StartTimeTo, DateTime EndTimeFrom, DateTime EndTimeTo, DateTime ModTimeFrom, DateTime ModTimeTo, bool IncludeNewItem, bool IncludeWatchCount, bool IncludeVariationSpecifics, bool HideVariations)
+		public void GetSellerEvents(DateTime StartTimeFrom, DateTime StartTimeTo, DateTime EndTimeFrom, DateTime EndTimeTo, DateTime ModTimeFrom, DateTime ModTimeTo, bool IncludeNewItem, bool IncludeWatchCount, bool IncludeVariationSpecifics, bool HideVariations)
 		{
 			this.StartTimeFrom = StartTimeFrom;
 			this.StartTimeTo = StartTimeTo;
