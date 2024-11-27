@@ -179,7 +179,7 @@ namespace eBay.Service.Call
 		/// The currency used in this field must be the same currency of the listing site. A positive value in this field indicates that the amount is an extra charge being paid to the seller by the buyer, and a negative value indicates that the amount is a discount given to the buyer by the seller.
 		/// </param>
 		///
-		public void SendInvoice(string ItemID, string TransactionID, string OrderID, InternationalShippingServiceOptionsTypeCollection InternationalShippingServiceOptionsList, ShippingServiceOptionsTypeCollection ShippingServiceOptionsList, SalesTaxType SalesTax, InsuranceOptionCodeType InsuranceOption, AmountType InsuranceFee, BuyerPaymentMethodCodeTypeCollection PaymentMethodsList, string PayPalEmailAddress, string CheckoutInstructions, bool EmailCopyToSeller, AmountType CODCost, string SKU, string OrderLineItemID, AmountType AdjustmentAmount)
+		public void SendInvoice(string ItemID, string TransactionID, string OrderID, InternationalShippingServiceOptionsTypeCollection InternationalShippingServiceOptionsList, ShippingServiceOptionsTypeCollection ShippingServiceOptionsList, SalesTaxType SalesTax, AmountType InsuranceFee, BuyerPaymentMethodCodeTypeCollection PaymentMethodsList, string PayPalEmailAddress, string CheckoutInstructions, bool EmailCopyToSeller, AmountType CODCost, string SKU, string OrderLineItemID, AmountType AdjustmentAmount)
 		{
 			this.ItemID = ItemID;
 			this.TransactionID = TransactionID;
@@ -187,10 +187,7 @@ namespace eBay.Service.Call
 			this.InternationalShippingServiceOptionsList = InternationalShippingServiceOptionsList;
 			this.ShippingServiceOptionsList = ShippingServiceOptionsList;
 			this.SalesTax = SalesTax;
-			this.InsuranceOption = InsuranceOption;
-			this.InsuranceFee = InsuranceFee;
 			this.PaymentMethodsList = PaymentMethodsList;
-			this.PayPalEmailAddress = PayPalEmailAddress;
 			this.CheckoutInstructions = CheckoutInstructions;
 			this.EmailCopyToSeller = EmailCopyToSeller;
 			this.SKU = SKU;
@@ -309,39 +306,12 @@ namespace eBay.Service.Call
 		}
 		
  		/// <summary>
-		/// Gets or sets the <see cref="SendInvoiceRequestType.InsuranceOption"/> of type <see cref="InsuranceOptionCodeType"/>.
-		/// </summary>
-		public InsuranceOptionCodeType InsuranceOption
-		{ 
-			get { return ApiRequest.InsuranceOption; }
-			set { ApiRequest.InsuranceOption = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="SendInvoiceRequestType.InsuranceFee"/> of type <see cref="AmountType"/>.
-		/// </summary>
-		public AmountType InsuranceFee
-		{ 
-			get { return ApiRequest.InsuranceFee; }
-			set { ApiRequest.InsuranceFee = value; }
-		}
-		
- 		/// <summary>
 		/// Gets or sets the <see cref="SendInvoiceRequestType.PaymentMethods"/> of type <see cref="BuyerPaymentMethodCodeTypeCollection"/>.
 		/// </summary>
 		public BuyerPaymentMethodCodeTypeCollection PaymentMethodsList
 		{ 
 			get { return ApiRequest.PaymentMethods; }
 			set { ApiRequest.PaymentMethods = value; }
-		}
-		
- 		/// <summary>
-		/// Gets or sets the <see cref="SendInvoiceRequestType.PayPalEmailAddress"/> of type <see cref="string"/>.
-		/// </summary>
-		public string PayPalEmailAddress
-		{ 
-			get { return ApiRequest.PayPalEmailAddress; }
-			set { ApiRequest.PayPalEmailAddress = value; }
 		}
 		
  		/// <summary>

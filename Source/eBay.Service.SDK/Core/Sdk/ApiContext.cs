@@ -295,7 +295,7 @@ namespace eBay.Service.Core.Sdk
 		private SiteCodeType mSite = SiteCodeType.CustomCode;
 		private int mTimeout = 60000;
 		private int mTotalCalls = 0;
-		private string mVersion= "1131";
+		private string mVersion= "1379";
 		private string mSoapApiServerUrl;
 		private string mXmlApiServerUrl;
 		private bool mEnableMetrics;

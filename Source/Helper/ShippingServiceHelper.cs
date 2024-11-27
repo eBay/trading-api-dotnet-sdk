@@ -60,28 +60,8 @@ namespace Samples.Helper
 			InitShipToLocations();
 			InitShippingServiceOptions();
 			InitIntlShippingServiceOptions();
-			InitInsuranceOptions();
 			InitPackageSizeOptions();
 			InitSalesTaxStateOptions();
-		}
-
-		private void InitInsuranceOptions()
-		{
-			InsuranceOptionCodeType[] options = 
-				new InsuranceOptionCodeType[] {
-												  InsuranceOptionCodeType.Optional,
-												  InsuranceOptionCodeType.IncludedInShippingHandling,
-												  InsuranceOptionCodeType.NotOffered,
-												  InsuranceOptionCodeType.Required
-											  };
-
-			int len = options.Length;
-			ControlTagItem[] items = new ControlTagItem[len];
-			for (int i = 0; i < len; i++) 
-			{
-				items[i] = new ControlTagItem(options[i].ToString(), options[i]);
-			}
-			this.htInsuranceOptionControlTagItems.Add(SiteCodeType.US, items);
 		}
 
 		private void InitPackageSizeOptions()
