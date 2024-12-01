@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C65D1598-D91F-4BDC-BCB9-B91534597F38}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>eBay.Service</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\eBay.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <OutputType>Library</OutputType>
+    <RootNamespace>eBay.Service</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\eBay.Service.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\eBay.Service.XML</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\eBay.Service.SDK\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddFixedPriceItemCall.cs">
+      <Link>Call\AddFixedPriceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddItemCall.cs">
+      <Link>Call\AddItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddItemsCall.cs">
+      <Link>Call\AddItemsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddMemberMessageAAQToPartnerCall.cs">
+      <Link>Call\AddMemberMessageAAQToPartnerCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddMemberMessageRTQCall.cs">
+      <Link>Call\AddMemberMessageRTQCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddMemberMessagesAAQToBidderCall.cs">
+      <Link>Call\AddMemberMessagesAAQToBidderCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddOrderCall.cs">
+      <Link>Call\AddOrderCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddSecondChanceItemCall.cs">
+      <Link>Call\AddSecondChanceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddToItemDescriptionCall.cs">
+      <Link>Call\AddToItemDescriptionCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\AddToWatchListCall.cs">
+      <Link>Call\AddToWatchListCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\CompleteSaleCall.cs">
+      <Link>Call\CompleteSaleCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ConfirmIdentityCall.cs">
+      <Link>Call\ConfirmIdentityCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\DeleteMyMessagesCall.cs">
+      <Link>Call\DeleteMyMessagesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\EndFixedPriceItemCall.cs">
+      <Link>Call\EndFixedPriceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\EndItemCall.cs">
+      <Link>Call\EndItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\EndItemsCall.cs">
+      <Link>Call\EndItemsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ExtendSiteHostedPicturesCall.cs">
+      <Link>Call\ExtendSiteHostedPicturesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\FetchTokenCall.cs">
+      <Link>Call\FetchTokenCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetAccountCall.cs">
+      <Link>Call\GetAccountCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetAdFormatLeadsCall.cs">
+      <Link>Call\GetAdFormatLeadsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetAllBiddersCall.cs">
+      <Link>Call\GetAllBiddersCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetBestOffersCall.cs">
+      <Link>Call\GetBestOffersCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetBidderListCall.cs">
+      <Link>Call\GetBidderListCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetCategoriesCall.cs">
+      <Link>Call\GetCategoriesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetCategoryFeaturesCall.cs">
+      <Link>Call\GetCategoryFeaturesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetCategoryMappingsCall.cs">
+      <Link>Call\GetCategoryMappingsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetChallengeTokenCall.cs">
+      <Link>Call\GetChallengeTokenCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetDescriptionTemplatesCall.cs">
+      <Link>Call\GetDescriptionTemplatesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GeteBayDetailsCall.cs">
+      <Link>Call\GeteBayDetailsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GeteBayOfficialTimeCall.cs">
+      <Link>Call\GeteBayOfficialTimeCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetFeedbackCall.cs">
+      <Link>Call\GetFeedbackCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetItemCall.cs">
+      <Link>Call\GetItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetItemsAwaitingFeedbackCall.cs">
+      <Link>Call\GetItemsAwaitingFeedbackCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetItemShippingCall.cs">
+      <Link>Call\GetItemShippingCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetItemTransactionsCall.cs">
+      <Link>Call\GetItemTransactionsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetMemberMessagesCall.cs">
+      <Link>Call\GetMemberMessagesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetMessagePreferencesCall.cs">
+      <Link>Call\GetMessagePreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetMyeBayBuyingCall.cs">
+      <Link>Call\GetMyeBayBuyingCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetMyeBaySellingCall.cs">
+      <Link>Call\GetMyeBaySellingCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetMyMessagesCall.cs">
+      <Link>Call\GetMyMessagesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetNotificationPreferencesCall.cs">
+      <Link>Call\GetNotificationPreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetNotificationsUsageCall.cs">
+      <Link>Call\GetNotificationsUsageCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetOrdersCall.cs">
+      <Link>Call\GetOrdersCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetSellerEventsCall.cs">
+      <Link>Call\GetSellerEventsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetSellerListCall.cs">
+      <Link>Call\GetSellerListCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetSellerTransactionsCall.cs">
+      <Link>Call\GetSellerTransactionsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetSessionIDCall.cs">
+      <Link>Call\GetSessionIDCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetShippingDiscountProfilesCall.cs">
+      <Link>Call\GetShippingDiscountProfilesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetStoreCall.cs">
+      <Link>Call\GetStoreCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetStoreCategoryUpdateStatusCall.cs">
+      <Link>Call\GetStoreCategoryUpdateStatusCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetTaxTableCall.cs">
+      <Link>Call\GetTaxTableCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetTokenStatusCall.cs">
+      <Link>Call\GetTokenStatusCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetUserCall.cs">
+      <Link>Call\GetUserCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetUserContactDetailsCall.cs">
+      <Link>Call\GetUserContactDetailsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetUserPreferencesCall.cs">
+      <Link>Call\GetUserPreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetVeROReasonCodeDetailsCall.cs">
+      <Link>Call\GetVeROReasonCodeDetailsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\GetVeROReportStatusCall.cs">
+      <Link>Call\GetVeROReportStatusCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\LeaveFeedbackCall.cs">
+      <Link>Call\LeaveFeedbackCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\PlaceOfferCall.cs">
+      <Link>Call\PlaceOfferCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RelistFixedPriceItemCall.cs">
+      <Link>Call\RelistFixedPriceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RelistItemCall.cs">
+      <Link>Call\RelistItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RemoveFromWatchListCall.cs">
+      <Link>Call\RemoveFromWatchListCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RespondToBestOfferCall.cs">
+      <Link>Call\RespondToBestOfferCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RespondToFeedbackCall.cs">
+      <Link>Call\RespondToFeedbackCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ReviseFixedPriceItemCall.cs">
+      <Link>Call\ReviseFixedPriceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ReviseInventoryStatusCall.cs">
+      <Link>Call\ReviseInventoryStatusCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ReviseItemCall.cs">
+      <Link>Call\ReviseItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ReviseMyMessagesCall.cs">
+      <Link>Call\ReviseMyMessagesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ReviseMyMessagesFoldersCall.cs">
+      <Link>Call\ReviseMyMessagesFoldersCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\RevokeTokenCall.cs">
+      <Link>Call\RevokeTokenCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SendInvoiceCall.cs">
+      <Link>Call\SendInvoiceCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetMessagePreferencesCall.cs">
+      <Link>Call\SetMessagePreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetNotificationPreferencesCall.cs">
+      <Link>Call\SetNotificationPreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetShippingDiscountProfilesCall.cs">
+      <Link>Call\SetShippingDiscountProfilesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetStoreCategoriesCall.cs">
+      <Link>Call\SetStoreCategoriesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetTaxTableCall.cs">
+      <Link>Call\SetTaxTableCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetUserNotesCall.cs">
+      <Link>Call\SetUserNotesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\SetUserPreferencesCall.cs">
+      <Link>Call\SetUserPreferencesCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ValidateChallengeInputCall.cs">
+      <Link>Call\ValidateChallengeInputCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\ValidateTestUserRegistrationCall.cs">
+      <Link>Call\ValidateTestUserRegistrationCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\VerifyAddFixedPriceItemCall.cs">
+      <Link>Call\VerifyAddFixedPriceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\VerifyAddItemCall.cs">
+      <Link>Call\VerifyAddItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\VerifyAddSecondChanceItemCall.cs">
+      <Link>Call\VerifyAddSecondChanceItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\VerifyRelistItemCall.cs">
+      <Link>Call\VerifyRelistItemCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Call\VeROReportItemsCall.cs">
+      <Link>Call\VeROReportItemsCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiAccount.cs">
+      <Link>Core\Sdk\ApiAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiCall.cs">
+      <Link>Core\Sdk\ApiCall.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiContext.cs">
+      <Link>Core\Sdk\ApiContext.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiCredential.cs">
+      <Link>Core\Sdk\ApiCredential.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiException.cs">
+      <Link>Core\Sdk\ApiException.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ApiLogManager.cs">
+      <Link>Core\Sdk\ApiLogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\CallMetricsEntry.cs">
+      <Link>Core\Sdk\CallMetricsEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\CallMetricsTable.cs">
+      <Link>Core\Sdk\CallMetricsTable.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\CallRetry.cs">
+      <Link>Core\Sdk\CallRetry.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\eBayAccount.cs">
+      <Link>Core\Sdk\eBayAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\eBayAPIInterfaceService2.cs">
+      <Link>Core\Sdk\eBayAPIInterfaceService2.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\ExceptionFilter.cs">
+      <Link>Core\Sdk\ExceptionFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\HttpException.cs">
+      <Link>Core\Sdk\HttpException.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\HttpWebResponseDecompressed.cs">
+      <Link>Core\Sdk\HttpWebResponseDecompressed.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Sdk\SdkException.cs">
+      <Link>Core\Sdk\SdkException.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Soap\eBayXmlAPIInterfaceService.cs">
+      <Link>Core\Soap\eBayXmlAPIInterfaceService.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Soap\ErrorLanguageCodeType.cs">
+      <Link>Core\Soap\ErrorLanguageCodeType.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Soap\TimeFilter.cs">
+      <Link>Core\Soap\TimeFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Soap\TypeCollection.cs">
+      <Link>Core\Soap\TypeCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Core\Soap\WebService.cs">
+      <Link>Core\Soap\WebService.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\EPS\eBayPictureService.cs">
+      <Link>EPS\eBayPictureService.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\ApiLogger.cs">
+      <Link>Util\ApiLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\ConsoleLogger.cs">
+      <Link>Util\ConsoleLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\CurrencyUtility.cs">
+      <Link>Util\CurrencyUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\EBayDetailsHelper.cs">
+      <Link>Util\EBayDetailsHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\ErrorLangUtil.cs">
+      <Link>Util\ErrorLangUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\EventLogger.cs">
+      <Link>Util\EventLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\FileLogger.cs">
+      <Link>Util\FileLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\GetCategoryFeaturesHelper.cs">
+      <Link>Util\GetCategoryFeaturesHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\SdkUtility.cs">
+      <Link>Util\SdkUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\SiteUtility.cs">
+      <Link>Util\SiteUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\eBay.Service.SDK\Util\XmlUtility.cs">
+      <Link>Util\XmlUtility.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+</Project>
