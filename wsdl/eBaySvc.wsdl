@@ -7,8 +7,8 @@
 	xmlns="urn:ebay:apis:eBLBaseComponents"
 	targetNamespace="urn:ebay:apis:eBLBaseComponents">
 	<wsdl:types>
-<!-- Version 1379 -->
-<!-- (c) 2004-2024 eBay, Inc. All rights reserved -->
+<!-- Version 1399 -->
+<!-- (c) 2004-2025 eBay, Inc. All rights reserved -->
 		<xs:schema targetNamespace="urn:ebay:apis:eBLBaseComponents"  
 		xmlns:ns="urn:ebay:apis:eBLBaseComponents" 
 		xmlns="urn:ebay:apis:eBLBaseComponents"
@@ -3348,82 +3348,6 @@
 								<CallInfo>
 									<CallName>GetCategoryMappings</CallName>
 									<Details>DetailLevel: none, ReturnAll</Details>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GetChallengeToken -->
-	<xs:element name="GetChallengeTokenRequest" type="ns:GetChallengeTokenRequestType"/>
-	<xs:complexType name="GetChallengeTokenRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				This is the base request type for the &lt;b&gt;GetChallengeToken&lt;/b&gt; call. This call retrieves a botblock token and URLs for an image or audio clip that the user is to match.
-				&lt;br/&gt;&lt;br/&gt;
-				This call does not have any call-specific input parameters.
-			</xs:documentation>
-			<xs:appinfo>
-				<Summary>
-					This call retrieves a botblock token and URLs for an image or audio clip that the user is to match.
-      	</Summary>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GetChallengeToken -->
-	<xs:element name="GetChallengeTokenResponse" type="ns:GetChallengeTokenResponseType"/>
-	<xs:complexType name="GetChallengeTokenResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				This is the base response type for the &lt;b&gt;GetChallengeToken&lt;/b&gt; call. This call retrieves a botblock token and URLs for an image or audio clip that the user is to match.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-				<xs:sequence>
-					<xs:element name="ChallengeToken" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Botblock token that is used to validate that the user is a human and not a bot.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetChallengeToken</CallName>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="ImageChallengeURL" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								The URL of the image your application should display to
-								the user for a botblock challenge.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetChallengeToken</CallName>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="AudioChallengeURL" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								The URL of the audio clip your application should provide for sight-impaired users.
-								The audio clip corresponds to the image.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetChallengeToken</CallName>
 									<Returned>Always</Returned>
 								</CallInfo>
 							</xs:appinfo>
@@ -9644,38 +9568,6 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
-	<!--  Call: GeteBayOfficialTime -->
-	<xs:element name="GeteBayOfficialTimeRequest" type="ns:GeteBayOfficialTimeRequestType"/>
-	<xs:complexType name="GeteBayOfficialTimeRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				Gets the official eBay system time in GMT.
-			</xs:documentation>
-			<xs:appinfo>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GeteBayOfficialTime -->
-	<xs:element name="GeteBayOfficialTimeResponse" type="ns:GeteBayOfficialTimeResponseType"/>
-	<xs:complexType name="GeteBayOfficialTimeResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				The Timestamp field indicates the official eBay system time in GMT.
-				For information about converting between GMT and other time zones,
-				see "Time Values" in the Data Types appendix in the eBay Features guide.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
 	<!--  Call: LeaveFeedback -->
 	<xs:element name="LeaveFeedbackRequest" type="ns:LeaveFeedbackRequestType"/>
 	<xs:complexType name="LeaveFeedbackRequestType">
@@ -13061,189 +12953,6 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
-	<!--  Call: ValidateChallengeInput -->
-	<xs:element name="ValidateChallengeInputRequest" type="ns:ValidateChallengeInputRequestType"/>
-	<xs:complexType name="ValidateChallengeInputRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				&lt;p&gt;&lt;span class=\"tablenote\"&gt;&lt;b&gt;Note:&lt;/b&gt; This call is deprecated, and will be decommissioned on January 30th, 2025.&lt;/span&gt;&lt;/p&gt;
-				
-				Validates the user response to a &lt;b class="con"&gt;GetChallengeToken&lt;/b&gt;
-				botblock challenge.
-			</xs:documentation>
-			<xs:appinfo>
-				<Summary>
-					Validates the user response to a GetChallengeToken botblock challenge.
-				</Summary>
-				<RelatedCalls>GetChallengeToken</RelatedCalls>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-					<xs:element name="ChallengeToken" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Botblock token that was returned by &lt;b&gt;GetChallengeToken&lt;/b&gt;.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateChallengeInput</CallName>
-									<RequiredInput>Yes</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="UserInput" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								User response to a bot block challenge.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateChallengeInput</CallName>
-									<RequiredInput>Yes</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="KeepTokenValid" type="xs:boolean" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								This boolean field is included and set to 'true' if the challenge token should remain valid for up to two minutes.
-							</xs:documentation>
-							<xs:appinfo>
-								<Default>false</Default>
-								<CallInfo>
-									<CallName>ValidateChallengeInput</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: ValidateChallengeInput -->
-	<xs:element name="ValidateChallengeInputResponse" type="ns:ValidateChallengeInputResponseType"/>
-	<xs:complexType name="ValidateChallengeInputResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				Base response of the &lt;b&gt;ValidateChallengeInput&lt;/b&gt; call. The response indicates whether the botblock challenge was successful.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-				<xs:sequence>
-					<xs:element name="ValidToken" type="xs:boolean" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Indicates whether the token is valid.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateChallengeInput</CallName>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: ValidateTestUserRegistration -->
-	<xs:element name="ValidateTestUserRegistrationRequest" type="ns:ValidateTestUserRegistrationRequestType"/>
-	<xs:complexType name="ValidateTestUserRegistrationRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				Requests to enable a test user to sell items in the Sandbox environment.
-			</xs:documentation>
-			<xs:appinfo>
-				<RelatedCalls>GetUser</RelatedCalls>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-					<xs:element name="FeedbackScore" type="xs:int" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Value for the feedback score of a user. If no value is passed in the request,
-								or if the value is zero, the feedback score is unchanged. This element is not intended
-								for regularly testing feedback because the feedback value can change after the request.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateTestUserRegistration</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-								<Min>0</Min>
-								<Max>1000</Max>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="RegistrationDate" type="xs:dateTime" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Value for the date and time that a user's registration begins.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateTestUserRegistration</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="SubscribeSM" type="xs:boolean" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Indicates if a user subscribes to Selling Manager. You cannot
-								request to subscribe a user to both Selling Manager and
-								Selling Manager Pro. You cannot request to unsubscribe a user.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateTestUserRegistration</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="SubscribeSMPro" type="xs:boolean" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								Indicates if a user subscribes to Selling Manager Pro. You cannot
-								request to subscribe a user to both Selling Manager and
-								Selling Manager Pro. You cannot request to unsubscribe a user.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ValidateTestUserRegistration</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: ValidateTestUserRegistration -->
-	<xs:element name="ValidateTestUserRegistrationResponse" type="ns:ValidateTestUserRegistrationResponseType"/>
-	<xs:complexType name="ValidateTestUserRegistrationResponseType">
-	  <xs:annotation>
-	    <xs:documentation>
-	       The response of a &lt;b&gt;ValidateTestUserRegistration&lt;/b&gt; call only includes the standard response fields for Trading API calls, such as the &lt;b&gt;Ack&lt;/b&gt;  field (to indicate the success or failure of the call), the timestamp, and an &lt;b&gt;Errors&lt;/b&gt; container (if there were any errors and/or warnings).
-	    </xs:documentation>
-	  </xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
 	<!--  Call: VeROReportItems -->
 	<xs:element name="VeROReportItemsRequest" type="ns:VeROReportItemsRequestType"/>
 	<xs:complexType name="VeROReportItemsRequestType">
@@ -14889,7 +14598,7 @@
 				&lt;/span&gt;
 			</xs:documentation>
 			<xs:appinfo>
-				<onlyTheseValues>CashOnPickup, MOCC, PersonalCheck, CustomCode</onlyTheseValues>
+				<onlyTheseValues>CashOnPickup, MOCC, PersonalCheck, CustomCode, COD</onlyTheseValues>
 			</xs:appinfo>
 		</xs:annotation>
 		<xs:restriction base="xs:token">
@@ -14904,6 +14613,10 @@
 				<xs:annotation>
 					<xs:documentation>
 						This enumeration value indicates that a money order or cashiers check is accepted for payment. This value is only applicable for offline payments and is not supported on all marketplaces.
+						&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+							 To see if this enumeration value is a supported payment method for a site and category, call &lt;b&gt;GetCategoryFeatures&lt;/b&gt; specifying the listing category ID and including the &lt;b&gt;FeatureID&lt;/b&gt; field set to &lt;code&gt;PaymentMethods&lt;/code&gt;.
+						&lt;/span&gt;						
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -14932,6 +14645,21 @@
 				<xs:annotation>
 					<xs:documentation>
 						This enumeration value indicates that a personal check is accepted for payment. This value is only applicable for offline payments and is not supported on all marketplaces.
+						&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+							 To see if this enumeration value is a supported payment method for a site and category, call &lt;b&gt;GetCategoryFeatures&lt;/b&gt; specifying the listing category ID and including the &lt;b&gt;FeatureID&lt;/b&gt; field set to &lt;code&gt;PaymentMethods&lt;/code&gt;.
+						&lt;/span&gt;
+					</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="COD">
+				<xs:annotation>
+					<xs:documentation>
+						This enumeration value indicates that a COD (Cash On Delivery) is accepted for payment. This value is only applicable for offline payments and is not supported on all marketplaces.
+						&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+							 To see if this enumeration value is a supported payment method for a site and category, call &lt;b&gt;GetCategoryFeatures&lt;/b&gt; specifying the listing category ID and including the &lt;b&gt;FeatureID&lt;/b&gt; field set to &lt;code&gt;PaymentMethods&lt;/code&gt;.
+						&lt;/span&gt;
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -14974,6 +14702,10 @@
 				<xs:annotation>
 					<xs:documentation>
 						This enumeration value indicates that cash on pickup is accepted for payment. This value is only applicable for offline payments.
+						&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+							 To see if this enumeration value is a supported payment method for a site and category, call &lt;b&gt;GetCategoryFeatures&lt;/b&gt; specifying the listing category ID and including the &lt;b&gt;FeatureID&lt;/b&gt; field set to &lt;code&gt;PaymentMethods&lt;/code&gt;.
+						&lt;/span&gt;
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -37064,7 +36796,7 @@ communicated to the client.
 	<xs:complexType name="EnergyEfficiencyType">
 		<xs:annotation>
 			<xs:documentation>
-				Type defining the &lt;b&gt;ImageURL&lt;/b&gt;, &lt;b&gt;ImageDescription&lt;/b&gt;, and &lt;b&gt;ProductInformationsheet&lt;/b&gt; regulatory fields that are used at the listing level to provide Energy Efficiency Label related information.&lt;br&gt;
+				Type defining the &lt;b&gt;ImageURL&lt;/b&gt;, &lt;b&gt;ImageDescription&lt;/b&gt;, and &lt;b&gt;ProductInformationsheet&lt;/b&gt; regulatory fields that are used at the listing level to provide Energy Efficiency Label related information.&lt;br&gt;&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on an appliance listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence> 
@@ -42719,7 +42451,7 @@ communicated to the client.
 			 <xs:element name="Pictograms" type="ns:PictogramsType" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						This container is used by the seller to provide pictograms for the listing. This field is required if hazmat information is supplied.
+						This container is used by the seller to provide pictograms for the listing.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -42733,7 +42465,7 @@ communicated to the client.
 							<CallName>VerifyAddItem</CallName>
 							<CallName>VerifyAddFixedPriceItem</CallName>
 							<CallName>VerifyRelistItem</CallName>
-							<RequiredInput>Conditionally</RequiredInput>
+							<RequiredInput>No</RequiredInput>
 						</CallInfo>
 						<CallInfo>
 							<CallName>GetItem</CallName>
@@ -42746,7 +42478,7 @@ communicated to the client.
 			<xs:element name="SignalWord" type="xs:string" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						This field sets the signal word for hazardous materials in the listing. If your product contains hazardous substances or mixtures, please select a value corresponding to the signal word that is stated on your product&apos;s Safety Data Sheet. The selected hazard information will be displayed on your listing. This field is required if hazmat information is supplied. Example values include: &lt;br&gt; &lt;ul&gt;&lt;li&gt; &lt;code&gt;Danger&lt;/code&gt;&lt;/li&gt;&lt;li&gt; &lt;code&gt;Warning&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span class=&quot;tablenote&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Use the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/marketplace/methods/getHazardousMaterialsLabels&quot;&gt;getHazardousMaterialsLabels&lt;/a&gt; method in the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to find supported values for a specific marketplace/site. For additional information, see &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/metadata/feature-regulatorhazmatcontainer.html#Signal&quot; target=&quot;_blank&quot;&gt;Signal word information&lt;/a&gt;.
+						This field sets the signal word for hazardous materials in the listing. If your product contains hazardous substances or mixtures, please select a value corresponding to the signal word that is stated on your product&apos;s Safety Data Sheet. The selected hazard information will be displayed on your listing. Example values include: &lt;br&gt; &lt;ul&gt;&lt;li&gt; &lt;code&gt;Danger&lt;/code&gt;&lt;/li&gt;&lt;li&gt; &lt;code&gt;Warning&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span class=&quot;tablenote&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Use the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/marketplace/methods/getHazardousMaterialsLabels&quot;&gt;getHazardousMaterialsLabels&lt;/a&gt; method in the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to find supported values for a specific marketplace/site. For additional information, see &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/metadata/feature-regulatorhazmatcontainer.html#Signal&quot; target=&quot;_blank&quot;&gt;Signal word information&lt;/a&gt;.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -42760,7 +42492,7 @@ communicated to the client.
 							<CallName>VerifyAddItem</CallName>
 							<CallName>VerifyAddFixedPriceItem</CallName>
 							<CallName>VerifyRelistItem</CallName>
-							<RequiredInput>Conditionally</RequiredInput>
+							<RequiredInput>No</RequiredInput>
 						</CallInfo>
 						<CallInfo>
 							<CallName>GetItem</CallName>
@@ -46717,6 +46449,8 @@ communicated to the client.
 						specify a postal code, but do not specify a location, then the location is
 						given a default value derived from the postal code.
 						&lt;br&gt;&lt;br&gt;
+						&lt;b&gt;For Revise/Relist calls:&lt;/b&gt; When updating an &lt;b&gt;Item.Location&lt;/b&gt;, you must also include the &lt;b&gt;Item.PostalCode&lt;/b&gt; corresponding to the &lt;b&gt;Item.Location&lt;/b&gt; in the revise/relist call; otherwise, the location will not be updated.
+						&lt;br&gt;&lt;br&gt;
 						For the Classified Ad format for motors vehicle listings, the value
 						provided in the &lt;b&gt;Location&lt;/b&gt; field is used as item location only if the
 						&lt;b&gt;SellerContactDetails.Street&lt;/b&gt; and the &lt;b&gt;SellerContactDetails.Street2&lt;/b&gt; are empty.
@@ -46838,7 +46572,6 @@ communicated to the client.
 			<xs:element name="PaymentMethods" type="ns:BuyerPaymentMethodCodeType" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>
-						&lt;br&gt;
 						&lt;b&gt;For Add/Revise/Relist calls&lt;/b&gt;: A &lt;b&gt;PaymentMethods&lt;/b&gt; field is required for each offline payment method supported by the seller for the listing. 
 						&lt;br&gt;
 							&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Sellers no longer have to specify any electronic payment methods for listings, so one or more &lt;b&gt;PaymentMethods&lt;/b&gt; fields will only be needed for listings that require/support payments off of eBay&apos;s platform. If an electronic payment is supplied in a &lt;b&gt;PaymentMethods&lt;/b&gt; field, a warning will be triggered and the payment method will be dropped.
@@ -49785,12 +49518,6 @@ communicated to the client.
 						&lt;br&gt;						
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt;
 						For trading card listings in &lt;b&gt;Non-Sport Trading Card Singles (&lt;code&gt;183050&lt;/code&gt;)&lt;/b&gt;, &lt;b&gt;CCG Individual Cards (&lt;code&gt;183454&lt;/code&gt;)&lt;/b&gt;, and &lt;b&gt;Sports Trading Card Singles (&lt;code&gt;261328&lt;/code&gt;)&lt;/b&gt; categories, Condition ID 2750 can be used to specify the card as a &lt;b&gt;Graded&lt;/b&gt; card and Condition ID 4000 can be used to specify the card as an &lt;b&gt;Ungraded&lt;/b&gt; card. If either of these condition IDs are used, the seller is required to use the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container to provide one or more applicable Condition Descriptor name-value pairs. See the &lt;a href="/Devzone/XML/docs/Reference/eBay/AddItem.html#Request.Item.ConditionDescriptors"&gt;ConditionDescriptors&lt;/a&gt; field description for more information.
-						&lt;br&gt;
-						&lt;br&gt;
-						Beginning on October 23rd, 2023, trading card listings in the affected categories must either use Condition ID 2750 or Condition ID 4000, and no other item conditions will be accepted. These Condition IDs and the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container will be required for all new listings. If not provided after this date, the following calls will fail: &lt;b&gt;AddItem&lt;/b&gt;, &lt;b&gt;AddFixedPriceItem&lt;/b&gt;, &lt;b&gt;AddItems&lt;/b&gt;, &lt;b&gt;VerifyAddItem&lt;/b&gt;, and &lt;b&gt;VerifyAddFixedPriceItem&lt;/b&gt;.
-						&lt;br&gt;
-						&lt;br&gt;
-						By January 22, 2024, all existing listings must be modified with either Condition ID 2750 or Condition ID 4000 and applicable &lt;b&gt;ConditionDescriptors&lt;/b&gt; name-value pairs. This adds &lt;b&gt;ReviseItem&lt;/b&gt;, &lt;b&gt;ReviseFixedPriceItem&lt;/b&gt;, &lt;b&gt;RelistItem&lt;/b&gt;, &lt;b&gt;RelistFixedPriceItem&lt;/b&gt;, and &lt;b&gt;VerifyRelistItem&lt;/b&gt; calls to the requirement.
 						&lt;/span&gt;
 						Most eBay listing categories require an item condition, but a few eBay categories do not (such as Digital Gift Cards or Antiques categories). To verify if the listing category requires an item condition, and if so, what are the supported item condition and &lt;b&gt;ConditionID&lt;/b&gt; values, you can call &lt;b&gt;GetCategoryFeatures&lt;/b&gt;. In this &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call, you'd pass in the listing &lt;b&gt;CategoryID&lt;/b&gt; value and two &lt;b&gt;FeatureID&lt;/b&gt; fields - one of these fields set to &lt;code&gt;ConditionEnabled&lt;/code&gt;, and the other field set to &lt;code&gt;ConditionValues&lt;/code&gt;.
             &lt;br&gt;&lt;br&gt;
@@ -49860,16 +49587,8 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						This container is used in &lt;b&gt;Add/Revise/Relist/Verify&lt;/b&gt; listing calls to designate the condition descriptors for the listing. It is also returned in &lt;b&gt;GetItem&lt;/b&gt; to indicate the condition descriptors applied to the listing.
-						&lt;br&gt;						
-						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt;
-						For trading card listings in &lt;b&gt;Non-Sport Trading Card Singles (&lt;code&gt;183050&lt;/code&gt;)&lt;/b&gt;, &lt;b&gt;CCG Individual Cards (&lt;code&gt;183454&lt;/code&gt;)&lt;/b&gt;, and &lt;b&gt;Sports Trading Card Singles (&lt;code&gt;261328&lt;/code&gt;)&lt;/b&gt; categories, Condition ID 2750 can be used to specify the card as a &lt;b&gt;Graded&lt;/b&gt; card and Condition ID 4000 can be used to specify the card as an &lt;b&gt;Ungraded&lt;/b&gt; card. If either of these condition IDs are used, the seller is required to use the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container to provide one or more applicable Condition Descriptor name-value pairs.
-						&lt;br&gt;
-						&lt;br&gt;
-						Beginning on October 23rd, 2023, trading card listings in the affected categories must either use Condition ID 2750 or Condition ID 4000, and no other item conditions will be accepted. These Condition IDs and the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container will be required for all new listings. If not provided after this date, the following calls will fail: &lt;b&gt;AddItem&lt;/b&gt;, &lt;b&gt;AddFixedPriceItem&lt;/b&gt;, &lt;b&gt;AddItems&lt;/b&gt;, &lt;b&gt;VerifyAddItem&lt;/b&gt;, and &lt;b&gt;VerifyAddFixedPriceItem&lt;/b&gt;.
-						&lt;br&gt;
-						&lt;br&gt;
-						By January 22, 2024, all existing listings must be modified with either Condition ID 2750 or Condition ID 4000 and applicable &lt;b&gt;ConditionDescriptors&lt;/b&gt; name-value pairs. This adds &lt;b&gt;ReviseItem&lt;/b&gt;, &lt;b&gt;ReviseFixedPriceItem&lt;/b&gt;, &lt;b&gt;RelistItem&lt;/b&gt;, &lt;b&gt;RelistFixedPriceItem&lt;/b&gt;, and &lt;b&gt;VerifyRelistItem&lt;/b&gt; calls to the requirement.
-						&lt;/span&gt;				
+						&lt;br&gt;&lt;br&gt;								
+						For trading card listings in &lt;b&gt;Non-Sport Trading Card Singles (&lt;code&gt;183050&lt;/code&gt;)&lt;/b&gt;, &lt;b&gt;CCG Individual Cards (&lt;code&gt;183454&lt;/code&gt;)&lt;/b&gt;, and &lt;b&gt;Sports Trading Card Singles (&lt;code&gt;261328&lt;/code&gt;)&lt;/b&gt; categories, Condition ID &lt;code&gt;2750&lt;/code&gt; can be used to specify the card as a &lt;b&gt;Graded&lt;/b&gt; card and Condition ID &lt;code&gt;4000&lt;/code&gt; can be used to specify the card as an &lt;b&gt;Ungraded&lt;/b&gt; card. If either of these condition IDs are used, the seller is required to use this container to provide one or more applicable Condition Descriptor name-value pairs.			
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -53831,6 +53550,38 @@ communicated to the client.
                     </xs:documentation>
                     <xs:appinfo>
                         <MaxLength>180 characters for this field</MaxLength>
+                        <CallInfo>
+                            <CallName>AddFixedPriceItem</CallName>
+                            <CallName>AddItem</CallName>
+                            <CallName>AddItems</CallName>
+                            <CallName>RelistFixedPriceItem</CallName>
+                            <CallName>RelistItem</CallName>
+                            <CallName>ReviseFixedPriceItem</CallName>
+                            <CallName>ReviseItem</CallName>
+                            <CallName>VerifyAddItem</CallName>
+                            <CallName>VerifyAddFixedPriceItem</CallName>
+                            <CallName>VerifyRelistItem</CallName>
+                            <RequiredInput>Conditionally</RequiredInput>
+                        </CallInfo>
+                        <CallInfo>
+                            <CallName>GetItem</CallName>
+                            <CallName>GetItems</CallName>
+                            <Returned>Conditionally</Returned>
+                        </CallInfo>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="ContactURL" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>
+                        The product manufacturer's business contact URL. 
+						&lt;br /&gt;
+                    </xs:documentation>
+                    <xs:appinfo>
+                        <MaxLength>
+                            250 characters for this field
+                        </MaxLength>
+
                         <CallInfo>
                             <CallName>AddFixedPriceItem</CallName>
                             <CallName>AddItem</CallName>
@@ -59047,7 +58798,7 @@ communicated to the client.
 			<xs:enumeration value="BestOfferPlaced">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller each time a prospective buyer places a Best Offer on an item.
+						This notification is sent to third parties subscribed on the buyer's behalf each time a prospective buyer places a Best Offer on an item. See &lt;a href=&quot;/api-docs/static/pn_best-offer-placed.html&quot;  target=&quot;_blank&quot;&gt;BestOfferPlaced&lt;/a&gt; for additional information.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -60511,8 +60262,8 @@ communicated to the client.
 			<xs:element name="AmountPaid" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-            This value indicates the total amount paid by the buyer for the order. This amount includes the sale price of each line item, shipping and handling charges, additional services, and any sales tax applied towards the order. This value is only returned after the buyer has paid for the order.
-            &lt;br&gt;
+						This value indicates the total amount paid by the buyer for the order. This amount includes the sale price of each line item, shipping and handling charges, additional services, sales tax, and any &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;s + tax against this fee for any line items in the order. This value is only returned after the buyer has paid for the order.
+						&lt;br&gt;
 						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
 							&lt;b&gt;For GetOrders only&lt;/b&gt;: If using Trading WSDL Version 1307 or above, the amount in this field will include sales tax. If using a Trading WSDL older than Version 1307, the amount in this field will not include sales tax. To incorporate the new logic while using a Trading WSDL that is older than 1307, developers can also use the X-EBAY-API-COMPATIBILITY-LEVEL header and set its value to 1307 or higher.
 						&lt;/span&gt;
@@ -60798,7 +60549,11 @@ communicated to the client.
 			<xs:element name="Subtotal" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-            The cumulative item cost for all line items in the order. This value does not take into account any shipping/handling costs, sales tax costs, or any discounts. For a single line item order, the amount in this field should be the same as the amount in the &lt;strong&gt;Transaction.TransactionPrice&lt;/strong&gt; field. For a multiple line item order, the amount in this field should equal the cumulative amount of each &lt;strong&gt;Transaction.TransactionPrice&lt;/strong&gt; fields for each order line item.
+            The cumulative item cost for all line items in the order. This value does not take into account any shipping/handling costs, sales tax costs, or any discounts. For a single line item order, the amount in this field should be the same as the amount in the &lt;strong&gt;Transaction.TransactionPrice&lt;/strong&gt; field. For a multiple line item order, the amount in this field should equal the cumulative amount of each &lt;strong&gt;Transaction.TransactionPrice&lt;/strong&gt; fields for each order line item. 
+			&lt;br&gt;
+			&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
+				&lt;b&gt;For GetOrders only:&lt;/b&gt; This field, for backward compatibility, includes discounts from the &lt;b&gt;TransactionPrice&lt;/b&gt; value and &lt;b&gt;Order.Subtotal&lt;/b&gt; value.
+			&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -60830,7 +60585,7 @@ communicated to the client.
 			<xs:element name="Total" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-            The &lt;b&gt;Total&lt;/b&gt; amount shows the total cost for the order, including total item cost (shown in &lt;b&gt;Subtotal&lt;/b&gt; field), shipping charges  (shown in &lt;b&gt;ShippingServiceSelected.ShippingServiceCost&lt;/b&gt; field), and sales tax (shown in &lt;b&gt;SalesTax.SalesTaxAmount&lt;/b&gt; field).
+            The &lt;b&gt;Total&lt;/b&gt; amount shows the total cost for the order, including total item cost (shown in &lt;b&gt;Subtotal&lt;/b&gt; field), shipping charges (shown in &lt;b&gt;ShippingServiceSelected.ShippingServiceCost&lt;/b&gt; field), sales tax (shown in &lt;b&gt;SalesTax.SalesTaxAmount&lt;/b&gt; field), and any &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;s + any taxes applied against this fee for any line items in the order.
             &lt;br&gt;
             &lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
 							&lt;b&gt;For GetOrders only&lt;/b&gt;: If using Trading WSDL Version 1307 or above, the amount in this field will include sales tax. If using a Trading WSDL older than Version 1307, the amount in this field will not include sales tax. To incorporate the new logic while using a Trading WSDL that is older than 1307, developers can also use the X-EBAY-API-COMPATIBILITY-LEVEL header and set its value to 1307 or higher.
@@ -61425,7 +61180,7 @@ communicated to the client.
 						&lt;br/&gt;&lt;br/&gt;
 						Australian 'Goods and Services' tax (GST) is automatically charged to buyers outside of Australia when they purchase items on the eBay Australia site. Sellers on the Australia site do not have to take any extra steps to enable the collection of GST, as this tax is collected by eBay and remitted to the Australian government. For more information about Australian GST, see the &lt;a href="https://www.ebay.com.au/help/selling/fees-credits-invoices/taxes-import-charges?id=4121"&gt;Taxes and import charges&lt;/a&gt; help topic.
 						&lt;br/&gt;&lt;br/&gt;
-						As of January 2023, buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section3"&gt;eBay sales tax collection&lt;/a&gt; help topic.
+						Buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section3"&gt;eBay sales tax collection&lt;/a&gt; help topic.
 						&lt;br&gt;
 							&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; The &lt;b&gt;ContainingOrder.eBayCollectAndRemitTax&lt;/b&gt; field will stop being returned by &lt;b&gt;GetItemTransactions&lt;/b&gt; and &lt;b&gt;GetSellerTransactions&lt;/b&gt; on January 31, 2024. 
 						&lt;/span&gt;
@@ -62280,6 +62035,8 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						This container consists of detailed information about each payment made by the buyer to pay for an order. In many cases, there may be only one payment - the payment made from the buyer to the seller, but in the case of an order going through the Global Shipping Program, one payment goes to the seller for the price of the order, and then an import charge and a portion of the shipping charges may go to eBay Global Shipping Program partner. In the case of an order that is subject to Australia import tax, one payment goes to the seller for the total price of the order, and the import tax goes to eBay for remittance to the Australian government.
+						&lt;br&gt;&lt;br&gt;
+						A &lt;b&gt;Payment&lt;/b&gt; container will be returned that shows the &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fees&lt;/a&gt;, plus the tax applied against that fee. Please note that the additional &lt;b&gt;Payment&lt;/b&gt; container will show &lt;code&gt;eBay&lt;/code&gt; as the &lt;b&gt;Payee&lt;/b&gt; instead of the seller. The &lt;b&gt;FeeOrCreditAmount&lt;/b&gt; container will reflect the amount. 
 						&lt;br&gt;&lt;br&gt;
 						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; Australia import tax is only applicable to the Australia site.
 						&lt;/span&gt;
@@ -63597,8 +63354,12 @@ communicated to the client.
 						All images, whether they are hosted by EPS or self-hosted, must comply with eBay picture requirements, including the requirement that all images must be at least 500 pixels on its longest side. If the image does not satisfy the 500 pixels requirement, the listing may be blocked. For more information about other requirements and tips for adding pictures to listings, see the  &lt;a href="https://www.ebay.com/help/selling/listings/adding-pictures-listings?id=4148"&gt;Adding pictures to your listings&lt;/a&gt; help page.
 						&lt;/span&gt;
 						To specify multiple pictures, send each URL in a separate, &lt;b&gt;PictureDetails.PictureURL&lt;/b&gt; element. The first URL passed in defaults to be the 'gallery image', and will be the first picture that is shown when a user lands on the View Item page.
-
 						&lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+						The total length of all  &lt;b&gt;PictureURL&lt;/b&gt; values associated with a listing must not exceed 3975 characters.
+						&lt;/span&gt;						
+
+						&lt;br&gt;
 						If a listing uses a single, self-hosted picture (except in the case of a multiple-variation listing), the picture will be copied to eBay Picture Services (EPS) and the &lt;b&gt;PictureDetails.PictureURL&lt;/b&gt; value returned by &lt;b&gt;GetItem&lt;/b&gt; will be an EPS URL.
 
 						&lt;br/&gt;&lt;br/&gt;
@@ -63618,7 +63379,7 @@ communicated to the client.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
-						<MaxLength>500</MaxLength>
+						<MaxLength>500 per URL, 3975 for all specified URLs</MaxLength>
 						<CallInfo>
 							<CallName>AddItem</CallName>
 							<CallName>AddItems</CallName>
@@ -64708,7 +64469,7 @@ communicated to the client.
 			<xs:element name="ReturnSearchResultOnDuplicates" type="xs:boolean" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						If the seller attempts to use &lt;b&gt;ProductListingDetails&lt;/b&gt; in an Add/Revise/Relist call to find an eBay catalog product match, and multiple matches are found, the call will actually fail. This field can be included and set to &lt;code&gt;true&lt;/code&gt; if the seller wants to see the eBay catalog products that were found through error messages in the call response. This flag will not have an effect if only one catalog product matchi is found, or if the &lt;b&gt;UseFirstProduct&lt;/b&gt; field is used and set to  &lt;code&gt;true&lt;/code&gt; and a catalog product is found to create/revise the listing. &lt;br&gt;
+						If the seller attempts to use &lt;b&gt;ProductListingDetails&lt;/b&gt; in an Add/Revise/Relist call to find an eBay catalog product match, and multiple matches are found, the call will actually fail. This field can be included and set to &lt;code&gt;true&lt;/code&gt; if the seller wants to see the eBay catalog products that were found through error messages in the call response. This flag will not have an effect if only one catalog product match is found, or if the &lt;b&gt;UseFirstProduct&lt;/b&gt; field is used and set to  &lt;code&gt;true&lt;/code&gt; and a catalog product is found to create/revise the listing. &lt;br&gt;
 						&lt;br&gt;
 						If this field is omitted or set to &lt;code&gt;false&lt;/code&gt;, and multiple catalog products are found, the call will fail and no information about the matching catalog products will be returned.
 						&lt;br&gt;
@@ -66740,7 +66501,9 @@ communicated to the client.
 					<xs:documentation>
 						This container provides information about the energy efficiency for certain durable goods.&lt;br /&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; As a part of Digital Services Act (DSA) requirements, all sellers who list products in Germany (DE) must provide Energy Efficiency Label information and Product Information Sheets for listings for certain durable goods.&lt;/span&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Sellers in the EU and UK can use this container to provide European energy efficiency (EEK) information for listings in the &lt;b&gt;Tyres&lt;/b&gt; and &lt;b&gt;Appliance&lt;/b&gt; categories. If no EEK information is specified through this container, it will be retrieved through a third party vendor. For more information, see &lt;a href = "/api-docs/sell/static/inventory/energy-efficiency.html" target="_blank"&gt;Energy efficiency information&lt;/a&gt;.&lt;/span&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Energy efficiency information is not required for all categories. Use the &lt;a href = "/api-docs/sell/metadata/resources/marketplace/methods/getRegulatoryPolicies" target="_blank"&gt;getRegulatoryPolicies&lt;/a&gt; method of the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to return metadata on the eBay categories that recommend or require energy efficiency-related fields. &lt;/span&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on a listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -66767,7 +66530,7 @@ communicated to the client.
 			<xs:element name="Hazmat" type="ns:HazmatType" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						This container is used by the seller to provide hazardous material information for the listing. Three elements are required to complete the Hazmat section of a listing: &lt;b&gt;Pictograms&lt;/b&gt;, &lt;b&gt;SignalWord&lt;/b&gt;, and &lt;b&gt;Statements&lt;/b&gt;. The fourth element, &lt;b&gt;Component&lt;/b&gt;, is optional. For more information, see &lt;a href=&quot; /api-docs/sell/static/metadata/feature-regulatorhazmatcontainer.html&quot; target=&quot;_blank&quot;&gt;Specifying hazardous material related information&lt;/a&gt;.
+						This container is used by the seller to provide hazardous material information for the listing. Only the &lt;b&gt;Statements&lt;/b&gt; element is required to complete the Hazmat section of a listing. The &lt;b&gt;Pictograms&lt;/b&gt;, &lt;b&gt;SignalWord&lt;/b&gt;, and &lt;b&gt;Component&lt;/b&gt; elements are optional. For more information, see &lt;a href=&quot; /api-docs/sell/static/metadata/feature-regulatorhazmatcontainer.html&quot; target=&quot;_blank&quot;&gt;Specifying hazardous material related information&lt;/a&gt;.
 						&lt;br /&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Hazmat information is not required for all categories. Use the &lt;a href = "/api-docs/sell/metadata/resources/marketplace/methods/getRegulatoryPolicies" target="_blank"&gt;getRegulatoryPolicies&lt;/a&gt; method of the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to return metadata on the eBay categories that recommend or require Hazmat-related fields. &lt;/span&gt;
 					</xs:documentation>
@@ -67292,6 +67055,38 @@ communicated to the client.
                     </xs:appinfo>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="ContactURL" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>
+                        The Responsible Person's contact URL. 
+						&lt;br /&gt;
+                    </xs:documentation>
+                    <xs:appinfo>
+                        <MaxLength>
+                            250 characters for this field
+                        </MaxLength>
+
+                        <CallInfo>
+                            <CallName>AddFixedPriceItem</CallName>
+                            <CallName>AddItem</CallName>
+                            <CallName>AddItems</CallName>
+                            <CallName>RelistFixedPriceItem</CallName>
+                            <CallName>RelistItem</CallName>
+                            <CallName>ReviseFixedPriceItem</CallName>
+                            <CallName>ReviseItem</CallName>
+                            <CallName>VerifyAddItem</CallName>
+                            <CallName>VerifyAddFixedPriceItem</CallName>
+                            <CallName>VerifyRelistItem</CallName>
+                            <RequiredInput>Conditionally</RequiredInput>
+                        </CallInfo>
+                        <CallInfo>
+                            <CallName>GetItem</CallName>
+                            <CallName>GetItems</CallName>
+                            <Returned>Conditionally</Returned>
+                        </CallInfo>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>       
             <xs:element name="Types" type="ns:ResponsiblePersonCodeTypes" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>
@@ -83089,8 +82884,9 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 						&lt;br&gt;
 						&lt;br&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-							If the corresponding shipping service option is set as a &apos;free shipping&apos; option (&lt;b&gt;FreeShipping=true&lt;/b&gt;), the seller still needs to include this &lt;b&gt;ShippingServiceCost&lt;/b&gt; field and set its value to &lt;code&gt;0.0&lt;/code&gt;, as eBay will not do this automatically.
+							If the corresponding shipping service option is set as a &apos;free shipping&apos; option (&lt;b&gt;FreeShipping&lt;/b&gt; set to &lt;code&gt;true&lt;/code&gt;) and flat-rate shipping is being used domestically (&lt;b&gt;ShippingType&lt;/b&gt; is set to &lt;code&gt;Flat&lt;/code&gt; or &lt;code&gt;FlatDomesticCalculatedInternational&lt;/code&gt;), the seller must still include this &lt;b&gt;ShippingServiceCost&lt;/b&gt; field and set its value to &lt;code&gt;0.0&lt;/code&gt;, as eBay will not do this automatically. Do not include &lt;b&gt;ShippingServiceCost&lt;/b&gt; when the domestic shipping service option is set to represent domestic calculated shipping (&lt;b&gt;ShippingType&lt;/b&gt; is set to &lt;code&gt;Calculated&lt;/code&gt; or &lt;code&gt;CalculatedDomesticFlatInternational&lt;/code&gt;), as error 10019 occurs.
 						&lt;/span&gt;
+						&lt;br&gt;
 						When returned by &lt;b&gt;GetItemShipping&lt;/b&gt;, it includes the packaging and
 						handling cost.
 						&lt;br&gt;
@@ -88194,9 +87990,9 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<xs:annotation>
 					<xs:documentation>
 						This value is the total amount of tax charges for the order line item for the
-						corresponding tax type (see &lt;b&gt;Imposition&lt;/b&gt; value).
+						corresponding tax type (see &lt;b&gt;Imposition&lt;/b&gt; value), and includes taxes that are applied against the &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;.
 						&lt;br&gt;&lt;br&gt;
-						&lt;b&gt;TaxAmount&lt;/b&gt; = &lt;b&gt;TaxOnSubtotalAmount&lt;/b&gt; + &lt;b&gt;TaxOnShippingAmount&lt;/b&gt; + &lt;b&gt;TaxOnHandlingAmount&lt;/b&gt;
+						&lt;b&gt;TaxAmount&lt;/b&gt; = &lt;b&gt;TaxOnSubtotalAmount&lt;/b&gt; + &lt;b&gt;TaxOnShippingAmount&lt;/b&gt; + &lt;b&gt;TaxOnHandlingAmount&lt;/b&gt; + the tax on the &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -88217,7 +88013,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<xs:annotation>
 					<xs:documentation>
 						This value is the amount of sales tax applied based on the unit cost of the
-						order line item for the corresponding impositiion (tax type).
+						order line item for the corresponding imposition (tax type) and includes taxes that are applied against the &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -88869,7 +88665,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<xs:element name="TotalTaxAmount" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						This value indicates the total tax amount for the order line item, for all tax types, which may include sales tax (seller-applied or 'eBay Collect and Remit'), 'Goods and Services' tax (for Australian or New Zealand sellers), or other fees like an electronic waste recycling fee.
+						This value indicates the total tax amount for the order line item, for all tax types, which may include sales tax (seller-applied or 'eBay Collect and Remit'), 'Goods and Services' tax (for Australian or New Zealand sellers), taxes that are applied against the &lt;a href=&quot;https://www.ebay.co.uk/help/buying/paying-items/buyer-protection-fee?id=5594&quot; target=&quot;_blank&quot;&gt;Buyer Protection fee&lt;/a&gt;, or other fees like an electronic waste recycling fee.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -89952,8 +89748,9 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<xs:element name="AmountPaid" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						The total amount the buyer paid for the order line item. This
-						amount includes all costs such as item cost, shipping/handling charges, and sales tax that is applied to the order by the seller. If the
+						The total amount the buyer paid for the order line item. This amount includes the sale price of 
+						each line item, shipping and handling charges, additional services, sales tax, and any Buyer Protection 
+						fees + tax against this fee for the line item in the order. &lt;br&gt;&lt;br&gt;If the
 						seller allowed the buyer to change the total for an order, the buyer is
 						able to change the total up until the time when Checkout status is
 						Complete. Determine whether the buyer changed the amount by retrieving the
@@ -90350,7 +90147,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<xs:element name="TransactionPrice" type="ns:AmountType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-            The sale price for one unit of the line item. This price does not include any other costs like shipping charges or sales tax, and its value will remain the same before and after payment. If multiple units were purchased through a single-variation, fixed-price listing, to get the subtotal of the units purchased, the &lt;b&gt;TransactionPrice&lt;/b&gt; value would have to be multiplied by the &lt;b&gt;Transaction.QuantityPurchased&lt;/b&gt; value. &lt;br&gt;&lt;br&gt;
+            The sale price for one unit of the line item. This price does not include any other costs like shipping/handling costs, sales tax costs, or any discounts, and its value will remain the same before and after payment. If multiple units were purchased through a single-variation, fixed-price listing, to get the subtotal of the units purchased, the &lt;b&gt;TransactionPrice&lt;/b&gt; value would have to be multiplied by the &lt;b&gt;Transaction.QuantityPurchased&lt;/b&gt; value. &lt;br&gt;&lt;br&gt;
             For a motor vehicle listing that required a deposit/down payment, the amount in the &lt;b&gt;TransactionPrice&lt;/b&gt; is actually the deposit amount. &lt;br&gt;&lt;br&gt;
             &lt;strong&gt;For GetMyeBaySelling&lt;/strong&gt;: this field is only returned if the transaction came as a result of a buyer's Best Offer accepted by the seller. Otherwise, the &lt;b&gt;Transaction.TotalPrice&lt;/b&gt; field should be viewed instead.
 					</xs:documentation>
@@ -91091,15 +90888,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
-							<CallName>GetOrders</CallName>
-							<Details>DetailLevel:ReturnAll</Details>
-							<Returned>Conditionally</Returned>
-						</CallInfo>
-						<CallInfo>
-							<CallName>OrderReport</CallName>
-							<Returned>Conditionally</Returned>
-						</CallInfo>
-						<CallInfo>
 							<CallName>GetItemTransactions</CallName>
 							<CallName>GetSellerTransactions</CallName>
 							<Details>DetailLevel:ReturnAll</Details>
@@ -91433,7 +91221,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 						&lt;br/&gt;&lt;br/&gt;
 						Australian 'Goods and Services' tax (GST) is automatically charged to buyers outside of Australia when they purchase items on the eBay Australia site. Sellers on the Australia site do not have to take any extra steps to enable the collection of GST, as this tax is collected by eBay and remitted to the Australian government. For more information about Australian GST, see the &lt;a href="https://www.ebay.com.au/help/selling/fees-credits-invoices/taxes-import-charges?id=4121"&gt;Taxes and import charges&lt;/a&gt; help topic.
 						&lt;br/&gt;&lt;br/&gt;
-						As of January 2023, buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section4"&gt;eBay sales tax collection&lt;/a&gt; help topic.
+						Buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section4"&gt;eBay sales tax collection&lt;/a&gt; help topic.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -91453,7 +91241,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 						&lt;br/&gt;&lt;br/&gt;
 						Australian 'Goods and Services' tax (GST) is automatically charged to buyers outside of Australia when they purchase items on the eBay Australia site. Sellers on the Australia site do not have to take any extra steps to enable the collection of GST, as this tax is collected by eBay and remitted to the Australian government. For more information about Australian GST, see the &lt;a href="https://www.ebay.com.au/help/selling/fees-credits-invoices/taxes-import-charges?id=4121"&gt;Taxes and import charges&lt;/a&gt; help topic.
 						&lt;br/&gt;&lt;br/&gt;
-						As of January 2023, buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section4"&gt;eBay sales tax collection&lt;/a&gt; help topic.
+						Buyers in all US states will automatically be charged sales tax for purchases, and the seller does not set this rate. eBay will collect and remit this sales tax to the proper taxing authority on the buyer's behalf. For more US state-level information on sales tax, see the &lt;a href="https://www.ebay.com/help/selling/fees-credits-invoices/taxes-import-charges?id=4121#section4"&gt;eBay sales tax collection&lt;/a&gt; help topic.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -94530,6 +94318,27 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
+			<xs:enumeration value="CURP">
+				<xs:annotation>
+					<xs:documentation>
+						This value indicates that the tax ID in the &lt;b&gt;ID&lt;/b&gt; field is a CURP number, which is one identifier used by the Mexican tax authorities (SAT) to identify taxpayers in Mexico. In Spanish, this ID is known as the 'Clave Única de Registro de Población'.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="RFC">
+				<xs:annotation>
+					<xs:documentation>
+						This value indicates that the tax ID in the &lt;b&gt;ID&lt;/b&gt; field is a RFC number, which is one identifier used by the Mexican tax authorities (SAT) to identify taxpayers in Mexico. In Spanish, this ID is known as the 'Registro Federal de Contribuyentes'.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="RUT">
+				<xs:annotation>
+					<xs:documentation>
+						This value indicates that the tax ID in the &lt;b&gt;ID&lt;/b&gt; field is a Tax Registration Number, which is an identifier used by the Chileans government to identify taxpayers in Chile. In Spanish, this ID is known as the 'Rol Único Tributario'.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
 			<xs:enumeration value="CustomCode">
 				<xs:annotation>
 					<xs:documentation>
@@ -97105,12 +96914,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	<wsdl:message name="GetCategoryMappingsRequest">
 		<wsdl:part name="GetCategoryMappingsRequest" element="ns:GetCategoryMappingsRequest"/>
 	</wsdl:message>
-	<wsdl:message name="GetChallengeTokenResponse">
-		<wsdl:part name="GetChallengeTokenResponse" element="ns:GetChallengeTokenResponse"/>
-	</wsdl:message>
-	<wsdl:message name="GetChallengeTokenRequest">
-		<wsdl:part name="GetChallengeTokenRequest" element="ns:GetChallengeTokenRequest"/>
-	</wsdl:message>
 	<wsdl:message name="GetDescriptionTemplatesResponse">
 		<wsdl:part name="GetDescriptionTemplatesResponse" element="ns:GetDescriptionTemplatesResponse"/>
 	</wsdl:message>
@@ -97285,12 +97088,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	<wsdl:message name="GeteBayDetailsRequest">
 		<wsdl:part name="GeteBayDetailsRequest" element="ns:GeteBayDetailsRequest"/>
 	</wsdl:message>
-	<wsdl:message name="GeteBayOfficialTimeResponse">
-		<wsdl:part name="GeteBayOfficialTimeResponse" element="ns:GeteBayOfficialTimeResponse"/>
-	</wsdl:message>
-	<wsdl:message name="GeteBayOfficialTimeRequest">
-		<wsdl:part name="GeteBayOfficialTimeRequest" element="ns:GeteBayOfficialTimeRequest"/>
-	</wsdl:message>
 	<wsdl:message name="LeaveFeedbackResponse">
 		<wsdl:part name="LeaveFeedbackResponse" element="ns:LeaveFeedbackResponse"/>
 	</wsdl:message>
@@ -97422,18 +97219,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	</wsdl:message>
 	<wsdl:message name="UploadSiteHostedPicturesRequest">
 		<wsdl:part name="UploadSiteHostedPicturesRequest" element="ns:UploadSiteHostedPicturesRequest"/>
-	</wsdl:message>
-	<wsdl:message name="ValidateChallengeInputResponse">
-		<wsdl:part name="ValidateChallengeInputResponse" element="ns:ValidateChallengeInputResponse"/>
-	</wsdl:message>
-	<wsdl:message name="ValidateChallengeInputRequest">
-		<wsdl:part name="ValidateChallengeInputRequest" element="ns:ValidateChallengeInputRequest"/>
-	</wsdl:message>
-	<wsdl:message name="ValidateTestUserRegistrationResponse">
-		<wsdl:part name="ValidateTestUserRegistrationResponse" element="ns:ValidateTestUserRegistrationResponse"/>
-	</wsdl:message>
-	<wsdl:message name="ValidateTestUserRegistrationRequest">
-		<wsdl:part name="ValidateTestUserRegistrationRequest" element="ns:ValidateTestUserRegistrationRequest"/>
 	</wsdl:message>
 	<wsdl:message name="VeROReportItemsResponse">
 		<wsdl:part name="VeROReportItemsResponse" element="ns:VeROReportItemsResponse"/>
@@ -97571,10 +97356,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<wsdl:input message="ns:GetCategoryMappingsRequest"/>
 			<wsdl:output message="ns:GetCategoryMappingsResponse"/>
 		</wsdl:operation>
-		<wsdl:operation name="GetChallengeToken">
-			<wsdl:input message="ns:GetChallengeTokenRequest"/>
-			<wsdl:output message="ns:GetChallengeTokenResponse"/>
-		</wsdl:operation>
 		<wsdl:operation name="GetDescriptionTemplates">
 			<wsdl:input message="ns:GetDescriptionTemplatesRequest"/>
 			<wsdl:output message="ns:GetDescriptionTemplatesResponse"/>
@@ -97691,10 +97472,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<wsdl:input message="ns:GeteBayDetailsRequest"/>
 			<wsdl:output message="ns:GeteBayDetailsResponse"/>
 		</wsdl:operation>
-		<wsdl:operation name="GeteBayOfficialTime">
-			<wsdl:input message="ns:GeteBayOfficialTimeRequest"/>
-			<wsdl:output message="ns:GeteBayOfficialTimeResponse"/>
-		</wsdl:operation>
 		<wsdl:operation name="LeaveFeedback">
 			<wsdl:input message="ns:LeaveFeedbackRequest"/>
 			<wsdl:output message="ns:LeaveFeedbackResponse"/>
@@ -97782,14 +97559,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 		<wsdl:operation name="UploadSiteHostedPictures">
 			<wsdl:input message="ns:UploadSiteHostedPicturesRequest"/>
 			<wsdl:output message="ns:UploadSiteHostedPicturesResponse"/>
-		</wsdl:operation>
-		<wsdl:operation name="ValidateChallengeInput">
-			<wsdl:input message="ns:ValidateChallengeInputRequest"/>
-			<wsdl:output message="ns:ValidateChallengeInputResponse"/>
-		</wsdl:operation>
-		<wsdl:operation name="ValidateTestUserRegistration">
-			<wsdl:input message="ns:ValidateTestUserRegistrationRequest"/>
-			<wsdl:output message="ns:ValidateTestUserRegistrationResponse"/>
 		</wsdl:operation>
 		<wsdl:operation name="VeROReportItems">
 			<wsdl:input message="ns:VeROReportItemsRequest"/>
@@ -98101,17 +97870,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<wsdlsoap:body use="literal"/>
 			</wsdl:output>
 		</wsdl:operation>
-		<wsdl:operation name="GetChallengeToken">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
 		<wsdl:operation name="GetDescriptionTemplates">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
@@ -98431,17 +98189,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<wsdlsoap:body use="literal"/>
 			</wsdl:output>
 		</wsdl:operation>
-		<wsdl:operation name="GeteBayOfficialTime">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
 		<wsdl:operation name="LeaveFeedback">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
@@ -98684,28 +98431,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<wsdlsoap:body use="literal"/>
 			</wsdl:output>
 		</wsdl:operation>
-		<wsdl:operation name="ValidateChallengeInput">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
-		<wsdl:operation name="ValidateTestUserRegistration">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
 		<wsdl:operation name="VeROReportItems">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
@@ -98764,7 +98489,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	</wsdl:binding>
 	<wsdl:service name="eBayAPIInterfaceService">
 			<wsdl:documentation>
-				<Version>1379</Version>
+				<Version>1399</Version>
 			</wsdl:documentation>
 			<wsdl:port binding="ns:eBayAPISoapBinding" name="eBayAPI">
 				<wsdlsoap:address location="https://api.ebay.com/wsapi"/>

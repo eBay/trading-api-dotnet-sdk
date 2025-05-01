@@ -186,16 +186,10 @@
     <Compile Include="Call\GetCategoryMappingsCall.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Call\GetChallengeTokenCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Call\GetDescriptionTemplatesCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GeteBayDetailsCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GeteBayOfficialTimeCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetFeedbackCall.cs">
@@ -324,12 +318,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\SetUserPreferencesCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\ValidateChallengeInputCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\ValidateTestUserRegistrationCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\VerifyAddFixedPriceItemCall.cs" />
