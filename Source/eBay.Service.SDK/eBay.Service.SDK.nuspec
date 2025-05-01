@@ -2,7 +2,7 @@
 <package>
     <metadata>
         <id>eBay.Service.SDK</id>
-        <version>1.0.1</version>
+        <version>1.0.3</version>
         <title>eBay Service SDK</title>
         <owners>eBay Inc.</owners>
         <authors>Zhuowei Yang, Lokesh Rishi</authors>
