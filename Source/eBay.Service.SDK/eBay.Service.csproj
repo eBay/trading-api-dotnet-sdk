@@ -183,9 +183,6 @@
     <Compile Include="Call\GetCategoryFeaturesCall.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Call\GetCategoryMappingsCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Call\GetDescriptionTemplatesCall.cs">
       <SubType>Code</SubType>
     </Compile>

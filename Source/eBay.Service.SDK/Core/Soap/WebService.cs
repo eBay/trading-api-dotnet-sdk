@@ -12,7 +12,7 @@
 // 
 // Copyright: ?2000-2008 eBay Inc.
 // 
-// Date: 5/1/2025 3:06:48 PM
+// Date: 6/11/2025 5:13:19 AM
 // 
 namespace eBay.Service.Core.Soap {
     using System.Diagnostics;
@@ -25,7 +25,7 @@ namespace eBay.Service.Core.Soap {
     using System.Xml;
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -95,7 +95,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -176,7 +176,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -262,7 +262,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -425,7 +425,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureSetCodeType {
@@ -439,7 +439,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureFormatCodeType {
@@ -453,7 +453,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -499,7 +499,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -556,7 +556,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -590,7 +590,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CurrencyCodeType {
@@ -950,7 +950,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -983,7 +983,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1067,7 +1067,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1178,7 +1178,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1273,7 +1273,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1410,7 +1410,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1677,7 +1677,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BoldTitleCodeType {
@@ -1689,7 +1689,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BorderCodeType {
@@ -1701,7 +1701,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HighlightCodeType {
@@ -1713,7 +1713,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GiftIconCodeType {
@@ -1725,7 +1725,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HomePageFeaturedCodeType {
@@ -1737,7 +1737,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeaturedFirstCodeType {
@@ -1753,7 +1753,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeaturedPlusCodeType {
@@ -1769,7 +1769,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProPackCodeType {
@@ -1785,7 +1785,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1819,7 +1819,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1878,7 +1878,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PeriodCodeType {
@@ -1896,7 +1896,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1930,7 +1930,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1976,7 +1976,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2023,7 +2023,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2082,7 +2082,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2116,7 +2116,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2162,7 +2162,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2321,7 +2321,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2456,7 +2456,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingTypeCodeType {
@@ -2490,7 +2490,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2536,7 +2536,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2582,7 +2582,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2628,7 +2628,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2674,7 +2674,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2720,7 +2720,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2870,7 +2870,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2993,7 +2993,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingCarrierCodeType {
@@ -3333,7 +3333,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3508,7 +3508,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingPackageCodeType {
@@ -3576,7 +3576,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3685,7 +3685,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StatusCodeType {
@@ -3697,7 +3697,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3860,7 +3860,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4005,7 +4005,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4103,7 +4103,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum URLTypeCodeType {
@@ -4139,7 +4139,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4250,7 +4250,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SiteCodeType {
@@ -4314,7 +4314,7 @@ namespace eBay.Service.Core.Soap {
         Cyprus,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4387,7 +4387,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4486,7 +4486,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AnnouncementMessageCodeType {
@@ -4502,7 +4502,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4701,21 +4701,6 @@ namespace eBay.Service.Core.Soap {
             {
                 this.mShippingServiceCode = value;
                 this.mShippingServiceCodeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ShippingServiceCodeSpecified
-        {
-            get
-            {
-                return this.mShippingServiceCodeSpecified;
-            }
-            set
-            {
-                this.mShippingServiceCodeSpecified = value;
             }
         }
         /// <summary>
@@ -6427,7 +6412,7 @@ namespace eBay.Service.Core.Soap {
     }
 
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingTypeCodeType {
@@ -6451,7 +6436,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6534,7 +6519,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6617,7 +6602,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6714,7 +6699,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerPaymentMethodCodeType {
@@ -6796,7 +6781,7 @@ namespace eBay.Service.Core.Soap {
         PayPalCredit,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6919,7 +6904,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7016,7 +7001,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7113,7 +7098,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CountryCodeType {
@@ -7619,7 +7604,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7690,7 +7675,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum VeROItemStatusCodeType {
@@ -7708,7 +7693,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7780,7 +7765,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7840,7 +7825,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7939,7 +7924,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7986,7 +7971,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8032,7 +8017,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8114,7 +8099,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8161,7 +8146,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8195,7 +8180,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8306,7 +8291,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TokenStatusCodeType {
@@ -8326,7 +8311,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8360,7 +8345,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8507,7 +8492,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8591,7 +8576,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MerchDisplayCodeType {
@@ -8603,7 +8588,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8637,7 +8622,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9323,7 +9308,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum OrderStatusCodeType {
@@ -9353,7 +9338,7 @@ namespace eBay.Service.Core.Soap {
         CancelPending,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9530,7 +9515,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentStatusCodeType {
@@ -9550,7 +9535,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CompleteStatusCodeType {
@@ -9564,7 +9549,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerPaymentInstrumentCodeType {
@@ -9608,7 +9593,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10201,7 +10186,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10246,7 +10231,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10343,7 +10328,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingRateTypeCodeType {
@@ -10367,7 +10352,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10644,7 +10629,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10898,7 +10883,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11033,7 +11018,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11168,7 +11153,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11228,7 +11213,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DiscountNameCodeType {
@@ -11254,7 +11239,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11373,7 +11358,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11434,7 +11419,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MeasurementSystemCodeType {
@@ -11444,7 +11429,7 @@ namespace eBay.Service.Core.Soap {
         Metric,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11504,7 +11489,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11601,7 +11586,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11658,7 +11643,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11692,7 +11677,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11787,7 +11772,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11856,7 +11841,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TradingRoleCodeType {
@@ -11868,7 +11853,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12296,7 +12281,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressOwnerCodeType {
@@ -12308,7 +12293,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressStatusCodeType {
@@ -12322,7 +12307,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressRecordTypeCodeType {
@@ -12334,7 +12319,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12382,7 +12367,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressAttributeCodeType {
@@ -12392,7 +12377,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13427,7 +13412,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14204,7 +14189,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackRatingStarCodeType {
@@ -14238,7 +14223,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UserStatusCodeType {
@@ -14282,7 +14267,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum VATStatusCodeType {
@@ -14296,7 +14281,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14342,7 +14327,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14414,7 +14399,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ValueTypeCodeType {
@@ -14466,7 +14451,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14514,7 +14499,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxIdentifierAttributeCodeType {
@@ -14524,7 +14509,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15067,7 +15052,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MerchandizingPrefCodeType {
@@ -15079,7 +15064,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerGuaranteeLevelCodeType {
@@ -15095,7 +15080,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerLevelCodeType {
@@ -15115,7 +15100,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15214,7 +15199,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerBusinessCodeType {
@@ -15228,7 +15213,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerPaymentMethodCodeType {
@@ -15250,7 +15235,7 @@ namespace eBay.Service.Core.Soap {
         DirectDebitPendingVerification,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15335,7 +15320,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CharityAffiliationTypeCodeType {
@@ -15349,7 +15334,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15500,7 +15485,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15534,7 +15519,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TopRatedProgramCodeType {
@@ -15550,7 +15535,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15584,7 +15569,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BusinessRoleType {
@@ -15594,7 +15579,7 @@ namespace eBay.Service.Core.Soap {
         FullMarketPlaceParticipant,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EBaySubscriptionTypeCodeType {
@@ -15642,7 +15627,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15832,7 +15817,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15941,7 +15926,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16026,7 +16011,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DepositTypeCodeType {
@@ -16040,7 +16025,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18236,7 +18221,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18359,7 +18344,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerProtectionCodeType {
@@ -18377,7 +18362,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18524,7 +18509,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CharityStatusCodeType {
@@ -18536,7 +18521,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DescriptionReviseModeCodeType {
@@ -18550,7 +18535,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18953,7 +18938,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EndReasonCodeType {
@@ -18975,7 +18960,7 @@ namespace eBay.Service.Core.Soap {
         ProductDeleted,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingEnhancementsCodeType {
@@ -19001,7 +18986,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19112,7 +19097,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19468,7 +19453,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19744,7 +19729,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19789,7 +19774,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19861,7 +19846,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemSpecificSourceCodeType {
@@ -19875,7 +19860,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20012,7 +19997,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20415,7 +20400,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingStatusCodeType {
@@ -20431,7 +20416,7 @@ namespace eBay.Service.Core.Soap {
         Custom,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20516,7 +20501,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20550,7 +20535,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20644,7 +20629,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20767,7 +20752,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20930,7 +20915,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferStatusCodeType {
@@ -20960,7 +20945,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferTypeCodeType {
@@ -20974,7 +20959,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21136,7 +21121,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GalleryTypeCodeType {
@@ -21152,7 +21137,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureSourceCodeType {
@@ -21166,7 +21151,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GalleryStatusCodeType {
@@ -21194,7 +21179,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21228,7 +21213,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21275,7 +21260,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21309,7 +21294,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21342,7 +21327,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21428,7 +21413,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21488,7 +21473,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21547,7 +21532,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21792,7 +21777,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DaysCodeType {
@@ -21808,7 +21793,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21881,7 +21866,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerProtectionSourceCodeType {
@@ -21893,7 +21878,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingSubtypeCodeType {
@@ -21905,7 +21890,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21964,7 +21949,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22095,7 +22080,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22192,7 +22177,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22252,7 +22237,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22325,7 +22310,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22510,7 +22495,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InventoryTrackingMethodCodeType {
@@ -22522,7 +22507,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22595,7 +22580,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22809,7 +22794,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22951,7 +22936,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MinimumAdvertisedPriceExposureCodeType {
@@ -22965,7 +22950,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PricingTreatmentCodeType {
@@ -22981,7 +22966,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23063,7 +23048,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23096,7 +23081,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23142,7 +23127,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23213,7 +23198,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23258,7 +23243,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23318,7 +23303,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23390,7 +23375,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23424,7 +23409,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23482,7 +23467,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23601,7 +23586,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23660,7 +23645,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23729,7 +23714,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23763,7 +23748,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23797,7 +23782,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23854,7 +23839,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24009,7 +23994,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24043,7 +24028,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24210,7 +24195,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24244,7 +24229,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ResponsiblePersonCodeType {
@@ -24254,7 +24239,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24288,7 +24273,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24321,7 +24306,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuantityAvailableHintCodeType {
@@ -24333,7 +24318,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24390,7 +24375,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24449,7 +24434,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24508,7 +24493,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24567,7 +24552,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24601,7 +24586,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24698,7 +24683,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingServiceType {
@@ -24708,7 +24693,7 @@ namespace eBay.Service.Core.Soap {
         International,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24867,7 +24852,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24901,7 +24886,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24960,7 +24945,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReasonHideFromSearchCodeType {
@@ -24970,7 +24955,7 @@ namespace eBay.Service.Core.Soap {
         OutOfStock,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25043,7 +25028,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25090,7 +25075,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25423,7 +25408,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CheckoutStatusCodeType {
@@ -25439,7 +25424,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentHoldStatusCodeType {
@@ -25465,7 +25450,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InquiryStatusCodeType {
@@ -25495,7 +25480,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnStatusCodeType {
@@ -25541,7 +25526,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DigitalStatusCodeType {
@@ -25557,7 +25542,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CancelStatusCodeType {
@@ -25587,7 +25572,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaidStatusCodeType {
@@ -25633,7 +25618,7 @@ namespace eBay.Service.Core.Soap {
         PayUponInvoice,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25704,7 +25689,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CommentTypeCodeType {
@@ -25722,7 +25707,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TransactionPlatformCodeType {
@@ -25740,7 +25725,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25798,7 +25783,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25832,7 +25817,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25991,7 +25976,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxTypeCodeType {
@@ -26009,7 +25994,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxDescriptionCodeType {
@@ -26025,7 +26010,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CollectionMethodCodeType {
@@ -26035,7 +26020,7 @@ namespace eBay.Service.Core.Soap {
         NET,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26106,7 +26091,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26189,7 +26174,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26234,7 +26219,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26331,7 +26316,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26377,7 +26362,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26422,7 +26407,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26456,7 +26441,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26576,7 +26561,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26624,7 +26609,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UserIdentityCodeType {
@@ -26636,7 +26621,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26684,7 +26669,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TransactionReferenceCodeType {
@@ -26696,7 +26681,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26730,7 +26715,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26851,7 +26836,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum RefundSourceTypeCodeType {
@@ -26863,7 +26848,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26897,7 +26882,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26957,7 +26942,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27079,7 +27064,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PickupStatusCodeType {
@@ -27105,7 +27090,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27139,7 +27124,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27187,7 +27172,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentInstructionCodeType {
@@ -27197,7 +27182,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27230,7 +27215,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27288,7 +27273,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27322,7 +27307,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27367,7 +27352,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27412,7 +27397,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27457,7 +27442,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27514,7 +27499,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27559,7 +27544,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27591,7 +27576,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27712,7 +27697,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27861,7 +27846,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SeverityCodeType {
@@ -27873,7 +27858,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27919,7 +27904,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ErrorClassificationCodeType {
@@ -27931,7 +27916,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28082,7 +28067,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28167,7 +28152,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MarkUpMarkDownEventTypeCodeType {
@@ -28179,7 +28164,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28405,7 +28390,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventTypeCodeType {
@@ -28627,7 +28612,7 @@ namespace eBay.Service.Core.Soap {
         M2MMessageStatusChange,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventStateCodeType {
@@ -28655,7 +28640,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28894,7 +28879,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29030,7 +29015,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29178,7 +29163,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29238,7 +29223,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29798,7 +29783,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SimpleItemSortCodeType {
@@ -29824,7 +29809,7 @@ namespace eBay.Service.Core.Soap {
         PricePlusShipping,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SortOrderCodeType {
@@ -29836,7 +29821,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemTypeCodeType {
@@ -29864,7 +29849,7 @@ namespace eBay.Service.Core.Soap {
         AdFormat,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SearchFlagCodeType {
@@ -29896,7 +29881,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PreferredLocationCodeType {
@@ -29914,7 +29899,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemConditionCodeType {
@@ -29926,7 +29911,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuantityOperatorCodeType {
@@ -29944,7 +29929,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30004,7 +29989,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30049,7 +30034,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30094,7 +30079,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30140,7 +30125,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30213,7 +30198,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30259,7 +30244,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30421,7 +30406,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30480,7 +30465,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30540,7 +30525,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30978,7 +30963,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MessageTypeCodeType {
@@ -31008,7 +30993,7 @@ namespace eBay.Service.Core.Soap {
         ClassifiedsBestOffer,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuestionTypeCodeType {
@@ -31028,7 +31013,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31074,7 +31059,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31237,7 +31222,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31388,7 +31373,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31421,7 +31406,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31546,7 +31531,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31827,7 +31812,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31926,7 +31911,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackRatingDetailCodeType {
@@ -31942,7 +31927,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32002,7 +31987,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackSummaryPeriodCodeType {
@@ -32014,7 +31999,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32087,7 +32072,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32314,7 +32299,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32715,7 +32700,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32813,7 +32798,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -32949,7 +32934,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DescriptionTemplateCodeType {
@@ -32961,54 +32946,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CategoryMappingType {
-        private XmlElementCollection mAny;
-        private string moldID;
-        private string mid;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string oldID {
-            get {
-                return this.moldID;
-            }
-            set {
-                this.moldID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string id {
-            get {
-                return this.mid;
-            }
-            set {
-                this.mid = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33029,7 +32967,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33050,7 +32988,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33071,7 +33009,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33092,7 +33030,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33113,7 +33051,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33134,7 +33072,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33155,7 +33093,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33176,7 +33114,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33197,7 +33135,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33218,7 +33156,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33239,7 +33177,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33260,7 +33198,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33281,7 +33219,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33302,7 +33240,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33323,7 +33261,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33344,7 +33282,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33365,7 +33303,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33386,7 +33324,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33407,7 +33345,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33428,7 +33366,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33449,7 +33387,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33470,7 +33408,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33491,7 +33429,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33512,7 +33450,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33533,7 +33471,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33554,7 +33492,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33575,7 +33513,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33596,7 +33534,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33617,7 +33555,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33638,7 +33576,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33659,7 +33597,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33680,7 +33618,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33701,7 +33639,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33722,7 +33660,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33743,7 +33681,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33764,7 +33702,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33785,7 +33723,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33806,7 +33744,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33827,7 +33765,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33848,7 +33786,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33869,7 +33807,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33890,7 +33828,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33911,7 +33849,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33932,7 +33870,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33953,7 +33891,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33974,7 +33912,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -33995,7 +33933,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34016,7 +33954,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34037,7 +33975,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34058,7 +33996,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34079,7 +34017,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34100,7 +34038,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34121,7 +34059,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34142,7 +34080,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34163,7 +34101,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34184,7 +34122,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34205,7 +34143,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34226,7 +34164,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34247,7 +34185,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34268,7 +34206,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34289,7 +34227,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34310,7 +34248,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34331,7 +34269,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34352,7 +34290,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34373,7 +34311,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34394,7 +34332,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34415,7 +34353,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34436,7 +34374,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34457,7 +34395,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34478,7 +34416,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34499,7 +34437,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34520,7 +34458,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34541,7 +34479,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34562,7 +34500,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34583,7 +34521,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34604,7 +34542,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34625,7 +34563,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34646,7 +34584,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34667,7 +34605,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34688,7 +34626,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34709,7 +34647,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34730,7 +34668,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34751,7 +34689,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34772,7 +34710,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34793,7 +34731,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34814,7 +34752,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34835,7 +34773,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34856,7 +34794,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34877,7 +34815,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34898,7 +34836,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34919,7 +34857,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34940,7 +34878,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34961,7 +34899,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -34982,7 +34920,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35003,7 +34941,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35024,7 +34962,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35045,7 +34983,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35066,7 +35004,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35087,7 +35025,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35108,7 +35046,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35129,7 +35067,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35150,7 +35088,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35171,7 +35109,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35192,7 +35130,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35213,7 +35151,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35234,7 +35172,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35255,7 +35193,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35276,7 +35214,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35297,7 +35235,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35318,7 +35256,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35339,7 +35277,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35360,7 +35298,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35381,7 +35319,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35402,7 +35340,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35423,7 +35361,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35444,7 +35382,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35465,7 +35403,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35486,7 +35424,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35507,7 +35445,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35528,7 +35466,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35549,7 +35487,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35570,7 +35508,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35591,7 +35529,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35612,7 +35550,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35633,7 +35571,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35654,7 +35592,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35675,7 +35613,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35696,7 +35634,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35717,7 +35655,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35738,7 +35676,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35759,7 +35697,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35780,7 +35718,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35801,7 +35739,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35862,7 +35800,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -35910,7 +35848,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -37587,7 +37525,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -37621,7 +37559,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnsRefundMethodCodeType {
@@ -37631,7 +37569,7 @@ namespace eBay.Service.Core.Soap {
         MoneyBackorReplacement,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -37665,7 +37603,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -40968,7 +40906,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41016,7 +40954,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AdFormatEnabledCodeType {
@@ -41036,7 +40974,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ClassifiedAdPaymentMethodEnabledCodeType {
@@ -41050,7 +40988,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ClassifiedAdBestOfferEnabledCodeType {
@@ -41064,7 +41002,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemSpecificsEnabledCodeType {
@@ -41076,7 +41014,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41110,7 +41048,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GeographicExposureCodeType {
@@ -41124,7 +41062,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41158,7 +41096,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AttributeConversionEnabledCodeType {
@@ -41172,7 +41110,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemCompatibilityEnabledCodeType {
@@ -41186,7 +41124,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ConditionEnabledCodeType {
@@ -41200,7 +41138,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41247,7 +41185,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41306,7 +41244,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProductCreationEnabledCodeType {
@@ -41320,7 +41258,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProductIdentiferEnabledCodeType {
@@ -41334,7 +41272,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProfileCategoryGroupCodeType {
@@ -41348,7 +41286,7 @@ namespace eBay.Service.Core.Soap {
         MOTORS_VEHICLE,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProductRequiredEnabledCodeType {
@@ -41360,7 +41298,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41394,7 +41332,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnsAcceptedCodeType {
@@ -41404,7 +41342,7 @@ namespace eBay.Service.Core.Soap {
         ReturnsNotAccepted,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41438,7 +41376,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41472,7 +41410,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnsDurationCodeType {
@@ -41484,7 +41422,7 @@ namespace eBay.Service.Core.Soap {
         Days_60,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41518,7 +41456,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41552,7 +41490,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnsShipmentPayeeCodeType {
@@ -41562,7 +41500,7 @@ namespace eBay.Service.Core.Soap {
         Seller,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41596,7 +41534,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44511,7 +44449,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum INEscrowWorkflowTimelineCodeType {
@@ -44525,7 +44463,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44597,7 +44535,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44846,7 +44784,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44880,7 +44818,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45029,7 +44967,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45252,7 +45190,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MessageStatusTypeCodeType {
@@ -45264,7 +45202,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45584,7 +45522,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AdFormatLeadStatusCodeType {
@@ -45596,7 +45534,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45629,7 +45567,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45937,7 +45875,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountDetailEntryCodeType {
@@ -46727,7 +46665,7 @@ namespace eBay.Service.Core.Soap {
         DHLPaymentProcessingFeeCredit,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46761,7 +46699,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46793,7 +46731,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46864,7 +46802,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47252,7 +47190,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountStateCodeType {
@@ -47266,7 +47204,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47338,7 +47276,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47384,7 +47322,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AckCodeType {
@@ -47400,7 +47338,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47572,7 +47510,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DiscountReasonCodeType {
@@ -47584,7 +47522,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47667,7 +47605,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47701,7 +47639,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47758,7 +47696,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47829,7 +47767,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InvocationStatusType {
@@ -47900,7 +47838,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetFeedbackResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetDescriptionTemplatesResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryMappingsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryFeaturesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoriesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBidderListResponseType))]
@@ -47926,7 +47863,7 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddFixedPriceItemResponseType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48156,7 +48093,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48188,7 +48125,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48298,7 +48235,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48358,7 +48295,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48440,7 +48377,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48522,7 +48459,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48582,7 +48519,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum VeROReportPacketStatusCodeType {
@@ -48596,7 +48533,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48642,7 +48579,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48650,7 +48587,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetUserPreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48658,7 +48595,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetUserNotesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48666,7 +48603,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetTaxTableResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48739,7 +48676,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaskStatusCodeType {
@@ -48755,7 +48692,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48763,7 +48700,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetShippingDiscountProfilesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48771,7 +48708,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetNotificationPreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48779,7 +48716,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetMessagePreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48787,7 +48724,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SendInvoiceResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48795,7 +48732,7 @@ namespace eBay.Service.Core.Soap {
     public partial class RevokeTokenResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48803,7 +48740,7 @@ namespace eBay.Service.Core.Soap {
     public partial class ReviseMyMessagesFoldersResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48811,7 +48748,7 @@ namespace eBay.Service.Core.Soap {
     public partial class ReviseMyMessagesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48971,7 +48908,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49005,7 +48942,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49088,7 +49025,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49234,7 +49171,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49242,7 +49179,7 @@ namespace eBay.Service.Core.Soap {
     public partial class RespondToFeedbackResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49263,7 +49200,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49323,7 +49260,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49457,7 +49394,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49603,7 +49540,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49659,7 +49596,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49679,7 +49616,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50022,7 +49959,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50185,7 +50122,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50206,7 +50143,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50541,7 +50478,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50588,7 +50525,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50635,7 +50572,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CombinedPaymentOptionCodeType {
@@ -50649,7 +50586,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50876,7 +50813,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DisplayPayNowButtonCodeType {
@@ -50888,7 +50825,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UPSRateOptionCodeType {
@@ -50900,7 +50837,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FedExRateOptionCodeType {
@@ -50914,7 +50851,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum USPSRateOptionCodeType {
@@ -50926,7 +50863,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51074,7 +51011,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StoreItemListSortOrderCodeType {
@@ -51094,7 +51031,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51270,7 +51207,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EndOfAuctionLogoTypeCodeType {
@@ -51286,7 +51223,7 @@ namespace eBay.Service.Core.Soap {
         None,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51405,7 +51342,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51452,7 +51389,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51500,7 +51437,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51558,7 +51495,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51578,7 +51515,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51598,7 +51535,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51645,7 +51582,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51679,7 +51616,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51699,7 +51636,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51833,7 +51770,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51942,7 +51879,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HandlingNameCodeType {
@@ -51960,7 +51897,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CombinedPaymentPeriodCodeType {
@@ -51980,7 +51917,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52000,7 +51937,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52149,7 +52086,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52298,7 +52235,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52345,7 +52282,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52481,7 +52418,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52579,7 +52516,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52649,7 +52586,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52825,7 +52762,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EnableCodeType {
@@ -52837,7 +52774,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationPayloadTypeCodeType {
@@ -52847,7 +52784,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DeviceTypeCodeType {
@@ -52861,7 +52798,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52933,7 +52870,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53006,7 +52943,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53039,7 +52976,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53124,7 +53061,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventPropertyNameCodeType {
@@ -53134,7 +53071,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53214,7 +53151,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53368,7 +53305,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53401,7 +53338,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53421,7 +53358,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53481,7 +53418,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53540,7 +53477,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53560,7 +53497,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53709,7 +53646,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53741,7 +53678,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53761,7 +53698,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53910,7 +53847,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54022,40 +53959,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoryMappingsResponseType : AbstractResponseType {
-        private CategoryMappingTypeCollection mCategoryMapping;
-        private string mCategoryVersion;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("CategoryMapping")]
-        public CategoryMappingTypeCollection CategoryMapping {
-            get {
-                return this.mCategoryMapping;
-            }
-            set {
-                this.mCategoryMapping = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CategoryVersion {
-            get {
-                return this.mCategoryVersion;
-            }
-            set {
-                this.mCategoryVersion = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54138,7 +54042,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54301,7 +54205,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54334,7 +54238,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54417,7 +54321,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54488,7 +54392,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54825,7 +54729,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BidActionCodeType {
@@ -54861,7 +54765,7 @@ namespace eBay.Service.Core.Soap {
         Decline,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54908,7 +54812,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55094,7 +54998,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeenettingStatusCodeType {
@@ -55106,7 +55010,7 @@ namespace eBay.Service.Core.Soap {
         Exempted,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55164,7 +55068,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55185,7 +55089,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55206,7 +55110,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55240,7 +55144,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55286,7 +55190,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55294,7 +55198,7 @@ namespace eBay.Service.Core.Soap {
     public partial class DeleteMyMessagesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55314,7 +55218,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55322,7 +55226,7 @@ namespace eBay.Service.Core.Soap {
     public partial class CompleteSaleResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55382,7 +55286,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55390,7 +55294,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddToItemDescriptionResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55462,7 +55366,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55508,7 +55412,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55529,7 +55433,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55537,7 +55441,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddMemberMessageRTQResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55545,7 +55449,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddMemberMessageAAQToPartnerResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55566,7 +55470,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55700,7 +55604,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55846,7 +55750,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56005,7 +55909,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingRegionCodeType {
@@ -56041,7 +55945,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56075,7 +55979,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56158,7 +56062,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ApplicationDeviceTypeCodeType {
@@ -56174,7 +56078,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56247,7 +56151,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56281,7 +56185,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56496,7 +56400,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56685,7 +56589,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemSortTypeCodeType {
@@ -56845,7 +56749,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56918,7 +56822,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum OrderStatusFilterCodeType {
@@ -56934,7 +56838,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57005,7 +56909,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57065,7 +56969,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57111,7 +57015,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57155,7 +57059,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57200,7 +57104,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57301,7 +57205,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetFeedbackRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetDescriptionTemplatesRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryMappingsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryFeaturesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoriesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBidderListRequestType))]
@@ -57327,7 +57230,7 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddFixedPriceItemRequestType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57506,7 +57409,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DetailLevelCodeType {
@@ -57526,7 +57429,7 @@ namespace eBay.Service.Core.Soap {
         ReturnMessages,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ErrorHandlingCodeType {
@@ -57540,7 +57443,7 @@ namespace eBay.Service.Core.Soap {
         FailOnError,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum WarningLevelCodeType {
@@ -57550,7 +57453,7 @@ namespace eBay.Service.Core.Soap {
         High,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57584,7 +57487,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57671,7 +57574,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SecondChanceOfferDurationCodeType {
@@ -57687,7 +57590,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57708,7 +57611,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57729,7 +57632,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57764,7 +57667,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57919,7 +57822,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureUploadPolicyCodeType {
@@ -57931,7 +57834,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58178,7 +58081,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58292,7 +58195,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SetUserNotesActionCodeType {
@@ -58304,7 +58207,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58326,7 +58229,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58429,7 +58332,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StoreCategoryUpdateActionCodeType {
@@ -58445,7 +58348,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58586,7 +58489,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ModifyActionCodeType {
@@ -58600,7 +58503,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58674,7 +58577,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58695,7 +58598,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58873,7 +58776,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58908,7 +58811,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58969,7 +58872,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MyMessagesFolderOperationCodeType {
@@ -58983,7 +58886,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59086,7 +58989,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59147,7 +59050,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59181,7 +59084,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59215,7 +59118,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59328,7 +59231,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackResponseCodeType {
@@ -59340,7 +59243,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59454,7 +59357,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferActionCodeType {
@@ -59468,7 +59371,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59529,7 +59432,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59563,7 +59466,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59597,7 +59500,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59685,7 +59588,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59853,7 +59756,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemArrivedWithinEDDCodeType {
@@ -59869,7 +59772,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59890,7 +59793,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DetailNameCodeType {
@@ -59948,7 +59851,7 @@ namespace eBay.Service.Core.Soap {
         ProductDetails,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60090,7 +59993,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60152,7 +60055,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60644,7 +60547,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60691,7 +60594,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60752,7 +60655,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60760,7 +60663,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetTokenStatusRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60768,7 +60671,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetTaxTableRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60803,7 +60706,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60905,7 +60808,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60913,7 +60816,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetShippingDiscountProfilesRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60934,7 +60837,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61185,7 +61088,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61503,7 +61406,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GranularityLevelCodeType {
@@ -61517,7 +61420,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61795,7 +61698,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62100,7 +62003,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62175,7 +62078,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62210,7 +62113,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationRoleCodeType {
@@ -62226,7 +62129,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62326,7 +62229,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62517,7 +62420,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62674,7 +62577,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62722,7 +62625,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62917,7 +62820,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62965,7 +62868,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63214,7 +63117,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63302,7 +63205,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63484,7 +63387,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63610,7 +63513,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackTypeCodeType {
@@ -63626,7 +63529,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63701,28 +63604,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoryMappingsRequestType : AbstractRequestType {
-        private string mCategoryVersion;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CategoryVersion {
-            get {
-                return this.mCategoryVersion;
-            }
-            set {
-                this.mCategoryVersion = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63837,7 +63719,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeatureIDCodeType {
@@ -64123,7 +64005,7 @@ namespace eBay.Service.Core.Soap {
         ReturnPolicyDescriptionEnabled,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64211,7 +64093,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64340,7 +64222,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64414,7 +64296,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64489,7 +64371,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GetAllBiddersModeCodeType {
@@ -64503,7 +64385,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64632,7 +64514,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64949,7 +64831,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountHistorySelectionCodeType {
@@ -64965,7 +64847,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountEntrySortTypeCodeType {
@@ -64987,7 +64869,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65021,7 +64903,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65069,7 +64951,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65090,7 +64972,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65138,7 +65020,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65199,7 +65081,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65221,7 +65103,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65242,7 +65124,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65409,7 +65291,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65443,7 +65325,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65477,7 +65359,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65564,7 +65446,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65585,7 +65467,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65606,7 +65488,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65640,7 +65522,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65674,7 +65556,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65695,7 +65577,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65716,7 +65598,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -65737,7 +65619,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9252.27152")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9293.9369")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="eBayAPISoapBinding", Namespace="urn:ebay:apis:eBLBaseComponents")]
@@ -66259,26 +66141,6 @@ namespace eBay.Service.Core.Soap {
         public GetCategoryFeaturesResponseType EndGetCategoryFeatures(System.IAsyncResult asyncResult) {
             object[] results = this.EndInvoke(asyncResult);
             return ((GetCategoryFeaturesResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetCategoryMappingsResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetCategoryMappingsResponseType GetCategoryMappings([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetCategoryMappingsRequestType GetCategoryMappingsRequest) {
-            object[] results = this.Invoke("GetCategoryMappings", new object[] {
-                        GetCategoryMappingsRequest});
-            return ((GetCategoryMappingsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetCategoryMappings(GetCategoryMappingsRequestType GetCategoryMappingsRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetCategoryMappings", new object[] {
-                        GetCategoryMappingsRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetCategoryMappingsResponseType EndGetCategoryMappings(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetCategoryMappingsResponseType)(results[0]));
         }
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
@@ -85379,150 +85241,6 @@ namespace eBay.Service.Core.Soap {
         /// <returns></returns>
         public ThemeGroupType[] ToArray() {
             return ((ThemeGroupType[])(this.InnerList.ToArray(typeof(ThemeGroupType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class CategoryMappingTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryMappingTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryMappingTypeCollection(CategoryMappingType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryMappingTypeCollection(CategoryMappingTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryMappingType this[int index] {
-            get {
-                return ((CategoryMappingType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(CategoryMappingType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryMappingType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryMappingTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(CategoryMappingType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(CategoryMappingType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(CategoryMappingType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, CategoryMappingType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public CategoryMappingType ItemAt(int index) {
-            return ((CategoryMappingType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(CategoryMappingType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public CategoryMappingType[] ToArray() {
-            return ((CategoryMappingType[])(this.InnerList.ToArray(typeof(CategoryMappingType))));
         }
     }
     /// <summary>

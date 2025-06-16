@@ -8,7 +8,7 @@ Please note that upgrades to an SDK should always be done in a test environment.
 
 ## Add the eBay.Service.SDK NuGet Package
 
-**Current Version** : 1.0.3
+**Current Version** : 1.0.4
 
 Use of this source code is governed by [Apache-2.0 license](https://opensource.org/licenses/Apache-2.0). If you’re looking for the latest stable version, you can get it directly from NuGet.org.
 
@@ -30,7 +30,7 @@ Use of this source code is governed by [Apache-2.0 license](https://opensource.o
   **eBay.Service.SDK** package:
 
 ``` xml
-Install-Package eBay.Service.SDK -Version 1.0.3
+Install-Package eBay.Service.SDK -Version 1.0.4
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -38,7 +38,7 @@ Install-Package eBay.Service.SDK -Version 1.0.3
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.Service.SDK" Version="1.0.3" />
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.4" />
 </ItemGroup>
 ```
 
@@ -48,7 +48,7 @@ Install-Package eBay.Service.SDK -Version 1.0.3
   **eBay.Service.SDK** package:
 
 ``` xml
-dotnet add package eBay.Service.SDK --version 1.0.3
+dotnet add package eBay.Service.SDK --version 1.0.4
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -56,7 +56,7 @@ dotnet add package eBay.Service.SDK --version 1.0.3
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.Service.SDK" Version="1.0.3" />
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.4" />
 </ItemGroup>
 ```
 
@@ -66,7 +66,7 @@ dotnet add package eBay.Service.SDK --version 1.0.3
   **eBay.Service.SDK** package:
 
 ``` xml
-paket add eBay.Service.SDK --version 1.0.3
+paket add eBay.Service.SDK --version 1.0.4
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -74,7 +74,7 @@ paket add eBay.Service.SDK --version 1.0.3
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.Service.SDK" Version="1.0.3" />
+   <PackageReference Include="eBay.Service.SDK" Version="1.0.4" />
 </ItemGroup>
 ```
 

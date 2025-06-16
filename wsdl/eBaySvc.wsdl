@@ -7,7 +7,7 @@
 	xmlns="urn:ebay:apis:eBLBaseComponents"
 	targetNamespace="urn:ebay:apis:eBLBaseComponents">
 	<wsdl:types>
-<!-- Version 1399 -->
+<!-- Version 1415 -->
 <!-- (c) 2004-2025 eBay, Inc. All rights reserved -->
 		<xs:schema targetNamespace="urn:ebay:apis:eBLBaseComponents"  
 		xmlns:ns="urn:ebay:apis:eBLBaseComponents" 
@@ -3253,101 +3253,6 @@
 								<CallInfo>
 									<CallName>GetCategoryFeatures</CallName>
 									<Details>DetailLevel: none, ReturnSummary, ReturnAll</Details>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GetCategoryMappings -->
-	<xs:element name="GetCategoryMappingsRequest" type="ns:GetCategoryMappingsRequestType"/>
-	<xs:complexType name="GetCategoryMappingsRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				Retrieves a map of old category IDs and corresponding active
-				category IDs defined for the site to which the request is sent.
-			</xs:documentation>
-			<xs:appinfo>
-				<TempInfo>DetailLevel</TempInfo>
-				<SeeLink>
-					<Title>Maintaining Category Data</Title>
-					<URL>https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/map-category-ids.html</URL>
-				</SeeLink>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-					<xs:element name="CategoryVersion" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								 A version of the category mapping for the site. Filters
-								 out data from the call to return only the category
-								 mappings for which the data has changed since the
-								 specified version. If not specified, all category
-								 mappings are returned. Typically, an application passes
-								 the version value of the last set of category mappings
-								 that the application stored locally. The latest version
-								 value is not necessarily greater than the previous value
-								 that was returned. Therefore, when comparing versions,
-								 only compare whether the value has changed.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetCategoryMappings</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GetCategoryMappings -->
-	<xs:element name="GetCategoryMappingsResponse" type="ns:GetCategoryMappingsResponseType"/>
-	<xs:complexType name="GetCategoryMappingsResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				Returns a map of old category IDs and corresponding active category IDs defined
-				for the site to which the request was sent. Typically used to update an older item
-				definition with a new category ID prior to listing the item.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-				<xs:sequence>
-					<xs:element name="CategoryMapping" type="ns:CategoryMappingType" minOccurs="0" maxOccurs="unbounded">
-					<xs:annotation>
-						<xs:documentation>
-							Mapping between an old category ID and an active category ID. Returned when
-							category mappings exist and the value of CategoryVersion is different from
-							the current version on the site.
-						</xs:documentation>
-						<xs:appinfo>
-							<CallInfo>
-								<CallName>GetCategoryMappings</CallName>
-								<Details>DetailLevel: ReturnAll</Details>
-								<Returned>Conditionally</Returned>
-							</CallInfo>
-						</xs:appinfo>
-					</xs:annotation>
-					</xs:element>
-					<xs:element name="CategoryVersion" type="xs:string" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation>
-								Version value assigned to the current category mapping data for the site.
-								Compare this value to the version value the application stored with the mappings
-								the last time the application executed the call. If the versions are the same,
-								the data has not changed since the last time the data was retrieved and stored.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetCategoryMappings</CallName>
-									<Details>DetailLevel: none, ReturnAll</Details>
 									<Returned>Always</Returned>
 								</CallInfo>
 							</xs:appinfo>
@@ -8681,6 +8586,9 @@
 	<xs:complexType name="GetVeROReasonCodeDetailsRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Retrieves details for VeRO reason codes and their descriptions. You can specify a
 				reason code ID to get details for a specific reason on the site specified in the
 				request header. If &lt;strong&gt;ReasonCodeID&lt;/strong&gt; is not passed in the request, all reason codes are
@@ -8760,6 +8668,9 @@
 	<xs:complexType name="GetVeROReportStatusRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Retrieves status information about VeRO reported items you have submitted. You
 				can receive the status of individual items you have reported or, by specifying
 				&lt;strong&gt;VeROReportPacketID&lt;/strong&gt;, you can retrieve status for all items reported with a given
@@ -12889,16 +12800,19 @@
           <xs:element name="ExtensionInDays" type="xs:int" minOccurs="0">
             <xs:annotation>
               <xs:documentation>
-                By default, an unpublished picture will be hosted on the EPS server for five days before being purged. However, the seller has the option of using this field to set an expiration date further into the future (up to 30 days). Similarly, when a listing ends or expires, the images associated with the listing remain on the EPS server for an additional 90 days. The value in this field will add on to those 90 days.
+                &lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+					This field is deprecated and will be decommissioned along with the &lt;a href=&quot;https://developer.ebay.com/devzone/xml/docs/reference/ebay/ExtendSiteHostedPictures.html&quot;  target=&quot;_blank&quot;&gt;ExtendSiteHostedPictures&lt;/a&gt; call on July 28th, 2025.
+                &lt;/span&gt;			    
+                By default, an unpublished picture will be hosted on the EPS server for 30 days before being purged. However, the seller has the option of using this field to set an expiration date further into the future (up to 30 days). Similarly, when a listing ends or expires, the images associated with the listing remain on the EPS server for an additional 90 days. The value in this field will add on to those 90 days.
                 &lt;br/&gt;&lt;br/&gt;
                 &lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
 					This field is restricted to applications that have been granted permission. Contact the eBay Developers Program to request permission.
                 &lt;/span&gt;
               </xs:documentation>
               <xs:appinfo>
-                <Min>1</Min>
-                <Max>30</Max>
-                <Default>5</Default>
+                  <DeprecationVersion>1399</DeprecationVersion>
+                  <DeprecationDetails>Avoid</DeprecationDetails>			  
+                <Default>30</Default>
                 <CallInfo>
                   <CallName>UploadSiteHostedPictures</CallName>
                   <RequiredInput>No</RequiredInput>
@@ -12958,6 +12872,9 @@
 	<xs:complexType name="VeROReportItemsRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Reports items that allegedly infringe your copyright, trademark, or other
 				intellectual property rights. You can report one or more items at a time with this
 				call. You must be a member of the Verified Rights Owner (VeRO) Program to use this
@@ -13745,7 +13662,6 @@
 							<CallName>GetAdFormatLeads</CallName>
 							<CallName>GetBestOffers</CallName>
 							<CallName>GetCategories</CallName>
-							<CallName>GetCategoryMappings</CallName>
 							<CallName>GetFeedback</CallName>
 							<CallName>GetOrders</CallName>
 							<CallName>GetSellerEvents</CallName>
@@ -27708,51 +27624,6 @@ communicated to the client.
 				</xs:annotation>
 			</xs:element>
 		</xs:sequence>
-	</xs:complexType>
-<!--
-
-##### from file eBLBaseComponents/public/CategoryMappingType.xsd #####
-
--->
-	<xs:complexType name="CategoryMappingType">
-		<xs:annotation>
-			<xs:documentation>
-				This type is used by the &lt;b&gt;CategoryMapping&lt;/b&gt; fields that are returned in the &lt;b&gt;GetCategoryMappings&lt;/b&gt; response to indicate any eBay Category IDs that have changed recently.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:sequence>
-			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute name="oldID" type="xs:string">
-			<xs:annotation>
-				<xs:documentation>
-					This attribute value is the unique identifier of an eBay category that has been recently updated to a new Category ID, which is specified in the &lt;b&gt;id&lt;/b&gt; attribute. The user will want to use the Category ID value in the &lt;b&gt;id&lt;/b&gt; attribute the next time they run a call that requires a Category ID. Note that Category IDs are unique to each eBay site. This attribute is always returned with the &lt;b&gt;CategoryMapping&lt;/b&gt; field.
-				</xs:documentation>
-				<xs:appinfo>
-					<CallInfo>
-						<CallName>GetCategoryMappings</CallName>
-						<Returned>Conditionally</Returned>
-					</CallInfo>
-				</xs:appinfo>
-			</xs:annotation>
-		</xs:attribute>
-		<xs:attribute name="id" type="xs:string">
-			<xs:annotation>
-				<xs:documentation>
-					This attribute value is the unique identifier of the currently active eBay category. The user will want to use this Category ID value the next time they run a call that requires a Category ID. Note that Category IDs are unique to each eBay site. This attribute is always returned with the &lt;b&gt;CategoryMapping&lt;/b&gt; field.
-					&lt;br&gt;&lt;br&gt;
-					&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
-					Note that more than one &lt;b&gt;OldID&lt;/b&gt; values may map into the same new category (same &lt;b&gt;id&lt;/b&gt; value) since sometimes multiple eBay categories may be consolidated into a new, expanded category.
-					&lt;/span&gt;
-				</xs:documentation>
-				<xs:appinfo>
-					<CallInfo>
-						<CallName>GetCategoryMappings</CallName>
-						<Returned>Conditionally</Returned>
-					</CallInfo>
-				</xs:appinfo>
-			</xs:annotation>
-		</xs:attribute>
 	</xs:complexType>
 <!--
 
@@ -44112,7 +43983,7 @@ communicated to the client.
 				assembly with which a part is compatible (i.e., parts compatibility by application). For
 				example, to specify a part's compatibility with a vehicle, the name would map to
 				standard vehicle characteristics (e.g., Year, Make, Model, Trim, and Engine). The
-				values would desribe the specific vehicle, such as a 2006 Honda Accord.
+				values would describe the specific vehicle, such as a 2006 Honda Accord.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
@@ -44122,10 +43993,6 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Details for an individual compatible application, consisting of the name-value pair and related parts compatibility notes. When revising or relisting, the &lt;b&gt;Delete&lt;/b&gt; field can be used to delete individual parts compatibility nodes.
-						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;
-						&lt;strong&gt;Note:&lt;/strong&gt; For the &lt;b&gt;GetItem&lt;/b&gt; call, &lt;strong&gt;Compatibility&lt;/strong&gt; includes only parts compatibility details that were specified manually; that is, they do not correspond to an eBay catalog product. To retrieve parts compatibility details that &lt;em&gt;do&lt;/em&gt; correspond to eBay catalog products, use the eBay Product API's &lt;b&gt;getProductCompatibilities&lt;/b&gt; call.
-						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -44147,7 +44014,7 @@ communicated to the client.
 							<SeeLink>
 								<Title>Product API ProductCompatibilities call reference</Title>
 								<URL>https://developer.ebay.com/Devzone/product/CallRef/getProductCompatibilities.html</URL>
-								<For>information about retrieving parts compatibility details that correspond to eBay catalog products.</For>
+								<For>information about retrieving parts compatibility details that correspond to eBay catalog products</For>
 							</SeeLink>
 						</CallInfo>
 					</xs:appinfo>
@@ -48869,13 +48736,16 @@ communicated to the client.
 			<xs:element name="ItemSpecifics" type="ns:NameValueListArrayType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						This container is a list of Item Specific &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs used by the seller to provide desciptive details of an item in a structured manner.
+						This container is a list of Item Specific &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs used by the seller to provide descriptive details of an item in a structured manner.
 
 						&lt;br&gt;&lt;br&gt;
 						If creating, revising, or relisting an item with an &lt;b&gt;Add&lt;/b&gt;, &lt;b&gt;Revise&lt;/b&gt;, or &lt;b&gt;Relist&lt;/b&gt; call, it is recommended that you use the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve mandatory and recommended Item Specifics for a category.
+						
+						&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Important:&lt;/b&gt; Effective from December 28th, 2024, sellers offering certain rechargeable devices in EU and Northern Ireland markets must comply with the Common Charger Directive (CCD) and list appropriate charger-related item specifics on their listings. See &lt;a href="/api-docs/sell/static/inventory/common-charger-directive.html" target="_blank"&gt;Common Charger Directive&lt;/a&gt; for more information.
+						&lt;/span&gt;
 
-						&lt;br&gt;&lt;br&gt;
-						&lt;b&gt;For ReviseItem only:&lt;/b&gt; When you revise a listing, if an auction listing has one or more bids and ends within 12 hours, you cannot change or add Item Ppecifics. If the auction listing has bids but ends in more than 12 hours, you cannot change existing Item Specifics, but you can add Item Specifics that were not previously included.
+						&lt;b&gt;For ReviseItem only:&lt;/b&gt; When you revise a listing, if an auction listing has one or more bids and ends within 12 hours, you cannot change or add Item Specifics. If the auction listing has bids but ends in more than 12 hours, you cannot change existing Item Specifics, but you can add Item Specifics that were not previously included.
 
 						&lt;br&gt;&lt;br&gt;
 						If your listing is in a eBay product catalog-enabled category, certain &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs will be accepted as product identifying information. The &lt;b&gt;Name&lt;/b&gt; can be &lt;code&gt;Brand&lt;/code&gt;, &lt;code&gt;MPN&lt;/code&gt;, or a Global Trade Item Number (GTIN). GTINs are a set of globally recognized identifiers, including &lt;code&gt;EAN&lt;/code&gt;, &lt;code&gt;ISBN&lt;/code&gt;, and &lt;code&gt;UPC&lt;/code&gt;. However, the &lt;b&gt;Values&lt;/b&gt; provided for these &lt;b&gt;Name&lt;/b&gt;s must comply with eBay's constraints or they will not be recognized as product identifiers. The &lt;b&gt;Value&lt;/b&gt; for Brand must be an actual brand name (except that if the item is not branded, &lt;b&gt;Value&lt;/b&gt; can be &lt;code&gt;Unbranded&lt;/code&gt;.) The &lt;b&gt;Value&lt;/b&gt; for Brand or MPN cannot contain only special characters (e.g. &lt;code&gt;%$*#@&lt;/code&gt;). All GTINs must comply with international formatting standards. For more details, see &lt;a href="https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/item-specifics.html" target="_blank"&gt;Item Specifics&lt;/a&gt;.
@@ -48883,7 +48753,7 @@ communicated to the client.
 						&lt;br&gt;&lt;br&gt;
 						If the &lt;b&gt;ProductListingDetails&lt;/b&gt; container in an Add/Revise/Relist call is successfully used to find and use an eBay catalog product to create/revise listing, the seller should not remove or change the value of any Item Specific name or value that is defined as part of the eBay catalog product definition.
 
-						&lt;br&gt;&lt;br&gt;
+						&lt;br&gt;
 						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt; If a listing is associated with an eBay catalog product, the seller does not need to pass in any Item Specifics that are already defined in the eBay catalog product. Sellers can make a call to the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to see if the category supports any 'instance aspects', which can be thought of as Item Specifics that are unique to the specific item that is being listed. Instance aspects are indicated if the corresponding &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory#response.aspects.aspectConstraint.aspectApplicableTo" target="_blank"&gt;aspectApplicableTo&lt;/a&gt; field of the &lt;b&gt;getItemAspectsForCategory&lt;/b&gt; response shows a value of &lt;code&gt;ITEM&lt;/code&gt; (and not &lt;code&gt;PRODUCT&lt;/code&gt;). Many categories support the following instance aspects: &lt;em&gt;Custom Bundle&lt;/em&gt;, &lt;em&gt;Bundle Description&lt;/em&gt;, &lt;em&gt;Modified Item&lt;/em&gt;, &lt;em&gt;Modification Description&lt;/em&gt;, and &lt;em&gt;California Prop 65 Warning&lt;/em&gt;. These instance aspects allow the seller to provide more information about product bundles or modified products in a structured way. Depending on the category, there are other instance aspects as well.
 						&lt;/span&gt;
 
@@ -49454,7 +49324,10 @@ communicated to the client.
 						seller included item compatibility in the listing and &lt;b
 						class="con"&gt;IncludeItemCompatibilityList&lt;/b&gt; is set to &lt;code&gt;true&lt;/code&gt; in the
 						&lt;b&gt;GetItem&lt;/b&gt; request.
-						&lt;br&gt;&lt;br&gt;
+						&lt;br/&gt;
+						&lt;span class="tablenote"&gt;
+						&lt;strong&gt;Note:&lt;/strong&gt; &lt;strong&gt;Compatibility&lt;/strong&gt; includes only parts compatibility details that were specified manually; that is, they do not correspond to an eBay catalog product (listings not associated with a &lt;a href="/Devzone/XML/docs/Reference/eBay/GetItem.html#Response.Item.ProductListingDetails.ProductReferenceID" target="_blank"&gt;ProductReferenceID&lt;/a&gt;). To retrieve parts compatibility details that &lt;em&gt;do&lt;/em&gt; correspond to eBay catalog products, use the eBay Product API's &lt;b&gt;getProductCompatibilities&lt;/b&gt; call.
+						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -66503,7 +66376,7 @@ communicated to the client.
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; As a part of Digital Services Act (DSA) requirements, all sellers who list products in Germany (DE) must provide Energy Efficiency Label information and Product Information Sheets for listings for certain durable goods.&lt;/span&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Sellers in the EU and UK can use this container to provide European energy efficiency (EEK) information for listings in the &lt;b&gt;Tyres&lt;/b&gt; and &lt;b&gt;Appliance&lt;/b&gt; categories. If no EEK information is specified through this container, it will be retrieved through a third party vendor. For more information, see &lt;a href = "/api-docs/sell/static/inventory/energy-efficiency.html" target="_blank"&gt;Energy efficiency information&lt;/a&gt;.&lt;/span&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Energy efficiency information is not required for all categories. Use the &lt;a href = "/api-docs/sell/metadata/resources/marketplace/methods/getRegulatoryPolicies" target="_blank"&gt;getRegulatoryPolicies&lt;/a&gt; method of the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to return metadata on the eBay categories that recommend or require energy efficiency-related fields. &lt;/span&gt;
-						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on a listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on an appliance listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -82562,7 +82435,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
           </xs:appinfo>
         </xs:annotation>
       </xs:element>
-      <xs:element name="ServiceType" type="ns:ShippingTypeCodeType" minOccurs="0" maxOccurs="unbounded">
+		<xs:element name="ServiceType" type="ns:ShippingTypeCodeType" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>
             The shipping cost types that this shipping service option supports, such as flat-rate or calculated. A &lt;strong&gt;ServiceType&lt;/strong&gt; field is returned for each shipping cost type supported by the shipping service option.
@@ -96908,12 +96781,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	<wsdl:message name="GetCategoryFeaturesRequest">
 		<wsdl:part name="GetCategoryFeaturesRequest" element="ns:GetCategoryFeaturesRequest"/>
 	</wsdl:message>
-	<wsdl:message name="GetCategoryMappingsResponse">
-		<wsdl:part name="GetCategoryMappingsResponse" element="ns:GetCategoryMappingsResponse"/>
-	</wsdl:message>
-	<wsdl:message name="GetCategoryMappingsRequest">
-		<wsdl:part name="GetCategoryMappingsRequest" element="ns:GetCategoryMappingsRequest"/>
-	</wsdl:message>
 	<wsdl:message name="GetDescriptionTemplatesResponse">
 		<wsdl:part name="GetDescriptionTemplatesResponse" element="ns:GetDescriptionTemplatesResponse"/>
 	</wsdl:message>
@@ -97351,10 +97218,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 		<wsdl:operation name="GetCategoryFeatures">
 			<wsdl:input message="ns:GetCategoryFeaturesRequest"/>
 			<wsdl:output message="ns:GetCategoryFeaturesResponse"/>
-		</wsdl:operation>
-		<wsdl:operation name="GetCategoryMappings">
-			<wsdl:input message="ns:GetCategoryMappingsRequest"/>
-			<wsdl:output message="ns:GetCategoryMappingsResponse"/>
 		</wsdl:operation>
 		<wsdl:operation name="GetDescriptionTemplates">
 			<wsdl:input message="ns:GetDescriptionTemplatesRequest"/>
@@ -97849,17 +97712,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetCategoryFeatures">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
-		<wsdl:operation name="GetCategoryMappings">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
 				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
@@ -98489,7 +98341,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	</wsdl:binding>
 	<wsdl:service name="eBayAPIInterfaceService">
 			<wsdl:documentation>
-				<Version>1399</Version>
+				<Version>1415</Version>
 			</wsdl:documentation>
 			<wsdl:port binding="ns:eBayAPISoapBinding" name="eBayAPI">
 				<wsdlsoap:address location="https://api.ebay.com/wsapi"/>
