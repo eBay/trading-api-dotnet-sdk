@@ -7,7 +7,7 @@
 	xmlns="urn:ebay:apis:eBLBaseComponents"
 	targetNamespace="urn:ebay:apis:eBLBaseComponents">
 	<wsdl:types>
-<!-- Version 1399 -->
+<!-- Version 1423 -->
 <!-- (c) 2004-2025 eBay, Inc. All rights reserved -->
 		<xs:schema targetNamespace="urn:ebay:apis:eBLBaseComponents"  
 		xmlns:ns="urn:ebay:apis:eBLBaseComponents" 
@@ -821,6 +821,8 @@
 						<xs:annotation>
 							<xs:documentation>
 								This field is used to specify the bidder that is being offered the Second Chance Offer. The eBay User ID of the bidder is used in this field. Specify only one &lt;b&gt;RecipientBidderUserID&lt;/b&gt; per call. If multiple users are specified, only the last one specified receives the offer. User ID values will be returned in the &lt;b&gt;Offer.User.UserID&lt;/b&gt; field of the &lt;b&gt;GetAllBidders&lt;/b&gt; call response.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -1330,6 +1332,10 @@
 							<xs:annotation>
 								<xs:documentation>
 									Unique eBay user ID for the user.
+									&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 								</xs:documentation>
 								<xs:appinfo>
 									<CallInfo>
@@ -1638,82 +1644,6 @@
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element> 
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: ExtendSiteHostedPictures -->
-	<xs:element name="ExtendSiteHostedPicturesRequest" type="ns:ExtendSiteHostedPicturesRequestType"/>
-	<xs:complexType name="ExtendSiteHostedPicturesRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				By default, unpublished pictures uploaded to eBay Picture Services (EPS) via the &lt;b&gt;UploadSiteHostedPictures&lt;/b&gt; call will be kept on the server for five days before being purged. The &lt;b&gt;ExtendSiteHostedPictures&lt;/b&gt; call is used to extend this expiration date by the number of days specified in the call. This restricted call gives approved sellers the ability to extend the default expiration date of pictures uploaded to EPS but not immediately published in an eBay listing.
-			</xs:documentation>
-			<xs:appinfo>
-				<Summary>
-					This call is used to extend this expiration date of pictures uploaded to the eBay Picture Server (EPS).
-				</Summary>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-					<xs:element name="PictureURL" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
-						<xs:annotation>
-							<xs:documentation>
-								The URL of the image hosted by eBay Picture Services. This URL is returned in the &lt;b&gt;SiteHostedPictureDetails.FullURL&lt;/b&gt; field of the &lt;b&gt;UploadSiteHostedPictures&lt;/b&gt; response.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ExtendSiteHostedPictures</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="ExtensionInDays" type="xs:int" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								The number of days by which to extend the expiration date for the
-								specified image.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ExtendSiteHostedPictures</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: ExtendSiteHostedPictures -->
-	<xs:element name="ExtendSiteHostedPicturesResponse" type="ns:ExtendSiteHostedPicturesResponseType"/>
-	<xs:complexType name="ExtendSiteHostedPicturesResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				Returns the URL of an eBay Picture Services image whose expiration date was
-				extended.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-				<xs:sequence>
-					<xs:element name="PictureURL" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
-						<xs:annotation>
-							<xs:documentation>
-								The URL of the site-hosted picture whose expiration date was extended through the &lt;b&gt;ExtendSiteHostedPictures&lt;/b&gt; call. This field will be returned if the expiration date of the site-hosted picture was successfully extended.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>ExtendSiteHostedPictures</CallName>
-									<Returned>Conditionally</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>
@@ -2423,6 +2353,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								The eBay user ID for the user with the winning bid (if auction has ended) or current highest bid (if auction is still active). The seller should take note of or save this User ID as this user may be a a Second Chance Offer candidate.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -2719,6 +2653,10 @@
 								The unique identifier of an eBay user.
 								&lt;br&gt;&lt;br&gt;
 								This field is generally not required unless there are multiple User IDs tied to the requester credentials that are specified through the &lt;b&gt;RequesterCredentials&lt;/b&gt; header. If there are multiple User IDs tied to the requester credentials, this field allows you to specify the User ID for which you wish to retrieves bids and purchases.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -3262,101 +3200,6 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
-	<!--  Call: GetCategoryMappings -->
-	<xs:element name="GetCategoryMappingsRequest" type="ns:GetCategoryMappingsRequestType"/>
-	<xs:complexType name="GetCategoryMappingsRequestType">
-		<xs:annotation>
-			<xs:documentation>
-				Retrieves a map of old category IDs and corresponding active
-				category IDs defined for the site to which the request is sent.
-			</xs:documentation>
-			<xs:appinfo>
-				<TempInfo>DetailLevel</TempInfo>
-				<SeeLink>
-					<Title>Maintaining Category Data</Title>
-					<URL>https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/map-category-ids.html</URL>
-				</SeeLink>
-			</xs:appinfo>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractRequestType">
-				<xs:sequence>
-					<xs:element name="CategoryVersion" type="xs:string" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>
-								 A version of the category mapping for the site. Filters
-								 out data from the call to return only the category
-								 mappings for which the data has changed since the
-								 specified version. If not specified, all category
-								 mappings are returned. Typically, an application passes
-								 the version value of the last set of category mappings
-								 that the application stored locally. The latest version
-								 value is not necessarily greater than the previous value
-								 that was returned. Therefore, when comparing versions,
-								 only compare whether the value has changed.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetCategoryMappings</CallName>
-									<RequiredInput>No</RequiredInput>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<!--  Call: GetCategoryMappings -->
-	<xs:element name="GetCategoryMappingsResponse" type="ns:GetCategoryMappingsResponseType"/>
-	<xs:complexType name="GetCategoryMappingsResponseType">
-		<xs:annotation>
-			<xs:documentation>
-				Returns a map of old category IDs and corresponding active category IDs defined
-				for the site to which the request was sent. Typically used to update an older item
-				definition with a new category ID prior to listing the item.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="ns:AbstractResponseType">
-				<xs:sequence>
-					<xs:element name="CategoryMapping" type="ns:CategoryMappingType" minOccurs="0" maxOccurs="unbounded">
-					<xs:annotation>
-						<xs:documentation>
-							Mapping between an old category ID and an active category ID. Returned when
-							category mappings exist and the value of CategoryVersion is different from
-							the current version on the site.
-						</xs:documentation>
-						<xs:appinfo>
-							<CallInfo>
-								<CallName>GetCategoryMappings</CallName>
-								<Details>DetailLevel: ReturnAll</Details>
-								<Returned>Conditionally</Returned>
-							</CallInfo>
-						</xs:appinfo>
-					</xs:annotation>
-					</xs:element>
-					<xs:element name="CategoryVersion" type="xs:string" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation>
-								Version value assigned to the current category mapping data for the site.
-								Compare this value to the version value the application stored with the mappings
-								the last time the application executed the call. If the versions are the same,
-								the data has not changed since the last time the data was retrieved and stored.
-							</xs:documentation>
-							<xs:appinfo>
-								<CallInfo>
-									<CallName>GetCategoryMappings</CallName>
-									<Details>DetailLevel: none, ReturnAll</Details>
-									<Returned>Always</Returned>
-								</CallInfo>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
 	<!--  Call: GetDescriptionTemplates -->
 	<xs:element name="GetDescriptionTemplatesRequest" type="ns:GetDescriptionTemplatesRequestType">
 		<xs:annotation>
@@ -3565,6 +3408,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								The user's eBay User ID is specified in this field. If this field is used, all retrieved Feedback data will be for this eBay user. Specifies the user whose feedback data is to be returned. If this field is omitted in the call request, all retrieved Feedback records will be for the eBay user making the call.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -4555,7 +4402,7 @@
 								returned because the &lt;b&gt;Item&lt;/b&gt; object is returned at the root level of the response.
 								See the reference guide for more information about the fields that are returned.
 								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-									The &lt;b&gt;GetItemTransactions&lt;/b&gt; call does not support &lt;a href =&quot;https://www.ebay.com/sellercenter/ebay-for-business/multi-user-account-access&quot; target=&quot;_blank&quot; &gt;Multi-user account access&lt;/a&gt;. Transactions are only returned for the user that makes the call. You cannot use &lt;b&gt;GetItemTransactions&lt;/b&gt; to return transactions for another user. The call succeeds but returns an empty &lt;code&gt;&amp;lt;TransactionArray/&amp;gt;&lt;/code&gt;.
+									The &lt;b&gt;GetItemTransactions&lt;/b&gt; call does not support &lt;a href =&quot;https://www.ebay.com/sellercenter/ebay-for-business/multi-user-account-access&quot; target=&quot;_blank&quot; &gt;Team Access (formerly multi-user account access)&lt;/a&gt;. Transactions are only returned for the user that makes the call. You cannot use &lt;b&gt;GetItemTransactions&lt;/b&gt; to return transactions for another user. The call succeeds but returns an empty &lt;code&gt;&amp;lt;TransactionArray/&amp;gt;&lt;/code&gt;.
 								&lt;/span&gt;								
 							</xs:documentation>
 							<xs:appinfo>
@@ -4808,6 +4655,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								An eBay ID that uniquely identifies a user. For &lt;b&gt;GetMemberMessages&lt;/b&gt;, this is the sender of the message. If included in the request, returns only messages from the specified sender.
+								&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -4896,6 +4747,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								The eBay user ID of the seller to retrieve ASQ subjects for. A user can retrieve their own ASQ subjects or those of another eBay user with a seller account.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -6304,7 +6159,7 @@
 							<xs:documentation>
 								The set of orders that match the order IDs or filter criteria specified.
 								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-									The &lt;b&gt;GetOrders&lt;/b&gt; call does not support &lt;a href =&quot;https://www.ebay.com/sellercenter/ebay-for-business/multi-user-account-access&quot; target=&quot;_blank&quot; &gt;Multi-user account access&lt;/a&gt;. Transactions are only returned for the user that makes the call. You cannot use &lt;b&gt;GetOrders&lt;/b&gt; to return transactions for another user. The call succeeds but returns an empty &lt;code&gt;&amp;lt;OrderArray/&amp;gt;&lt;/code&gt;.
+									The &lt;b&gt;GetOrders&lt;/b&gt; call does not support &lt;a href =&quot;https://www.ebay.com/sellercenter/ebay-for-business/multi-user-account-access&quot; target=&quot;_blank&quot; &gt;Team Access (formerly multi-user account access)&lt;/a&gt;. Transactions are only returned for the user that makes the call. You cannot use &lt;b&gt;GetOrders&lt;/b&gt; to return transactions for another user. The call succeeds but returns an empty &lt;code&gt;&amp;lt;OrderArray/&amp;gt;&lt;/code&gt;.
 								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
@@ -6702,6 +6557,10 @@
 							<xs:documentation>
 								Specifies the list of Motors Dealer sellers for which a special set of
 								metrics can be requested. Applies to eBay Motors Pro applications only.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -7603,6 +7462,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								The eBay user ID of the eBay seller that owns the eBay Store to be retrieved. This field is only needed if the user wants to view the eBay Store information owned by a different seller (than the seller associated with the authenticated user token). If this field is omitted, the eBay Store information for the seller associated with the authenticated user token is returned.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -7862,6 +7725,10 @@
 							<xs:documentation>
 								Specify the user whose data you want returned by the call. If not specified, eBay returns data pertaining to the
 								requesting user (as specified with the &lt;strong&gt;eBayAuthToken&lt;/strong&gt; value).
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -7947,6 +7814,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								An eBay user ID that uniquely identifies a given user for whom the caller is seeking information. Either a seller's or bidder's/buyer's user ID can be specified here, as long as an bidding/order relationship exists between the requester and the user specified by this field. That is, a bidder must be bidding on the seller's active auction item, or a prospective buyer has proposed a Best Offer on a listing.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -7960,6 +7831,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								An eBay user ID that uniquely identifies the person who is making the call. Either a seller's or bidder's/buyer's user ID can be specified here, as long as a bidding/order relationship exists between the requester and the user for whom information is being requested.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -7990,6 +7865,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								An eBay ID that uniquely identifies the given user whose information is given in the call response.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -8681,6 +8560,9 @@
 	<xs:complexType name="GetVeROReasonCodeDetailsRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="https://developer.ebay.com/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Retrieves details for VeRO reason codes and their descriptions. You can specify a
 				reason code ID to get details for a specific reason on the site specified in the
 				request header. If &lt;strong&gt;ReasonCodeID&lt;/strong&gt; is not passed in the request, all reason codes are
@@ -8760,6 +8642,9 @@
 	<xs:complexType name="GetVeROReportStatusRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="https://developer.ebay.com/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Retrieves status information about VeRO reported items you have submitted. You
 				can receive the status of individual items you have reported or, by specifying
 				&lt;strong&gt;VeROReportPacketID&lt;/strong&gt;, you can retrieve status for all items reported with a given
@@ -9677,6 +9562,10 @@
 						<xs:annotation>
 							<xs:documentation>
 								Specifies the recipient user about whom the Feedback is being left.
+								&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -10745,7 +10634,11 @@
 						<xs:annotation>
 							<xs:documentation>
 								The eBay user ID of the caller's order partner. The caller is either
-								replyting to or following up on this user's Feedback comment.
+								replying to or following up on this user's Feedback comment.
+								&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -12886,26 +12779,6 @@
               </xs:appinfo>
             </xs:annotation>
           </xs:element>
-          <xs:element name="ExtensionInDays" type="xs:int" minOccurs="0">
-            <xs:annotation>
-              <xs:documentation>
-                By default, an unpublished picture will be hosted on the EPS server for five days before being purged. However, the seller has the option of using this field to set an expiration date further into the future (up to 30 days). Similarly, when a listing ends or expires, the images associated with the listing remain on the EPS server for an additional 90 days. The value in this field will add on to those 90 days.
-                &lt;br/&gt;&lt;br/&gt;
-                &lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-					This field is restricted to applications that have been granted permission. Contact the eBay Developers Program to request permission.
-                &lt;/span&gt;
-              </xs:documentation>
-              <xs:appinfo>
-                <Min>1</Min>
-                <Max>30</Max>
-                <Default>5</Default>
-                <CallInfo>
-                  <CallName>UploadSiteHostedPictures</CallName>
-                  <RequiredInput>No</RequiredInput>
-                </CallInfo>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -12958,6 +12831,9 @@
 	<xs:complexType name="VeROReportItemsRequestType">
 		<xs:annotation>
 			<xs:documentation>
+				&lt;span class="tablenote"&gt;
+				&lt;strong&gt;Note:&lt;/strong&gt; This call has been deprecated and will be decommissioned on February 2nd, 2026. Users are recommended to migrate to the &lt;a href="https://developer.ebay.com/api-docs/commerce/vero/resources/methods" target="_blank"&gt;VeRO API&lt;/a&gt; to create and manage VeRO reports.
+				&lt;/span&gt;
 				Reports items that allegedly infringe your copyright, trademark, or other
 				intellectual property rights. You can report one or more items at a time with this
 				call. You must be a member of the Verified Rights Owner (VeRO) Program to use this
@@ -13397,6 +13273,8 @@
 								&lt;b&gt;RecipientBidderUserID&lt;/b&gt; per call. If multiple users are specified (each in a
 								&lt;b&gt;RecipientBidderUserID&lt;/b&gt; node), only the last one specified receives the
 								offer.
+								&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.&lt;/span&gt;								
 							</xs:documentation>
 							<xs:appinfo>
 								<CallInfo>
@@ -13745,7 +13623,6 @@
 							<CallName>GetAdFormatLeads</CallName>
 							<CallName>GetBestOffers</CallName>
 							<CallName>GetCategories</CallName>
-							<CallName>GetCategoryMappings</CallName>
 							<CallName>GetFeedback</CallName>
 							<CallName>GetOrders</CallName>
 							<CallName>GetSellerEvents</CallName>
@@ -19822,6 +19699,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						The eBay user ID of the user who is interested in the seller's item.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;					
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -21778,6 +21659,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						This field is not required, but an affiliate may want to use this identifier to better monitor marketing efforts. If you are using the eBay Partner Network, and you provide an &lt;b&gt;AffiliateUserID&lt;/b&gt;, the tracking URL returned by eBay Partner Network will contain the &lt;b&gt;AffiliateUserID&lt;/b&gt;, but it will be referred to as a "customid".
+						&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 	 				</xs:documentation>
 					<xs:appinfo>
 						<MaxLength>256</MaxLength>
@@ -23061,8 +22946,7 @@ communicated to the client.
 			<xs:enumeration value="Accepted">
 				<xs:annotation>
 					<xs:documentation>
-						Depending on context, this value can indicate that the buyer's Best Offer was
-						accepted by the seller, or that the seller's or buyer's counter offer was accepted by the other party.
+						Depending on context, this value can indicate that the buyer's offer or Best Offer was accepted by the seller, or that the seller's or buyer's counter offer was accepted by the other party, and the buyer completed the payment.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -23106,6 +22990,13 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Depending on context, this value can indicate that a buyer's Best Offer has been countered by the seller, or that the seller's or buyer's counter offer has been countered by the other party.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="SellerAccept">
+				<xs:annotation>
+					<xs:documentation>
+						This value indicates that the seller has accepted the buyers offer. The status will change to &lt;b&gt;Accepted&lt;/b&gt; once the buyer completes payment.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -23912,11 +23803,13 @@ communicated to the client.
 						The manufacturer part number of the product. Use the
 						value specified by the manufacturer.  Both &lt;b&gt;Brand&lt;/b&gt; and &lt;b&gt;MPN&lt;/b&gt; must be specified if the &lt;b&gt;BrandMPN&lt;/b&gt; container is used or an error may occur.
 						&lt;br/&gt;&lt;br/&gt;
-						If the listing is being posted to a category that expects an MPN value, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
-						&lt;br&gt;&lt;br&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
-						The &lt;b&gt;BrandMPN&lt;/b&gt; container is not applicable for multiple-variation listings. For multiple-variation listings that use MPNs, the &lt;b&gt;Brand&lt;/b&gt; value should be specified through an &lt;b&gt;ItemSpecifics.NameValueList&lt;/b&gt; container, and the  Manufacturer Part Numbers (MPNs) for each product variation should be specified through a &lt;b&gt;VariationSpecifics.NameValueList&lt;/b&gt; container.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects an MPN value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
+						&lt;br&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						The &lt;b&gt;BrandMPN&lt;/b&gt; container is not applicable for multiple-variation listings. For multiple-variation listings that use MPNs, the &lt;b&gt;Brand&lt;/b&gt; value should be specified through an &lt;b&gt;ItemSpecifics.NameValueList&lt;/b&gt; container, and the Manufacturer Part Numbers (MPNs) for each product variation should be specified through a &lt;b&gt;VariationSpecifics.NameValueList&lt;/b&gt; container.
+						&lt;/span&gt;						
 					</xs:documentation>
 					<xs:appinfo>
 						<MaxLength>65</MaxLength>
@@ -27711,51 +27604,6 @@ communicated to the client.
 	</xs:complexType>
 <!--
 
-##### from file eBLBaseComponents/public/CategoryMappingType.xsd #####
-
--->
-	<xs:complexType name="CategoryMappingType">
-		<xs:annotation>
-			<xs:documentation>
-				This type is used by the &lt;b&gt;CategoryMapping&lt;/b&gt; fields that are returned in the &lt;b&gt;GetCategoryMappings&lt;/b&gt; response to indicate any eBay Category IDs that have changed recently.
-			</xs:documentation>
-		</xs:annotation>
-		<xs:sequence>
-			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute name="oldID" type="xs:string">
-			<xs:annotation>
-				<xs:documentation>
-					This attribute value is the unique identifier of an eBay category that has been recently updated to a new Category ID, which is specified in the &lt;b&gt;id&lt;/b&gt; attribute. The user will want to use the Category ID value in the &lt;b&gt;id&lt;/b&gt; attribute the next time they run a call that requires a Category ID. Note that Category IDs are unique to each eBay site. This attribute is always returned with the &lt;b&gt;CategoryMapping&lt;/b&gt; field.
-				</xs:documentation>
-				<xs:appinfo>
-					<CallInfo>
-						<CallName>GetCategoryMappings</CallName>
-						<Returned>Conditionally</Returned>
-					</CallInfo>
-				</xs:appinfo>
-			</xs:annotation>
-		</xs:attribute>
-		<xs:attribute name="id" type="xs:string">
-			<xs:annotation>
-				<xs:documentation>
-					This attribute value is the unique identifier of the currently active eBay category. The user will want to use this Category ID value the next time they run a call that requires a Category ID. Note that Category IDs are unique to each eBay site. This attribute is always returned with the &lt;b&gt;CategoryMapping&lt;/b&gt; field.
-					&lt;br&gt;&lt;br&gt;
-					&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt;
-					Note that more than one &lt;b&gt;OldID&lt;/b&gt; values may map into the same new category (same &lt;b&gt;id&lt;/b&gt; value) since sometimes multiple eBay categories may be consolidated into a new, expanded category.
-					&lt;/span&gt;
-				</xs:documentation>
-				<xs:appinfo>
-					<CallInfo>
-						<CallName>GetCategoryMappings</CallName>
-						<Returned>Conditionally</Returned>
-					</CallInfo>
-				</xs:appinfo>
-			</xs:annotation>
-		</xs:attribute>
-	</xs:complexType>
-<!--
-
 ##### from file eBLBaseComponents/public/CategoryType.xsd #####
 
 -->
@@ -28647,7 +28495,7 @@ communicated to the client.
 			<xs:element name="eBayPaymentStatus" type="ns:PaymentStatusCodeType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						Indicates the status of the buyer's payment for an order. If the payment was successfuly processed, a value of &lt;code&gt;NoPaymentFailure&lt;/code&gt; will be returned.
+						Indicates the status of the buyer's payment for an order. If the payment was successfully processed, a value of &lt;code&gt;NoPaymentFailure&lt;/code&gt; will be returned.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -28689,6 +28537,10 @@ communicated to the client.
 					<xs:documentation>
 						The payment method that the buyer selected to pay for the order.
 						&lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+						Effective September 26, 2025, access to buyer payment details for U.S. users will be limited to select developers. All other developers will receive a value of "CustomCode" in place of buyer payment details. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+						&lt;/span&gt;
+						&lt;br&gt;
 						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
 							Sellers no longer have to specify any electronic payment methods at listing time, but this field is still returned. The value returned in this field will generally be &lt;code&gt;CreditCard&lt;/code&gt;, unless an eBay gift card was used by the buyer to pay a partial or full balance of the order. If this is the case, the value returned in this field will be &lt;code&gt;CCAccepted&lt;/code&gt;. Either of these two values will be returned, but neither accurately reflects the actual payment method that the buyer used. If the order was paid for off of eBay's platform using an 'offline' payment method such as 'CashOnPickup' or 'MOCC' (money order or cashier's check), and the seller marked the order as paid, either of those values may get returned here.
 						&lt;/span&gt;
@@ -28759,6 +28611,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						The enumeration value in this field indicates which payment method was used by the German buyer who was offered the 'Pay Upon Invoice' option. This field will only be returned if a German buyer was offered the 'Pay Upon Invoice' option. Otherwise, the buyer's selected payment method is returned in the &lt;b&gt;PaymentMethod&lt;/b&gt; field.
+						&lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+						Effective September 26, 2025, access to buyer payment details for U.S. users will be limited to select developers. All other developers will receive a value of "CustomCode" in place of buyer payment details. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -34255,8 +34111,9 @@ communicated to the client.
 	<xs:simpleType name="DescriptionReviseModeCodeType">
 		<xs:annotation>
 			<xs:documentation>
-				Enumerated type containing the list of values that can be used when revising the 
-				item description of an active listing through the Revise API calls.
+				&lt;span class=&quot;tablenote&quot;&gt;&lt;span style=&quot;color:#004680&quot;&gt;&lt;strong&gt;Note: &lt;/strong&gt;This field should no longer be used since it no longer supports the ability to append or prepend text using the &lt;b&gt;Append&lt;/b&gt; or &lt;b&gt;Prepend&lt;/b&gt; values, but only supports the &lt;b&gt;Replace&lt;/b&gt; value. If this field is used and set to &lt;b&gt;Append&lt;/b&gt; or &lt;b&gt;Prepend&lt;/b&gt;, it will default to &lt;b&gt;Replace&lt;/b&gt;, and whatever text is supplied in the &lt;b&gt;Item.Description&lt;/b&gt; field will completely overwrite the current description for the active listing. If you wish to update the description for an active listing using a revise call, just provide the full description in the &lt;b&gt;Item.Description&lt;/b&gt; field and do not use this field at all. This field will be completely removed from the WSDL within a few months.&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+				&lt;p&gt;Enumerated type containing the list of values that can be used when revising the 
+				item description of an active listing through the Revise API calls.&lt;/p&gt;
 			</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:token">
@@ -34271,23 +34128,32 @@ communicated to the client.
 			<xs:enumeration value="Prepend">
 				<xs:annotation>
 					<xs:documentation>
-						Use this value in the &lt;b&gt;Item.DescriptionReviseMode&lt;/b&gt; field if you want
-						to prepend text to the item description of the active listing.
-					</xs:documentation>
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; 
+						This enumerated value has been deprecated.
+						&lt;/span&gt;
+						<!-- Use this value in the &lt;b&gt;Item.DescriptionReviseMode&lt;/b&gt; field if you want -->
+						<!-- to prepend text to the item description of the active listing. -->
+					</xs:documentation>				
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="Append">
 				<xs:annotation>
 					<xs:documentation>
-						Use this value in the &lt;b&gt;Item.DescriptionReviseMode&lt;/b&gt; field if you want
-						to append text to the item description of the active listing.
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; 
+						This enumerated value has been deprecated.
+						&lt;/span&gt;
+						<!-- Use this value in the &lt;b&gt;Item.DescriptionReviseMode&lt;/b&gt; field if you want
+						to append text to the item description of the active listing. -->
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="CustomCode">
 				<xs:annotation>
 					<xs:documentation>
-						This value is reserved for internal or future use.
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; 
+						This enumerated value has been deprecated.
+						&lt;/span&gt;
+						<!-- This value is reserved for internal or future use. -->
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -36796,7 +36662,7 @@ communicated to the client.
 	<xs:complexType name="EnergyEfficiencyType">
 		<xs:annotation>
 			<xs:documentation>
-				Type defining the &lt;b&gt;ImageURL&lt;/b&gt;, &lt;b&gt;ImageDescription&lt;/b&gt;, and &lt;b&gt;ProductInformationsheet&lt;/b&gt; regulatory fields that are used at the listing level to provide Energy Efficiency Label related information.&lt;br&gt;&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on an appliance listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
+				Type defining the &lt;b&gt;ImageURL&lt;/b&gt;, &lt;b&gt;ImageDescription&lt;/b&gt;, and &lt;b&gt;ProductInformationsheet&lt;/b&gt; regulatory fields that are used at the listing level to provide Energy Efficiency Label related information.&lt;br&gt;&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on an appliance or smartphones and tablets listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence> 
@@ -41075,6 +40941,10 @@ communicated to the client.
 						This eBay User ID identifies the recipient user for whom the feedback is being left.
 						This field is required in &lt;b&gt;CompleteSale&lt;/b&gt; if the
 						&lt;b&gt;FeedbackInfo&lt;/b&gt; container is used.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -43981,6 +43851,10 @@ communicated to the client.
 						from. For example, if the seller is the third seller that
 						the user has purchased items from, the value "Seller 3" is
 						returned.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;					
 					</xs:documentation>
 					<xs:appinfo>
 						<SeeLink>
@@ -44112,7 +43986,7 @@ communicated to the client.
 				assembly with which a part is compatible (i.e., parts compatibility by application). For
 				example, to specify a part's compatibility with a vehicle, the name would map to
 				standard vehicle characteristics (e.g., Year, Make, Model, Trim, and Engine). The
-				values would desribe the specific vehicle, such as a 2006 Honda Accord.
+				values would describe the specific vehicle, such as a 2006 Honda Accord.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
@@ -44122,10 +43996,6 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Details for an individual compatible application, consisting of the name-value pair and related parts compatibility notes. When revising or relisting, the &lt;b&gt;Delete&lt;/b&gt; field can be used to delete individual parts compatibility nodes.
-						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;
-						&lt;strong&gt;Note:&lt;/strong&gt; For the &lt;b&gt;GetItem&lt;/b&gt; call, &lt;strong&gt;Compatibility&lt;/strong&gt; includes only parts compatibility details that were specified manually; that is, they do not correspond to an eBay catalog product. To retrieve parts compatibility details that &lt;em&gt;do&lt;/em&gt; correspond to eBay catalog products, use the eBay Product API's &lt;b&gt;getProductCompatibilities&lt;/b&gt; call.
-						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -44147,7 +44017,7 @@ communicated to the client.
 							<SeeLink>
 								<Title>Product API ProductCompatibilities call reference</Title>
 								<URL>https://developer.ebay.com/Devzone/product/CallRef/getProductCompatibilities.html</URL>
-								<For>information about retrieving parts compatibility details that correspond to eBay catalog products.</For>
+								<For>information about retrieving parts compatibility details that correspond to eBay catalog products</For>
 							</SeeLink>
 						</CallInfo>
 					</xs:appinfo>
@@ -45575,7 +45445,6 @@ communicated to the client.
 						a part number. For a SKU in an eBay.com listing, use the &lt;b&gt;SKU&lt;/b&gt;
 						element instead. To remove this value when revising or relisting an
 						item, use &lt;b&gt;DeletedField&lt;/b&gt;.
-						&lt;br/&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<MaxLength>32</MaxLength>
@@ -45986,7 +45855,7 @@ communicated to the client.
 						using CDATA if you want to use HTML or XML-reserved characters in the
 						description. However, a seller can not use any active content in their listing description. Active content includes animation or video via JavaScript, Flash, plug-ins, or form actions. All active content will be blocked/removed from a listing. Removing/blocking active content will lead to faster load times of listings, make listings more mobile-friendly, improve SEO performance, and lead to a more secure eBay Marketplace.
 						&lt;br&gt;&lt;br&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; To ensure that a listing description is optimized to be viewed on a mobile devices, see &lt;a href="/api-docs/user-guides/static/trading-user-guide/mobile.html" target="_blank"&gt;Mobile device optimization&lt;/a&gt; in the Trading User Guide. &lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; To ensure that a listing description is optimized to be viewed on a mobile devices, see &lt;a href="https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/mobile.html" target="_blank"&gt;Mobile device optimization&lt;/a&gt; in the Trading User Guide. &lt;br&gt;&lt;br&gt;
 						Note that the mobile-friendly description snippet feature described in this topic is currently only available in the following eBay marketplaces: US, UK, Australia, France, Germany, Italy, Spain, and eBay Motors.
 						&lt;/span&gt;
 						&lt;br&gt;
@@ -46039,13 +45908,15 @@ communicated to the client.
 			<xs:element name="DescriptionReviseMode" type="ns:DescriptionReviseModeCodeType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						This field is conditionally required if the listing is being revised through a Revise call, and the &lt;b&gt;Item.Description&lt;/b&gt; field is one of the fields being changed. The enumeration value passed in this field specifies whether the text provided in the &lt;b&gt;Item.Description&lt;/b&gt; field will prepend, append, or replace the existing text in the current &lt;b&gt;Item.Description&lt;/b&gt; field.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;span style=&quot;color:#004680&quot;&gt;&lt;strong&gt;Note: &lt;/strong&gt;This field should no longer be used since it no longer supports the ability to append or prepend text using the &lt;b&gt;Append&lt;/b&gt; or &lt;b&gt;Prepend&lt;/b&gt; values, but only supports the &lt;b&gt;Replace&lt;/b&gt; value. If this field is used and set to &lt;b&gt;Append&lt;/b&gt; or &lt;b&gt;Prepend&lt;/b&gt;, it will default to &lt;b&gt;Replace&lt;/b&gt;, and whatever text is supplied in the &lt;b&gt;Item.Description&lt;/b&gt; field will completely overwrite the current description for the active listing. If you wish to update the description for an active listing using a revise call, just provide the full description in the &lt;b&gt;Item.Description&lt;/b&gt; field and do not use this field at all. This field will be completely removed from the WSDL within a few months.&lt;/span&gt;&lt;br/&gt;
+						<p>This field no longer has an effect on the listing being revised through a &lt;b&gt;ReviseItem&lt;/b&gt; or &lt;b&gt;ReviseFixedPrice&lt;/b&gt; item call.</p>
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
+							<OnlyTheseValues>Replace</OnlyTheseValues>
 							<CallName>ReviseItem</CallName>
 							<CallName>ReviseFixedPriceItem</CallName>
-							<RequiredInput>Conditionally</RequiredInput>
+							<RequiredInput>No</RequiredInput>
 						</CallInfo>
 					</xs:appinfo>
         </xs:annotation>
@@ -46449,17 +46320,16 @@ communicated to the client.
 						specify a postal code, but do not specify a location, then the location is
 						given a default value derived from the postal code.
 						&lt;br&gt;&lt;br&gt;
+						&lt;b&gt;For GetOrders, GetItemTransactions, GetSellerTransactions:&lt;/b&gt; If the item is shipped from a fulfillment center location through the Multi-Warehouse Program, this field will return the location details (including the country and zip code) of the fulfillment center closest to the buyer.
+						&lt;br&gt;&lt;br&gt;
 						&lt;b&gt;For Revise/Relist calls:&lt;/b&gt; When updating an &lt;b&gt;Item.Location&lt;/b&gt;, you must also include the &lt;b&gt;Item.PostalCode&lt;/b&gt; corresponding to the &lt;b&gt;Item.Location&lt;/b&gt; in the revise/relist call; otherwise, the location will not be updated.
 						&lt;br&gt;&lt;br&gt;
-						For the Classified Ad format for motors vehicle listings, the value
-						provided in the &lt;b&gt;Location&lt;/b&gt; field is used as item location only if the
-						&lt;b&gt;SellerContactDetails.Street&lt;/b&gt; and the &lt;b&gt;SellerContactDetails.Street2&lt;/b&gt; are empty.
-						Else, the &lt;b&gt;SellerContactDetails.Street&lt;/b&gt; and the &lt;b&gt;SellerContactDetails.Street2&lt;/b&gt;
-						will be used for item location.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; For the Classified Ad format for motors vehicle listings, the value provided in the &lt;b&gt;Location&lt;/b&gt; field is used as item location only if the &lt;b&gt;SellerContactDetails.Street&lt;/b&gt; and the &lt;b&gt;SellerContactDetails.Street2&lt;/b&gt; are empty. Else, the &lt;b&gt;SellerContactDetails.Street&lt;/b&gt; and the &lt;b&gt;SellerContactDetails.Street2&lt;/b&gt; will be used for item location. 
+						&lt;/span&gt;
 						&lt;br&gt;
 					</xs:documentation>
 					<xs:appinfo>
-						<MaxLength>45</MaxLength>
+						<MaxLength>200</MaxLength>
 						<CallInfo>
 							<CallName>AddFixedPriceItem</CallName>
 							<CallName>AddItem</CallName>
@@ -46490,6 +46360,9 @@ communicated to the client.
 						</CallInfo>
 						<CallInfo>
 							<CallName>GetCategoryListings</CallName>
+							<CallName>GetOrders</CallName>
+							<CallName>GetItemTransactions</CallName>
+							<CallName>GetSellerTransactions</CallName>
 							<Returned>Conditionally</Returned>
 						</CallInfo>
 					</xs:appinfo>
@@ -46659,7 +46532,7 @@ communicated to the client.
 						This container is used in an Add/Revise/Relist call to set the primary listing category. This field is conditionally required in an Add call unless the seller successfully uses the &lt;b&gt;ProductListingDetails&lt;/b&gt; container to find an eBay catalog product match. When the seller successfully uses an eBay catalog product to create a listing, the listing title, listing description, Item Specifics, listing category, and stock photo defined in the catalog product is used to create the listing.&lt;br&gt;
 						&lt;br&gt;
                         Once you determine the appropriate eBay category for your product, and want to know which listing features it supports, you can use the
-						&lt;b&gt;GetCategoryFeatures&lt;/b&gt; call. To discover required, recommended, and optional Item Specifics for a category, use the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API.
+						&lt;b&gt;GetCategoryFeatures&lt;/b&gt; call. To discover required, recommended, and optional Item Specifics for a category, use the &lt;a href="https://developer.ebay.com/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API.
 						&lt;br&gt;
 						&lt;br&gt;
 						If you do use an eBay catalog product, it is advised that you do not include this field, as any primary category ID you specify in this field may get dropped if this category is different than the primary category defined in the eBay catalog product.
@@ -46854,7 +46727,7 @@ communicated to the client.
 						variation (quantity available plus quantity sold).
 						&lt;br&gt;
 						&lt;br&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; For the US site, new eBay sellers are subject to &lt;a href="/api-docs/user-guides/static/make-a-call/fg-replaced.html"&gt;Seller Limits&lt;/a&gt;, which limit the quantity of items that may be listed and/or the total cumulative value of these listings. While subject to these selling limits, an eBay seller can use the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; call to retrieve both the remaining number of listings they can create and the remaining cumulative value of these listings. These values are shown in the &lt;b&gt;Summary.QuantityLimitRemaining&lt;/b&gt; and &lt;b&gt;Summary.AmountLimitRemaining&lt;/b&gt; fields in the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; response. If a call to add an item or revise an item would result in the exceeding of these limits, the add item or revise item call will fail. These fields will only be returned if the seller is subject to seller limits.
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; For the US site, new eBay sellers are subject to &lt;a href="https://developer.ebay.com/api-docs/user-guides/static/make-a-call/fg-replaced.html"&gt;Seller Limits&lt;/a&gt;, which limit the quantity of items that may be listed and/or the total cumulative value of these listings. While subject to these selling limits, an eBay seller can use the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; call to retrieve both the remaining number of listings they can create and the remaining cumulative value of these listings. These values are shown in the &lt;b&gt;Summary.QuantityLimitRemaining&lt;/b&gt; and &lt;b&gt;Summary.AmountLimitRemaining&lt;/b&gt; fields in the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; response. If a call to add an item or revise an item would result in the exceeding of these limits, the add item or revise item call will fail. These fields will only be returned if the seller is subject to seller limits.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -47075,15 +46948,6 @@ communicated to the client.
 						format. In &lt;b&gt;GetItem&lt;/b&gt; and related calls, the scheduled time is returned in
 						&lt;b&gt;StartTime&lt;/b&gt;. For &lt;b&gt;ReviseItem&lt;/b&gt;, you can modify this value if the currently
 						scheduled start time is in the future (listing has yet to go live).
-						&lt;br&gt;&lt;br&gt;
-						When you schedule a start time, the start time is randomized within 15-minute
-						intervals. Randomized start times applies to the following sites:
-						&lt;br&gt;
-						&lt;code&gt;AT, BEFR, BENL, CH, DE, ES, FR, IE, IT, NL, PL, UK&lt;/code&gt;
-						&lt;br&gt;&lt;br&gt;
-						Also see the following article in the Knowledge Base: &lt;a href=
-						"https://developer.ebay.com/support/kb-article?KBid=1473" target="_blank"
-						&gt;Why scheduled time is sometimes getting reset&lt;/a&gt;.
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -47239,13 +47103,6 @@ communicated to the client.
 						<CallInfo>
 							<CallName>GetBidderList</CallName>
 							<Returned>Always</Returned>
-						</CallInfo>
-						<CallInfo>
-							<CallName>AddItem</CallName>
-							<CallName>AddItems</CallName>
-							<CallName>ReviseItem</CallName>
-							<CallName>VerifyAddItem</CallName>
-							<RequiredInput>Conditionally</RequiredInput>
 						</CallInfo>
 					</xs:appinfo>
         </xs:annotation>
@@ -47614,7 +47471,7 @@ communicated to the client.
 						&lt;b&gt;For Revise calls:&lt;/b&gt;
 						If the &lt;b&gt;StartPrice&lt;/b&gt; value for a fixed-price item is changed with a Revise call, the &lt;b&gt;MinimumBestOfferPrice&lt;/b&gt; and &lt;b&gt;BestOfferAutoAcceptPrice&lt;/b&gt; fields in the &lt;b&gt;ListingDetails&lt;/b&gt; container will be dropped (if set), basically turning off the Best Offer Auto Accept and/or Auto Decline features. If the seller wanted to reintroduce either of these Best Offer threshold values in the listing again, an additional Revise call would have to be made, passing in the desired threshold values.
 						&lt;br&gt;&lt;br&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; For the US site, new eBay sellers are subject to &lt;a href="/api-docs/user-guides/static/make-a-call/fg-replaced.html"&gt;Seller Limits&lt;/a&gt;, which limit the quantity of items that may be listed and/or the total cumulative value of these listings. While subject to these selling limits, an eBay seller can use the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; call to retrieve both the remaining number of listings they can create and the remaining cumulative value of these listings. These values are shown in the &lt;b&gt;Summary.QuantityLimitRemaining&lt;/b&gt; and &lt;b&gt;Summary.AmountLimitRemaining&lt;/b&gt; fields in the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; response. If a call to add an item or revise an item would result in the exceeding of these limits, the add item or revise item call will fail. These fields will only be returned if the seller is subject to seller limits.
+						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; For the US site, new eBay sellers are subject to &lt;a href="https://developer.ebay.com/api-docs/user-guides/static/make-a-call/fg-replaced.html"&gt;Seller Limits&lt;/a&gt;, which limit the quantity of items that may be listed and/or the total cumulative value of these listings. While subject to these selling limits, an eBay seller can use the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; call to retrieve both the remaining number of listings they can create and the remaining cumulative value of these listings. These values are shown in the &lt;b&gt;Summary.QuantityLimitRemaining&lt;/b&gt; and &lt;b&gt;Summary.AmountLimitRemaining&lt;/b&gt; fields in the &lt;b&gt;GetMyeBaySelling&lt;/b&gt; response. If a call to add an item or revise an item would result in the exceeding of these limits, the add item or revise item call will fail. These fields will only be returned if the seller is subject to seller limits.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -48869,31 +48726,37 @@ communicated to the client.
 			<xs:element name="ItemSpecifics" type="ns:NameValueListArrayType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						This container is a list of Item Specific &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs used by the seller to provide desciptive details of an item in a structured manner.
+						This container is a list of Item Specific &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs used by the seller to provide descriptive details of an item in a structured manner.
 
 						&lt;br&gt;&lt;br&gt;
-						If creating, revising, or relisting an item with an &lt;b&gt;Add&lt;/b&gt;, &lt;b&gt;Revise&lt;/b&gt;, or &lt;b&gt;Relist&lt;/b&gt; call, it is recommended that you use the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve mandatory and recommended Item Specifics for a category.
+						If creating, revising, or relisting an item with an &lt;b&gt;Add&lt;/b&gt;, &lt;b&gt;Revise&lt;/b&gt;, or &lt;b&gt;Relist&lt;/b&gt; call, it is recommended that you use the &lt;a href=&quot;https://developer.ebay.com/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory&quot; target=&quot;_blank&quot;&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve mandatory and recommended Item Specifics for a category.
+						
+						&lt;br&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important:&lt;/b&gt; Effective from December 28th, 2024, sellers offering certain rechargeable devices in EU and Northern Ireland markets must comply with the Common Charger Directive (CCD) and list appropriate charger-related item specifics on their listings. See &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/common-charger-directive.html&quot; target=&quot;_blank&quot;&gt;Common Charger Directive&lt;/a&gt; for more information.
+						&lt;/span&gt;
+
+						&lt;b&gt;For ReviseItem only:&lt;/b&gt; When you revise a listing, if an auction listing has one or more bids and ends within 12 hours, you cannot change or add Item Specifics. If the auction listing has bids but ends in more than 12 hours, you cannot change existing Item Specifics, but you can add Item Specifics that were not previously included.
 
 						&lt;br&gt;&lt;br&gt;
-						&lt;b&gt;For ReviseItem only:&lt;/b&gt; When you revise a listing, if an auction listing has one or more bids and ends within 12 hours, you cannot change or add Item Ppecifics. If the auction listing has bids but ends in more than 12 hours, you cannot change existing Item Specifics, but you can add Item Specifics that were not previously included.
-
-						&lt;br&gt;&lt;br&gt;
-						If your listing is in a eBay product catalog-enabled category, certain &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs will be accepted as product identifying information. The &lt;b&gt;Name&lt;/b&gt; can be &lt;code&gt;Brand&lt;/code&gt;, &lt;code&gt;MPN&lt;/code&gt;, or a Global Trade Item Number (GTIN). GTINs are a set of globally recognized identifiers, including &lt;code&gt;EAN&lt;/code&gt;, &lt;code&gt;ISBN&lt;/code&gt;, and &lt;code&gt;UPC&lt;/code&gt;. However, the &lt;b&gt;Values&lt;/b&gt; provided for these &lt;b&gt;Name&lt;/b&gt;s must comply with eBay's constraints or they will not be recognized as product identifiers. The &lt;b&gt;Value&lt;/b&gt; for Brand must be an actual brand name (except that if the item is not branded, &lt;b&gt;Value&lt;/b&gt; can be &lt;code&gt;Unbranded&lt;/code&gt;.) The &lt;b&gt;Value&lt;/b&gt; for Brand or MPN cannot contain only special characters (e.g. &lt;code&gt;%$*#@&lt;/code&gt;). All GTINs must comply with international formatting standards. For more details, see &lt;a href="https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/item-specifics.html" target="_blank"&gt;Item Specifics&lt;/a&gt;.
+						If your listing is in a eBay product catalog-enabled category, certain &lt;b&gt;Name&lt;/b&gt;/&lt;b&gt;Value&lt;/b&gt; pairs will be accepted as product identifying information. The &lt;b&gt;Name&lt;/b&gt; can be &lt;code&gt;Brand&lt;/code&gt;, &lt;code&gt;MPN&lt;/code&gt;, or a Global Trade Item Number (GTIN). GTINs are a set of globally recognized identifiers, including &lt;code&gt;EAN&lt;/code&gt;, &lt;code&gt;ISBN&lt;/code&gt;, and &lt;code&gt;UPC&lt;/code&gt;. However, the &lt;b&gt;Values&lt;/b&gt; provided for these &lt;b&gt;Name&lt;/b&gt;s must comply with eBay&apos;s constraints or they will not be recognized as product identifiers. The &lt;b&gt;Value&lt;/b&gt; for Brand must be an actual brand name (except that if the item is not branded, &lt;b&gt;Value&lt;/b&gt; can be &lt;code&gt;Unbranded&lt;/code&gt;.) The &lt;b&gt;Value&lt;/b&gt; for Brand or MPN cannot contain only special characters (e.g. &lt;code&gt;%$*#@&lt;/code&gt;). All GTINs must comply with international formatting standards. For more details, see &lt;a href=&quot;https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/item-specifics.html&quot; target=&quot;_blank&quot;&gt;Item Specifics&lt;/a&gt;.
 
 						&lt;br&gt;&lt;br&gt;
 						If the &lt;b&gt;ProductListingDetails&lt;/b&gt; container in an Add/Revise/Relist call is successfully used to find and use an eBay catalog product to create/revise listing, the seller should not remove or change the value of any Item Specific name or value that is defined as part of the eBay catalog product definition.
 
-						&lt;br&gt;&lt;br&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt; If a listing is associated with an eBay catalog product, the seller does not need to pass in any Item Specifics that are already defined in the eBay catalog product. Sellers can make a call to the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to see if the category supports any 'instance aspects', which can be thought of as Item Specifics that are unique to the specific item that is being listed. Instance aspects are indicated if the corresponding &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory#response.aspects.aspectConstraint.aspectApplicableTo" target="_blank"&gt;aspectApplicableTo&lt;/a&gt; field of the &lt;b&gt;getItemAspectsForCategory&lt;/b&gt; response shows a value of &lt;code&gt;ITEM&lt;/code&gt; (and not &lt;code&gt;PRODUCT&lt;/code&gt;). Many categories support the following instance aspects: &lt;em&gt;Custom Bundle&lt;/em&gt;, &lt;em&gt;Bundle Description&lt;/em&gt;, &lt;em&gt;Modified Item&lt;/em&gt;, &lt;em&gt;Modification Description&lt;/em&gt;, and &lt;em&gt;California Prop 65 Warning&lt;/em&gt;. These instance aspects allow the seller to provide more information about product bundles or modified products in a structured way. Depending on the category, there are other instance aspects as well.
+						&lt;br&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; If a listing is associated with an eBay catalog product, the seller does not need to pass in any Item Specifics that are already defined in the eBay catalog product. Sellers can make a call to the &lt;a href=&quot;https://developer.ebay.com/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory&quot; target=&quot;_blank&quot;&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to see if the category supports any &apos;instance aspects&apos;, which can be thought of as Item Specifics that are unique to the specific item that is being listed. Instance aspects are indicated if the corresponding &lt;a href=&quot;https://developer.ebay.com/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory#response.aspects.aspectConstraint.aspectApplicableTo&quot; target=&quot;_blank&quot;&gt;aspectApplicableTo&lt;/a&gt; field of the &lt;b&gt;getItemAspectsForCategory&lt;/b&gt; response shows a value of &lt;code&gt;ITEM&lt;/code&gt; (and not &lt;code&gt;PRODUCT&lt;/code&gt;). Many categories support the following instance aspects: &lt;em&gt;Custom Bundle&lt;/em&gt;, &lt;em&gt;Bundle Description&lt;/em&gt;, &lt;em&gt;Modified Item&lt;/em&gt;, &lt;em&gt;Modification Description&lt;/em&gt;, and &lt;em&gt;California Prop 65 Warning&lt;/em&gt;. These instance aspects allow the seller to provide more information about product bundles or modified products in a structured way. Depending on the category, there are other instance aspects as well.
 						&lt;/span&gt;
 
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt; To specify an item's condition, use the &lt;b&gt;ConditionID&lt;/b&gt; field instead of a condition Item Specific. Use &lt;b&gt;GetCategoryFeatures&lt;/b&gt; to see which categories support &lt;b&gt;ConditionID&lt;/b&gt; and to get a list of valid condition IDs. (If you specify &lt;b&gt;ConditionID&lt;/b&gt; and you also specify &lt;b&gt;Condition&lt;/b&gt; as a Item Specific, eBay drops the condition Item Specific.)
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; To specify an item&apos;s condition, use the &lt;b&gt;ConditionID&lt;/b&gt; field instead of a condition Item Specific. Use &lt;b&gt;GetCategoryFeatures&lt;/b&gt; to see which categories support &lt;b&gt;ConditionID&lt;/b&gt; and to get a list of valid condition IDs. (If you specify &lt;b&gt;ConditionID&lt;/b&gt; and you also specify &lt;b&gt;Condition&lt;/b&gt; as a Item Specific, eBay drops the condition Item Specific.)
 						&lt;/span&gt;
 
 						&lt;b&gt;For GetItem&lt;/b&gt;: This list is returned only when you specify &lt;b&gt;IncludeItemSpecifics&lt;/b&gt; in the request (and the seller included Item Specifics in their listing).
 
 						&lt;br&gt;&lt;br&gt;
-						To delete all Item Specifics when you revise or relist, specify &lt;b&gt;Item.ItemSpecifics&lt;/b&gt; in &lt;b&gt;DeletedField&lt;/b&gt;, and don't pass &lt;b&gt;ItemSpecifics&lt;/b&gt; in the request.
+                        If this container is included when revising or relisting an item, it will do a complete replace of the item&apos;s Item Specific values. This means that all newly input Item Specifics will replace all existing Item Specific values, regardless of if the values changed. It is advised that the seller run a &lt;a href=&quot;https://developer.ebay.com/Devzone/xml/docs/reference/ebay/getitem.html&quot; target=&quot;_blank&quot;&gt;GetItem&lt;/a&gt; call to see its current item specifics before attempting to update them.
+
+						&lt;br&gt;&lt;br&gt;
+						To delete all Item Specifics when you revise or relist, specify &lt;b&gt;Item.ItemSpecifics&lt;/b&gt; in &lt;b&gt;DeletedField&lt;/b&gt;, and don&apos;t pass &lt;b&gt;ItemSpecifics&lt;/b&gt; in the request.
 					</xs:documentation>
 					<xs:appinfo>
 						<SeeLink>
@@ -49454,7 +49317,10 @@ communicated to the client.
 						seller included item compatibility in the listing and &lt;b
 						class="con"&gt;IncludeItemCompatibilityList&lt;/b&gt; is set to &lt;code&gt;true&lt;/code&gt; in the
 						&lt;b&gt;GetItem&lt;/b&gt; request.
-						&lt;br&gt;&lt;br&gt;
+						&lt;br/&gt;
+						&lt;span class="tablenote"&gt;
+						&lt;strong&gt;Note:&lt;/strong&gt; &lt;strong&gt;Compatibility&lt;/strong&gt; includes only parts compatibility details that were specified manually; that is, they do not correspond to an eBay catalog product (listings not associated with a &lt;a href="https://developer.ebay.com/devzone/XML/docs/Reference/eBay/GetItem.html#Response.Item.ProductListingDetails.ProductReferenceID" target="_blank"&gt;ProductReferenceID&lt;/a&gt;). To retrieve parts compatibility details that &lt;em&gt;do&lt;/em&gt; correspond to eBay catalog products, use the eBay Product API's &lt;b&gt;getProductCompatibilities&lt;/b&gt; call.
+						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -49517,7 +49383,7 @@ communicated to the client.
 						This is a numeric identifier for an item's condition. All numeric Condition ID values map to an item condition string value. For example, numeric identifier &lt;code&gt;1000&lt;/code&gt; maps to &lt;code&gt;New&lt;/code&gt; condition.
 						&lt;br&gt;						
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt;
-						For trading card listings in &lt;b&gt;Non-Sport Trading Card Singles (&lt;code&gt;183050&lt;/code&gt;)&lt;/b&gt;, &lt;b&gt;CCG Individual Cards (&lt;code&gt;183454&lt;/code&gt;)&lt;/b&gt;, and &lt;b&gt;Sports Trading Card Singles (&lt;code&gt;261328&lt;/code&gt;)&lt;/b&gt; categories, Condition ID 2750 can be used to specify the card as a &lt;b&gt;Graded&lt;/b&gt; card and Condition ID 4000 can be used to specify the card as an &lt;b&gt;Ungraded&lt;/b&gt; card. If either of these condition IDs are used, the seller is required to use the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container to provide one or more applicable Condition Descriptor name-value pairs. See the &lt;a href="/Devzone/XML/docs/Reference/eBay/AddItem.html#Request.Item.ConditionDescriptors"&gt;ConditionDescriptors&lt;/a&gt; field description for more information.
+						For trading card listings in &lt;b&gt;Non-Sport Trading Card Singles (&lt;code&gt;183050&lt;/code&gt;)&lt;/b&gt;, &lt;b&gt;CCG Individual Cards (&lt;code&gt;183454&lt;/code&gt;)&lt;/b&gt;, and &lt;b&gt;Sports Trading Card Singles (&lt;code&gt;261328&lt;/code&gt;)&lt;/b&gt; categories, Condition ID 2750 can be used to specify the card as a &lt;b&gt;Graded&lt;/b&gt; card and Condition ID 4000 can be used to specify the card as an &lt;b&gt;Ungraded&lt;/b&gt; card. If either of these condition IDs are used, the seller is required to use the &lt;b&gt;ConditionDescriptors&lt;/b&gt; container to provide one or more applicable Condition Descriptor name-value pairs. See the &lt;a href="https://developer.ebay.com/devzone/XML/docs/Reference/eBay/AddItem.html#Request.Item.ConditionDescriptors"&gt;ConditionDescriptors&lt;/a&gt; field description for more information.
 						&lt;/span&gt;
 						Most eBay listing categories require an item condition, but a few eBay categories do not (such as Digital Gift Cards or Antiques categories). To verify if the listing category requires an item condition, and if so, what are the supported item condition and &lt;b&gt;ConditionID&lt;/b&gt; values, you can call &lt;b&gt;GetCategoryFeatures&lt;/b&gt;. In this &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call, you'd pass in the listing &lt;b&gt;CategoryID&lt;/b&gt; value and two &lt;b&gt;FeatureID&lt;/b&gt; fields - one of these fields set to &lt;code&gt;ConditionEnabled&lt;/code&gt;, and the other field set to &lt;code&gt;ConditionValues&lt;/code&gt;.
             &lt;br&gt;&lt;br&gt;
@@ -49537,7 +49403,7 @@ communicated to the client.
 						&lt;br&gt;
 						&lt;br&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-							On the US, Canada, UK, Germany, France, Italy, and Australia marketplaces, condition ID 2500 ('Seller Refurbished') can no longer be used in numerous categories. See &lt;a href="/api-docs/sell/static/metadata/condition-id-values.html#Category" target="_blank"&gt;Category and marketplace support for the eBay Refurbished Program&lt;/a&gt; for the full list. In these categories, the 'Seller Refurbished' item condition has been replaced by one of three new refurbished values, which include condition ID 2010 ('Excellent - Refurbished'), condition ID 2020 ('Very Good - Refurbished'), and condition ID 2030 ('Good - Refurbished'). To use any of these new refurbished item conditions, sellers must go through an application and qualification process. Any seller who is not eligible to use these new refurbished item conditions in these three categories will be blocked if they try to create a new listing or revise an existing listing with any of these three new item conditions. Sellers who are not eligible to list with the new refurbished item conditions, will need to use another item condition supported in these categories, such as condition ID 3000 ('Used').
+							On the US, Canada, UK, Germany, France, Italy, and Australia marketplaces, condition ID 2500 ('Seller Refurbished') can no longer be used in numerous categories. See &lt;a href="https://developer.ebay.com/api-docs/sell/static/metadata/condition-id-values.html#Category" target="_blank"&gt;Category and marketplace support for the eBay Refurbished Program&lt;/a&gt; for the full list. In these categories, the 'Seller Refurbished' item condition has been replaced by one of three new refurbished values, which include condition ID 2010 ('Excellent - Refurbished'), condition ID 2020 ('Very Good - Refurbished'), and condition ID 2030 ('Good - Refurbished'). To use any of these new refurbished item conditions, sellers must go through an application and qualification process. Any seller who is not eligible to use these new refurbished item conditions in these three categories will be blocked if they try to create a new listing or revise an existing listing with any of these three new item conditions. Sellers who are not eligible to list with the new refurbished item conditions, will need to use another item condition supported in these categories, such as condition ID 3000 ('Used').
 							&lt;br&gt;
 							&lt;br&gt;
 							Any seller that is interested in eligibility requirements to list with any refurbished item condition, including condition ID 2000 ('Certified - Refurbished'), should see the &lt;a href=&quot;https://pages.ebay.com/seller-center/listing-and-marketing/ebay-refurbished-program.html&quot; target=&quot;_blank&quot;&gt;eBay Refurbished Program&lt;/a&gt; page in Seller Center.
@@ -49865,7 +49731,7 @@ communicated to the client.
 					<xs:documentation>
 						This field displays the Vehicle Identification Number, which is a unique serial number for a motor vehicle.
 						&lt;br&gt;&lt;br&gt;
-						This field is applicable to listings in US eBay Motors Cars and Trucks (6001), Motorcycles (6024), Commercial Trucks (63732), RVs and Campers (50054), ATVs (6723), Snowmobiles (42595), and UTVs (173665); and to Cars and Trucks listings in CA, CAFR and AU eBay Motors. For vehicle categories that do not use VIN, make a call to the &lt;a href="/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to determine applicable Item Specifics (such as 'Hull ID Number' for Boats).
+						This field is applicable to listings in US eBay Motors Cars and Trucks (6001), Motorcycles (6024), Commercial Trucks (63732), RVs and Campers (50054), ATVs (6723), Snowmobiles (42595), and UTVs (173665); and to Cars and Trucks listings in CA, CAFR and AU eBay Motors. For vehicle categories that do not use VIN, make a call to the &lt;a href="https://developer.ebay.com/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to determine applicable Item Specifics (such as 'Hull ID Number' for Boats).
 						&lt;br&gt;&lt;br&gt;
 						For the US, CA, and CA-FR eBay Motors categories, required for cars and trucks from model year 1981 and later. (The US developed national standards for VIN values in 1981.)
 						&lt;br&gt;&lt;br&gt;
@@ -50361,11 +50227,11 @@ communicated to the client.
 			<xs:element name="eBayPlus" type="xs:boolean" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						eBay Plus is a premium account option for buyers, which provides benefits such as fast and free domestic shipping, and free returns on selected items. To offer this feature to buyers, sellers must opt in to eBay Plus, and their selling status must be 'Above Standard' or above.
+						eBay Plus is a premium account option for buyers, which provides benefits such as fast and free domestic shipping, and free returns on selected items. To offer this feature to buyers, sellers must opt in to eBay Plus, and their selling status must be &apos;Above Standard&apos; or above.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note:&lt;/b&gt; Currently, eBay Plus is only available to buyers on the Germany and Australia marketplaces, and this field should only be used by sellers selling eligible items in Germany.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; Currently, eBay Plus is only available to buyers on the Germany and Australia marketplaces, and this field should only be used by sellers selling eligible items in Germany.
 						&lt;br/&gt;&lt;br/&gt;
-						In Australia, the seller has no control/responsibility over setting the eBay Plus feature for a listing. Instead, eBay will evaluate/determine whether a listing is eligible for eBay Plus. Due to this fact, an Australian seller will also get the &lt;code&gt;21919431: This listing isn't eligible for eBay Plus.&lt;/code&gt; warning message in an add/revise/relist call, even though eBay may ultimately set the eBay Plus feature on the listing if the item is eligible.
+						In Australia, the seller has no control/responsibility over setting the eBay Plus feature for a listing. Instead, eBay will evaluate/determine whether a listing is eligible for eBay Plus. Due to this fact, an Australian seller will also get the &lt;code&gt;21919431: This listing isn&apos;t eligible for eBay Plus.&lt;/code&gt; warning message in an add/revise/relist call, even though eBay may ultimately set the eBay Plus feature on the listing if the item is eligible.
 						&lt;/span&gt;
 						&lt;br/&gt;
 						In an add/revise/relist call, a seller on the Germany site must include this field and set its value to &lt;code&gt;true&lt;/code&gt;. If the seller is not eligible for/opted in to eBay Plus and/or the listing category or item does not qualify for eBay Plus, a warning message will be returned to the seller in the response indicating this. In addition to the seller, listing category, and item being eligible for eBay Plus, the seller must also set/commit to the following for the listing:
@@ -50376,7 +50242,7 @@ communicated to the client.
 							&lt;li&gt;A return policy that offers a 30-day (or longer) return period.&lt;/li&gt;
 						&lt;/ul&gt;
 
-						If this field is returned as &lt;code&gt;true&lt;/code&gt; in a 'Get' call, it indicates that the item is eligible for eBay Plus treatment, but eBay Plus will only come into play if the buyer is subscribed to eBay Plus.
+						If this field is returned as &lt;code&gt;true&lt;/code&gt; in a &apos;Get&apos; call, it indicates that the item is eligible for eBay Plus treatment, but eBay Plus will only come into play if the buyer is subscribed to eBay Plus.
 
 					</xs:documentation>
 					<xs:appinfo>
@@ -50468,6 +50334,26 @@ communicated to the client.
 			</xs:appinfo>
 		</xs:annotation>
 	</xs:element>
+			<xs:element name="MappingReferenceId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						A reference identifier used to attribute the source of data across API families. This ID is returned in the response of a call to the &lt;b&gt;Inventory Mapping API&lt;/b&gt;. To ensure continuity and traceability of the data flow, you must include this reference ID in any Add, Revise, or Relist item request. Using this ID associates requests with the original source used to create the listing.&lt;br&gt;
+					</xs:documentation>
+					<xs:appinfo>
+						<MaxLength>25</MaxLength>
+						<CallInfo>
+							<CallName>AddFixedPriceItem</CallName>
+							<CallName>AddItem</CallName>
+							<CallName>AddItems</CallName>
+							<CallName>RelistFixedPriceItem</CallName>
+							<CallName>RelistItem</CallName>
+							<CallName>ReviseFixedPriceItem</CallName>
+							<CallName>ReviseItem</CallName>
+							<RequiredInput>No</RequiredInput>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>	
 	<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
@@ -50827,6 +50713,10 @@ communicated to the client.
         <xs:annotation>
           <xs:documentation>
             The eBay user ID of the seller who sold the linked line item. For example, the user ID of the tire seller.
+			&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
           </xs:documentation>
           <xs:appinfo>
             <CallInfo>
@@ -54460,6 +54350,10 @@ communicated to the client.
 				<xs:documentation>
 					The eBay user ID of the person who asked the question or sent
 					the message.
+					&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 				</xs:documentation>
 				<xs:appinfo>
 					<CallInfo>
@@ -54500,6 +54394,10 @@ communicated to the client.
 					element and needs to be unbounded for AddMemberMessagesAAQToBidder.
 					For AddMemberMessageRTQ, this field is mandatory if ItemID is not in the request.
 					For all other uses, there can only be one RecipientID.
+					&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, both usernames and public user IDs will be accepted in this field. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;					
 				</xs:documentation>
 				<xs:appinfo>
 					<CallInfo>
@@ -55313,6 +55211,158 @@ communicated to the client.
 	</xs:complexType>
 <!--
 
+##### from file eBLBaseComponents/public/MotorPurchaseType.xsd #####
+
+-->
+	<xs:complexType name="MotorPurchaseType">
+		<xs:annotation>
+			<xs:documentation>
+				This type is used to provide details on a motor vehicle order using Secure Purchase.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Facilitator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						The value returned in this field identifies the party that is facilitating the motor vehicle order.&lt;br&gt;&lt;br&gt;Currently, only &lt;code&gt;CARAMEL&lt;/code&gt; is supported.
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FacilitatorRefId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						The facilitator's unique reference identifier associated with the motor vehicle order. This ID can be used to retrieve transaction details on the facilitator's website.
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ServiceCost" type="ns:ServiceCostType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						This container shows the service cost, if any, owed to the facilitator to complete the motor vehicle order.
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BuyerStep" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						This field returns the current status of the buying process for the motor vehicle order. The value returned in this field indicates the current step for the buyer in terms of the order. For more information, see &lt;a href="https://pages.ebay.com/secure-purchase/" target="_blank"&gt;Secure Purchase&lt;/a&gt;. 
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SellerStep" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						This field returns the current status of the selling process for the motor vehicle order. The value returned in this field indicates the current step for the seller in terms of the order. For more information, see &lt;a href="https://pages.ebay.com/secure-purchase/" target="_blank"&gt;Secure Purchase&lt;/a&gt;. 
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						This field returns the current status of the overall motor vehicle order. The value returned in this field will indicate if the purchase process is active, inactive, or complete.
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+<!--
+
 ##### from file eBLBaseComponents/public/MultiLegShipmentType.xsd #####
 
 -->
@@ -55892,6 +55942,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Display name of the eBay user that sent the message.
+						&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -55906,6 +55960,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Displayable user ID of the recipient.
+					&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -55922,6 +55980,10 @@ communicated to the client.
 						Displayable name of the user or eBay
 						application to which the message is sent. Only
 						returned for M2M, and if a value exists.
+						&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -56800,6 +56862,10 @@ communicated to the client.
 					<xs:documentation>
 						The SellerID value in a My eBay Favorite Search. The SellerID is the eBay ID of a
 						specific seller.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -56815,6 +56881,10 @@ communicated to the client.
 					<xs:documentation>
 						The SellerIDExclude value in a My eBay Favorite Search. The SellerIDExclude limits
 						the search results to exclude items sold by a specific seller or by specific sellers.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -56984,6 +57054,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						The favorite seller's eBay user ID.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -58298,65 +58372,57 @@ communicated to the client.
 			  Enumerated type that contains the complete list of platform notifications that can be sent out to subscribed users, servers, or applications. Some notifications are only sent to buyers or sellers, and some are sent to both buyers and sellers.
 			</xs:documentation>
 			<xs:appinfo>
-				<allValuesExcept>FeedbackForSeller, MyMessagesAlertHeader, MyMessagesAlert, Checkout, ThirdPartyCartCheckout, ItemAddedToBidGroup, ItemRemovedFromBidGroup, AddToWatchList, PlaceOffer, RemoveFromWatchList, AddToBidGroup, RemoveFromBidGroup, ItemsCanceled, ReadyToShip, ReadyForPayout, UnmatchedPaymentReceived, RefundSuccess, RefundFailure, SellerOpenedDispute, BuyerResponseDispute, SellerRespondedToDispute, SellerClosedDispute, OrderInquiryClosed, OrderInquiryOpened, INRBuyerOpenedDispute, OrderInquiryProvideShipmentInformation, OrderInquiryEscalatedToCase, INRBuyerClosedDispute, INRSellerRespondedToDispute, UserIDChanged</allValuesExcept>
+				<allValuesExcept>FeedbackForSeller, MyMessagesAlertHeader, MyMessagesAlert, Checkout, ThirdPartyCartCheckout, ItemAddedToBidGroup, ItemRemovedFromBidGroup, AddToWatchList, PlaceOffer, RemoveFromWatchList, AddToBidGroup, RemoveFromBidGroup, ItemsCanceled, ReadyToShip, ReadyForPayout, UnmatchedPaymentReceived, RefundSuccess, RefundFailure, OrderInquiryClosed, OrderInquiryOpened, INRBuyerOpenedDispute, OrderInquiryProvideShipmentInformation, OrderInquiryEscalatedToCase, INRBuyerClosedDispute, INRSellerRespondedToDispute, UserIDChanged, BulkDataExchangeJobCompleted</allValuesExcept>
 			</xs:appinfo>
 		</xs:annotation>
 		<xs:restriction base="xs:token">
-			<xs:enumeration value="None">
-				<xs:annotation>
-					<xs:documentation>
-					  This notification is for internal or future use.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+
 			<xs:enumeration value="OutBid">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when another buyer has outbid
+						This buyer-facing notification is sent when another buyer has outbid
 						(placed a higher bid) the subscribed buyer on an auction listing, and
-						the subscribed buyer is no longer the current high bidder.
+						the subscribed buyer is no longer the current high bidder. This notification is only applicable for auction listings. 
 						&lt;br&gt;&lt;br&gt;
-						This notification is only applicable for auction listings.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_outbid.html&quot;  target=&quot;_blank&quot;&gt;OutBid&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EndOfAuction">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to all subscribed bidders of an auction item and to
-						the subscribed seller of the auction item as soon as the auction listing ends
-						with or without a winning bidder. This notification will also be sent to
-						subscribed bidders and the subscribed seller if the auction ends as a
-						result of a buyer using the auction listing's Buy It Now feature.
+						This notification is applicable to both buyers and sellers and is sent as soon as an auction listing ends with or without a winning bidder. This notification will also be sent if the auction ends as a result of a buyer using the auction listing's Buy It Now feature. This notification is only applicable for auction listings.
 						&lt;br&gt;&lt;br&gt;
-						This notification is only applicable for auction listings.
+						This notification will appear in the &lt;b&gt;GetItemTransactions&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_end-of-auction.html&quot;  target=&quot;_blank&quot;&gt;EndOfAuction&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="AuctionCheckoutComplete">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed seller when the winning bidder
-						or buyer has paid for the auction or fixed-price item and completed the checkout process.
+						This seller-facing notification is sent when the winning bidder or buyer has paid for the auction or fixed-price item and completed the checkout process. For multiple line item orders, an &lt;b&gt;AuctionCheckoutComplete&lt;/b&gt; notification is only generated for one of the line items in the order. 
 						&lt;br&gt;&lt;br&gt;
-						For multiple line item orders, an &lt;b&gt;AuctionCheckoutComplete&lt;/b&gt; notification is only generated for one of the line items in the order.
+						This notification will appear in the &lt;b&gt;GetItemTransactions&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_auction-checkout-complete.html&quot;  target=&quot;_blank&quot;&gt;AuctionCheckoutComplete&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
+
+
 			<xs:enumeration value="CheckoutBuyerRequestsTotal">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when a buyer/winning bidder
-						is requesting a total price before paying for the item.
+						This seller-facing notification is sent when a buyer/winning bidder is requesting a total price before paying for the item. This notification is applicable for auction listings and for fixed-price listings that do not require immediate payment.
 						&lt;br&gt;&lt;br&gt;
-						This notification is applicable for auction listings and for fixed-price listings that do not require immediate payment.
+						This notification will appear in the &lt;b&gt;GetItemTransactions&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_buyer-requests-total.html&quot;  target=&quot;_blank&quot;&gt;CheckoutBuyerRequestsTotal&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="Feedback">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that buyer or seller has left Feedback for the other party in the order, or has received Feedback from the other party in the order. Feedback is given at the order line item level.
+						This notification is applicable to both buyers and sellers and is sent when that buyer or seller has left Feedback for the other party in the order, or has received Feedback from the other party in the order. Feedback is given at the order line item level.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_feedback.html&quot;  target=&quot;_blank&quot;&gt;Feedback&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58376,92 +58442,59 @@ communicated to the client.
 			<xs:enumeration value="FixedPriceTransaction">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller each time a buyer purchases an item in a single or multiple-quantity, fixed-price listing.
+						This seller-facing notification is sent each time a buyer purchases an item in a single or multiple-quantity, fixed-price listing. This notification is only applicable for fixed-price listings. 
 						&lt;br&gt;&lt;br&gt;
-						This notification is only applicable for fixed-price listings.
+						This notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_fixed-price-transaction.html&quot;  target=&quot;_blank&quot;&gt;GetItemTransactions&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="SecondChanceOffer">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when that buyer is offered a Second Chance Offer from the seller, after that buyer failed to win the original auction of the item.
+						This buyer-facing notification is sent when the buyer is offered a Second Chance Offer from the seller, after that buyer failed to win the original auction of the item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_second-chance.html&quot;  target=&quot;_blank&quot;&gt;SecondChanceOffer&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="AskSellerQuestion">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when an eBay user has used the Ask a Question feature on the seller's active listing. An eBay user does not have to be an active bidder on an auction listing to ask a seller a question.
+						This is a seller-facing notification that is sent when an eBay user has used the Ask a Question feature on the seller's active listing. An eBay user does not have to be an active bidder on an auction listing to ask a seller a question.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a seller and when applicable, this notification will appear in the &lt;b&gt;GetMemberMessages&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetMemberMessages&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ask-seller-question.html&quot;  target=&quot;_blank&quot;&gt;AskSellerQuestion&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemListed">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller each time one of the subscribed seller's items is listed or relisted. This notification is also triggered when the Unpaid Item preferences relists an item for the seller.
+						This seller-facing notification is sent each time one of the subscribed seller's items is listed or relisted. This notification is also triggered when the Unpaid Item preferences relists an item for the seller.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-listed.html&quot;  target=&quot;_blank&quot;&gt;ItemListed&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemRevised">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when one of the subscribed seller's items is revised.
+						This seller-facing notification is sent when one of the subscribed seller's items is revised.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a seller and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-revised.html&quot;  target=&quot;_blank&quot;&gt;ItemRevised&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="BuyerResponseDispute">
-				<xs:annotation>
-					<xs:documentation>
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; This notification is no longer supported since the Trading API no longer supports seller-initiated cancellation requests.
-						&lt;/span&gt;
-						This notification is sent to a subscribed seller each time a buyer responds to a Cancel Transaction request.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="SellerOpenedDispute">
-				<xs:annotation>
-					<xs:documentation>
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; This notification is no longer supported since the Trading API no longer supports seller-initiated cancellation requests.
-						&lt;/span&gt;
-						This notification is sent to a subscribed buyer if a seller initiates a Cancel Transaction request.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="SellerRespondedToDispute">
-				<xs:annotation>
-					<xs:documentation>
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; This notification is no longer supported since dispute calls in the Trading API are deprecated.
-						&lt;/span&gt;
-						This notification is sent to a subscribed buyer each time a seller responds to an Item Not Received or Return case that the subscribed buyer has opened up against the seller.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="SellerClosedDispute">
-				<xs:annotation>
-					<xs:documentation>
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt; This notification is no longer supported since dispute calls in the Trading API are deprecated.
-						&lt;/span&gt;
-						This notification is sent to the subscribed buyer and seller if the seller closes a Cancel Transaction request.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+			
+			
+			
+			
+			
 			<xs:enumeration value="BestOffer">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller if a potential buyer has made a Best Offer on a Best Offer-enabled listing.
+						This seller-facing notification is sent if a potential buyer has made a Best Offer on a Best Offer-enabled listing.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a seller and when applicable, this notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response.
-						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						The Best Offer feature can be set for auction listings on the US, Canada, UK, Germany, Australia, France, Italy, and Spain marketplaces, but keep in mind that Best Offer and Buy It Now cannot be used simultaneously in a listing. Also, once a qualifying bid is made on an auction listing, the Best Offer feature is disabled, and any pending offer or counteroffers are no longer valid.
-						&lt;/span&gt;
+						This notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_best-offer.html&quot;  target=&quot;_blank&quot;&gt;BestOffer&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58568,15 +58601,19 @@ communicated to the client.
 			<xs:enumeration value="WatchedItemEndingSoon">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when a listing that the buyer is watching is ending soon. This event has a &lt;b&gt;TimeLeft&lt;/b&gt; property that defines the 'ending soon' threshold value.
+						This buyer-facing notification is sent when a listing that the buyer is watching is ending soon. This event has a &lt;b&gt;TimeLeft&lt;/b&gt; property that defines the 'ending soon' threshold value.					
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_watched-item-ending-soon.html&quot;  target=&quot;_blank&quot;&gt;WatchedItemEndingSoon&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemClosed">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a listing ends. This notification can be triggered by an
+						This notification is applicable to both buyers and sellers and is sent when a listing ends. This notification can be triggered by an
 						&lt;b&gt;ItemWon&lt;/b&gt;, an &lt;b&gt;ItemSold&lt;/b&gt;, or an &lt;b&gt;ItemUnsold&lt;/b&gt; event.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-closed.html&quot;  target=&quot;_blank&quot;&gt;ItemClosed&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58590,7 +58627,9 @@ communicated to the client.
 			<xs:enumeration value="ItemSold">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when an eBay listing ends in a sale.
+						This seller-facing notification is sent when an eBay listing ends in a sale.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-sold.html&quot;  target=&quot;_blank&quot;&gt;ItemSold&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58608,48 +58647,13 @@ communicated to the client.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="EmailAddressChanged">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user has changed the email address associated with the user account. This notification is available for Client Alerts and for SMS only. Not applicable to Platform Notifications.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="PasswordChanged">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user has changed the password used for login. This notification is available for Client Alerts and for SMS only. Not applicable to Platform Notifications.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="PasswordHintChanged">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user has changed the password hint. This notification is available for Client Alerts and for SMS only. Not applicable to Platform Notifications.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="PaymentDetailChanged">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed seller when that seller has changed the payment methods used to pay seller fees for the account. This notification is available for Client Alerts and for SMS only. Not applicable to Platform Notifications.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="AccountSuspended">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that eBay user's account is suspended. This notification is available for Client Alerts and for SMS only. Not applicable to Platform Notifications.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="AccountSummary">
-				<xs:annotation>
-					<xs:documentation>
-						An informational alert about account activity. A buyer or seller can subscribe to receive an account activity summary via SMS or Client Alerts. The user can specify the period (time range) for the account summary and can select how often the summary is to be sent. It is not triggered by an event but rather by an eBay daemon process that monitors a schedule database.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+
+
+
+
+
+
+
 			<xs:enumeration value="ThirdPartyCartCheckout">
 				<xs:annotation>
 					<xs:documentation>
@@ -58673,18 +58677,18 @@ communicated to the client.
 			<xs:enumeration value="ItemAddedToWatchList">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when that buyer adds an item to the Watch List.
+						This buyer-facing notification is sent when that buyer adds an item to the Watch List.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-added-to-watch-list.html&quot;  target=&quot;_blank&quot;&gt;ItemAddedToWatchList&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemRemovedFromWatchList">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when that buyer removes an item from the Watch List.
+						This buyer-facing notification is sent when that buyer removes an item from the Watch List.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-removed-from-watch-list.html&quot;  target=&quot;_blank&quot;&gt;ItemRemovedFromWatchList&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58707,98 +58711,100 @@ communicated to the client.
 			<xs:enumeration value="FeedbackLeft">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user leaves feedback for an order partner.
+						This notification is applicable to both buyers and sellers and is sent when that user leaves feedback for an order partner.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer or seller, and when applicable, this notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_feedback-left.html&quot;  target=&quot;_blank&quot;&gt;FeedbackLeft&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="FeedbackReceived">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user receives feedback from an order partner.
+						This notification is applicable to both buyers and sellers and is sent when that user receives feedback from an order partner.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer or seller, and when applicable, this notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetFeedback&lt;/b&gt; call response.  See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_feedback-received.html&quot;  target=&quot;_blank&quot;&gt;FeedbackReceived&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="FeedbackStarChanged">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when that user's Feedback star has changed.
+						This notification is applicable to both buyers and sellers and is sent when that user's Feedback star has changed.
 						Sent to a subscribing third party when a user's Feedback star level changes.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer or seller, and when applicable, this notification will appear in the &lt;b&gt;GetUser&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetUser&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_feedback-star-changed.html&quot;  target=&quot;_blank&quot;&gt;FeedbackStarChanged&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="BidPlaced">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when that buyer places a bid for an auction item.
+						This buyer-facing notification is sent when the buyer places a bid for an auction item.
 					  &lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_bid-placed.html&quot;  target=&quot;_blank&quot;&gt;BidPlaced&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="BidReceived">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller each time a prospective buyer places a bid for the seller's auction item.
+						This seller-facing notification is sent each time a prospective buyer places a bid for the seller's auction item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a seller and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_bid-received.html&quot;  target=&quot;_blank&quot;&gt;BidReceived&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemWon">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer if that buyer is the winner of an auction item.
+						This buyer-facing notification is sent if the buyer is the winner of an auction item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-won.html&quot;  target=&quot;_blank&quot;&gt;ItemWon&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemLost">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer if that buyer did not end up as the highest bidder for an auction item.
+						This buyer-facing notification is sent  if that buyer did not end up as the highest bidder for an auction item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-lost.html&quot;  target=&quot;_blank&quot;&gt;ItemLost&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ItemUnsold">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when an auction listing ends with no winning bidder or when a fixed-price listing ends with no sale(s).
+						This seller-facing notification is sent when an auction listing ends with no winning bidder or when a fixed-price listing ends with no sale(s).
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a seller and when applicable, this notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetItem&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_item-unsold.html&quot;  target=&quot;_blank&quot;&gt;ItemUnsold&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="CounterOfferReceived">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when a seller makes a counter offer to the buyer's Best Offer on an item.
+						This buyer-facing notification is sent when a seller makes a counter offer to the buyer's Best Offer on an item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_counter-offer-recd.html&quot;  target=&quot;_blank&quot;&gt;CounterOfferReceived&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="BestOfferDeclined">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer when a seller declines the buyer's Best Offer on an item.
+						This buyer-facing notification is sent when a seller declines the buyer's Best Offer on an item.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer and when applicable, this notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetBestOffers&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_best-offer-declined.html&quot;  target=&quot;_blank&quot;&gt;BestOfferDeclined&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="BestOfferPlaced">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to third parties subscribed on the buyer's behalf each time a prospective buyer places a Best Offer on an item. See &lt;a href=&quot;/api-docs/static/pn_best-offer-placed.html&quot;  target=&quot;_blank&quot;&gt;BestOfferPlaced&lt;/a&gt; for additional information.
+						This buyer-facing notification is sent each time a prospective buyer places a Best Offer on an item. 
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;GetBestOffer&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_best-offer-placed.html&quot;  target=&quot;_blank&quot;&gt;BestOfferPlaced&lt;/a&gt; for additional information.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58847,19 +58853,14 @@ communicated to the client.
 			<xs:enumeration value="TokenRevocation">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller if that user's authentication token is revoked.
+						This notification is applicable to both buyers and sellers and is sent if that user's authentication token is revoked.
 						&lt;br&gt;&lt;br&gt;
-						If subscribed to by a buyer or seller, and when applicable, this notification will appear in the &lt;b&gt;GetTokenStatus&lt;/b&gt; call response.
+						This notification will appear in the &lt;b&gt;GetTokenStatus&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_token-revocation.html&quot;  target=&quot;_blank&quot;&gt;TokenRevocation&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="BulkDataExchangeJobCompleted">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed seller when that seller's Bulk Data Exchange job completes.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+
+
 			<xs:enumeration value="CustomCode">
 				<xs:annotation>
 					<xs:documentation>
@@ -58884,56 +58885,70 @@ communicated to the client.
 			<xs:enumeration value="EBPMyResponseDue">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribing buyer or seller when a response to the eBay Money Back Guarantee case is due from that user. When an eBay Money Back Guarantee case is opened, this notification is only sent to the seller involved in the case and not the buyer.&lt;br&gt;&lt;br&gt;This notification is also sent to a subscribed seller when the buyer has opened up either of the following:&lt;ul&gt;&lt;li&gt;an Item Not Received inquiry against an order line item&lt;/li&gt;&lt;li&gt;an Item Not Received case against that seller.&lt;/li&gt;&lt;/ul&gt;
+						This notification is applicable to both buyers and sellers and is sent when a response to the eBay Money Back Guarantee case is due from that user. When an eBay Money Back Guarantee case is opened, this notification is only sent to the seller involved in the case and not the buyer.&lt;br&gt;&lt;br&gt;This notification is also sent to a subscribed seller when the buyer has opened up either of the following:&lt;ul&gt;&lt;li&gt;an Item Not Received inquiry against an order line item&lt;/li&gt;&lt;li&gt;an Item Not Received case against that seller.&lt;/li&gt;&lt;/ul&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-my-response-due.html&quot;  target=&quot;_blank&quot;&gt;EBPMyResponseDue&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPOtherPartyResponseDue">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed buyer or seller when a response to the eBay Money Back Guarantee case is due from the other party in the case.
+						This notification is applicable to both buyers and sellers and is sent when a response to the eBay Money Back Guarantee case is due from the other party in the case.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-other-party-response-due.html&quot;  target=&quot;_blank&quot;&gt;EBPOtherPartyResponseDue&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPEscalatedCase">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed buyer or seller when an eBay Money Back Guarantee case is escalated to eBay customer support.&lt;br&gt;This notification is also sent to a subscribed seller when an Item Not Received inquiry against an order line item has been escalated to an eBay Money Back Guarantee case.
+						This notification is applicable to both buyers an sellers and is sent when an eBay Money Back Guarantee case is escalated to eBay customer support. This notification is also sent to a subscribed seller when an Item Not Received inquiry against an order line item has been escalated to an eBay Money Back Guarantee case.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-escalated-case.html&quot;  target=&quot;_blank&quot;&gt;EBPEscalatedCase&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPAppealedCase">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed buyer or seller when the decision of an eBay Money Back Guarantee case is appealed.
+						This notification is applicable to both buyers and sellers and is sent when the decision of an eBay Money Back Guarantee case is appealed.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-appealed-case.html&quot;  target=&quot;_blank&quot;&gt;EBPAppealedCase&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPMyPaymentDue">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed seller when payment (to eBay or buyer) related to the outcome of an eBay Money Back Guarantee case is due.
+						This seller-facing notification is sent when payment (to eBay or buyer) related to the outcome of an eBay Money Back Guarantee case is due.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-my-payment-due.html&quot;  target=&quot;_blank&quot;&gt;EBPMyPaymentDue&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPPaymentDone">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed seller when payment (to eBay or buyer) related to the outcome of an eBay Money Back Guarantee case is processed.
+						This seller-facing notification is sent when payment (to eBay or buyer) related to the outcome of an eBay Money Back Guarantee case is processed.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-my-payment-done.html&quot;  target=&quot;_blank&quot;&gt;EBPPaymentDone&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPClosedAppeal">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed buyer or seller when an appeal of an eBay Money Back Guarantee case decision has been closed.
+						This notification is applicable to both buyers and sellers and is sent when an appeal of an eBay Money Back Guarantee case decision has been closed.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-closed-appeal.html&quot;  target=&quot;_blank&quot;&gt;EBPClosedAppeal&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="EBPClosedCase">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to the subscribed buyer or seller when an eBay Money Back Guarantee case has been closed.&lt;br&gt;&lt;br&gt;This notification can also be sent to the subscribed seller when the buyer has closed either of the following:&lt;ul&gt;&lt;li&gt;an Item Not Received inquiry against an order line item&lt;/li&gt;&lt;li&gt;an Item Not Received case opened by that buyer&lt;/li&gt;&lt;/ul&gt;
+						This notification is is applicable to both buyers and sellers and is sent when an eBay Money Back Guarantee case has been closed.&lt;br&gt;&lt;br&gt;This notification can also be sent to the subscribed seller when the buyer has closed either of the following:&lt;ul&gt;&lt;li&gt;an Item Not Received inquiry against an order line item&lt;/li&gt;&lt;li&gt;an Item Not Received case opened by that buyer&lt;/li&gt;&lt;/ul&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-closed-case.html&quot;  target=&quot;_blank&quot;&gt;EBPClosedCase&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -58964,7 +58979,9 @@ communicated to the client.
 			<xs:enumeration value="EBPOnHoldCase">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when an eBay Money Back Guarantee case has been put on hold by eBay customer support.
+						This notification is is applicable to both buyers and sellers and is sent when an eBay Money Back Guarantee case has been put on hold by eBay customer support.
+					    &lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getEBPCaseDetail&lt;/b&gt; call response.  See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_ebp-on-hold-case.html&quot;  target=&quot;_blank&quot;&gt;EBPOnHoldCase&lt;/a&gt; for additional information about this notification.
 		  		</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -59001,56 +59018,72 @@ communicated to the client.
 			<xs:enumeration value="ReturnCreated">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a return request involving those users is created.
+						This notification is applicable to both buyers and sellers and is sent when a return request involving those users is created.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-created.html&quot;  target=&quot;_blank&quot;&gt;ReturnCreated&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnWaitingForSellerInfo">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed seller when a return request is waiting for information from the seller, like a Return Merchandise Authorization (RMA) number or a correct return address.
+						This seller-facing notification is sent when a return request is waiting for information from the seller, like a Return Merchandise Authorization (RMA) number or a correct return address.
+						&lt;br&gt;&lt;br&gt;
+						IThis notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-wait-for-seller-info.html&quot;  target=&quot;_blank&quot;&gt;ReturnWaitingForSellerInfo&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnSellerInfoOverdue">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when information from the seller (e.g. a Return Merchandise Authorization number) is overdue.
+						This notification is applicable to both buyers and sellers and is sent when information from the seller (e.g. a Return Merchandise Authorization number) is overdue.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-seller-info-overdue.html&quot;  target=&quot;_blank&quot;&gt;ReturnSellerInfoOverdue&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnShipped">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when the buyer has shipped a return item back to the seller.
+						This notification is applicable to both buyers and sellers and is sent when the buyer has shipped a return item back to the seller.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-shipped.html&quot;  target=&quot;_blank&quot;&gt;ReturnShipped&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnDelivered">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a return item is received by the seller.
+						This notification is applicable to both buyers and sellers and is sent when a return item is received by the seller.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-delivered.html&quot;  target=&quot;_blank&quot;&gt;ReturnDelivered&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnRefundOverdue">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a refund to the buyer is overdue on a return.
+						This notification is applicable to both buyers and sellers and is sent when a refund to the buyer is overdue on a return.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-refund-overdue.html&quot;  target=&quot;_blank&quot;&gt;ReturnRefundOverdue&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnClosed">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a return request is closed.
+						This notification is applicable to both buyers and sellers and is sent when a return request is closed.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-closed.html&quot;  target=&quot;_blank&quot;&gt;ReturnClosed&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 			<xs:enumeration value="ReturnEscalated">
 				<xs:annotation>
 					<xs:documentation>
-						This notification is sent to a subscribed buyer or seller when a return request is escalated into a eBay Money Back Guarantee case.
+						This notification is applicable to both buyers and sellers and is sent when a return request is escalated into a eBay Money Back Guarantee case.
+						&lt;br&gt;&lt;br&gt;
+						This notification will appear in the &lt;b&gt;getReturnDetail&lt;/b&gt; call response. See &lt;a href=&quot;https://developer.ebay.com/api-docs/static/pn_return-escalated.html&quot;  target=&quot;_blank&quot;&gt;ReturnEscalated&lt;/a&gt; for additional information about this notification.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
@@ -59132,20 +59165,9 @@ communicated to the client.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="BuyerNoShow">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is sent to a subscribed seller if an eBay courier was unable to deliver an eBay Scheduled Delivery order to a buyer. This notification is only applicable for eBay Scheduled Delivery orders, which are only available in the London (UK) area.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="WebnextMobilePhotoSync">
-				<xs:annotation>
-					<xs:documentation>
-						This notification is no longer applicable.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+			
+			
+			
 			<xs:enumeration value="PaymentReminder">
 				<xs:annotation>
 					<xs:documentation>
@@ -59153,20 +59175,9 @@ communicated to the client.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="EBNOrderPickedUp">
-				<xs:annotation>
-					<xs:documentation>
-            This notification is sent to a subscribed seller if an eBay courier has picked up an eBay On Demand Delivery order from a store for delivery to a buyer. This notification is only applicable for eBay On Demand Delivery orders, which are only available in the London (UK) area.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="EBNOrderCanceled">
-				<xs:annotation>
-					<xs:documentation>
-            This notification is sent to a subscribed seller if an eBay On Demand Delivery order has been cancelled. This notification is only applicable for eBay On Demand Delivery orders, which are only available in the London (UK) area.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
+
+
+
 			<xs:enumeration value="M2MMessageStatusChange">
 				<xs:annotation>
 					<xs:documentation>
@@ -60656,6 +60667,10 @@ communicated to the client.
         <xs:annotation>
           <xs:documentation>
             The eBay user ID of the order's buyer.
+			&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -62294,6 +62309,10 @@ communicated to the client.
 					<xs:documentation>
 						This field indicates the eBay user or eBay partner who submitted the payment.
 						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
+						&lt;br&gt;&lt;br&gt;
 						&lt;b&gt;For GetOrders and GetItemTransactions only:&lt;/b&gt; If using Trading WSDL Version 1019 or above, this field will only be returned to the buyer or seller, and no longer returned at all to third parties. If using a Trading WSDL older than Version 1019, the correct payer is returned to the buyer or seller, but the identity of the payer will be masked to all third parties.
 					</xs:documentation>
 					<xs:appinfo>
@@ -62319,6 +62338,10 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						The person or organization who is to receive the payment allocation.
+						&lt;br&gt;&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -63337,9 +63360,7 @@ communicated to the client.
 			<xs:element name="PictureURL" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>
-						Contains the URL for a picture of the item.
-						The URL can be from the eBay Picture Services (images previously uploaded) or from a server outside of eBay (self-hosted).
-						You can pass in up to 24 picture URLs for each listing, but you cannot mix self-hosted and EPS-hosted URLs in the same listing. The &lt;b&gt;UploadSiteHostedPictures&lt;/b&gt; call can be used to upload pictures to EPS. Note that if pictures are externally-hosted, they must be hosted on a site that is using the 'https' protocol. URLs using the 'http' protocol will not be allowed.
+						The &lt;b&gt;PictureURL&lt;/b&gt; field contains a picture URL of the item, which can be sourced from eBay Picture Services (EPS-hosted) or an external server (self-hosted). A listing can include up to 24 picture URLs, but these URLs cannot be mixed between self-hosted and EPS-hosted within the same listing. Use the &lt;b&gt;UploadSiteHostedPictures&lt;/b&gt; call to upload images to EPS. All URLs must use the 'https' protocol; URLs using the 'http' protocol are not permitted.
 						&lt;br/&gt;&lt;br/&gt;
 						Sellers can have up to 24 pictures in almost any category at no cost. Motor vehicle listings are an exception. The number of included pictures in motor vehicle listings depend on the selected vehicle package (see &lt;a href=&quot;https://www.ebay.com/help/selling/fees-credits-invoices/motors-fees?id=4127&quot;&gt;Fees for selling vehicles on eBay Motors&lt;/a&gt;). 
 						&lt;br/&gt;&lt;br/&gt;
@@ -64495,14 +64516,14 @@ communicated to the client.
 			<xs:element name="ISBN" type="xs:string" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-						This field is used if the seller wants to, or is required to identify a product using an ISBN (International Standard Book Number) value. An ISBN is a unique identifer for books. Both 10 and 13-character ISBNs are supported. When specifying a 13-character ISBN, the value must begin with either '978' or '979'. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if an ISBN is supported/required for a category.
+						This field is used if the seller wants to, or is required to identify a product using an ISBN (International Standard Book Number) value. An ISBN is a unique identifer for books. Both 10 and 13-character ISBNs are supported. When specifying a 13-character ISBN, the value must begin with either &apos;978&apos; or &apos;979&apos;. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if an ISBN is supported/required for a category.
 						&lt;br/&gt;&lt;br/&gt;
 						If the &lt;b&gt;IncludeeBayProductDetails&lt;/b&gt; field is omitted or included and set to &lt;code&gt;true&lt;/code&gt;, eBay will use the ISBN value passed into this field to try and find a matching eBay catalog product. If a match is found, the listing will pick up the product details of the catalog product, including the product title, product description, item specifics, and stock photo. If the seller is passing in an ePID through the &lt;b&gt;ProductReferenceID&lt;/b&gt; field, this field is not needed, as all product identifiers will get picked up automatically by the listing if a matching catalog product is found.
 						&lt;br/&gt;&lt;br/&gt;
 						This field is only applicable for single-variation listings. For multiple-variation listings, if the category/product requires an ISBN value, this value should be passed into the &lt;b&gt;Variation.VariationProductListingDetails.ISBN&lt;/b&gt; field instead.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects an ISBN value, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects an ISBN value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -64540,8 +64561,8 @@ communicated to the client.
 						&lt;br/&gt;&lt;br/&gt;
 						This field is only applicable for single-variation listings. For multiple-variation listings, if the category/product requires a UPC value, this value should be passed into the &lt;b&gt;Variation.VariationProductListingDetails.UPC&lt;/b&gt; field instead.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects a UPC value, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects a UPC value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -64571,7 +64592,7 @@ communicated to the client.
 					<xs:documentation>
 						This field is used if the seller wants to, or is required to identify a product using an EAN (European Article Number) value. An  EAN is a unique 8 or 13-digit identifier that many industries (such as book publishers) use to identify products. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if an EAN is supported/required for a category.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
 						The &lt;b&gt;EAN&lt;/b&gt; (and EAN values) are typically only applicable to European products listed on European eBay marketplaces. If a US seller is selling a US-based product (with a UPC value) on a European site (such as eBay UK), instead of using the &lt;b&gt;UPC&lt;/b&gt; field, the seller will use the &lt;b&gt;EAN&lt;/b&gt; field to pass in the UPC value.
 						&lt;/span&gt;
 						&lt;br/&gt;
@@ -64579,8 +64600,8 @@ communicated to the client.
 						&lt;br/&gt;&lt;br/&gt;
 						This field is only applicable for single-variation listings. For multiple-variation listings, if the category/product requires an EAN value, this value should be passed into the &lt;b&gt;Variation.VariationProductListingDetails.EAN&lt;/b&gt; field instead.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects an EAN value, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;					
+						If the listing is being posted to a category that requires an EAN value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -64614,10 +64635,10 @@ communicated to the client.
 						&lt;br/&gt;&lt;br/&gt;
 						This container is only applicable for single-variation listings. For multiple-variation listings, if the category requires Brand/MPN pairs, the product brand (shared by all variations in this listing) is passed in through the item-level item specifics (&lt;b&gt;Item.ItemSpecifics.NameValueList&lt;/b&gt;), and the MPN value for each variation in the listing is passed in through the variation-level item specifics (&lt;b&gt;Variation.VariationSpecifics.NameValueList&lt;/b&gt;).
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that requires or recommends a Brand and MPN value, the Brand and MPN values for the product should always be passed in through separate &lt;b&gt;ItemSpecifics.NameValueList&lt;/b&gt; containers since the Brand and MPN values passed in through the &lt;b&gt;ProductListingDetails.BrandMPN&lt;/b&gt; will not get picked up by the generated/revised listing unless the the Brand/MPN pair is successfully matched to an eBay catalog product. If an MPN doesn't exist for a product, or the seller does not have it available, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that requires or recommends a Brand and MPN value, the Brand and MPN values for the product should always be passed in through separate &lt;b&gt;ItemSpecifics.NameValueList&lt;/b&gt; containers since the Brand and MPN values passed in through the &lt;b&gt;ProductListingDetails.BrandMPN&lt;/b&gt; will not get picked up by the generated/revised listing unless the the Brand/MPN pair is successfully matched to an eBay catalog product. If an MPN doesn't exist for a product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
-						&lt;br&gt;
+						&lt;br&gt;						
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -65741,7 +65762,7 @@ communicated to the client.
 			<xs:element name="InternationalRateTableId" type="xs:string" minOccurs="0">
 				<xs:annotation>
 						<xs:documentation>
-							&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;This field is only available to sellers on the US, Australia, Canada (English and French), Italy, UK, and Germany sites. The unique shipping rate identifiers that will be passed into this field can be retrieved using the &lt;b&gt;getRateTables&lt;/b&gt; call of the &lt;b&gt;Account API&lt;/b&gt;, or these identifiers can be viewed in the displayed URL when the seller selects a specific shipping rate table in the Shipping rate tables UI in My eBay.
+							&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;This field is only available to sellers on specific sites. See &lt;a href=&quot;https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/shipping-rate-tables.html#marketplaces&quot;  target=&quot;_blank&quot;&gt;Marketplace support&lt;/a&gt; for a list of marketplaces that support International shipping rate tables. The unique shipping rate identifiers that will be passed into this field can be retrieved using the &lt;b&gt;getRateTables&lt;/b&gt; call of the &lt;b&gt;Account API&lt;/b&gt;, or these identifiers can be viewed in the displayed URL when the seller selects a specific shipping rate table in the Shipping rate tables UI in My eBay.
 							&lt;/span&gt;
 							&lt;br&gt;
 							This field is included in an Add/Revise/Relist/Verify call if the seller wants to apply a customized international shipping rate table to the listing. The string value that is supplied in this field is the unique identifier of the shipping rate table. If the &lt;b&gt;InternationalRateTableId&lt;/b&gt; field is used, the seller must make sure that the &lt;b&gt;DomesticRateTable&lt;/b&gt; and &lt;b&gt;InternationalRateTable&lt;/b&gt; fields are not used, as the old and new rate tables cannot be used together or an error will occur.
@@ -66118,6 +66139,10 @@ communicated to the client.
 					<xs:documentation>
 						This field is the eBay user ID of the buyer who is receiving the refund or store credit from the merchant. This field is always returned with the &lt;strong&gt;Refund&lt;/strong&gt; container.
 						&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
+						&lt;br/&gt;&lt;br/&gt;						
 						&lt;b&gt;For GetOrders and GetItemTransactions only:&lt;/b&gt; If using Trading WSDL Version 1019 or above, this field will only be returned to the buyer or seller, and no longer returned at all to third parties. If using a Trading WSDL older than Version 1019, the correct refund recipient is returned to the buyer or seller, but the refund recipient will be masked to all third parties.
 						&lt;br/&gt;&lt;br/&gt;
 						&lt;span class="tablenote"&gt;
@@ -66501,9 +66526,9 @@ communicated to the client.
 					<xs:documentation>
 						This container provides information about the energy efficiency for certain durable goods.&lt;br /&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; As a part of Digital Services Act (DSA) requirements, all sellers who list products in Germany (DE) must provide Energy Efficiency Label information and Product Information Sheets for listings for certain durable goods.&lt;/span&gt;
-						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Sellers in the EU and UK can use this container to provide European energy efficiency (EEK) information for listings in the &lt;b&gt;Tyres&lt;/b&gt; and &lt;b&gt;Appliance&lt;/b&gt; categories. If no EEK information is specified through this container, it will be retrieved through a third party vendor. For more information, see &lt;a href = "/api-docs/sell/static/inventory/energy-efficiency.html" target="_blank"&gt;Energy efficiency information&lt;/a&gt;.&lt;/span&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;  This container can be used to provide European energy efficiency (EEK) information for listings in the &lt;b&gt;Tyres&lt;/b&gt; and &lt;b&gt;Appliance&lt;/b&gt; categories for sellers in the EU and UK, and &lt;b&gt;Smartphones and Tablets&lt;/b&gt; categories for sellers in the US, AU, CA, EU, and UK. If no EEK information is specified through this container, it may be retrieved through a third party vendor. For more information, see &lt;a href = "/api-docs/sell/static/inventory/energy-efficiency.html" target="_blank"&gt;Energy efficiency information&lt;/a&gt;.&lt;/span&gt;
 						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt; Energy efficiency information is not required for all categories. Use the &lt;a href = "/api-docs/sell/metadata/resources/marketplace/methods/getRegulatoryPolicies" target="_blank"&gt;getRegulatoryPolicies&lt;/a&gt; method of the &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/metadata/resources/methods&quot;&gt;Metadata API&lt;/a&gt; to return metadata on the eBay categories that recommend or require energy efficiency-related fields. &lt;/span&gt;
-						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on a listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Important: &lt;/b&gt; When providing energy efficiency information on an appliance or smartphones and tablets listing, the energy efficiency &lt;b&gt;rating&lt;/b&gt; and &lt;b&gt;range&lt;/b&gt; of the item must be specified through the &lt;a href = "/devzone/xml/docs/reference/ebay/additem.html#Request.Item.ItemSpecifics" target="_blank"&gt;ItemSpecifics&lt;/a&gt; container. Use the &lt;a href = "/api-docs/commerce/taxonomy/resources/category_tree/methods/getItemAspectsForCategory" target="_blank"&gt;getItemAspectsForCategory&lt;/a&gt; method of the Taxonomy API to retrieve applicable rating and range values for a specified category.&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -67549,7 +67574,9 @@ communicated to the client.
 				<xs:annotation>
 					<xs:documentation>
 						Specifies the amount of time the buyer has to return an item. The return period begins when the item is marked &quot;delivered&quot; at the buyer&apos;s specified ship-to location. Most marketplaces and categories support 30-day and 60-day return periods. eBay sites often set 30-days as the default value for this field and sellers are obligated to honor the values that are set for a listing. This value is required if &lt;b&gt;ReturnsAcceptedOption=ReturnsAccepted&lt;/b&gt;.
-						&lt;br&gt;&lt;br&gt;
+						&lt;br&gt;
+							&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; Eligible Parts &amp; Accessories (P&amp;A) listings require sellers to offer buyers free returns with a minimum return period of 30 days. See &lt;a href=&quot;https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/ebay-motors-parts-accessories-easy-returns.html&quot;  target=&quot;_blank&quot;&gt;Support for easy returns in Parts and Accessories&lt;/a&gt; for details.&lt;/span&gt;
+						&lt;br&gt;
 						&lt;b&gt;Applicable values:&lt;/b&gt; Retrieve the values supported by a marketplace and category by calling &lt;b&gt;GetCategoryFeatures&lt;/b&gt; with &lt;b&gt;FeatureID&lt;/b&gt; set to &lt;code&gt;DomesticReturnsDurationValues&lt;/code&gt;, then see the values returned under the &lt;b&gt;Category.DomesticReturnsDurationValues&lt;/b&gt; container in the response.
 						&lt;br/&gt;&lt;br/&gt;
 						&lt;b&gt;For ReviseItem only:&lt;/b&gt;  You cannot change the value of this field if the listing has bids or sales, or if the listing ends within 12 hours. For more details, see the &lt;b&gt;ReturnPolicy&lt;/b&gt; description.
@@ -67769,7 +67796,9 @@ communicated to the client.
 						This option specifies whether the buyer or the seller pays for return shipping charges. Accepted values are &lt;code&gt;Buyer&lt;/code&gt; or &lt;code&gt;Seller&lt;/code&gt;. eBay sites often set &lt;code&gt;Seller&lt;/code&gt; as the default value for this field, and sellers are obligated to honor the values that are set for a listing. This value is required if &lt;b&gt;ReturnsAcceptedOption=ReturnsAccepted&lt;/b&gt;.
 						&lt;br&gt;&lt;br&gt;
 						Depending on the seller&apos;s return policy and the specifics of a return, either the buyer or the seller can be responsible for the return shipping costs. Note that the seller is always responsible for return shipping costs for SNAD-related issues or for late shipments.
-						&lt;br&gt;&lt;br&gt;
+						&lt;br&gt;
+							&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; Eligible Parts &amp; Accessories (P&amp;A) listings require sellers to offer buyers free returns with a minimum return period of 30 days. See &lt;a href=&quot;https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/ebay-motors-parts-accessories-easy-returns.html&quot;  target=&quot;_blank&quot;&gt;Support for easy returns in Parts and Accessories&lt;/a&gt; for details.&lt;/span&gt;				
+						&lt;br&gt;
 						&lt;b&gt;For ReviseItem only:&lt;/b&gt; You cannot change the value of this field if the listing has bids or sales, or if the listing ends within 12 hours. For more details, see the &lt;b&gt;ReturnPolicy&lt;/b&gt; description.
 						&lt;br&gt;&lt;br&gt;
 							&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; If a seller ships internationally, and wants to define and use a separate international returns policy, the international equivalent of this field is the &lt;b&gt;InternationalShippingCostPaidByOption&lt;/b&gt; field.&lt;/span&gt;
@@ -86340,7 +86369,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
       <xs:element name="FullURL" type="xs:anyURI" minOccurs="0" >
         <xs:annotation>
           <xs:documentation>
-            This is the full URL for the uploaded picture on the EPS server. This value should be stored by the seller, as this URL will be needed when create, revise, or relist an item and add this image to the listing. This URL will also be needed for unpublished pictures whose expiration date must be extended through an &lt;b&gt;ExtendSiteHostedPictures&lt;/b&gt; call.
+            This is the full URL for the uploaded picture on the EPS server. This value should be stored by the seller, as this URL will be needed when create, revise, or relist an item and add this image to the listing.
           </xs:documentation>
           <xs:appinfo>
             <CallInfo>
@@ -86398,7 +86427,7 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
       		  This timestamp indicates when the picture must be uploaded with an eBay listing before it is purged from the EPS server.
       		  &lt;br&gt;
 						&lt;br&gt;
-      			By default, unpublished pictures (not associated with an active eBay listing) are kept on the EPS server for five days, but a seller can use the &lt;b&gt;ExtensionInDays&lt;/b&gt; field in the request to make the expiration date further into the future (a maximum of 30 days). The seller can also use the &lt;b&gt;ExtendSiteHostedPictures&lt;/b&gt; to extend the expiration date of the picture.
+      			By default, unpublished pictures (not associated with an active eBay listing) are kept on the EPS server for thirty days.
       		</xs:documentation>
       		<xs:appinfo>
       			<CallInfo>
@@ -89367,6 +89396,29 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					</xs:appinfo>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="MotorPurchase" type="ns:MotorPurchaseType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						This container provides details on a motor vehicle being purchased using Secure Purchase. It is only applicable and returned for motor vehicle listings on eBay Motors.&lt;br&gt;&lt;br&gt;For more information about using Secure Purchase to purchase a vehicle, see &lt;a href="https://pages.ebay.com/secure-purchase/" target="_blank"&gt;Secure Purchase&lt;/a&gt;. 
+					</xs:documentation>
+					<xs:appinfo>
+						<CallInfo>
+							<CallName>GetOrders</CallName>
+							<Details>DetailLevel: none, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>OrderReport</CallName>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+						<CallInfo>
+							<CallName>GetItemTransactions</CallName>
+							<Details>DetailLevel: none, ItemReturnDescription, ReturnAll</Details>
+							<Returned>Conditionally</Returned>
+						</CallInfo>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>			
 			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
@@ -89513,6 +89565,10 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<xs:annotation>
 					<xs:documentation>
 						The payment method that the buyer selected to pay for the order. 
+						&lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+						Effective September 26, 2025, access to buyer payment details for U.S. users will be limited to select developers. All other developers will receive a value of "CustomCode" in place of buyer payment details. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+						&lt;/span&gt;
 						&lt;br&gt;
 						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
 							Sellers no longer have to specify any electronic payment methods at listing time, but this field is still returned. The value returned in this field will generally be &lt;code&gt;CreditCard&lt;/code&gt;, unless an eBay gift card was used by the buyer to pay a partial or full balance of the order. If this is the case, the value returned in this field will be &lt;code&gt;CCAccepted&lt;/code&gt;. Either of these two values will be returned, but neither accurately reflects the actual payment method that the buyer used. If the order was paid for off of eBay's platform using an 'offline' payment method such as 'CashOnPickup' or 'MOCC' (money order or cashier's check), and the seller marked the order as paid, either of those values may get returned here.
@@ -89663,6 +89719,10 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<xs:annotation>
 					<xs:documentation>
 						The enumeration value in this field indicates which payment method was used by the German buyer who was offered the 'Pay Upon Invoice' option. This field will only be returned if a German buyer was offered the 'Pay Upon Invoice' option. Otherwise, the buyer's selected payment method is returned in the &lt;b&gt;PaymentMethodUsed&lt;/b&gt; field by the &lt;b&gt;GetItemTransactions&lt;/b&gt; call.
+						&lt;br&gt;&lt;br&gt;
+						&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+						Effective September 26, 2025, access to buyer payment details for U.S. users will be limited to select developers. All other developers will receive a value of "CustomCode" in place of buyer payment details. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
 						<CallInfo>
@@ -91841,6 +91901,10 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					<xs:documentation>
 						An eBay User ID to which the seller's Unpaid Item preferences do not apply. A seller may want to create an excluded user list if that seller prefers to work directly with those buyers to work out the unpaid order situation.
 						&lt;br/&gt;&lt;br/&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
+						&lt;br/&gt;&lt;br/&gt;
 						One or more &lt;b&gt;ExcludedUser&lt;/b&gt; fields are used in
 						&lt;b&gt;SetUserPreferences&lt;/b&gt; to add users to Unpaid Item preferences Exclusion
 						list. Any and all &lt;b&gt;ExcludedUser&lt;/b&gt; fields are ignored if the
@@ -92032,8 +92096,8 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<xs:documentation>
 				This is a string wrapper for the eBay ID that uniquely identifies a user. This is used by
 				several other types to identify a specific eBay user.
-			  &lt;br&gt;&lt;br&gt;For GetAllBidders,
-				some bidder information is anonymous, to protect bidders from fraud. If the seller makes
+			    &lt;br&gt;&lt;br&gt;
+			    For GetAllBidders,some bidder information is anonymous, to protect bidders from fraud. If the seller makes
 				this API call, the actual IDs of all bidders on the seller's item will be returned.
 				If a bidder makes this API call, the bidder's actual ID will be returned, but information
 				for all competing bidders or outside watchers will be returned as anonymized userIDs.
@@ -93210,6 +93274,10 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					<xs:documentation>
 						Unique eBay user ID for the user.&lt;br&gt;
 						&lt;br&gt;
+								&lt;span class="tablenote"&gt;&lt;strong&gt;Note:&lt;/strong&gt; 
+								Effective September 26, 2025, select developers will no longer receive username data for U.S. users through this field. Instead, an immutable user ID will be returned in its place. For more information, please refer to &lt;a href="/api-docs/static/data-handling-update.html" target="_blank"&gt;Data Handling Compliance&lt;/a&gt;.
+								&lt;/span&gt;
+						&lt;br&gt;&lt;br&gt;
 						Since a bidder's user info is anonymous, this tag contains the actual
 						value of an ID only for that bidder, and for the seller of an item that the user is
 						bidding on. For other users, the actual value is replaced by an
@@ -94538,8 +94606,8 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					<xs:documentation>
 						This field is used if the seller wants to, or is required to identify each product variation within a multiplge-variation listing by an ISBN (International Standard Book Number) value. An ISBN is a unique identifer for books. Both 10 and 13-character ISBNs are supported. When specifying a 13-character ISBN, the value must begin with either '978' or '979'. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if an ISBN is supported/required for a category.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects ISBN values, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects an ISBN value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -94573,8 +94641,8 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					<xs:documentation>
 						This field is used if the seller wants to, or is required to identify each product variation within a multiple-variation listing by a UPC (Universal Product Code) value. A UPC is a commonly-used identifier for many different products. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if a UPC is supported/required for a category.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects UPC values, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects a UPC value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -94608,8 +94676,8 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 					<xs:documentation>
 						This field is used if the seller wants to, or is required to identify each product variation within a multiple-variation listing by an EAN (European Article Number) value. An EAN is a unique 8 or 13-digit identifier that many industries (such as book publishers) use to identify products. The seller can use the &lt;b&gt;GetCategoryFeatures&lt;/b&gt; call to see if an EAN is supported/required for a category.
 						&lt;br/&gt;&lt;br/&gt;
-						&lt;span class="tablenote"&gt;&lt;b&gt;Note: &lt;/b&gt;
-						If the listing is being posted to a category that expects EAN values, but one doesn't exist for the product, the seller must pass in the text that can be found in the &lt;b&gt;ProductDetails.ProductIdentifierUnavailableText&lt;/b&gt; field of the &lt;b&gt;GeteBayDetails&lt;/b&gt; response. To get the &lt;b&gt;ProductDetails&lt;/b&gt; container to return in the &lt;b&gt;GeteBayDetails&lt;/b&gt; response, &lt;code&gt;ProductDetails&lt;/code&gt; should be included as a &lt;b&gt;DetailName&lt;/b&gt; value in the call request.
+						&lt;span class=&quot;tablenote&quot;&gt;&lt;b&gt;Note: &lt;/b&gt;
+						If the listing is being posted to a category that expects an EAN value, but one doesn&apos;t exist for the product, the seller must provide a string indicating that the product identifier is unavailable. This text varies by marketplace. Refer to &lt;a href=&quot;https://developer.ebay.com/api-docs/sell/static/inventory/product-identifier-text.html&quot; target=&quot;_blank&quot;&gt;Product Identifier Text&lt;/a&gt; for the specific text based on the listing marketplace.
 						&lt;/span&gt;
 					</xs:documentation>
 					<xs:appinfo>
@@ -96854,12 +96922,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	<wsdl:message name="EndItemsRequest">
 		<wsdl:part name="EndItemsRequest" element="ns:EndItemsRequest"/>
 	</wsdl:message>
-	<wsdl:message name="ExtendSiteHostedPicturesResponse">
-		<wsdl:part name="ExtendSiteHostedPicturesResponse" element="ns:ExtendSiteHostedPicturesResponse"/>
-	</wsdl:message>
-	<wsdl:message name="ExtendSiteHostedPicturesRequest">
-		<wsdl:part name="ExtendSiteHostedPicturesRequest" element="ns:ExtendSiteHostedPicturesRequest"/>
-	</wsdl:message>
 	<wsdl:message name="FetchTokenResponse">
 		<wsdl:part name="FetchTokenResponse" element="ns:FetchTokenResponse"/>
 	</wsdl:message>
@@ -96907,12 +96969,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	</wsdl:message>
 	<wsdl:message name="GetCategoryFeaturesRequest">
 		<wsdl:part name="GetCategoryFeaturesRequest" element="ns:GetCategoryFeaturesRequest"/>
-	</wsdl:message>
-	<wsdl:message name="GetCategoryMappingsResponse">
-		<wsdl:part name="GetCategoryMappingsResponse" element="ns:GetCategoryMappingsResponse"/>
-	</wsdl:message>
-	<wsdl:message name="GetCategoryMappingsRequest">
-		<wsdl:part name="GetCategoryMappingsRequest" element="ns:GetCategoryMappingsRequest"/>
 	</wsdl:message>
 	<wsdl:message name="GetDescriptionTemplatesResponse">
 		<wsdl:part name="GetDescriptionTemplatesResponse" element="ns:GetDescriptionTemplatesResponse"/>
@@ -97316,10 +97372,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			<wsdl:input message="ns:EndItemsRequest"/>
 			<wsdl:output message="ns:EndItemsResponse"/>
 		</wsdl:operation>
-		<wsdl:operation name="ExtendSiteHostedPictures">
-			<wsdl:input message="ns:ExtendSiteHostedPicturesRequest"/>
-			<wsdl:output message="ns:ExtendSiteHostedPicturesResponse"/>
-		</wsdl:operation>
 		<wsdl:operation name="FetchToken">
 			<wsdl:input message="ns:FetchTokenRequest"/>
 			<wsdl:output message="ns:FetchTokenResponse"/>
@@ -97351,10 +97403,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 		<wsdl:operation name="GetCategoryFeatures">
 			<wsdl:input message="ns:GetCategoryFeaturesRequest"/>
 			<wsdl:output message="ns:GetCategoryFeaturesResponse"/>
-		</wsdl:operation>
-		<wsdl:operation name="GetCategoryMappings">
-			<wsdl:input message="ns:GetCategoryMappingsRequest"/>
-			<wsdl:output message="ns:GetCategoryMappingsResponse"/>
 		</wsdl:operation>
 		<wsdl:operation name="GetDescriptionTemplates">
 			<wsdl:input message="ns:GetDescriptionTemplatesRequest"/>
@@ -97760,17 +97808,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 				<wsdlsoap:body use="literal"/>
 			</wsdl:output>
 		</wsdl:operation>
-		<wsdl:operation name="ExtendSiteHostedPictures">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
 		<wsdl:operation name="FetchToken">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
@@ -97849,17 +97886,6 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetCategoryFeatures">
-			<wsdlsoap:operation soapAction=""/>
-			<wsdl:input>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
-				<wsdlsoap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
-		<wsdl:operation name="GetCategoryMappings">
 			<wsdlsoap:operation soapAction=""/>
 			<wsdl:input>
 				<wsdlsoap:header use="literal" message="ns:RequesterCredentials" part="RequesterCredentials"/>
@@ -98489,11 +98515,10 @@ Requirements to become Top Rated&lt;/a&gt;&lt;/li&gt;
 	</wsdl:binding>
 	<wsdl:service name="eBayAPIInterfaceService">
 			<wsdl:documentation>
-				<Version>1399</Version>
+				<Version>1423</Version>
 			</wsdl:documentation>
 			<wsdl:port binding="ns:eBayAPISoapBinding" name="eBayAPI">
 				<wsdlsoap:address location="https://api.ebay.com/wsapi"/>
 			</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
-	

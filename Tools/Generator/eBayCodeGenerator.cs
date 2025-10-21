@@ -295,6 +295,10 @@ namespace eBay.WebService.CodeGenerator
                 }
 
                 codeNamespace.Types.AddRange(codeTypeColl);
+                
+                // Add unreferenced enum types from WSDL
+                AddUnreferencedEnums(WSDLPath, codeNamespace, serviceImporter);
+                
                 codeNamespace.Types.Add(CreateSoapHttpClientProtocolEx());
                 codeNamespace.Types.Add(CreateSoapExtensionExAttribute());
                 codeNamespace.Types.Add(CreateSoapExtensionEx());
@@ -483,6 +487,111 @@ namespace eBay.WebService.CodeGenerator
                 foreach (CodeTypeMember ctm in ctmc)
                 {
                     ctd.Members.Remove(ctm);
+                }
+            }
+        }
+
+        private void AddUnreferencedEnums(string wsdlPath, CodeNamespace codeNamespace, ServiceDescriptionImporter serviceImporter)
+        {
+            try
+            {
+                // Get list of already generated type names
+                System.Collections.Generic.HashSet<string> existingTypes = new System.Collections.Generic.HashSet<string>();
+                foreach (CodeTypeDeclaration ctd in codeNamespace.Types)
+                {
+                    existingTypes.Add(ctd.Name);
+                }
+
+                // Collect all schemas from all added service descriptions
+                System.Collections.Generic.List<XmlSchema> allSchemas = new System.Collections.Generic.List<XmlSchema>();
+                
+                // Add schemas from serviceImporter.Schemas
+                foreach (XmlSchema schema in serviceImporter.Schemas)
+                {
+                    allSchemas.Add(schema);
+                }
+                
+                // Also get schemas from ServiceDescriptions (where they're actually embedded)
+                foreach (ServiceDescription serviceDesc in serviceImporter.ServiceDescriptions)
+                {
+                    foreach (XmlSchema schema in serviceDesc.Types.Schemas)
+                    {
+                        allSchemas.Add(schema);
+                    }
+                }
+
+                // Parse all schemas
+                foreach (XmlSchema schema in allSchemas)
+                {
+                    foreach (XmlSchemaObject schemaObj in schema.Items)
+                    {
+                        // Look for simpleType definitions with enumeration restrictions
+                        XmlSchemaSimpleType simpleType = schemaObj as XmlSchemaSimpleType;
+                        if (simpleType != null && !existingTypes.Contains(simpleType.Name))
+                        {
+                            XmlSchemaSimpleTypeRestriction restriction = simpleType.Content as XmlSchemaSimpleTypeRestriction;
+                            if (restriction != null && restriction.BaseTypeName.Name == "token")
+                            {
+                                // Check if it has enumerations
+                                bool hasEnumerations = false;
+                                foreach (XmlSchemaObject facet in restriction.Facets)
+                                {
+                                    if (facet is XmlSchemaEnumerationFacet)
+                                    {
+                                        hasEnumerations = true;
+                                        break;
+                                    }
+                                }
+
+                                if (hasEnumerations)
+                                {
+                                    // Create the enum type
+                                    CodeTypeDeclaration enumType = new CodeTypeDeclaration(simpleType.Name);
+                                    enumType.IsEnum = true;
+                                    enumType.TypeAttributes = TypeAttributes.Public;
+                                    enumType.CustomAttributes.Add(new CodeAttributeDeclaration("System.CodeDom.Compiler.GeneratedCodeAttribute",
+                                        new CodeAttributeArgument(new CodePrimitiveExpression("CodeGen")),
+                                        new CodeAttributeArgument(new CodePrimitiveExpression("1.0.0.0"))));
+                                    enumType.CustomAttributes.Add(new CodeAttributeDeclaration("System.SerializableAttribute"));
+                                    enumType.CustomAttributes.Add(new CodeAttributeDeclaration("System.Xml.Serialization.XmlTypeAttribute",
+                                        new CodeAttributeArgument("Namespace", new CodePrimitiveExpression("urn:ebay:apis:eBLBaseComponents"))));
+
+                                    // Add enum values
+                                    bool hasCustomCode = false;
+                                    foreach (XmlSchemaObject facet in restriction.Facets)
+                                    {
+                                        XmlSchemaEnumerationFacet enumFacet = facet as XmlSchemaEnumerationFacet;
+                                        if (enumFacet != null)
+                                        {
+                                            if (enumFacet.Value == "CustomCode")
+                                            {
+                                                hasCustomCode = true;
+                                            }
+                                            CodeMemberField enumMember = new CodeMemberField(simpleType.Name, enumFacet.Value);
+                                            enumType.Members.Add(enumMember);
+                                        }
+                                    }
+
+                                    // Add CustomCode enum value (eBay convention) only if not already present
+                                    if (!hasCustomCode)
+                                    {
+                                        CodeMemberField customCode = new CodeMemberField(simpleType.Name, "CustomCode");
+                                        enumType.Members.Add(customCode);
+                                    }
+
+                                    // Add to namespace
+                                    codeNamespace.Types.Add(enumType);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (mOutLog != null)
+                {
+                    mOutLog.OutputString("Warning: Error adding unreferenced enums: " + ex.Message + "\n");
                 }
             }
         }
