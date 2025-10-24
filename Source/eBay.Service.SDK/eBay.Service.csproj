@@ -158,7 +158,6 @@
     <Compile Include="Call\EndItemsCall.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Call\ExtendSiteHostedPicturesCall.cs" />
     <Compile Include="Call\FetchTokenCall.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -181,9 +180,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetCategoryFeaturesCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GetCategoryMappingsCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetDescriptionTemplatesCall.cs">
