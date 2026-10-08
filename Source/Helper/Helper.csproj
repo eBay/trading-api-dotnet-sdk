@@ -120,13 +120,7 @@
     <Compile Include="Cache\BaseDownloader.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Cache\CategoriesDownloader.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Cache\DetailsDownloader.cs" />
-    <Compile Include="Cache\FeaturesDownloader.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="PaymentServiceHelper.cs">
       <SubType>Code</SubType>
     </Compile>

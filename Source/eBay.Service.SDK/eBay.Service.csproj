@@ -164,9 +164,6 @@
     <Compile Include="Call\GetAccountCall.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Call\GetAdFormatLeadsCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Call\GetAllBiddersCall.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -174,12 +171,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetBidderListCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GetCategoriesCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GetCategoryFeaturesCall.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetDescriptionTemplatesCall.cs">
@@ -255,12 +246,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\GetUserPreferencesCall.cs" />
-    <Compile Include="Call\GetVeROReasonCodeDetailsCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Call\GetVeROReportStatusCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Call\LeaveFeedbackCall.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -322,9 +307,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Call\VerifyRelistItemCall.cs" />
-    <Compile Include="Call\VeROReportItemsCall.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Core\Sdk\ApiAccount.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -409,9 +391,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Util\FileLogger.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Util\GetCategoryFeaturesHelper.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Util\SdkUtility.cs">
