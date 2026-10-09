@@ -331,34 +331,6 @@
             ssubclass should implement specific API call to get last update time
             </summary>
         </member>
-        <member name="T:Samples.Helper.Cache.CategoriesDownloader">
-            <summary>
-            Helper class with cache function for GetCategories call
-            </summary>
-        </member>
-        <member name="M:Samples.Helper.Cache.CategoriesDownloader.#ctor(eBay.Service.Core.Sdk.ApiContext)">
-            <summary>
-            Constructor
-            </summary>
-            <param name="context"></param>
-        </member>
-        <member name="M:Samples.Helper.Cache.CategoriesDownloader.GetAllCategories">
-            <summary>
-            Get all categories for a given site
-            </summary>
-        </member>
-        <member name="M:Samples.Helper.Cache.CategoriesDownloader.getLastUpdateTime">
-            <summary>
-            get last update time from site
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="M:Samples.Helper.Cache.CategoriesDownloader.callApi">
-            <summary>
-            call GetCategories to get all categories for a given site
-            </summary>
-            <returns>generic object</returns>
-        </member>
         <member name="T:Samples.Helper.Cache.DetailsDownloader">
             <summary>
             Helper class with cache function for GeteBayDetails call
@@ -384,34 +356,6 @@
         <member name="M:Samples.Helper.Cache.DetailsDownloader.callApi">
             <summary>
             call GeteBayDetails to get eBay details for a given site
-            </summary>
-            <returns>generic object</returns>
-        </member>
-        <member name="T:Samples.Helper.Cache.FeaturesDownloader">
-            <summary>
-            Helper class with cache function for GetCategoryFeatures call
-            </summary>
-        </member>
-        <member name="M:Samples.Helper.Cache.FeaturesDownloader.#ctor(eBay.Service.Core.Sdk.ApiContext)">
-            <summary>
-            Constructor
-            </summary>
-            <param name="context"></param>
-        </member>
-        <member name="M:Samples.Helper.Cache.FeaturesDownloader.GetCategoryFeatures">
-            <summary>
-            Get all features for a given category
-            </summary>
-        </member>
-        <member name="M:Samples.Helper.Cache.FeaturesDownloader.getLastUpdateTime">
-            <summary>
-            get last update time from site
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="M:Samples.Helper.Cache.FeaturesDownloader.callApi">
-            <summary>
-            call GetCategories to get all categories for a given site
             </summary>
             <returns>generic object</returns>
         </member>

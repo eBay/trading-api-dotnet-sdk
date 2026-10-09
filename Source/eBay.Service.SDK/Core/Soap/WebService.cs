@@ -12,20 +12,20 @@
 // 
 // Copyright: ?2000-2008 eBay Inc.
 // 
-// Date: 10/21/2025 11:32:53 AM
+// Date: 10/8/2026 12:29:35 AM
 // 
 namespace eBay.Service.Core.Soap {
-    using System.Xml.Serialization;
     using System.Diagnostics;
-    using System.Web.Services;
-    using System.Web.Services.Protocols;
-    using System.ComponentModel;
     using System;
+    using System.Xml.Serialization;
+    using System.ComponentModel;
+    using System.Web.Services.Protocols;
+    using System.Web.Services;
     using System.Collections;
     using System.Xml;
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -95,7 +95,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -176,7 +176,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -262,7 +262,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -425,7 +425,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureSetCodeType {
@@ -439,7 +439,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureFormatCodeType {
@@ -453,7 +453,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -499,7 +499,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -556,7 +556,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -590,7 +590,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CurrencyCodeType {
@@ -950,7 +950,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -983,7 +983,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1067,7 +1067,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1178,7 +1178,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1273,7 +1273,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1410,7 +1410,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1677,7 +1677,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BoldTitleCodeType {
@@ -1689,7 +1689,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BorderCodeType {
@@ -1701,7 +1701,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HighlightCodeType {
@@ -1713,7 +1713,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GiftIconCodeType {
@@ -1725,7 +1725,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HomePageFeaturedCodeType {
@@ -1737,7 +1737,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeaturedFirstCodeType {
@@ -1753,7 +1753,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeaturedPlusCodeType {
@@ -1769,7 +1769,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ProPackCodeType {
@@ -1785,7 +1785,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1819,7 +1819,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1878,7 +1878,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PeriodCodeType {
@@ -1896,7 +1896,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1930,7 +1930,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1976,7 +1976,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2023,7 +2023,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2082,7 +2082,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2116,7 +2116,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2162,7 +2162,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2321,7 +2321,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2456,7 +2456,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingTypeCodeType {
@@ -2490,7 +2490,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2536,7 +2536,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2582,7 +2582,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2628,7 +2628,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2674,7 +2674,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2720,7 +2720,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2870,7 +2870,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2993,7 +2993,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingCarrierCodeType {
@@ -3333,7 +3333,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3508,7 +3508,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingPackageCodeType {
@@ -3576,7 +3576,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3685,7 +3685,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StatusCodeType {
@@ -3697,7 +3697,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3860,7 +3860,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4005,7 +4005,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4103,7 +4103,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum URLTypeCodeType {
@@ -4139,7 +4139,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4250,7 +4250,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SiteCodeType {
@@ -4314,7 +4314,7 @@ namespace eBay.Service.Core.Soap {
         Cyprus,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4387,7 +4387,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4486,7 +4486,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AnnouncementMessageCodeType {
@@ -4502,7 +4502,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4963,7 +4963,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingTypeCodeType {
@@ -4987,7 +4987,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5070,7 +5070,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5153,7 +5153,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5250,7 +5250,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerPaymentMethodCodeType {
@@ -5332,7 +5332,7 @@ namespace eBay.Service.Core.Soap {
         PayPalCredit,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5455,7 +5455,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5552,7 +5552,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5649,7 +5649,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CountryCodeType {
@@ -6155,228 +6155,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VeROReportedItemType {
-        private string mItemID;
-        private VeROItemStatusCodeType mItemStatus;
-        private bool mItemStatusSpecified;
-        private string mItemReasonForFailure;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ItemID {
-            get {
-                return this.mItemID;
-            }
-            set {
-                this.mItemID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROItemStatusCodeType ItemStatus {
-            get {
-                return this.mItemStatus;
-            }
-            set {
-                this.mItemStatus = value;
-                this.mItemStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemStatusSpecified {
-            get {
-                return this.mItemStatusSpecified;
-            }
-            set {
-                this.mItemStatusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ItemReasonForFailure {
-            get {
-                return this.mItemReasonForFailure;
-            }
-            set {
-                this.mItemReasonForFailure = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum VeROItemStatusCodeType {
-        /// <remarks/>
-        Received,
-        /// <remarks/>
-        Submitted,
-        /// <remarks/>
-        Removed,
-        /// <remarks/>
-        SubmissionFailed,
-        /// <remarks/>
-        ClarificationRequired,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ReasonCodeDetailType {
-        private string mBriefText;
-        private string mDetailedText;
-        private XmlElementCollection mAny;
-        private long mcodeID;
-        private bool mcodeIDSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string BriefText {
-            get {
-                return this.mBriefText;
-            }
-            set {
-                this.mBriefText = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string DetailedText {
-            get {
-                return this.mDetailedText;
-            }
-            set {
-                this.mDetailedText = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public long codeID {
-            get {
-                return this.mcodeID;
-            }
-            set {
-                this.mcodeID = value;
-                this.mcodeIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool codeIDSpecified {
-            get {
-                return this.mcodeIDSpecified;
-            }
-            set {
-                this.mcodeIDSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VeROSiteDetailType {
-        private SiteCodeType mSite;
-        private bool mSiteSpecified;
-        private ReasonCodeDetailTypeCollection mReasonCodeDetail;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public SiteCodeType Site {
-            get {
-                return this.mSite;
-            }
-            set {
-                this.mSite = value;
-                this.mSiteSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SiteSpecified {
-            get {
-                return this.mSiteSpecified;
-            }
-            set {
-                this.mSiteSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("ReasonCodeDetail")]
-        public ReasonCodeDetailTypeCollection ReasonCodeDetail {
-            get {
-                return this.mReasonCodeDetail;
-            }
-            set {
-                this.mReasonCodeDetail = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6475,7 +6254,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6522,7 +6301,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6568,7 +6347,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6650,7 +6429,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6697,7 +6476,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6731,7 +6510,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6842,7 +6621,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TokenStatusCodeType {
@@ -6862,7 +6641,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6896,7 +6675,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7043,7 +6822,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7127,7 +6906,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MerchDisplayCodeType {
@@ -7139,7 +6918,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7173,7 +6952,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7859,7 +7638,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum OrderStatusCodeType {
@@ -7889,7 +7668,7 @@ namespace eBay.Service.Core.Soap {
         CancelPending,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8066,7 +7845,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentStatusCodeType {
@@ -8086,7 +7865,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CompleteStatusCodeType {
@@ -8100,7 +7879,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerPaymentInstrumentCodeType {
@@ -8144,7 +7923,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8195,6 +7974,7 @@ namespace eBay.Service.Core.Soap {
         private bool mSellerExcludeShipToLocationsPreferenceSpecified;
         private ShipmentTrackingDetailsTypeCollection mShipmentTrackingDetails;
         private RateTableDetailsType mRateTableDetails;
+        private string mShippingLabelPolicy;
         private XmlElementCollection mAny;
         /// <summary>
         /// 
@@ -8726,6 +8506,17 @@ namespace eBay.Service.Core.Soap {
         /// <summary>
         /// 
         /// </summary>
+        public string ShippingLabelPolicy {
+            get {
+                return this.mShippingLabelPolicy;
+            }
+            set {
+                this.mShippingLabelPolicy = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public XmlElementCollection Any {
             get {
@@ -8737,7 +8528,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8782,7 +8573,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8879,7 +8670,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingRateTypeCodeType {
@@ -8903,7 +8694,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9180,7 +8971,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9434,7 +9225,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9569,7 +9360,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9704,7 +9495,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9764,7 +9555,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DiscountNameCodeType {
@@ -9790,7 +9581,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9909,7 +9700,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9970,7 +9761,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MeasurementSystemCodeType {
@@ -9980,7 +9771,7 @@ namespace eBay.Service.Core.Soap {
         Metric,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10040,7 +9831,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10137,7 +9928,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10194,7 +9985,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10228,7 +10019,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10323,7 +10114,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10392,7 +10183,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TradingRoleCodeType {
@@ -10404,7 +10195,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10832,7 +10623,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressOwnerCodeType {
@@ -10844,7 +10635,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressStatusCodeType {
@@ -10858,7 +10649,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressRecordTypeCodeType {
@@ -10870,7 +10661,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10918,7 +10709,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AddressAttributeCodeType {
@@ -10928,7 +10719,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11963,7 +11754,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12740,7 +12531,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackRatingStarCodeType {
@@ -12774,7 +12565,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UserStatusCodeType {
@@ -12818,7 +12609,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum VATStatusCodeType {
@@ -12832,7 +12623,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12878,7 +12669,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12950,7 +12741,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ValueTypeCodeType {
@@ -13002,7 +12793,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13050,7 +12841,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxIdentifierAttributeCodeType {
@@ -13060,7 +12851,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13603,7 +13394,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MerchandizingPrefCodeType {
@@ -13615,7 +13406,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerGuaranteeLevelCodeType {
@@ -13631,7 +13422,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerLevelCodeType {
@@ -13651,7 +13442,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13750,7 +13541,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerBusinessCodeType {
@@ -13764,7 +13555,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SellerPaymentMethodCodeType {
@@ -13786,7 +13577,7 @@ namespace eBay.Service.Core.Soap {
         DirectDebitPendingVerification,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13871,7 +13662,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CharityAffiliationTypeCodeType {
@@ -13885,7 +13676,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14036,7 +13827,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14070,7 +13861,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TopRatedProgramCodeType {
@@ -14086,7 +13877,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14120,7 +13911,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BusinessRoleType {
@@ -14130,7 +13921,7 @@ namespace eBay.Service.Core.Soap {
         FullMarketPlaceParticipant,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EBaySubscriptionTypeCodeType {
@@ -14178,7 +13969,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14368,7 +14159,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14477,7 +14268,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14562,7 +14353,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DepositTypeCodeType {
@@ -14576,7 +14367,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14746,10 +14537,6 @@ namespace eBay.Service.Core.Soap {
         private bool mEligibleForPickupDropOff;
         private bool mEligibleForPickupDropOffSpecified;
         private DigitalGoodInfoType mDigitalGoodInfo;
-        private bool meBayPlus;
-        private bool meBayPlusSpecified;
-        private bool meBayPlusEligible;
-        private bool meBayPlusEligibleSpecified;
         private bool meMailDeliveryAvailable;
         private bool meMailDeliveryAvailableSpecified;
         private bool mIsSecureDescription;
@@ -16666,54 +16453,6 @@ namespace eBay.Service.Core.Soap {
         /// <summary>
         /// 
         /// </summary>
-        public bool eBayPlus {
-            get {
-                return this.meBayPlus;
-            }
-            set {
-                this.meBayPlus = value;
-                this.meBayPlusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayPlusSpecified {
-            get {
-                return this.meBayPlusSpecified;
-            }
-            set {
-                this.meBayPlusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayPlusEligible {
-            get {
-                return this.meBayPlusEligible;
-            }
-            set {
-                this.meBayPlusEligible = value;
-                this.meBayPlusEligibleSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayPlusEligibleSpecified {
-            get {
-                return this.meBayPlusEligibleSpecified;
-            }
-            set {
-                this.meBayPlusEligibleSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
         public bool eMailDeliveryAvailable {
             get {
                 return this.meMailDeliveryAvailable;
@@ -16784,7 +16523,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16907,7 +16646,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerProtectionCodeType {
@@ -16925,7 +16664,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -17072,7 +16811,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CharityStatusCodeType {
@@ -17084,7 +16823,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DescriptionReviseModeCodeType {
@@ -17098,7 +16837,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -17501,7 +17240,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EndReasonCodeType {
@@ -17523,7 +17262,7 @@ namespace eBay.Service.Core.Soap {
         ProductDeleted,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingEnhancementsCodeType {
@@ -17549,7 +17288,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -17660,111 +17399,18 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public partial class CategoryType {
-        private bool mBestOfferEnabled;
-        private bool mBestOfferEnabledSpecified;
-        private bool mAutoPayEnabled;
-        private bool mAutoPayEnabledSpecified;
-        private bool mB2BVATEnabled;
-        private bool mB2BVATEnabledSpecified;
         private string mCategoryID;
-        private int mCategoryLevel;
-        private bool mCategoryLevelSpecified;
         private string mCategoryName;
-        private StringCollection mCategoryParentID;
-        private bool mExpired;
-        private bool mExpiredSpecified;
-        private bool mLeafCategory;
-        private bool mLeafCategorySpecified;
-        private bool mVirtual;
-        private bool mVirtualSpecified;
         private int mNumOfItems;
         private bool mNumOfItemsSpecified;
-        private bool mORPA;
-        private bool mORPASpecified;
-        private bool mORRA;
-        private bool mORRASpecified;
-        private bool mLSD;
-        private bool mLSDSpecified;
         private string mKeywords;
         private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferEnabled {
-            get {
-                return this.mBestOfferEnabled;
-            }
-            set {
-                this.mBestOfferEnabled = value;
-                this.mBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferEnabledSpecified {
-            get {
-                return this.mBestOfferEnabledSpecified;
-            }
-            set {
-                this.mBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool AutoPayEnabled {
-            get {
-                return this.mAutoPayEnabled;
-            }
-            set {
-                this.mAutoPayEnabled = value;
-                this.mAutoPayEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AutoPayEnabledSpecified {
-            get {
-                return this.mAutoPayEnabledSpecified;
-            }
-            set {
-                this.mAutoPayEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool B2BVATEnabled {
-            get {
-                return this.mB2BVATEnabled;
-            }
-            set {
-                this.mB2BVATEnabled = value;
-                this.mB2BVATEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool B2BVATEnabledSpecified {
-            get {
-                return this.mB2BVATEnabledSpecified;
-            }
-            set {
-                this.mB2BVATEnabledSpecified = value;
-            }
-        }
         /// <summary>
         /// 
         /// </summary>
@@ -17779,120 +17425,12 @@ namespace eBay.Service.Core.Soap {
         /// <summary>
         /// 
         /// </summary>
-        public int CategoryLevel {
-            get {
-                return this.mCategoryLevel;
-            }
-            set {
-                this.mCategoryLevel = value;
-                this.mCategoryLevelSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CategoryLevelSpecified {
-            get {
-                return this.mCategoryLevelSpecified;
-            }
-            set {
-                this.mCategoryLevelSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
         public string CategoryName {
             get {
                 return this.mCategoryName;
             }
             set {
                 this.mCategoryName = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("CategoryParentID")]
-        public StringCollection CategoryParentID {
-            get {
-                return this.mCategoryParentID;
-            }
-            set {
-                this.mCategoryParentID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool Expired {
-            get {
-                return this.mExpired;
-            }
-            set {
-                this.mExpired = value;
-                this.mExpiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ExpiredSpecified {
-            get {
-                return this.mExpiredSpecified;
-            }
-            set {
-                this.mExpiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LeafCategory {
-            get {
-                return this.mLeafCategory;
-            }
-            set {
-                this.mLeafCategory = value;
-                this.mLeafCategorySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LeafCategorySpecified {
-            get {
-                return this.mLeafCategorySpecified;
-            }
-            set {
-                this.mLeafCategorySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool Virtual {
-            get {
-                return this.mVirtual;
-            }
-            set {
-                this.mVirtual = value;
-                this.mVirtualSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VirtualSpecified {
-            get {
-                return this.mVirtualSpecified;
-            }
-            set {
-                this.mVirtualSpecified = value;
             }
         }
         /// <summary>
@@ -17922,78 +17460,6 @@ namespace eBay.Service.Core.Soap {
         /// <summary>
         /// 
         /// </summary>
-        public bool ORPA {
-            get {
-                return this.mORPA;
-            }
-            set {
-                this.mORPA = value;
-                this.mORPASpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ORPASpecified {
-            get {
-                return this.mORPASpecified;
-            }
-            set {
-                this.mORPASpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ORRA {
-            get {
-                return this.mORRA;
-            }
-            set {
-                this.mORRA = value;
-                this.mORRASpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ORRASpecified {
-            get {
-                return this.mORRASpecified;
-            }
-            set {
-                this.mORRASpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LSD {
-            get {
-                return this.mLSD;
-            }
-            set {
-                this.mLSD = value;
-                this.mLSDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LSDSpecified {
-            get {
-                return this.mLSDSpecified;
-            }
-            set {
-                this.mLSDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
         public string Keywords {
             get {
                 return this.mKeywords;
@@ -18016,7 +17482,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18292,7 +17758,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18337,7 +17803,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18409,7 +17875,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemSpecificSourceCodeType {
@@ -18423,7 +17889,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18560,7 +18026,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18963,7 +18429,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingStatusCodeType {
@@ -18979,7 +18445,7 @@ namespace eBay.Service.Core.Soap {
         Custom,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19064,7 +18530,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19098,7 +18564,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19192,7 +18658,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19315,7 +18781,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19478,7 +18944,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferStatusCodeType {
@@ -19510,7 +18976,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferTypeCodeType {
@@ -19524,7 +18990,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19686,7 +19152,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GalleryTypeCodeType {
@@ -19702,7 +19168,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureSourceCodeType {
@@ -19716,7 +19182,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GalleryStatusCodeType {
@@ -19744,7 +19210,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19778,7 +19244,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19825,7 +19291,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19859,7 +19325,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19892,7 +19358,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -19978,7 +19444,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20038,7 +19504,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20097,7 +19563,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20342,7 +19808,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DaysCodeType {
@@ -20358,7 +19824,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20431,7 +19897,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BuyerProtectionSourceCodeType {
@@ -20443,7 +19909,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ListingSubtypeCodeType {
@@ -20455,7 +19921,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20514,7 +19980,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20645,7 +20111,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20742,7 +20208,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20802,7 +20268,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -20875,7 +20341,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21060,7 +20526,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InventoryTrackingMethodCodeType {
@@ -21072,7 +20538,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21145,7 +20611,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21359,7 +20825,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21501,7 +20967,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MinimumAdvertisedPriceExposureCodeType {
@@ -21515,7 +20981,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PricingTreatmentCodeType {
@@ -21531,7 +20997,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21613,7 +21079,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21646,7 +21112,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21692,7 +21158,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21763,7 +21229,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21808,7 +21274,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21868,7 +21334,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21940,7 +21406,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21974,7 +21440,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22032,7 +21498,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22151,7 +21617,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22210,7 +21676,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22279,7 +21745,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22313,7 +21779,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22347,7 +21813,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22404,7 +21870,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22559,7 +22025,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22593,7 +22059,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22760,7 +22226,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22794,7 +22260,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ResponsiblePersonCodeType {
@@ -22804,7 +22270,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22838,7 +22304,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22871,7 +22337,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuantityAvailableHintCodeType {
@@ -22883,7 +22349,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22940,7 +22406,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22999,7 +22465,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23058,7 +22524,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23117,7 +22583,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23151,7 +22617,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23248,7 +22714,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ShippingServiceType {
@@ -23258,7 +22724,7 @@ namespace eBay.Service.Core.Soap {
         International,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23417,7 +22883,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23451,7 +22917,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23510,7 +22976,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReasonHideFromSearchCodeType {
@@ -23520,7 +22986,7 @@ namespace eBay.Service.Core.Soap {
         OutOfStock,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23593,7 +23059,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23640,7 +23106,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23973,7 +23439,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CheckoutStatusCodeType {
@@ -23989,7 +23455,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentHoldStatusCodeType {
@@ -24015,7 +23481,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InquiryStatusCodeType {
@@ -24045,7 +23511,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ReturnStatusCodeType {
@@ -24091,7 +23557,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DigitalStatusCodeType {
@@ -24107,7 +23573,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CancelStatusCodeType {
@@ -24137,7 +23603,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaidStatusCodeType {
@@ -24183,7 +23649,7 @@ namespace eBay.Service.Core.Soap {
         PayUponInvoice,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24254,7 +23720,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CommentTypeCodeType {
@@ -24272,7 +23738,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TransactionPlatformCodeType {
@@ -24290,7 +23756,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24348,7 +23814,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24382,7 +23848,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24541,7 +24007,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxTypeCodeType {
@@ -24559,7 +24025,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaxDescriptionCodeType {
@@ -24575,7 +24041,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CollectionMethodCodeType {
@@ -24585,7 +24051,7 @@ namespace eBay.Service.Core.Soap {
         NET,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24656,7 +24122,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24739,7 +24205,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24747,6 +24213,7 @@ namespace eBay.Service.Core.Soap {
     public partial class MultiLegShippingDetailsType {
         private MultiLegShipmentType mSellerShipmentToLogisticsProvider;
         private MultiLegShipmentType mLogisticsProviderShipmentToBuyer;
+        private AddressType mFinalDestinationAddress;
         private XmlElementCollection mAny;
         /// <summary>
         /// 
@@ -24773,6 +24240,17 @@ namespace eBay.Service.Core.Soap {
         /// <summary>
         /// 
         /// </summary>
+        public AddressType FinalDestinationAddress {
+            get {
+                return this.mFinalDestinationAddress;
+            }
+            set {
+                this.mFinalDestinationAddress = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public XmlElementCollection Any {
             get {
@@ -24784,7 +24262,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24881,7 +24359,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24927,7 +24405,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24972,7 +24450,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25006,7 +24484,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25126,7 +24604,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25174,7 +24652,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UserIdentityCodeType {
@@ -25186,7 +24664,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25234,7 +24712,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TransactionReferenceCodeType {
@@ -25246,7 +24724,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25280,7 +24758,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25401,7 +24879,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum RefundSourceTypeCodeType {
@@ -25413,7 +24891,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25447,7 +24925,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25507,7 +24985,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25629,7 +25107,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PickupStatusCodeType {
@@ -25655,7 +25133,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25689,7 +25167,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25737,7 +25215,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PaymentInstructionCodeType {
@@ -25747,7 +25225,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25780,7 +25258,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25838,7 +25316,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25872,7 +25350,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25917,7 +25395,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25962,7 +25440,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26019,7 +25497,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26076,7 +25554,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26121,7 +25599,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26153,7 +25631,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26233,7 +25711,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26354,7 +25832,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26503,7 +25981,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SeverityCodeType {
@@ -26515,7 +25993,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26561,7 +26039,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ErrorClassificationCodeType {
@@ -26573,7 +26051,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26724,7 +26202,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26809,7 +26287,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MarkUpMarkDownEventTypeCodeType {
@@ -26821,7 +26299,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27047,7 +26525,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventTypeCodeType {
@@ -27237,7 +26715,7 @@ namespace eBay.Service.Core.Soap {
         M2MMessageStatusChange,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventStateCodeType {
@@ -27265,7 +26743,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27504,7 +26982,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27640,7 +27118,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27788,7 +27266,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27848,7 +27326,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28408,7 +27886,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SimpleItemSortCodeType {
@@ -28434,7 +27912,7 @@ namespace eBay.Service.Core.Soap {
         PricePlusShipping,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SortOrderCodeType {
@@ -28446,7 +27924,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemTypeCodeType {
@@ -28474,7 +27952,7 @@ namespace eBay.Service.Core.Soap {
         AdFormat,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SearchFlagCodeType {
@@ -28506,7 +27984,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PreferredLocationCodeType {
@@ -28524,7 +28002,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemConditionCodeType {
@@ -28536,7 +28014,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuantityOperatorCodeType {
@@ -28554,7 +28032,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28614,7 +28092,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28659,7 +28137,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28704,7 +28182,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28750,7 +28228,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28823,7 +28301,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28869,7 +28347,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29031,7 +28509,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29090,7 +28568,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29150,7 +28628,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29588,7 +29066,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MessageTypeCodeType {
@@ -29618,7 +29096,7 @@ namespace eBay.Service.Core.Soap {
         ClassifiedsBestOffer,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum QuestionTypeCodeType {
@@ -29638,7 +29116,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29684,7 +29162,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29847,7 +29325,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -29998,7 +29476,391 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public partial class MemberMessageExchangeType {
+        private ItemType mItem;
+        private MemberMessageType mQuestion;
+        private StringCollection mResponse;
+        private MessageStatusTypeCodeType mMessageStatus;
+        private bool mMessageStatusSpecified;
+        private System.DateTime mCreationDate;
+        private bool mCreationDateSpecified;
+        private System.DateTime mLastModifiedDate;
+        private bool mLastModifiedDateSpecified;
+        private MessageMediaTypeCollection mMessageMedia;
+        private XmlElementCollection mAny;
+        /// <summary>
+        /// 
+        /// </summary>
+        public ItemType Item {
+            get {
+                return this.mItem;
+            }
+            set {
+                this.mItem = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public MemberMessageType Question {
+            get {
+                return this.mQuestion;
+            }
+            set {
+                this.mQuestion = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlElementAttribute("Response")]
+        public StringCollection Response {
+            get {
+                return this.mResponse;
+            }
+            set {
+                this.mResponse = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public MessageStatusTypeCodeType MessageStatus {
+            get {
+                return this.mMessageStatus;
+            }
+            set {
+                this.mMessageStatus = value;
+                this.mMessageStatusSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MessageStatusSpecified {
+            get {
+                return this.mMessageStatusSpecified;
+            }
+            set {
+                this.mMessageStatusSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public System.DateTime CreationDate {
+            get {
+                return this.mCreationDate;
+            }
+            set {
+                this.mCreationDate = value;
+                this.mCreationDateSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool CreationDateSpecified {
+            get {
+                return this.mCreationDateSpecified;
+            }
+            set {
+                this.mCreationDateSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public System.DateTime LastModifiedDate {
+            get {
+                return this.mLastModifiedDate;
+            }
+            set {
+                this.mLastModifiedDate = value;
+                this.mLastModifiedDateSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LastModifiedDateSpecified {
+            get {
+                return this.mLastModifiedDateSpecified;
+            }
+            set {
+                this.mLastModifiedDateSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlElementAttribute("MessageMedia")]
+        public MessageMediaTypeCollection MessageMedia {
+            get {
+                return this.mMessageMedia;
+            }
+            set {
+                this.mMessageMedia = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlAnyElementAttribute()]
+        public XmlElementCollection Any {
+            get {
+                return this.mAny;
+            }
+            set {
+                this.mAny = value;
+            }
+        }
+    }
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public partial class MemberMessageType {
+        private MessageTypeCodeType mMessageType;
+        private bool mMessageTypeSpecified;
+        private QuestionTypeCodeType mQuestionType;
+        private bool mQuestionTypeSpecified;
+        private bool mEmailCopyToSender;
+        private bool mEmailCopyToSenderSpecified;
+        private bool mDisplayToPublic;
+        private bool mDisplayToPublicSpecified;
+        private string mSenderID;
+        private string mSenderEmail;
+        private StringCollection mRecipientID;
+        private string mSubject;
+        private string mBody;
+        private string mMessageID;
+        private string mParentMessageID;
+        private MessageMediaTypeCollection mMessageMedia;
+        private XmlElementCollection mAny;
+        /// <summary>
+        /// 
+        /// </summary>
+        public MessageTypeCodeType MessageType {
+            get {
+                return this.mMessageType;
+            }
+            set {
+                this.mMessageType = value;
+                this.mMessageTypeSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MessageTypeSpecified {
+            get {
+                return this.mMessageTypeSpecified;
+            }
+            set {
+                this.mMessageTypeSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public QuestionTypeCodeType QuestionType {
+            get {
+                return this.mQuestionType;
+            }
+            set {
+                this.mQuestionType = value;
+                this.mQuestionTypeSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool QuestionTypeSpecified {
+            get {
+                return this.mQuestionTypeSpecified;
+            }
+            set {
+                this.mQuestionTypeSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool EmailCopyToSender {
+            get {
+                return this.mEmailCopyToSender;
+            }
+            set {
+                this.mEmailCopyToSender = value;
+                this.mEmailCopyToSenderSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool EmailCopyToSenderSpecified {
+            get {
+                return this.mEmailCopyToSenderSpecified;
+            }
+            set {
+                this.mEmailCopyToSenderSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool DisplayToPublic {
+            get {
+                return this.mDisplayToPublic;
+            }
+            set {
+                this.mDisplayToPublic = value;
+                this.mDisplayToPublicSpecified = true;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool DisplayToPublicSpecified {
+            get {
+                return this.mDisplayToPublicSpecified;
+            }
+            set {
+                this.mDisplayToPublicSpecified = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string SenderID {
+            get {
+                return this.mSenderID;
+            }
+            set {
+                this.mSenderID = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string SenderEmail {
+            get {
+                return this.mSenderEmail;
+            }
+            set {
+                this.mSenderEmail = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlElementAttribute("RecipientID")]
+        public StringCollection RecipientID {
+            get {
+                return this.mRecipientID;
+            }
+            set {
+                this.mRecipientID = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Subject {
+            get {
+                return this.mSubject;
+            }
+            set {
+                this.mSubject = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Body {
+            get {
+                return this.mBody;
+            }
+            set {
+                this.mBody = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string MessageID {
+            get {
+                return this.mMessageID;
+            }
+            set {
+                this.mMessageID = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ParentMessageID {
+            get {
+                return this.mParentMessageID;
+            }
+            set {
+                this.mParentMessageID = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlElementAttribute("MessageMedia")]
+        public MessageMediaTypeCollection MessageMedia {
+            get {
+                return this.mMessageMedia;
+            }
+            set {
+                this.mMessageMedia = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Xml.Serialization.XmlAnyElementAttribute()]
+        public XmlElementCollection Any {
+            get {
+                return this.mAny;
+            }
+            set {
+                this.mAny = value;
+            }
+        }
+    }
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public enum MessageStatusTypeCodeType {
+        /// <remarks/>
+        Answered,
+        /// <remarks/>
+        Unanswered,
+        /// <remarks/>
+        CustomCode,
+    }
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30031,7 +29893,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30156,7 +30018,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30437,7 +30299,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30536,7 +30398,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackRatingDetailCodeType {
@@ -30552,7 +30414,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30612,7 +30474,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackSummaryPeriodCodeType {
@@ -30624,7 +30486,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30697,7 +30559,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -30924,7 +30786,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31325,7 +31187,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31423,7 +31285,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -31559,7 +31421,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DescriptionTemplateCodeType {
@@ -31571,11524 +31433,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ReturnPolicyDescriptionEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsShipmentPayeeDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsShipmentPayeeDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsDurationDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsDurationDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsAcceptedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsAcceptedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ProductRequiredEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class KTypeSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class EpidSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DigitalGoodDeliveryEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class PickupDropOffEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class AdditionalCompatibilityEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GlobalShippingEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DepositSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SellerProvidedTitleSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VRMSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VINSupportedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ProfileCategoryGroupDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MaxGranularFitmentCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CompatibleVehicleTypeDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class UPCEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ISBNEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class EANEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ProductCreationEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ValueCategoryDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ConditionValuesDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ConditionEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MinItemCompatibilityDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MaxItemCompatibilityDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ItemCompatibilityEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class FreePicturePackEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class FreeGalleryPlusEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class AttributeConversionEnabledFeatureDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VariationsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MaxFlatShippingCostDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MaxFlatShippingCostCBTExemptDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class Group3MaxFlatShippingCostDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class Group2MaxFlatShippingCostDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class Group1MaxFlatShippingCostDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class PaymentMethodDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class StoreOwnerExtendedListingDurationsDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class StoreOwnerExtendedListingDurationsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class RevisePriceAllowedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ReviseQuantityAllowedDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class PayPalRequiredForStoreOwnerDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class HandlingTimeEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ReturnPolicyEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class NonSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class PremiumSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class RegularSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SpecialitySubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdCompanyNameEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdStreetCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdContactByAddressEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdPhoneCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketSellerContactDetailsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketCounterOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketShippingMethodEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketPaymentMethodCheckOutEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketAutoDeclineEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketAutoAcceptEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketBestOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketContactByEmailEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketCompanyNameEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketStreetCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketContactByAddressEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketPhoneCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketContactByPhoneEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketAdFormatEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProSellerContactDetailsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProCounterOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProShippingMethodEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProPaymentMethodCheckOutEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProAutoDeclineEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProAutoAcceptEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProBestOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProContactByEmailEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProCompanyNameEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProStreetCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProContactByAddressEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProPhoneCountDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProContactByPhoneEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class eBayMotorsProAdFormatEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class INEscrowWorkflowTimelineDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ListingEnhancementDurationDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CombinedFixedPriceTreatmentEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BuyerGuaranteeEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CrossBorderTradeAustraliaEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CrossBorderTradeGBEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CrossBorderTradeNorthAmericaEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdAutoAcceptEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BestOfferAutoAcceptEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BrandMPNIdentifierEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class PaisaPayFullEscrowEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ItemSpecificsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdPayPerLeadEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SafePaymentRequiredDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdContactByEmailEnabledDefintionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdContactByPhoneEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdAutoDeclineEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdCounterOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdBestOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdShippingMethodEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ClassifiedAdPaymentMethodEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalListingDistancesNonSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalListingDistancesSpecialtyDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalListingDistancesRegularDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SkypeMeNonTransactionalEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SkypeMeTransactionalEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class StoreInventoryEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SellerContactDetailsEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class TCREnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MinimumReservePriceDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ExpressConditionRequiredDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ExpressPicturesRequiredDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ExpressEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketNonSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketPremiumSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketRegularSubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class LocalMarketSpecialitySubscriptionDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BestOfferAutoDeclineEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BestOfferCounterEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class AdFormatEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ProPackPlusEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ValuePackEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BasicUpgradePackEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ProPackEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class HomePageFeaturedEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class UserConsentRequiredDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DutchBINEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class BestOfferEnabledDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ShippingTermRequiredDefinitionType {
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ListingDurationDefinitionType {
-        private StringCollection mDuration;
-        private XmlElementCollection mAny;
-        private int mdurationSetID;
-        private bool mdurationSetIDSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Duration", DataType="token")]
-        public StringCollection Duration {
-            get {
-                return this.mDuration;
-            }
-            set {
-                this.mDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int durationSetID {
-            get {
-                return this.mdurationSetID;
-            }
-            set {
-                this.mdurationSetID = value;
-                this.mdurationSetIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool durationSetIDSpecified {
-            get {
-                return this.mdurationSetIDSpecified;
-            }
-            set {
-                this.mdurationSetIDSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ListingDurationDefinitionsType {
-        private ListingDurationDefinitionTypeCollection mListingDuration;
-        private int mVersion;
-        private bool mVersionSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("ListingDuration")]
-        public ListingDurationDefinitionTypeCollection ListingDuration {
-            get {
-                return this.mListingDuration;
-            }
-            set {
-                this.mListingDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int Version {
-            get {
-                return this.mVersion;
-            }
-            set {
-                this.mVersion = value;
-                this.mVersionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VersionSpecified {
-            get {
-                return this.mVersionSpecified;
-            }
-            set {
-                this.mVersionSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class FeatureDefinitionsType {
-        private ListingDurationDefinitionsType mListingDurations;
-        private ShippingTermRequiredDefinitionType mShippingTermsRequired;
-        private BestOfferEnabledDefinitionType mBestOfferEnabled;
-        private DutchBINEnabledDefinitionType mDutchBINEnabled;
-        private UserConsentRequiredDefinitionType mUserConsentRequired;
-        private HomePageFeaturedEnabledDefinitionType mHomePageFeaturedEnabled;
-        private ProPackEnabledDefinitionType mProPackEnabled;
-        private BasicUpgradePackEnabledDefinitionType mBasicUpgradePackEnabled;
-        private ValuePackEnabledDefinitionType mValuePackEnabled;
-        private ProPackPlusEnabledDefinitionType mProPackPlusEnabled;
-        private AdFormatEnabledDefinitionType mAdFormatEnabled;
-        private BestOfferCounterEnabledDefinitionType mBestOfferCounterEnabled;
-        private BestOfferAutoDeclineEnabledDefinitionType mBestOfferAutoDeclineEnabled;
-        private LocalMarketSpecialitySubscriptionDefinitionType mLocalMarketSpecialitySubscription;
-        private LocalMarketRegularSubscriptionDefinitionType mLocalMarketRegularSubscription;
-        private LocalMarketPremiumSubscriptionDefinitionType mLocalMarketPremiumSubscription;
-        private LocalMarketNonSubscriptionDefinitionType mLocalMarketNonSubscription;
-        private ExpressEnabledDefinitionType mExpressEnabled;
-        private ExpressPicturesRequiredDefinitionType mExpressPicturesRequired;
-        private ExpressConditionRequiredDefinitionType mExpressConditionRequired;
-        private MinimumReservePriceDefinitionType mMinimumReservePrice;
-        private TCREnabledDefinitionType mTransactionConfirmationRequestEnabled;
-        private SellerContactDetailsEnabledDefinitionType mSellerContactDetailsEnabled;
-        private StoreInventoryEnabledDefinitionType mStoreInventoryEnabled;
-        private SkypeMeTransactionalEnabledDefinitionType mSkypeMeTransactionalEnabled;
-        private SkypeMeNonTransactionalEnabledDefinitionType mSkypeMeNonTransactionalEnabled;
-        private LocalListingDistancesRegularDefinitionType mLocalListingDistancesRegular;
-        private LocalListingDistancesSpecialtyDefinitionType mLocalListingDistancesSpecialty;
-        private LocalListingDistancesNonSubscriptionDefinitionType mLocalListingDistancesNonSubscription;
-        private ClassifiedAdPaymentMethodEnabledDefinitionType mClassifiedAdPaymentMethodEnabled;
-        private ClassifiedAdShippingMethodEnabledDefinitionType mClassifiedAdShippingMethodEnabled;
-        private ClassifiedAdBestOfferEnabledDefinitionType mClassifiedAdBestOfferEnabled;
-        private ClassifiedAdCounterOfferEnabledDefinitionType mClassifiedAdCounterOfferEnabled;
-        private ClassifiedAdAutoDeclineEnabledDefinitionType mClassifiedAdAutoDeclineEnabled;
-        private ClassifiedAdContactByPhoneEnabledDefinitionType mClassifiedAdContactByPhoneEnabled;
-        private ClassifiedAdContactByEmailEnabledDefintionType mClassifiedAdContactByEmailEnabled;
-        private SafePaymentRequiredDefinitionType mSafePaymentRequired;
-        private ClassifiedAdPayPerLeadEnabledDefinitionType mClassifiedAdPayPerLeadEnabled;
-        private ItemSpecificsEnabledDefinitionType mItemSpecificsEnabled;
-        private PaisaPayFullEscrowEnabledDefinitionType mPaisaPayFullEscrowEnabled;
-        private BrandMPNIdentifierEnabledDefinitionType mBrandMPNIdentifierEnabled;
-        private BestOfferAutoAcceptEnabledDefinitionType mBestOfferAutoAcceptEnabled;
-        private ClassifiedAdAutoAcceptEnabledDefinitionType mClassifiedAdAutoAcceptEnabled;
-        private CrossBorderTradeNorthAmericaEnabledDefinitionType mCrossBorderTradeNorthAmericaEnabled;
-        private CrossBorderTradeGBEnabledDefinitionType mCrossBorderTradeGBEnabled;
-        private CrossBorderTradeAustraliaEnabledDefinitionType mCrossBorderTradeAustraliaEnabled;
-        private BuyerGuaranteeEnabledDefinitionType mBuyerGuaranteeEnabled;
-        private CombinedFixedPriceTreatmentEnabledDefinitionType mCombinedFixedPriceTreatmentEnabled;
-        private ListingEnhancementDurationDefinitionType mGalleryFeaturedDurations;
-        private INEscrowWorkflowTimelineDefinitionType mINEscrowWorkflowTimeline;
-        private eBayMotorsProAdFormatEnabledDefinitionType meBayMotorsProAdFormatEnabled;
-        private eBayMotorsProContactByPhoneEnabledDefinitionType meBayMotorsProContactByPhoneEnabled;
-        private eBayMotorsProPhoneCountDefinitionType meBayMotorsProPhoneCount;
-        private eBayMotorsProContactByAddressEnabledDefinitionType meBayMotorsProContactByAddressEnabled;
-        private eBayMotorsProStreetCountDefinitionType meBayMotorsProStreetCount;
-        private eBayMotorsProCompanyNameEnabledDefinitionType meBayMotorsProCompanyNameEnabled;
-        private eBayMotorsProContactByEmailEnabledDefinitionType meBayMotorsProContactByEmailEnabled;
-        private eBayMotorsProBestOfferEnabledDefinitionType meBayMotorsProBestOfferEnabled;
-        private eBayMotorsProAutoAcceptEnabledDefinitionType meBayMotorsProAutoAcceptEnabled;
-        private eBayMotorsProAutoDeclineEnabledDefinitionType meBayMotorsProAutoDeclineEnabled;
-        private eBayMotorsProPaymentMethodCheckOutEnabledDefinitionType meBayMotorsProPaymentMethodCheckOutEnabled;
-        private eBayMotorsProShippingMethodEnabledDefinitionType meBayMotorsProShippingMethodEnabled;
-        private eBayMotorsProCounterOfferEnabledDefinitionType meBayMotorsProCounterOfferEnabled;
-        private eBayMotorsProSellerContactDetailsEnabledDefinitionType meBayMotorsProSellerContactDetailsEnabled;
-        private LocalMarketAdFormatEnabledDefinitionType mLocalMarketAdFormatEnabled;
-        private LocalMarketContactByPhoneEnabledDefinitionType mLocalMarketContactByPhoneEnabled;
-        private LocalMarketPhoneCountDefinitionType mLocalMarketPhoneCount;
-        private LocalMarketContactByAddressEnabledDefinitionType mLocalMarketContactByAddressEnabled;
-        private LocalMarketStreetCountDefinitionType mLocalMarketStreetCount;
-        private LocalMarketCompanyNameEnabledDefinitionType mLocalMarketCompanyNameEnabled;
-        private LocalMarketContactByEmailEnabledDefinitionType mLocalMarketContactByEmailEnabled;
-        private LocalMarketBestOfferEnabledDefinitionType mLocalMarketBestOfferEnabled;
-        private LocalMarketAutoAcceptEnabledDefinitionType mLocalMarketAutoAcceptEnabled;
-        private LocalMarketAutoDeclineEnabledDefinitionType mLocalMarketAutoDeclineEnabled;
-        private LocalMarketPaymentMethodCheckOutEnabledDefinitionType mLocalMarketPaymentMethodCheckOutEnabled;
-        private LocalMarketShippingMethodEnabledDefinitionType mLocalMarketShippingMethodEnabled;
-        private LocalMarketCounterOfferEnabledDefinitionType mLocalMarketCounterOfferEnabled;
-        private LocalMarketSellerContactDetailsEnabledDefinitionType mLocalMarketSellerContactDetailsEnabled;
-        private ClassifiedAdPhoneCountDefinitionType mClassifiedAdPhoneCount;
-        private ClassifiedAdContactByAddressEnabledDefinitionType mClassifiedAdContactByAddressEnabled;
-        private ClassifiedAdStreetCountDefinitionType mClassifiedAdStreetCount;
-        private ClassifiedAdCompanyNameEnabledDefinitionType mClassifiedAdCompanyNameEnabled;
-        private SpecialitySubscriptionDefinitionType mSpecialitySubscription;
-        private RegularSubscriptionDefinitionType mRegularSubscription;
-        private PremiumSubscriptionDefinitionType mPremiumSubscription;
-        private NonSubscriptionDefinitionType mNonSubscription;
-        private ReturnPolicyEnabledDefinitionType mReturnPolicyEnabled;
-        private HandlingTimeEnabledDefinitionType mHandlingTimeEnabled;
-        private PayPalRequiredForStoreOwnerDefinitionType mPayPalRequiredForStoreOwner;
-        private ReviseQuantityAllowedDefinitionType mReviseQuantityAllowed;
-        private RevisePriceAllowedDefinitionType mRevisePriceAllowed;
-        private StoreOwnerExtendedListingDurationsEnabledDefinitionType mStoreOwnerExtendedListingDurationsEnabled;
-        private StoreOwnerExtendedListingDurationsDefinitionType mStoreOwnerExtendedListingDurations;
-        private PaymentMethodDefinitionType mPaymentMethod;
-        private Group1MaxFlatShippingCostDefinitionType mGroup1MaxFlatShippingCost;
-        private Group2MaxFlatShippingCostDefinitionType mGroup2MaxFlatShippingCost;
-        private Group3MaxFlatShippingCostDefinitionType mGroup3MaxFlatShippingCost;
-        private MaxFlatShippingCostCBTExemptDefinitionType mMaxFlatShippingCostCBTExempt;
-        private MaxFlatShippingCostDefinitionType mMaxFlatShippingCost;
-        private VariationsEnabledDefinitionType mVariationsEnabled;
-        private AttributeConversionEnabledFeatureDefinitionType mAttributeConversionEnabled;
-        private FreeGalleryPlusEnabledDefinitionType mFreeGalleryPlusEnabled;
-        private FreePicturePackEnabledDefinitionType mFreePicturePackEnabled;
-        private ItemCompatibilityEnabledDefinitionType mItemCompatibilityEnabled;
-        private MaxItemCompatibilityDefinitionType mMaxItemCompatibility;
-        private MinItemCompatibilityDefinitionType mMinItemCompatibility;
-        private ConditionEnabledDefinitionType mConditionEnabled;
-        private ConditionValuesDefinitionType mConditionValues;
-        private ValueCategoryDefinitionType mValueCategory;
-        private ProductCreationEnabledDefinitionType mProductCreationEnabled;
-        private EANEnabledDefinitionType mEANEnabled;
-        private ISBNEnabledDefinitionType mISBNEnabled;
-        private UPCEnabledDefinitionType mUPCEnabled;
-        private CompatibleVehicleTypeDefinitionType mCompatibleVehicleType;
-        private MaxGranularFitmentCountDefinitionType mMaxGranularFitmentCount;
-        private ProfileCategoryGroupDefinitionType mShippingProfileCategoryGroup;
-        private ProfileCategoryGroupDefinitionType mPaymentProfileCategoryGroup;
-        private ProfileCategoryGroupDefinitionType mReturnPolicyProfileCategoryGroup;
-        private VINSupportedDefinitionType mVINSupported;
-        private VRMSupportedDefinitionType mVRMSupported;
-        private SellerProvidedTitleSupportedDefinitionType mSellerProvidedTitleSupported;
-        private DepositSupportedDefinitionType mDepositSupported;
-        private GlobalShippingEnabledDefinitionType mGlobalShippingEnabled;
-        private AdditionalCompatibilityEnabledDefinitionType mAdditionalCompatibilityEnabled;
-        private XmlElementCollection mAny;
-        private PickupDropOffEnabledDefinitionType mPickupDropOffEnabled;
-        private DigitalGoodDeliveryEnabledDefinitionType mDigitalGoodDeliveryEnabled;
-        private EpidSupportedDefinitionType mEpidSupported;
-        private KTypeSupportedDefinitionType mKTypeSupported;
-        private ProductRequiredEnabledDefinitionType mProductRequiredEnabled;
-        private DomesticReturnsAcceptedDefinitionType mDomesticReturnsAcceptedValues;
-        private InternationalReturnsAcceptedDefinitionType mInternationalReturnsAcceptedValues;
-        private DomesticReturnsDurationDefinitionType mDomesticReturnsDurationValues;
-        private InternationalReturnsDurationDefinitionType mInternationalReturnsDurationValues;
-        private DomesticReturnsShipmentPayeeDefinitionType mDomesticReturnsShipmentPayeeValues;
-        private InternationalReturnsShipmentPayeeDefinitionType mInternationalReturnsShipmentPayeeValues;
-        private DomesticRefundMethodCodeType mDomesticRefundMethodValues;
-        private InternationalRefundMethodCodeType mInternationalRefundMethodValues;
-        private ReturnPolicyDescriptionEnabledDefinitionType mReturnPolicyDescriptionEnabled;
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingDurationDefinitionsType ListingDurations {
-            get {
-                return this.mListingDurations;
-            }
-            set {
-                this.mListingDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ShippingTermRequiredDefinitionType ShippingTermsRequired {
-            get {
-                return this.mShippingTermsRequired;
-            }
-            set {
-                this.mShippingTermsRequired = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BestOfferEnabledDefinitionType BestOfferEnabled {
-            get {
-                return this.mBestOfferEnabled;
-            }
-            set {
-                this.mBestOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DutchBINEnabledDefinitionType DutchBINEnabled {
-            get {
-                return this.mDutchBINEnabled;
-            }
-            set {
-                this.mDutchBINEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public UserConsentRequiredDefinitionType UserConsentRequired {
-            get {
-                return this.mUserConsentRequired;
-            }
-            set {
-                this.mUserConsentRequired = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public HomePageFeaturedEnabledDefinitionType HomePageFeaturedEnabled {
-            get {
-                return this.mHomePageFeaturedEnabled;
-            }
-            set {
-                this.mHomePageFeaturedEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProPackEnabledDefinitionType ProPackEnabled {
-            get {
-                return this.mProPackEnabled;
-            }
-            set {
-                this.mProPackEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BasicUpgradePackEnabledDefinitionType BasicUpgradePackEnabled {
-            get {
-                return this.mBasicUpgradePackEnabled;
-            }
-            set {
-                this.mBasicUpgradePackEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ValuePackEnabledDefinitionType ValuePackEnabled {
-            get {
-                return this.mValuePackEnabled;
-            }
-            set {
-                this.mValuePackEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProPackPlusEnabledDefinitionType ProPackPlusEnabled {
-            get {
-                return this.mProPackPlusEnabled;
-            }
-            set {
-                this.mProPackPlusEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledDefinitionType AdFormatEnabled {
-            get {
-                return this.mAdFormatEnabled;
-            }
-            set {
-                this.mAdFormatEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BestOfferCounterEnabledDefinitionType BestOfferCounterEnabled {
-            get {
-                return this.mBestOfferCounterEnabled;
-            }
-            set {
-                this.mBestOfferCounterEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BestOfferAutoDeclineEnabledDefinitionType BestOfferAutoDeclineEnabled {
-            get {
-                return this.mBestOfferAutoDeclineEnabled;
-            }
-            set {
-                this.mBestOfferAutoDeclineEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketSpecialitySubscriptionDefinitionType LocalMarketSpecialitySubscription {
-            get {
-                return this.mLocalMarketSpecialitySubscription;
-            }
-            set {
-                this.mLocalMarketSpecialitySubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketRegularSubscriptionDefinitionType LocalMarketRegularSubscription {
-            get {
-                return this.mLocalMarketRegularSubscription;
-            }
-            set {
-                this.mLocalMarketRegularSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketPremiumSubscriptionDefinitionType LocalMarketPremiumSubscription {
-            get {
-                return this.mLocalMarketPremiumSubscription;
-            }
-            set {
-                this.mLocalMarketPremiumSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketNonSubscriptionDefinitionType LocalMarketNonSubscription {
-            get {
-                return this.mLocalMarketNonSubscription;
-            }
-            set {
-                this.mLocalMarketNonSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ExpressEnabledDefinitionType ExpressEnabled {
-            get {
-                return this.mExpressEnabled;
-            }
-            set {
-                this.mExpressEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ExpressPicturesRequiredDefinitionType ExpressPicturesRequired {
-            get {
-                return this.mExpressPicturesRequired;
-            }
-            set {
-                this.mExpressPicturesRequired = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ExpressConditionRequiredDefinitionType ExpressConditionRequired {
-            get {
-                return this.mExpressConditionRequired;
-            }
-            set {
-                this.mExpressConditionRequired = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MinimumReservePriceDefinitionType MinimumReservePrice {
-            get {
-                return this.mMinimumReservePrice;
-            }
-            set {
-                this.mMinimumReservePrice = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public TCREnabledDefinitionType TransactionConfirmationRequestEnabled {
-            get {
-                return this.mTransactionConfirmationRequestEnabled;
-            }
-            set {
-                this.mTransactionConfirmationRequestEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SellerContactDetailsEnabledDefinitionType SellerContactDetailsEnabled {
-            get {
-                return this.mSellerContactDetailsEnabled;
-            }
-            set {
-                this.mSellerContactDetailsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public StoreInventoryEnabledDefinitionType StoreInventoryEnabled {
-            get {
-                return this.mStoreInventoryEnabled;
-            }
-            set {
-                this.mStoreInventoryEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SkypeMeTransactionalEnabledDefinitionType SkypeMeTransactionalEnabled {
-            get {
-                return this.mSkypeMeTransactionalEnabled;
-            }
-            set {
-                this.mSkypeMeTransactionalEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SkypeMeNonTransactionalEnabledDefinitionType SkypeMeNonTransactionalEnabled {
-            get {
-                return this.mSkypeMeNonTransactionalEnabled;
-            }
-            set {
-                this.mSkypeMeNonTransactionalEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalListingDistancesRegularDefinitionType LocalListingDistancesRegular {
-            get {
-                return this.mLocalListingDistancesRegular;
-            }
-            set {
-                this.mLocalListingDistancesRegular = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalListingDistancesSpecialtyDefinitionType LocalListingDistancesSpecialty {
-            get {
-                return this.mLocalListingDistancesSpecialty;
-            }
-            set {
-                this.mLocalListingDistancesSpecialty = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalListingDistancesNonSubscriptionDefinitionType LocalListingDistancesNonSubscription {
-            get {
-                return this.mLocalListingDistancesNonSubscription;
-            }
-            set {
-                this.mLocalListingDistancesNonSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledDefinitionType ClassifiedAdPaymentMethodEnabled {
-            get {
-                return this.mClassifiedAdPaymentMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdPaymentMethodEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdShippingMethodEnabledDefinitionType ClassifiedAdShippingMethodEnabled {
-            get {
-                return this.mClassifiedAdShippingMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdShippingMethodEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledDefinitionType ClassifiedAdBestOfferEnabled {
-            get {
-                return this.mClassifiedAdBestOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdBestOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdCounterOfferEnabledDefinitionType ClassifiedAdCounterOfferEnabled {
-            get {
-                return this.mClassifiedAdCounterOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdCounterOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdAutoDeclineEnabledDefinitionType ClassifiedAdAutoDeclineEnabled {
-            get {
-                return this.mClassifiedAdAutoDeclineEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoDeclineEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdContactByPhoneEnabledDefinitionType ClassifiedAdContactByPhoneEnabled {
-            get {
-                return this.mClassifiedAdContactByPhoneEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByPhoneEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdContactByEmailEnabledDefintionType ClassifiedAdContactByEmailEnabled {
-            get {
-                return this.mClassifiedAdContactByEmailEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByEmailEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SafePaymentRequiredDefinitionType SafePaymentRequired {
-            get {
-                return this.mSafePaymentRequired;
-            }
-            set {
-                this.mSafePaymentRequired = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPayPerLeadEnabledDefinitionType ClassifiedAdPayPerLeadEnabled {
-            get {
-                return this.mClassifiedAdPayPerLeadEnabled;
-            }
-            set {
-                this.mClassifiedAdPayPerLeadEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemSpecificsEnabledDefinitionType ItemSpecificsEnabled {
-            get {
-                return this.mItemSpecificsEnabled;
-            }
-            set {
-                this.mItemSpecificsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public PaisaPayFullEscrowEnabledDefinitionType PaisaPayFullEscrowEnabled {
-            get {
-                return this.mPaisaPayFullEscrowEnabled;
-            }
-            set {
-                this.mPaisaPayFullEscrowEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BrandMPNIdentifierEnabledDefinitionType BrandMPNIdentifierEnabled {
-            get {
-                return this.mBrandMPNIdentifierEnabled;
-            }
-            set {
-                this.mBrandMPNIdentifierEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BestOfferAutoAcceptEnabledDefinitionType BestOfferAutoAcceptEnabled {
-            get {
-                return this.mBestOfferAutoAcceptEnabled;
-            }
-            set {
-                this.mBestOfferAutoAcceptEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdAutoAcceptEnabledDefinitionType ClassifiedAdAutoAcceptEnabled {
-            get {
-                return this.mClassifiedAdAutoAcceptEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoAcceptEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CrossBorderTradeNorthAmericaEnabledDefinitionType CrossBorderTradeNorthAmericaEnabled {
-            get {
-                return this.mCrossBorderTradeNorthAmericaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeNorthAmericaEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CrossBorderTradeGBEnabledDefinitionType CrossBorderTradeGBEnabled {
-            get {
-                return this.mCrossBorderTradeGBEnabled;
-            }
-            set {
-                this.mCrossBorderTradeGBEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CrossBorderTradeAustraliaEnabledDefinitionType CrossBorderTradeAustraliaEnabled {
-            get {
-                return this.mCrossBorderTradeAustraliaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeAustraliaEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public BuyerGuaranteeEnabledDefinitionType BuyerGuaranteeEnabled {
-            get {
-                return this.mBuyerGuaranteeEnabled;
-            }
-            set {
-                this.mBuyerGuaranteeEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CombinedFixedPriceTreatmentEnabledDefinitionType CombinedFixedPriceTreatmentEnabled {
-            get {
-                return this.mCombinedFixedPriceTreatmentEnabled;
-            }
-            set {
-                this.mCombinedFixedPriceTreatmentEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingEnhancementDurationDefinitionType GalleryFeaturedDurations {
-            get {
-                return this.mGalleryFeaturedDurations;
-            }
-            set {
-                this.mGalleryFeaturedDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public INEscrowWorkflowTimelineDefinitionType INEscrowWorkflowTimeline {
-            get {
-                return this.mINEscrowWorkflowTimeline;
-            }
-            set {
-                this.mINEscrowWorkflowTimeline = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProAdFormatEnabledDefinitionType eBayMotorsProAdFormatEnabled {
-            get {
-                return this.meBayMotorsProAdFormatEnabled;
-            }
-            set {
-                this.meBayMotorsProAdFormatEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProContactByPhoneEnabledDefinitionType eBayMotorsProContactByPhoneEnabled {
-            get {
-                return this.meBayMotorsProContactByPhoneEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByPhoneEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProPhoneCountDefinitionType eBayMotorsProPhoneCount {
-            get {
-                return this.meBayMotorsProPhoneCount;
-            }
-            set {
-                this.meBayMotorsProPhoneCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProContactByAddressEnabledDefinitionType eBayMotorsProContactByAddressEnabled {
-            get {
-                return this.meBayMotorsProContactByAddressEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByAddressEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProStreetCountDefinitionType eBayMotorsProStreetCount {
-            get {
-                return this.meBayMotorsProStreetCount;
-            }
-            set {
-                this.meBayMotorsProStreetCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProCompanyNameEnabledDefinitionType eBayMotorsProCompanyNameEnabled {
-            get {
-                return this.meBayMotorsProCompanyNameEnabled;
-            }
-            set {
-                this.meBayMotorsProCompanyNameEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProContactByEmailEnabledDefinitionType eBayMotorsProContactByEmailEnabled {
-            get {
-                return this.meBayMotorsProContactByEmailEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByEmailEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProBestOfferEnabledDefinitionType eBayMotorsProBestOfferEnabled {
-            get {
-                return this.meBayMotorsProBestOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProBestOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProAutoAcceptEnabledDefinitionType eBayMotorsProAutoAcceptEnabled {
-            get {
-                return this.meBayMotorsProAutoAcceptEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoAcceptEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProAutoDeclineEnabledDefinitionType eBayMotorsProAutoDeclineEnabled {
-            get {
-                return this.meBayMotorsProAutoDeclineEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoDeclineEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProPaymentMethodCheckOutEnabledDefinitionType eBayMotorsProPaymentMethodCheckOutEnabled {
-            get {
-                return this.meBayMotorsProPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.meBayMotorsProPaymentMethodCheckOutEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProShippingMethodEnabledDefinitionType eBayMotorsProShippingMethodEnabled {
-            get {
-                return this.meBayMotorsProShippingMethodEnabled;
-            }
-            set {
-                this.meBayMotorsProShippingMethodEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProCounterOfferEnabledDefinitionType eBayMotorsProCounterOfferEnabled {
-            get {
-                return this.meBayMotorsProCounterOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProCounterOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public eBayMotorsProSellerContactDetailsEnabledDefinitionType eBayMotorsProSellerContactDetailsEnabled {
-            get {
-                return this.meBayMotorsProSellerContactDetailsEnabled;
-            }
-            set {
-                this.meBayMotorsProSellerContactDetailsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketAdFormatEnabledDefinitionType LocalMarketAdFormatEnabled {
-            get {
-                return this.mLocalMarketAdFormatEnabled;
-            }
-            set {
-                this.mLocalMarketAdFormatEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketContactByPhoneEnabledDefinitionType LocalMarketContactByPhoneEnabled {
-            get {
-                return this.mLocalMarketContactByPhoneEnabled;
-            }
-            set {
-                this.mLocalMarketContactByPhoneEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketPhoneCountDefinitionType LocalMarketPhoneCount {
-            get {
-                return this.mLocalMarketPhoneCount;
-            }
-            set {
-                this.mLocalMarketPhoneCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketContactByAddressEnabledDefinitionType LocalMarketContactByAddressEnabled {
-            get {
-                return this.mLocalMarketContactByAddressEnabled;
-            }
-            set {
-                this.mLocalMarketContactByAddressEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketStreetCountDefinitionType LocalMarketStreetCount {
-            get {
-                return this.mLocalMarketStreetCount;
-            }
-            set {
-                this.mLocalMarketStreetCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketCompanyNameEnabledDefinitionType LocalMarketCompanyNameEnabled {
-            get {
-                return this.mLocalMarketCompanyNameEnabled;
-            }
-            set {
-                this.mLocalMarketCompanyNameEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketContactByEmailEnabledDefinitionType LocalMarketContactByEmailEnabled {
-            get {
-                return this.mLocalMarketContactByEmailEnabled;
-            }
-            set {
-                this.mLocalMarketContactByEmailEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketBestOfferEnabledDefinitionType LocalMarketBestOfferEnabled {
-            get {
-                return this.mLocalMarketBestOfferEnabled;
-            }
-            set {
-                this.mLocalMarketBestOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketAutoAcceptEnabledDefinitionType LocalMarketAutoAcceptEnabled {
-            get {
-                return this.mLocalMarketAutoAcceptEnabled;
-            }
-            set {
-                this.mLocalMarketAutoAcceptEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketAutoDeclineEnabledDefinitionType LocalMarketAutoDeclineEnabled {
-            get {
-                return this.mLocalMarketAutoDeclineEnabled;
-            }
-            set {
-                this.mLocalMarketAutoDeclineEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketPaymentMethodCheckOutEnabledDefinitionType LocalMarketPaymentMethodCheckOutEnabled {
-            get {
-                return this.mLocalMarketPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.mLocalMarketPaymentMethodCheckOutEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketShippingMethodEnabledDefinitionType LocalMarketShippingMethodEnabled {
-            get {
-                return this.mLocalMarketShippingMethodEnabled;
-            }
-            set {
-                this.mLocalMarketShippingMethodEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketCounterOfferEnabledDefinitionType LocalMarketCounterOfferEnabled {
-            get {
-                return this.mLocalMarketCounterOfferEnabled;
-            }
-            set {
-                this.mLocalMarketCounterOfferEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public LocalMarketSellerContactDetailsEnabledDefinitionType LocalMarketSellerContactDetailsEnabled {
-            get {
-                return this.mLocalMarketSellerContactDetailsEnabled;
-            }
-            set {
-                this.mLocalMarketSellerContactDetailsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPhoneCountDefinitionType ClassifiedAdPhoneCount {
-            get {
-                return this.mClassifiedAdPhoneCount;
-            }
-            set {
-                this.mClassifiedAdPhoneCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdContactByAddressEnabledDefinitionType ClassifiedAdContactByAddressEnabled {
-            get {
-                return this.mClassifiedAdContactByAddressEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByAddressEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdStreetCountDefinitionType ClassifiedAdStreetCount {
-            get {
-                return this.mClassifiedAdStreetCount;
-            }
-            set {
-                this.mClassifiedAdStreetCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdCompanyNameEnabledDefinitionType ClassifiedAdCompanyNameEnabled {
-            get {
-                return this.mClassifiedAdCompanyNameEnabled;
-            }
-            set {
-                this.mClassifiedAdCompanyNameEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SpecialitySubscriptionDefinitionType SpecialitySubscription {
-            get {
-                return this.mSpecialitySubscription;
-            }
-            set {
-                this.mSpecialitySubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public RegularSubscriptionDefinitionType RegularSubscription {
-            get {
-                return this.mRegularSubscription;
-            }
-            set {
-                this.mRegularSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public PremiumSubscriptionDefinitionType PremiumSubscription {
-            get {
-                return this.mPremiumSubscription;
-            }
-            set {
-                this.mPremiumSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public NonSubscriptionDefinitionType NonSubscription {
-            get {
-                return this.mNonSubscription;
-            }
-            set {
-                this.mNonSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnPolicyEnabledDefinitionType ReturnPolicyEnabled {
-            get {
-                return this.mReturnPolicyEnabled;
-            }
-            set {
-                this.mReturnPolicyEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public HandlingTimeEnabledDefinitionType HandlingTimeEnabled {
-            get {
-                return this.mHandlingTimeEnabled;
-            }
-            set {
-                this.mHandlingTimeEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public PayPalRequiredForStoreOwnerDefinitionType PayPalRequiredForStoreOwner {
-            get {
-                return this.mPayPalRequiredForStoreOwner;
-            }
-            set {
-                this.mPayPalRequiredForStoreOwner = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReviseQuantityAllowedDefinitionType ReviseQuantityAllowed {
-            get {
-                return this.mReviseQuantityAllowed;
-            }
-            set {
-                this.mReviseQuantityAllowed = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public RevisePriceAllowedDefinitionType RevisePriceAllowed {
-            get {
-                return this.mRevisePriceAllowed;
-            }
-            set {
-                this.mRevisePriceAllowed = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public StoreOwnerExtendedListingDurationsEnabledDefinitionType StoreOwnerExtendedListingDurationsEnabled {
-            get {
-                return this.mStoreOwnerExtendedListingDurationsEnabled;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurationsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public StoreOwnerExtendedListingDurationsDefinitionType StoreOwnerExtendedListingDurations {
-            get {
-                return this.mStoreOwnerExtendedListingDurations;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public PaymentMethodDefinitionType PaymentMethod {
-            get {
-                return this.mPaymentMethod;
-            }
-            set {
-                this.mPaymentMethod = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public Group1MaxFlatShippingCostDefinitionType Group1MaxFlatShippingCost {
-            get {
-                return this.mGroup1MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup1MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public Group2MaxFlatShippingCostDefinitionType Group2MaxFlatShippingCost {
-            get {
-                return this.mGroup2MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup2MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public Group3MaxFlatShippingCostDefinitionType Group3MaxFlatShippingCost {
-            get {
-                return this.mGroup3MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup3MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MaxFlatShippingCostCBTExemptDefinitionType MaxFlatShippingCostCBTExempt {
-            get {
-                return this.mMaxFlatShippingCostCBTExempt;
-            }
-            set {
-                this.mMaxFlatShippingCostCBTExempt = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MaxFlatShippingCostDefinitionType MaxFlatShippingCost {
-            get {
-                return this.mMaxFlatShippingCost;
-            }
-            set {
-                this.mMaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VariationsEnabledDefinitionType VariationsEnabled {
-            get {
-                return this.mVariationsEnabled;
-            }
-            set {
-                this.mVariationsEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AttributeConversionEnabledFeatureDefinitionType AttributeConversionEnabled {
-            get {
-                return this.mAttributeConversionEnabled;
-            }
-            set {
-                this.mAttributeConversionEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public FreeGalleryPlusEnabledDefinitionType FreeGalleryPlusEnabled {
-            get {
-                return this.mFreeGalleryPlusEnabled;
-            }
-            set {
-                this.mFreeGalleryPlusEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public FreePicturePackEnabledDefinitionType FreePicturePackEnabled {
-            get {
-                return this.mFreePicturePackEnabled;
-            }
-            set {
-                this.mFreePicturePackEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemCompatibilityEnabledDefinitionType ItemCompatibilityEnabled {
-            get {
-                return this.mItemCompatibilityEnabled;
-            }
-            set {
-                this.mItemCompatibilityEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MaxItemCompatibilityDefinitionType MaxItemCompatibility {
-            get {
-                return this.mMaxItemCompatibility;
-            }
-            set {
-                this.mMaxItemCompatibility = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MinItemCompatibilityDefinitionType MinItemCompatibility {
-            get {
-                return this.mMinItemCompatibility;
-            }
-            set {
-                this.mMinItemCompatibility = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionEnabledDefinitionType ConditionEnabled {
-            get {
-                return this.mConditionEnabled;
-            }
-            set {
-                this.mConditionEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionValuesDefinitionType ConditionValues {
-            get {
-                return this.mConditionValues;
-            }
-            set {
-                this.mConditionValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ValueCategoryDefinitionType ValueCategory {
-            get {
-                return this.mValueCategory;
-            }
-            set {
-                this.mValueCategory = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductCreationEnabledDefinitionType ProductCreationEnabled {
-            get {
-                return this.mProductCreationEnabled;
-            }
-            set {
-                this.mProductCreationEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public EANEnabledDefinitionType EANEnabled {
-            get {
-                return this.mEANEnabled;
-            }
-            set {
-                this.mEANEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ISBNEnabledDefinitionType ISBNEnabled {
-            get {
-                return this.mISBNEnabled;
-            }
-            set {
-                this.mISBNEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public UPCEnabledDefinitionType UPCEnabled {
-            get {
-                return this.mUPCEnabled;
-            }
-            set {
-                this.mUPCEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CompatibleVehicleTypeDefinitionType CompatibleVehicleType {
-            get {
-                return this.mCompatibleVehicleType;
-            }
-            set {
-                this.mCompatibleVehicleType = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MaxGranularFitmentCountDefinitionType MaxGranularFitmentCount {
-            get {
-                return this.mMaxGranularFitmentCount;
-            }
-            set {
-                this.mMaxGranularFitmentCount = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupDefinitionType ShippingProfileCategoryGroup {
-            get {
-                return this.mShippingProfileCategoryGroup;
-            }
-            set {
-                this.mShippingProfileCategoryGroup = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupDefinitionType PaymentProfileCategoryGroup {
-            get {
-                return this.mPaymentProfileCategoryGroup;
-            }
-            set {
-                this.mPaymentProfileCategoryGroup = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupDefinitionType ReturnPolicyProfileCategoryGroup {
-            get {
-                return this.mReturnPolicyProfileCategoryGroup;
-            }
-            set {
-                this.mReturnPolicyProfileCategoryGroup = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VINSupportedDefinitionType VINSupported {
-            get {
-                return this.mVINSupported;
-            }
-            set {
-                this.mVINSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VRMSupportedDefinitionType VRMSupported {
-            get {
-                return this.mVRMSupported;
-            }
-            set {
-                this.mVRMSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SellerProvidedTitleSupportedDefinitionType SellerProvidedTitleSupported {
-            get {
-                return this.mSellerProvidedTitleSupported;
-            }
-            set {
-                this.mSellerProvidedTitleSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DepositSupportedDefinitionType DepositSupported {
-            get {
-                return this.mDepositSupported;
-            }
-            set {
-                this.mDepositSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GlobalShippingEnabledDefinitionType GlobalShippingEnabled {
-            get {
-                return this.mGlobalShippingEnabled;
-            }
-            set {
-                this.mGlobalShippingEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdditionalCompatibilityEnabledDefinitionType AdditionalCompatibilityEnabled {
-            get {
-                return this.mAdditionalCompatibilityEnabled;
-            }
-            set {
-                this.mAdditionalCompatibilityEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public PickupDropOffEnabledDefinitionType PickupDropOffEnabled {
-            get {
-                return this.mPickupDropOffEnabled;
-            }
-            set {
-                this.mPickupDropOffEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DigitalGoodDeliveryEnabledDefinitionType DigitalGoodDeliveryEnabled {
-            get {
-                return this.mDigitalGoodDeliveryEnabled;
-            }
-            set {
-                this.mDigitalGoodDeliveryEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public EpidSupportedDefinitionType EpidSupported {
-            get {
-                return this.mEpidSupported;
-            }
-            set {
-                this.mEpidSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public KTypeSupportedDefinitionType KTypeSupported {
-            get {
-                return this.mKTypeSupported;
-            }
-            set {
-                this.mKTypeSupported = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductRequiredEnabledDefinitionType ProductRequiredEnabled {
-            get {
-                return this.mProductRequiredEnabled;
-            }
-            set {
-                this.mProductRequiredEnabled = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsAcceptedDefinitionType DomesticReturnsAcceptedValues {
-            get {
-                return this.mDomesticReturnsAcceptedValues;
-            }
-            set {
-                this.mDomesticReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsAcceptedDefinitionType InternationalReturnsAcceptedValues {
-            get {
-                return this.mInternationalReturnsAcceptedValues;
-            }
-            set {
-                this.mInternationalReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsDurationDefinitionType DomesticReturnsDurationValues {
-            get {
-                return this.mDomesticReturnsDurationValues;
-            }
-            set {
-                this.mDomesticReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsDurationDefinitionType InternationalReturnsDurationValues {
-            get {
-                return this.mInternationalReturnsDurationValues;
-            }
-            set {
-                this.mInternationalReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsShipmentPayeeDefinitionType DomesticReturnsShipmentPayeeValues {
-            get {
-                return this.mDomesticReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mDomesticReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsShipmentPayeeDefinitionType InternationalReturnsShipmentPayeeValues {
-            get {
-                return this.mInternationalReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mInternationalReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticRefundMethodCodeType DomesticRefundMethodValues {
-            get {
-                return this.mDomesticRefundMethodValues;
-            }
-            set {
-                this.mDomesticRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalRefundMethodCodeType InternationalRefundMethodValues {
-            get {
-                return this.mInternationalRefundMethodValues;
-            }
-            set {
-                this.mInternationalRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnPolicyDescriptionEnabledDefinitionType ReturnPolicyDescriptionEnabled {
-            get {
-                return this.mReturnPolicyDescriptionEnabled;
-            }
-            set {
-                this.mReturnPolicyDescriptionEnabled = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticRefundMethodCodeType {
-        private ReturnsRefundMethodCodeTypeCollection mDomesticRefundMethod;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("DomesticRefundMethod")]
-        public ReturnsRefundMethodCodeTypeCollection DomesticRefundMethod {
-            get {
-                return this.mDomesticRefundMethod;
-            }
-            set {
-                this.mDomesticRefundMethod = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ReturnsRefundMethodCodeType {
-        /// <remarks/>
-        MoneyBack,
-        /// <remarks/>
-        MoneyBackorReplacement,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalRefundMethodCodeType {
-        private ReturnsRefundMethodCodeTypeCollection mInternationalRefundMethod;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("InternationalRefundMethod")]
-        public ReturnsRefundMethodCodeTypeCollection InternationalRefundMethod {
-            get {
-                return this.mInternationalRefundMethod;
-            }
-            set {
-                this.mInternationalRefundMethod = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class SiteDefaultsType {
-        private ListingDurationReferenceTypeCollection mListingDuration;
-        private bool mShippingTermsRequired;
-        private bool mShippingTermsRequiredSpecified;
-        private bool mBestOfferEnabled;
-        private bool mBestOfferEnabledSpecified;
-        private bool mDutchBINEnabled;
-        private bool mDutchBINEnabledSpecified;
-        private bool mUserConsentRequired;
-        private bool mUserConsentRequiredSpecified;
-        private bool mHomePageFeaturedEnabled;
-        private bool mHomePageFeaturedEnabledSpecified;
-        private bool mProPackEnabled;
-        private bool mProPackEnabledSpecified;
-        private bool mBasicUpgradePackEnabled;
-        private bool mBasicUpgradePackEnabledSpecified;
-        private bool mValuePackEnabled;
-        private bool mValuePackEnabledSpecified;
-        private bool mProPackPlusEnabled;
-        private bool mProPackPlusEnabledSpecified;
-        private AdFormatEnabledCodeType mAdFormatEnabled;
-        private bool mAdFormatEnabledSpecified;
-        private bool mBestOfferCounterEnabled;
-        private bool mBestOfferCounterEnabledSpecified;
-        private bool mBestOfferAutoDeclineEnabled;
-        private bool mBestOfferAutoDeclineEnabledSpecified;
-        private bool mLocalMarketSpecialitySubscription;
-        private bool mLocalMarketSpecialitySubscriptionSpecified;
-        private bool mLocalMarketRegularSubscription;
-        private bool mLocalMarketRegularSubscriptionSpecified;
-        private bool mLocalMarketPremiumSubscription;
-        private bool mLocalMarketPremiumSubscriptionSpecified;
-        private bool mLocalMarketNonSubscription;
-        private bool mLocalMarketNonSubscriptionSpecified;
-        private bool mExpressEnabled;
-        private bool mExpressEnabledSpecified;
-        private bool mExpressPicturesRequired;
-        private bool mExpressPicturesRequiredSpecified;
-        private bool mExpressConditionRequired;
-        private bool mExpressConditionRequiredSpecified;
-        private double mMinimumReservePrice;
-        private bool mMinimumReservePriceSpecified;
-        private bool mSellerContactDetailsEnabled;
-        private bool mSellerContactDetailsEnabledSpecified;
-        private bool mTransactionConfirmationRequestEnabled;
-        private bool mTransactionConfirmationRequestEnabledSpecified;
-        private bool mStoreInventoryEnabled;
-        private bool mStoreInventoryEnabledSpecified;
-        private bool mSkypeMeTransactionalEnabled;
-        private bool mSkypeMeTransactionalEnabledSpecified;
-        private bool mSkypeMeNonTransactionalEnabled;
-        private bool mSkypeMeNonTransactionalEnabledSpecified;
-        private string mLocalListingDistancesRegular;
-        private string mLocalListingDistancesSpecialty;
-        private string mLocalListingDistancesNonSubscription;
-        private ClassifiedAdPaymentMethodEnabledCodeType mClassifiedAdPaymentMethodEnabled;
-        private bool mClassifiedAdPaymentMethodEnabledSpecified;
-        private bool mClassifiedAdShippingMethodEnabled;
-        private bool mClassifiedAdShippingMethodEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType mClassifiedAdBestOfferEnabled;
-        private bool mClassifiedAdBestOfferEnabledSpecified;
-        private bool mClassifiedAdCounterOfferEnabled;
-        private bool mClassifiedAdCounterOfferEnabledSpecified;
-        private bool mClassifiedAdAutoDeclineEnabled;
-        private bool mClassifiedAdAutoDeclineEnabledSpecified;
-        private bool mClassifiedAdContactByPhoneEnabled;
-        private bool mClassifiedAdContactByPhoneEnabledSpecified;
-        private bool mClassifiedAdContactByEmailEnabled;
-        private bool mClassifiedAdContactByEmailEnabledSpecified;
-        private bool mSafePaymentRequired;
-        private bool mSafePaymentRequiredSpecified;
-        private bool mClassifiedAdPayPerLeadEnabled;
-        private bool mClassifiedAdPayPerLeadEnabledSpecified;
-        private ItemSpecificsEnabledCodeType mItemSpecificsEnabled;
-        private bool mItemSpecificsEnabledSpecified;
-        private bool mBrandMPNIdentifierEnabled;
-        private bool mBrandMPNIdentifierEnabledSpecified;
-        private bool mClassifiedAdAutoAcceptEnabled;
-        private bool mClassifiedAdAutoAcceptEnabledSpecified;
-        private bool mBestOfferAutoAcceptEnabled;
-        private bool mBestOfferAutoAcceptEnabledSpecified;
-        private bool mCrossBorderTradeNorthAmericaEnabled;
-        private bool mCrossBorderTradeNorthAmericaEnabledSpecified;
-        private bool mCrossBorderTradeGBEnabled;
-        private bool mCrossBorderTradeGBEnabledSpecified;
-        private bool mCrossBorderTradeAustraliaEnabled;
-        private bool mCrossBorderTradeAustraliaEnabledSpecified;
-        private bool mBuyerGuaranteeEnabled;
-        private bool mBuyerGuaranteeEnabledSpecified;
-        private bool mCombinedFixedPriceTreatmentEnabled;
-        private bool mCombinedFixedPriceTreatmentEnabledSpecified;
-        private ListingEnhancementDurationReferenceType mGalleryFeaturedDurations;
-        private bool mPayPalRequired;
-        private bool mPayPalRequiredSpecified;
-        private AdFormatEnabledCodeType meBayMotorsProAdFormatEnabled;
-        private bool meBayMotorsProAdFormatEnabledSpecified;
-        private bool meBayMotorsProContactByPhoneEnabled;
-        private bool meBayMotorsProContactByPhoneEnabledSpecified;
-        private int meBayMotorsProPhoneCount;
-        private bool meBayMotorsProPhoneCountSpecified;
-        private bool meBayMotorsProContactByAddressEnabled;
-        private bool meBayMotorsProContactByAddressEnabledSpecified;
-        private int meBayMotorsProStreetCount;
-        private bool meBayMotorsProStreetCountSpecified;
-        private bool meBayMotorsProCompanyNameEnabled;
-        private bool meBayMotorsProCompanyNameEnabledSpecified;
-        private bool meBayMotorsProContactByEmailEnabled;
-        private bool meBayMotorsProContactByEmailEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType meBayMotorsProBestOfferEnabled;
-        private bool meBayMotorsProBestOfferEnabledSpecified;
-        private bool meBayMotorsProAutoAcceptEnabled;
-        private bool meBayMotorsProAutoAcceptEnabledSpecified;
-        private bool meBayMotorsProAutoDeclineEnabled;
-        private bool meBayMotorsProAutoDeclineEnabledSpecified;
-        private ClassifiedAdPaymentMethodEnabledCodeType meBayMotorsProPaymentMethodCheckOutEnabled;
-        private bool meBayMotorsProPaymentMethodCheckOutEnabledSpecified;
-        private bool meBayMotorsProShippingMethodEnabled;
-        private bool meBayMotorsProShippingMethodEnabledSpecified;
-        private bool meBayMotorsProCounterOfferEnabled;
-        private bool meBayMotorsProCounterOfferEnabledSpecified;
-        private bool meBayMotorsProSellerContactDetailsEnabled;
-        private bool meBayMotorsProSellerContactDetailsEnabledSpecified;
-        private AdFormatEnabledCodeType mLocalMarketAdFormatEnabled;
-        private bool mLocalMarketAdFormatEnabledSpecified;
-        private bool mLocalMarketContactByPhoneEnabled;
-        private bool mLocalMarketContactByPhoneEnabledSpecified;
-        private int mLocalMarketPhoneCount;
-        private bool mLocalMarketPhoneCountSpecified;
-        private bool mLocalMarketContactByAddressEnabled;
-        private bool mLocalMarketContactByAddressEnabledSpecified;
-        private int mLocalMarketStreetCount;
-        private bool mLocalMarketStreetCountSpecified;
-        private bool mLocalMarketCompanyNameEnabled;
-        private bool mLocalMarketCompanyNameEnabledSpecified;
-        private bool mLocalMarketContactByEmailEnabled;
-        private bool mLocalMarketContactByEmailEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType mLocalMarketBestOfferEnabled;
-        private bool mLocalMarketBestOfferEnabledSpecified;
-        private bool mLocalMarketAutoAcceptEnabled;
-        private bool mLocalMarketAutoAcceptEnabledSpecified;
-        private bool mLocalMarketAutoDeclineEnabled;
-        private bool mLocalMarketAutoDeclineEnabledSpecified;
-        private ClassifiedAdPaymentMethodEnabledCodeType mLocalMarketPaymentMethodCheckOutEnabled;
-        private bool mLocalMarketPaymentMethodCheckOutEnabledSpecified;
-        private bool mLocalMarketShippingMethodEnabled;
-        private bool mLocalMarketShippingMethodEnabledSpecified;
-        private bool mLocalMarketCounterOfferEnabled;
-        private bool mLocalMarketCounterOfferEnabledSpecified;
-        private bool mLocalMarketSellerContactDetailsEnabled;
-        private bool mLocalMarketSellerContactDetailsEnabledSpecified;
-        private int mClassifiedAdPhoneCount;
-        private bool mClassifiedAdPhoneCountSpecified;
-        private bool mClassifiedAdContactByAddressEnabled;
-        private bool mClassifiedAdContactByAddressEnabledSpecified;
-        private int mClassifiedAdStreetCount;
-        private bool mClassifiedAdStreetCountSpecified;
-        private bool mClassifiedAdCompanyNameEnabled;
-        private bool mClassifiedAdCompanyNameEnabledSpecified;
-        private GeographicExposureCodeType mSpecialitySubscription;
-        private bool mSpecialitySubscriptionSpecified;
-        private GeographicExposureCodeType mRegularSubscription;
-        private bool mRegularSubscriptionSpecified;
-        private GeographicExposureCodeType mPremiumSubscription;
-        private bool mPremiumSubscriptionSpecified;
-        private GeographicExposureCodeType mNonSubscription;
-        private bool mNonSubscriptionSpecified;
-        private bool mPayPalRequiredForStoreOwner;
-        private bool mPayPalRequiredForStoreOwnerSpecified;
-        private bool mReviseQuantityAllowed;
-        private bool mReviseQuantityAllowedSpecified;
-        private bool mRevisePriceAllowed;
-        private bool mRevisePriceAllowedSpecified;
-        private bool mStoreOwnerExtendedListingDurationsEnabled;
-        private bool mStoreOwnerExtendedListingDurationsEnabledSpecified;
-        private StoreOwnerExtendedListingDurationsType mStoreOwnerExtendedListingDurations;
-        private bool mReturnPolicyEnabled;
-        private bool mReturnPolicyEnabledSpecified;
-        private bool mHandlingTimeEnabled;
-        private bool mHandlingTimeEnabledSpecified;
-        private AmountType mMaxFlatShippingCost;
-        private bool mMaxFlatShippingCostCBTExempt;
-        private bool mMaxFlatShippingCostCBTExemptSpecified;
-        private AmountType mGroup1MaxFlatShippingCost;
-        private AmountType mGroup2MaxFlatShippingCost;
-        private AmountType mGroup3MaxFlatShippingCost;
-        private BuyerPaymentMethodCodeTypeCollection mPaymentMethod;
-        private bool mVariationsEnabled;
-        private bool mVariationsEnabledSpecified;
-        private AttributeConversionEnabledCodeType mAttributeConversionEnabled;
-        private bool mAttributeConversionEnabledSpecified;
-        private bool mFreeGalleryPlusEnabled;
-        private bool mFreeGalleryPlusEnabledSpecified;
-        private bool mFreePicturePackEnabled;
-        private bool mFreePicturePackEnabledSpecified;
-        private ItemCompatibilityEnabledCodeType mItemCompatibilityEnabled;
-        private bool mItemCompatibilityEnabledSpecified;
-        private int mMinItemCompatibility;
-        private bool mMinItemCompatibilitySpecified;
-        private int mMaxItemCompatibility;
-        private bool mMaxItemCompatibilitySpecified;
-        private ConditionEnabledCodeType mConditionEnabled;
-        private bool mConditionEnabledSpecified;
-        private ConditionValuesType mConditionValues;
-        private ConditionValuesType mSpecialFeatures;
-        private bool mValueCategory;
-        private bool mValueCategorySpecified;
-        private ProductCreationEnabledCodeType mProductCreationEnabled;
-        private bool mProductCreationEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mEANEnabled;
-        private bool mEANEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mISBNEnabled;
-        private bool mISBNEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mUPCEnabled;
-        private bool mUPCEnabledSpecified;
-        private int mMaxGranularFitmentCount;
-        private bool mMaxGranularFitmentCountSpecified;
-        private string mCompatibleVehicleType;
-        private ProfileCategoryGroupCodeType mShippingProfileCategoryGroup;
-        private bool mShippingProfileCategoryGroupSpecified;
-        private ProfileCategoryGroupCodeType mPaymentProfileCategoryGroup;
-        private bool mPaymentProfileCategoryGroupSpecified;
-        private ProfileCategoryGroupCodeType mReturnPolicyProfileCategoryGroup;
-        private bool mReturnPolicyProfileCategoryGroupSpecified;
-        private bool mVINSupported;
-        private bool mVINSupportedSpecified;
-        private bool mVRMSupported;
-        private bool mVRMSupportedSpecified;
-        private bool mSellerProvidedTitleSupported;
-        private bool mSellerProvidedTitleSupportedSpecified;
-        private bool mDepositSupported;
-        private bool mDepositSupportedSpecified;
-        private bool mGlobalShippingEnabled;
-        private bool mGlobalShippingEnabledSpecified;
-        private bool mAdditionalCompatibilityEnabled;
-        private bool mAdditionalCompatibilityEnabledSpecified;
-        private bool mPickupDropOffEnabled;
-        private bool mPickupDropOffEnabledSpecified;
-        private bool mDigitalGoodDeliveryEnabled;
-        private bool mDigitalGoodDeliveryEnabledSpecified;
-        private bool mEpidSupported;
-        private bool mEpidSupportedSpecified;
-        private bool mKTypeSupported;
-        private bool mKTypeSupportedSpecified;
-        private ProductRequiredEnabledCodeType mProductRequiredEnabled;
-        private bool mProductRequiredEnabledSpecified;
-        private DomesticReturnsAcceptedCodeType mDomesticReturnsAcceptedValues;
-        private InternationalReturnsAcceptedCodeType mInternationalReturnsAcceptedValues;
-        private DomesticReturnsDurationCodeType mDomesticReturnsDurationValues;
-        private InternationalReturnsDurationCodeType mInternationalReturnsDurationValues;
-        private DomesticReturnsShipmentPayeeCodeType mDomesticReturnsShipmentPayeeValues;
-        private InternationalReturnsShipmentPayeeCodeType mInternationalReturnsShipmentPayeeValues;
-        private DomesticRefundMethodCodeType mDomesticRefundMethodValues;
-        private InternationalRefundMethodCodeType mInternationalRefundMethodValues;
-        private bool mReturnPolicyDescriptionEnabled;
-        private bool mReturnPolicyDescriptionEnabledSpecified;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("ListingDuration")]
-        public ListingDurationReferenceTypeCollection ListingDuration {
-            get {
-                return this.mListingDuration;
-            }
-            set {
-                this.mListingDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ShippingTermsRequired {
-            get {
-                return this.mShippingTermsRequired;
-            }
-            set {
-                this.mShippingTermsRequired = value;
-                this.mShippingTermsRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ShippingTermsRequiredSpecified {
-            get {
-                return this.mShippingTermsRequiredSpecified;
-            }
-            set {
-                this.mShippingTermsRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferEnabled {
-            get {
-                return this.mBestOfferEnabled;
-            }
-            set {
-                this.mBestOfferEnabled = value;
-                this.mBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferEnabledSpecified {
-            get {
-                return this.mBestOfferEnabledSpecified;
-            }
-            set {
-                this.mBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DutchBINEnabled {
-            get {
-                return this.mDutchBINEnabled;
-            }
-            set {
-                this.mDutchBINEnabled = value;
-                this.mDutchBINEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DutchBINEnabledSpecified {
-            get {
-                return this.mDutchBINEnabledSpecified;
-            }
-            set {
-                this.mDutchBINEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool UserConsentRequired {
-            get {
-                return this.mUserConsentRequired;
-            }
-            set {
-                this.mUserConsentRequired = value;
-                this.mUserConsentRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UserConsentRequiredSpecified {
-            get {
-                return this.mUserConsentRequiredSpecified;
-            }
-            set {
-                this.mUserConsentRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool HomePageFeaturedEnabled {
-            get {
-                return this.mHomePageFeaturedEnabled;
-            }
-            set {
-                this.mHomePageFeaturedEnabled = value;
-                this.mHomePageFeaturedEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HomePageFeaturedEnabledSpecified {
-            get {
-                return this.mHomePageFeaturedEnabledSpecified;
-            }
-            set {
-                this.mHomePageFeaturedEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ProPackEnabled {
-            get {
-                return this.mProPackEnabled;
-            }
-            set {
-                this.mProPackEnabled = value;
-                this.mProPackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProPackEnabledSpecified {
-            get {
-                return this.mProPackEnabledSpecified;
-            }
-            set {
-                this.mProPackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BasicUpgradePackEnabled {
-            get {
-                return this.mBasicUpgradePackEnabled;
-            }
-            set {
-                this.mBasicUpgradePackEnabled = value;
-                this.mBasicUpgradePackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BasicUpgradePackEnabledSpecified {
-            get {
-                return this.mBasicUpgradePackEnabledSpecified;
-            }
-            set {
-                this.mBasicUpgradePackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ValuePackEnabled {
-            get {
-                return this.mValuePackEnabled;
-            }
-            set {
-                this.mValuePackEnabled = value;
-                this.mValuePackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValuePackEnabledSpecified {
-            get {
-                return this.mValuePackEnabledSpecified;
-            }
-            set {
-                this.mValuePackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ProPackPlusEnabled {
-            get {
-                return this.mProPackPlusEnabled;
-            }
-            set {
-                this.mProPackPlusEnabled = value;
-                this.mProPackPlusEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProPackPlusEnabledSpecified {
-            get {
-                return this.mProPackPlusEnabledSpecified;
-            }
-            set {
-                this.mProPackPlusEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType AdFormatEnabled {
-            get {
-                return this.mAdFormatEnabled;
-            }
-            set {
-                this.mAdFormatEnabled = value;
-                this.mAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdFormatEnabledSpecified {
-            get {
-                return this.mAdFormatEnabledSpecified;
-            }
-            set {
-                this.mAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferCounterEnabled {
-            get {
-                return this.mBestOfferCounterEnabled;
-            }
-            set {
-                this.mBestOfferCounterEnabled = value;
-                this.mBestOfferCounterEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferCounterEnabledSpecified {
-            get {
-                return this.mBestOfferCounterEnabledSpecified;
-            }
-            set {
-                this.mBestOfferCounterEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferAutoDeclineEnabled {
-            get {
-                return this.mBestOfferAutoDeclineEnabled;
-            }
-            set {
-                this.mBestOfferAutoDeclineEnabled = value;
-                this.mBestOfferAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferAutoDeclineEnabledSpecified {
-            get {
-                return this.mBestOfferAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mBestOfferAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketSpecialitySubscription {
-            get {
-                return this.mLocalMarketSpecialitySubscription;
-            }
-            set {
-                this.mLocalMarketSpecialitySubscription = value;
-                this.mLocalMarketSpecialitySubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketSpecialitySubscriptionSpecified {
-            get {
-                return this.mLocalMarketSpecialitySubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketSpecialitySubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketRegularSubscription {
-            get {
-                return this.mLocalMarketRegularSubscription;
-            }
-            set {
-                this.mLocalMarketRegularSubscription = value;
-                this.mLocalMarketRegularSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketRegularSubscriptionSpecified {
-            get {
-                return this.mLocalMarketRegularSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketRegularSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketPremiumSubscription {
-            get {
-                return this.mLocalMarketPremiumSubscription;
-            }
-            set {
-                this.mLocalMarketPremiumSubscription = value;
-                this.mLocalMarketPremiumSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPremiumSubscriptionSpecified {
-            get {
-                return this.mLocalMarketPremiumSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketPremiumSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketNonSubscription {
-            get {
-                return this.mLocalMarketNonSubscription;
-            }
-            set {
-                this.mLocalMarketNonSubscription = value;
-                this.mLocalMarketNonSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketNonSubscriptionSpecified {
-            get {
-                return this.mLocalMarketNonSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketNonSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ExpressEnabled {
-            get {
-                return this.mExpressEnabled;
-            }
-            set {
-                this.mExpressEnabled = value;
-                this.mExpressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ExpressEnabledSpecified {
-            get {
-                return this.mExpressEnabledSpecified;
-            }
-            set {
-                this.mExpressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ExpressPicturesRequired {
-            get {
-                return this.mExpressPicturesRequired;
-            }
-            set {
-                this.mExpressPicturesRequired = value;
-                this.mExpressPicturesRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ExpressPicturesRequiredSpecified {
-            get {
-                return this.mExpressPicturesRequiredSpecified;
-            }
-            set {
-                this.mExpressPicturesRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ExpressConditionRequired {
-            get {
-                return this.mExpressConditionRequired;
-            }
-            set {
-                this.mExpressConditionRequired = value;
-                this.mExpressConditionRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ExpressConditionRequiredSpecified {
-            get {
-                return this.mExpressConditionRequiredSpecified;
-            }
-            set {
-                this.mExpressConditionRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public double MinimumReservePrice {
-            get {
-                return this.mMinimumReservePrice;
-            }
-            set {
-                this.mMinimumReservePrice = value;
-                this.mMinimumReservePriceSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MinimumReservePriceSpecified {
-            get {
-                return this.mMinimumReservePriceSpecified;
-            }
-            set {
-                this.mMinimumReservePriceSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SellerContactDetailsEnabled {
-            get {
-                return this.mSellerContactDetailsEnabled;
-            }
-            set {
-                this.mSellerContactDetailsEnabled = value;
-                this.mSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SellerContactDetailsEnabledSpecified {
-            get {
-                return this.mSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.mSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool TransactionConfirmationRequestEnabled {
-            get {
-                return this.mTransactionConfirmationRequestEnabled;
-            }
-            set {
-                this.mTransactionConfirmationRequestEnabled = value;
-                this.mTransactionConfirmationRequestEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TransactionConfirmationRequestEnabledSpecified {
-            get {
-                return this.mTransactionConfirmationRequestEnabledSpecified;
-            }
-            set {
-                this.mTransactionConfirmationRequestEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool StoreInventoryEnabled {
-            get {
-                return this.mStoreInventoryEnabled;
-            }
-            set {
-                this.mStoreInventoryEnabled = value;
-                this.mStoreInventoryEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StoreInventoryEnabledSpecified {
-            get {
-                return this.mStoreInventoryEnabledSpecified;
-            }
-            set {
-                this.mStoreInventoryEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SkypeMeTransactionalEnabled {
-            get {
-                return this.mSkypeMeTransactionalEnabled;
-            }
-            set {
-                this.mSkypeMeTransactionalEnabled = value;
-                this.mSkypeMeTransactionalEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SkypeMeTransactionalEnabledSpecified {
-            get {
-                return this.mSkypeMeTransactionalEnabledSpecified;
-            }
-            set {
-                this.mSkypeMeTransactionalEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SkypeMeNonTransactionalEnabled {
-            get {
-                return this.mSkypeMeNonTransactionalEnabled;
-            }
-            set {
-                this.mSkypeMeNonTransactionalEnabled = value;
-                this.mSkypeMeNonTransactionalEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SkypeMeNonTransactionalEnabledSpecified {
-            get {
-                return this.mSkypeMeNonTransactionalEnabledSpecified;
-            }
-            set {
-                this.mSkypeMeNonTransactionalEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string LocalListingDistancesRegular {
-            get {
-                return this.mLocalListingDistancesRegular;
-            }
-            set {
-                this.mLocalListingDistancesRegular = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string LocalListingDistancesSpecialty {
-            get {
-                return this.mLocalListingDistancesSpecialty;
-            }
-            set {
-                this.mLocalListingDistancesSpecialty = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string LocalListingDistancesNonSubscription {
-            get {
-                return this.mLocalListingDistancesNonSubscription;
-            }
-            set {
-                this.mLocalListingDistancesNonSubscription = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType ClassifiedAdPaymentMethodEnabled {
-            get {
-                return this.mClassifiedAdPaymentMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdPaymentMethodEnabled = value;
-                this.mClassifiedAdPaymentMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPaymentMethodEnabledSpecified {
-            get {
-                return this.mClassifiedAdPaymentMethodEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdPaymentMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdShippingMethodEnabled {
-            get {
-                return this.mClassifiedAdShippingMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdShippingMethodEnabled = value;
-                this.mClassifiedAdShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdShippingMethodEnabledSpecified {
-            get {
-                return this.mClassifiedAdShippingMethodEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType ClassifiedAdBestOfferEnabled {
-            get {
-                return this.mClassifiedAdBestOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdBestOfferEnabled = value;
-                this.mClassifiedAdBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdBestOfferEnabledSpecified {
-            get {
-                return this.mClassifiedAdBestOfferEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdCounterOfferEnabled {
-            get {
-                return this.mClassifiedAdCounterOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdCounterOfferEnabled = value;
-                this.mClassifiedAdCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdCounterOfferEnabledSpecified {
-            get {
-                return this.mClassifiedAdCounterOfferEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdAutoDeclineEnabled {
-            get {
-                return this.mClassifiedAdAutoDeclineEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoDeclineEnabled = value;
-                this.mClassifiedAdAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdAutoDeclineEnabledSpecified {
-            get {
-                return this.mClassifiedAdAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByPhoneEnabled {
-            get {
-                return this.mClassifiedAdContactByPhoneEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByPhoneEnabled = value;
-                this.mClassifiedAdContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByPhoneEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByEmailEnabled {
-            get {
-                return this.mClassifiedAdContactByEmailEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByEmailEnabled = value;
-                this.mClassifiedAdContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByEmailEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByEmailEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SafePaymentRequired {
-            get {
-                return this.mSafePaymentRequired;
-            }
-            set {
-                this.mSafePaymentRequired = value;
-                this.mSafePaymentRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SafePaymentRequiredSpecified {
-            get {
-                return this.mSafePaymentRequiredSpecified;
-            }
-            set {
-                this.mSafePaymentRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdPayPerLeadEnabled {
-            get {
-                return this.mClassifiedAdPayPerLeadEnabled;
-            }
-            set {
-                this.mClassifiedAdPayPerLeadEnabled = value;
-                this.mClassifiedAdPayPerLeadEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPayPerLeadEnabledSpecified {
-            get {
-                return this.mClassifiedAdPayPerLeadEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdPayPerLeadEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemSpecificsEnabledCodeType ItemSpecificsEnabled {
-            get {
-                return this.mItemSpecificsEnabled;
-            }
-            set {
-                this.mItemSpecificsEnabled = value;
-                this.mItemSpecificsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemSpecificsEnabledSpecified {
-            get {
-                return this.mItemSpecificsEnabledSpecified;
-            }
-            set {
-                this.mItemSpecificsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BrandMPNIdentifierEnabled {
-            get {
-                return this.mBrandMPNIdentifierEnabled;
-            }
-            set {
-                this.mBrandMPNIdentifierEnabled = value;
-                this.mBrandMPNIdentifierEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BrandMPNIdentifierEnabledSpecified {
-            get {
-                return this.mBrandMPNIdentifierEnabledSpecified;
-            }
-            set {
-                this.mBrandMPNIdentifierEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdAutoAcceptEnabled {
-            get {
-                return this.mClassifiedAdAutoAcceptEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoAcceptEnabled = value;
-                this.mClassifiedAdAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdAutoAcceptEnabledSpecified {
-            get {
-                return this.mClassifiedAdAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferAutoAcceptEnabled {
-            get {
-                return this.mBestOfferAutoAcceptEnabled;
-            }
-            set {
-                this.mBestOfferAutoAcceptEnabled = value;
-                this.mBestOfferAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferAutoAcceptEnabledSpecified {
-            get {
-                return this.mBestOfferAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mBestOfferAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeNorthAmericaEnabled {
-            get {
-                return this.mCrossBorderTradeNorthAmericaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeNorthAmericaEnabled = value;
-                this.mCrossBorderTradeNorthAmericaEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeNorthAmericaEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeNorthAmericaEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeNorthAmericaEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeGBEnabled {
-            get {
-                return this.mCrossBorderTradeGBEnabled;
-            }
-            set {
-                this.mCrossBorderTradeGBEnabled = value;
-                this.mCrossBorderTradeGBEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeGBEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeGBEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeGBEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeAustraliaEnabled {
-            get {
-                return this.mCrossBorderTradeAustraliaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeAustraliaEnabled = value;
-                this.mCrossBorderTradeAustraliaEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeAustraliaEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeAustraliaEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeAustraliaEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BuyerGuaranteeEnabled {
-            get {
-                return this.mBuyerGuaranteeEnabled;
-            }
-            set {
-                this.mBuyerGuaranteeEnabled = value;
-                this.mBuyerGuaranteeEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BuyerGuaranteeEnabledSpecified {
-            get {
-                return this.mBuyerGuaranteeEnabledSpecified;
-            }
-            set {
-                this.mBuyerGuaranteeEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CombinedFixedPriceTreatmentEnabled {
-            get {
-                return this.mCombinedFixedPriceTreatmentEnabled;
-            }
-            set {
-                this.mCombinedFixedPriceTreatmentEnabled = value;
-                this.mCombinedFixedPriceTreatmentEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CombinedFixedPriceTreatmentEnabledSpecified {
-            get {
-                return this.mCombinedFixedPriceTreatmentEnabledSpecified;
-            }
-            set {
-                this.mCombinedFixedPriceTreatmentEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingEnhancementDurationReferenceType GalleryFeaturedDurations {
-            get {
-                return this.mGalleryFeaturedDurations;
-            }
-            set {
-                this.mGalleryFeaturedDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool PayPalRequired {
-            get {
-                return this.mPayPalRequired;
-            }
-            set {
-                this.mPayPalRequired = value;
-                this.mPayPalRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PayPalRequiredSpecified {
-            get {
-                return this.mPayPalRequiredSpecified;
-            }
-            set {
-                this.mPayPalRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType eBayMotorsProAdFormatEnabled {
-            get {
-                return this.meBayMotorsProAdFormatEnabled;
-            }
-            set {
-                this.meBayMotorsProAdFormatEnabled = value;
-                this.meBayMotorsProAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAdFormatEnabledSpecified {
-            get {
-                return this.meBayMotorsProAdFormatEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByPhoneEnabled {
-            get {
-                return this.meBayMotorsProContactByPhoneEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByPhoneEnabled = value;
-                this.meBayMotorsProContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByPhoneEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int eBayMotorsProPhoneCount {
-            get {
-                return this.meBayMotorsProPhoneCount;
-            }
-            set {
-                this.meBayMotorsProPhoneCount = value;
-                this.meBayMotorsProPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProPhoneCountSpecified {
-            get {
-                return this.meBayMotorsProPhoneCountSpecified;
-            }
-            set {
-                this.meBayMotorsProPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByAddressEnabled {
-            get {
-                return this.meBayMotorsProContactByAddressEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByAddressEnabled = value;
-                this.meBayMotorsProContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByAddressEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByAddressEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int eBayMotorsProStreetCount {
-            get {
-                return this.meBayMotorsProStreetCount;
-            }
-            set {
-                this.meBayMotorsProStreetCount = value;
-                this.meBayMotorsProStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProStreetCountSpecified {
-            get {
-                return this.meBayMotorsProStreetCountSpecified;
-            }
-            set {
-                this.meBayMotorsProStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProCompanyNameEnabled {
-            get {
-                return this.meBayMotorsProCompanyNameEnabled;
-            }
-            set {
-                this.meBayMotorsProCompanyNameEnabled = value;
-                this.meBayMotorsProCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProCompanyNameEnabledSpecified {
-            get {
-                return this.meBayMotorsProCompanyNameEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByEmailEnabled {
-            get {
-                return this.meBayMotorsProContactByEmailEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByEmailEnabled = value;
-                this.meBayMotorsProContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByEmailEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByEmailEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType eBayMotorsProBestOfferEnabled {
-            get {
-                return this.meBayMotorsProBestOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProBestOfferEnabled = value;
-                this.meBayMotorsProBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProBestOfferEnabledSpecified {
-            get {
-                return this.meBayMotorsProBestOfferEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProAutoAcceptEnabled {
-            get {
-                return this.meBayMotorsProAutoAcceptEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoAcceptEnabled = value;
-                this.meBayMotorsProAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAutoAcceptEnabledSpecified {
-            get {
-                return this.meBayMotorsProAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProAutoDeclineEnabled {
-            get {
-                return this.meBayMotorsProAutoDeclineEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoDeclineEnabled = value;
-                this.meBayMotorsProAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAutoDeclineEnabledSpecified {
-            get {
-                return this.meBayMotorsProAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType eBayMotorsProPaymentMethodCheckOutEnabled {
-            get {
-                return this.meBayMotorsProPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.meBayMotorsProPaymentMethodCheckOutEnabled = value;
-                this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProPaymentMethodCheckOutEnabledSpecified {
-            get {
-                return this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProShippingMethodEnabled {
-            get {
-                return this.meBayMotorsProShippingMethodEnabled;
-            }
-            set {
-                this.meBayMotorsProShippingMethodEnabled = value;
-                this.meBayMotorsProShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProShippingMethodEnabledSpecified {
-            get {
-                return this.meBayMotorsProShippingMethodEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProCounterOfferEnabled {
-            get {
-                return this.meBayMotorsProCounterOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProCounterOfferEnabled = value;
-                this.meBayMotorsProCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProCounterOfferEnabledSpecified {
-            get {
-                return this.meBayMotorsProCounterOfferEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProSellerContactDetailsEnabled {
-            get {
-                return this.meBayMotorsProSellerContactDetailsEnabled;
-            }
-            set {
-                this.meBayMotorsProSellerContactDetailsEnabled = value;
-                this.meBayMotorsProSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProSellerContactDetailsEnabledSpecified {
-            get {
-                return this.meBayMotorsProSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType LocalMarketAdFormatEnabled {
-            get {
-                return this.mLocalMarketAdFormatEnabled;
-            }
-            set {
-                this.mLocalMarketAdFormatEnabled = value;
-                this.mLocalMarketAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAdFormatEnabledSpecified {
-            get {
-                return this.mLocalMarketAdFormatEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByPhoneEnabled {
-            get {
-                return this.mLocalMarketContactByPhoneEnabled;
-            }
-            set {
-                this.mLocalMarketContactByPhoneEnabled = value;
-                this.mLocalMarketContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByPhoneEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int LocalMarketPhoneCount {
-            get {
-                return this.mLocalMarketPhoneCount;
-            }
-            set {
-                this.mLocalMarketPhoneCount = value;
-                this.mLocalMarketPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPhoneCountSpecified {
-            get {
-                return this.mLocalMarketPhoneCountSpecified;
-            }
-            set {
-                this.mLocalMarketPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByAddressEnabled {
-            get {
-                return this.mLocalMarketContactByAddressEnabled;
-            }
-            set {
-                this.mLocalMarketContactByAddressEnabled = value;
-                this.mLocalMarketContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByAddressEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByAddressEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int LocalMarketStreetCount {
-            get {
-                return this.mLocalMarketStreetCount;
-            }
-            set {
-                this.mLocalMarketStreetCount = value;
-                this.mLocalMarketStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketStreetCountSpecified {
-            get {
-                return this.mLocalMarketStreetCountSpecified;
-            }
-            set {
-                this.mLocalMarketStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketCompanyNameEnabled {
-            get {
-                return this.mLocalMarketCompanyNameEnabled;
-            }
-            set {
-                this.mLocalMarketCompanyNameEnabled = value;
-                this.mLocalMarketCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketCompanyNameEnabledSpecified {
-            get {
-                return this.mLocalMarketCompanyNameEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByEmailEnabled {
-            get {
-                return this.mLocalMarketContactByEmailEnabled;
-            }
-            set {
-                this.mLocalMarketContactByEmailEnabled = value;
-                this.mLocalMarketContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByEmailEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByEmailEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType LocalMarketBestOfferEnabled {
-            get {
-                return this.mLocalMarketBestOfferEnabled;
-            }
-            set {
-                this.mLocalMarketBestOfferEnabled = value;
-                this.mLocalMarketBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketBestOfferEnabledSpecified {
-            get {
-                return this.mLocalMarketBestOfferEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketAutoAcceptEnabled {
-            get {
-                return this.mLocalMarketAutoAcceptEnabled;
-            }
-            set {
-                this.mLocalMarketAutoAcceptEnabled = value;
-                this.mLocalMarketAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAutoAcceptEnabledSpecified {
-            get {
-                return this.mLocalMarketAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketAutoDeclineEnabled {
-            get {
-                return this.mLocalMarketAutoDeclineEnabled;
-            }
-            set {
-                this.mLocalMarketAutoDeclineEnabled = value;
-                this.mLocalMarketAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAutoDeclineEnabledSpecified {
-            get {
-                return this.mLocalMarketAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType LocalMarketPaymentMethodCheckOutEnabled {
-            get {
-                return this.mLocalMarketPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.mLocalMarketPaymentMethodCheckOutEnabled = value;
-                this.mLocalMarketPaymentMethodCheckOutEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPaymentMethodCheckOutEnabledSpecified {
-            get {
-                return this.mLocalMarketPaymentMethodCheckOutEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketPaymentMethodCheckOutEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketShippingMethodEnabled {
-            get {
-                return this.mLocalMarketShippingMethodEnabled;
-            }
-            set {
-                this.mLocalMarketShippingMethodEnabled = value;
-                this.mLocalMarketShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketShippingMethodEnabledSpecified {
-            get {
-                return this.mLocalMarketShippingMethodEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketCounterOfferEnabled {
-            get {
-                return this.mLocalMarketCounterOfferEnabled;
-            }
-            set {
-                this.mLocalMarketCounterOfferEnabled = value;
-                this.mLocalMarketCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketCounterOfferEnabledSpecified {
-            get {
-                return this.mLocalMarketCounterOfferEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketSellerContactDetailsEnabled {
-            get {
-                return this.mLocalMarketSellerContactDetailsEnabled;
-            }
-            set {
-                this.mLocalMarketSellerContactDetailsEnabled = value;
-                this.mLocalMarketSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketSellerContactDetailsEnabledSpecified {
-            get {
-                return this.mLocalMarketSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ClassifiedAdPhoneCount {
-            get {
-                return this.mClassifiedAdPhoneCount;
-            }
-            set {
-                this.mClassifiedAdPhoneCount = value;
-                this.mClassifiedAdPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPhoneCountSpecified {
-            get {
-                return this.mClassifiedAdPhoneCountSpecified;
-            }
-            set {
-                this.mClassifiedAdPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByAddressEnabled {
-            get {
-                return this.mClassifiedAdContactByAddressEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByAddressEnabled = value;
-                this.mClassifiedAdContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByAddressEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByAddressEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ClassifiedAdStreetCount {
-            get {
-                return this.mClassifiedAdStreetCount;
-            }
-            set {
-                this.mClassifiedAdStreetCount = value;
-                this.mClassifiedAdStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdStreetCountSpecified {
-            get {
-                return this.mClassifiedAdStreetCountSpecified;
-            }
-            set {
-                this.mClassifiedAdStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdCompanyNameEnabled {
-            get {
-                return this.mClassifiedAdCompanyNameEnabled;
-            }
-            set {
-                this.mClassifiedAdCompanyNameEnabled = value;
-                this.mClassifiedAdCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdCompanyNameEnabledSpecified {
-            get {
-                return this.mClassifiedAdCompanyNameEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType SpecialitySubscription {
-            get {
-                return this.mSpecialitySubscription;
-            }
-            set {
-                this.mSpecialitySubscription = value;
-                this.mSpecialitySubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SpecialitySubscriptionSpecified {
-            get {
-                return this.mSpecialitySubscriptionSpecified;
-            }
-            set {
-                this.mSpecialitySubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType RegularSubscription {
-            get {
-                return this.mRegularSubscription;
-            }
-            set {
-                this.mRegularSubscription = value;
-                this.mRegularSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RegularSubscriptionSpecified {
-            get {
-                return this.mRegularSubscriptionSpecified;
-            }
-            set {
-                this.mRegularSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType PremiumSubscription {
-            get {
-                return this.mPremiumSubscription;
-            }
-            set {
-                this.mPremiumSubscription = value;
-                this.mPremiumSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PremiumSubscriptionSpecified {
-            get {
-                return this.mPremiumSubscriptionSpecified;
-            }
-            set {
-                this.mPremiumSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType NonSubscription {
-            get {
-                return this.mNonSubscription;
-            }
-            set {
-                this.mNonSubscription = value;
-                this.mNonSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NonSubscriptionSpecified {
-            get {
-                return this.mNonSubscriptionSpecified;
-            }
-            set {
-                this.mNonSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool PayPalRequiredForStoreOwner {
-            get {
-                return this.mPayPalRequiredForStoreOwner;
-            }
-            set {
-                this.mPayPalRequiredForStoreOwner = value;
-                this.mPayPalRequiredForStoreOwnerSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PayPalRequiredForStoreOwnerSpecified {
-            get {
-                return this.mPayPalRequiredForStoreOwnerSpecified;
-            }
-            set {
-                this.mPayPalRequiredForStoreOwnerSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReviseQuantityAllowed {
-            get {
-                return this.mReviseQuantityAllowed;
-            }
-            set {
-                this.mReviseQuantityAllowed = value;
-                this.mReviseQuantityAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReviseQuantityAllowedSpecified {
-            get {
-                return this.mReviseQuantityAllowedSpecified;
-            }
-            set {
-                this.mReviseQuantityAllowedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool RevisePriceAllowed {
-            get {
-                return this.mRevisePriceAllowed;
-            }
-            set {
-                this.mRevisePriceAllowed = value;
-                this.mRevisePriceAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RevisePriceAllowedSpecified {
-            get {
-                return this.mRevisePriceAllowedSpecified;
-            }
-            set {
-                this.mRevisePriceAllowedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool StoreOwnerExtendedListingDurationsEnabled {
-            get {
-                return this.mStoreOwnerExtendedListingDurationsEnabled;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurationsEnabled = value;
-                this.mStoreOwnerExtendedListingDurationsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StoreOwnerExtendedListingDurationsEnabledSpecified {
-            get {
-                return this.mStoreOwnerExtendedListingDurationsEnabledSpecified;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurationsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public StoreOwnerExtendedListingDurationsType StoreOwnerExtendedListingDurations {
-            get {
-                return this.mStoreOwnerExtendedListingDurations;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReturnPolicyEnabled {
-            get {
-                return this.mReturnPolicyEnabled;
-            }
-            set {
-                this.mReturnPolicyEnabled = value;
-                this.mReturnPolicyEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyEnabledSpecified {
-            get {
-                return this.mReturnPolicyEnabledSpecified;
-            }
-            set {
-                this.mReturnPolicyEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool HandlingTimeEnabled {
-            get {
-                return this.mHandlingTimeEnabled;
-            }
-            set {
-                this.mHandlingTimeEnabled = value;
-                this.mHandlingTimeEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HandlingTimeEnabledSpecified {
-            get {
-                return this.mHandlingTimeEnabledSpecified;
-            }
-            set {
-                this.mHandlingTimeEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType MaxFlatShippingCost {
-            get {
-                return this.mMaxFlatShippingCost;
-            }
-            set {
-                this.mMaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool MaxFlatShippingCostCBTExempt {
-            get {
-                return this.mMaxFlatShippingCostCBTExempt;
-            }
-            set {
-                this.mMaxFlatShippingCostCBTExempt = value;
-                this.mMaxFlatShippingCostCBTExemptSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxFlatShippingCostCBTExemptSpecified {
-            get {
-                return this.mMaxFlatShippingCostCBTExemptSpecified;
-            }
-            set {
-                this.mMaxFlatShippingCostCBTExemptSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group1MaxFlatShippingCost {
-            get {
-                return this.mGroup1MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup1MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group2MaxFlatShippingCost {
-            get {
-                return this.mGroup2MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup2MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group3MaxFlatShippingCost {
-            get {
-                return this.mGroup3MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup3MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("PaymentMethod")]
-        public BuyerPaymentMethodCodeTypeCollection PaymentMethod {
-            get {
-                return this.mPaymentMethod;
-            }
-            set {
-                this.mPaymentMethod = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VariationsEnabled {
-            get {
-                return this.mVariationsEnabled;
-            }
-            set {
-                this.mVariationsEnabled = value;
-                this.mVariationsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VariationsEnabledSpecified {
-            get {
-                return this.mVariationsEnabledSpecified;
-            }
-            set {
-                this.mVariationsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AttributeConversionEnabledCodeType AttributeConversionEnabled {
-            get {
-                return this.mAttributeConversionEnabled;
-            }
-            set {
-                this.mAttributeConversionEnabled = value;
-                this.mAttributeConversionEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AttributeConversionEnabledSpecified {
-            get {
-                return this.mAttributeConversionEnabledSpecified;
-            }
-            set {
-                this.mAttributeConversionEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool FreeGalleryPlusEnabled {
-            get {
-                return this.mFreeGalleryPlusEnabled;
-            }
-            set {
-                this.mFreeGalleryPlusEnabled = value;
-                this.mFreeGalleryPlusEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FreeGalleryPlusEnabledSpecified {
-            get {
-                return this.mFreeGalleryPlusEnabledSpecified;
-            }
-            set {
-                this.mFreeGalleryPlusEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool FreePicturePackEnabled {
-            get {
-                return this.mFreePicturePackEnabled;
-            }
-            set {
-                this.mFreePicturePackEnabled = value;
-                this.mFreePicturePackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FreePicturePackEnabledSpecified {
-            get {
-                return this.mFreePicturePackEnabledSpecified;
-            }
-            set {
-                this.mFreePicturePackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemCompatibilityEnabledCodeType ItemCompatibilityEnabled {
-            get {
-                return this.mItemCompatibilityEnabled;
-            }
-            set {
-                this.mItemCompatibilityEnabled = value;
-                this.mItemCompatibilityEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemCompatibilityEnabledSpecified {
-            get {
-                return this.mItemCompatibilityEnabledSpecified;
-            }
-            set {
-                this.mItemCompatibilityEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MinItemCompatibility {
-            get {
-                return this.mMinItemCompatibility;
-            }
-            set {
-                this.mMinItemCompatibility = value;
-                this.mMinItemCompatibilitySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MinItemCompatibilitySpecified {
-            get {
-                return this.mMinItemCompatibilitySpecified;
-            }
-            set {
-                this.mMinItemCompatibilitySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MaxItemCompatibility {
-            get {
-                return this.mMaxItemCompatibility;
-            }
-            set {
-                this.mMaxItemCompatibility = value;
-                this.mMaxItemCompatibilitySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxItemCompatibilitySpecified {
-            get {
-                return this.mMaxItemCompatibilitySpecified;
-            }
-            set {
-                this.mMaxItemCompatibilitySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionEnabledCodeType ConditionEnabled {
-            get {
-                return this.mConditionEnabled;
-            }
-            set {
-                this.mConditionEnabled = value;
-                this.mConditionEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ConditionEnabledSpecified {
-            get {
-                return this.mConditionEnabledSpecified;
-            }
-            set {
-                this.mConditionEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionValuesType ConditionValues {
-            get {
-                return this.mConditionValues;
-            }
-            set {
-                this.mConditionValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionValuesType SpecialFeatures {
-            get {
-                return this.mSpecialFeatures;
-            }
-            set {
-                this.mSpecialFeatures = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ValueCategory {
-            get {
-                return this.mValueCategory;
-            }
-            set {
-                this.mValueCategory = value;
-                this.mValueCategorySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValueCategorySpecified {
-            get {
-                return this.mValueCategorySpecified;
-            }
-            set {
-                this.mValueCategorySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductCreationEnabledCodeType ProductCreationEnabled {
-            get {
-                return this.mProductCreationEnabled;
-            }
-            set {
-                this.mProductCreationEnabled = value;
-                this.mProductCreationEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProductCreationEnabledSpecified {
-            get {
-                return this.mProductCreationEnabledSpecified;
-            }
-            set {
-                this.mProductCreationEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType EANEnabled {
-            get {
-                return this.mEANEnabled;
-            }
-            set {
-                this.mEANEnabled = value;
-                this.mEANEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EANEnabledSpecified {
-            get {
-                return this.mEANEnabledSpecified;
-            }
-            set {
-                this.mEANEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType ISBNEnabled {
-            get {
-                return this.mISBNEnabled;
-            }
-            set {
-                this.mISBNEnabled = value;
-                this.mISBNEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ISBNEnabledSpecified {
-            get {
-                return this.mISBNEnabledSpecified;
-            }
-            set {
-                this.mISBNEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType UPCEnabled {
-            get {
-                return this.mUPCEnabled;
-            }
-            set {
-                this.mUPCEnabled = value;
-                this.mUPCEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UPCEnabledSpecified {
-            get {
-                return this.mUPCEnabledSpecified;
-            }
-            set {
-                this.mUPCEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MaxGranularFitmentCount {
-            get {
-                return this.mMaxGranularFitmentCount;
-            }
-            set {
-                this.mMaxGranularFitmentCount = value;
-                this.mMaxGranularFitmentCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxGranularFitmentCountSpecified {
-            get {
-                return this.mMaxGranularFitmentCountSpecified;
-            }
-            set {
-                this.mMaxGranularFitmentCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CompatibleVehicleType {
-            get {
-                return this.mCompatibleVehicleType;
-            }
-            set {
-                this.mCompatibleVehicleType = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType ShippingProfileCategoryGroup {
-            get {
-                return this.mShippingProfileCategoryGroup;
-            }
-            set {
-                this.mShippingProfileCategoryGroup = value;
-                this.mShippingProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ShippingProfileCategoryGroupSpecified {
-            get {
-                return this.mShippingProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mShippingProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType PaymentProfileCategoryGroup {
-            get {
-                return this.mPaymentProfileCategoryGroup;
-            }
-            set {
-                this.mPaymentProfileCategoryGroup = value;
-                this.mPaymentProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PaymentProfileCategoryGroupSpecified {
-            get {
-                return this.mPaymentProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mPaymentProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType ReturnPolicyProfileCategoryGroup {
-            get {
-                return this.mReturnPolicyProfileCategoryGroup;
-            }
-            set {
-                this.mReturnPolicyProfileCategoryGroup = value;
-                this.mReturnPolicyProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyProfileCategoryGroupSpecified {
-            get {
-                return this.mReturnPolicyProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mReturnPolicyProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VINSupported {
-            get {
-                return this.mVINSupported;
-            }
-            set {
-                this.mVINSupported = value;
-                this.mVINSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VINSupportedSpecified {
-            get {
-                return this.mVINSupportedSpecified;
-            }
-            set {
-                this.mVINSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VRMSupported {
-            get {
-                return this.mVRMSupported;
-            }
-            set {
-                this.mVRMSupported = value;
-                this.mVRMSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VRMSupportedSpecified {
-            get {
-                return this.mVRMSupportedSpecified;
-            }
-            set {
-                this.mVRMSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SellerProvidedTitleSupported {
-            get {
-                return this.mSellerProvidedTitleSupported;
-            }
-            set {
-                this.mSellerProvidedTitleSupported = value;
-                this.mSellerProvidedTitleSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SellerProvidedTitleSupportedSpecified {
-            get {
-                return this.mSellerProvidedTitleSupportedSpecified;
-            }
-            set {
-                this.mSellerProvidedTitleSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DepositSupported {
-            get {
-                return this.mDepositSupported;
-            }
-            set {
-                this.mDepositSupported = value;
-                this.mDepositSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DepositSupportedSpecified {
-            get {
-                return this.mDepositSupportedSpecified;
-            }
-            set {
-                this.mDepositSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool GlobalShippingEnabled {
-            get {
-                return this.mGlobalShippingEnabled;
-            }
-            set {
-                this.mGlobalShippingEnabled = value;
-                this.mGlobalShippingEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool GlobalShippingEnabledSpecified {
-            get {
-                return this.mGlobalShippingEnabledSpecified;
-            }
-            set {
-                this.mGlobalShippingEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool AdditionalCompatibilityEnabled {
-            get {
-                return this.mAdditionalCompatibilityEnabled;
-            }
-            set {
-                this.mAdditionalCompatibilityEnabled = value;
-                this.mAdditionalCompatibilityEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdditionalCompatibilityEnabledSpecified {
-            get {
-                return this.mAdditionalCompatibilityEnabledSpecified;
-            }
-            set {
-                this.mAdditionalCompatibilityEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool PickupDropOffEnabled {
-            get {
-                return this.mPickupDropOffEnabled;
-            }
-            set {
-                this.mPickupDropOffEnabled = value;
-                this.mPickupDropOffEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PickupDropOffEnabledSpecified {
-            get {
-                return this.mPickupDropOffEnabledSpecified;
-            }
-            set {
-                this.mPickupDropOffEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DigitalGoodDeliveryEnabled {
-            get {
-                return this.mDigitalGoodDeliveryEnabled;
-            }
-            set {
-                this.mDigitalGoodDeliveryEnabled = value;
-                this.mDigitalGoodDeliveryEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DigitalGoodDeliveryEnabledSpecified {
-            get {
-                return this.mDigitalGoodDeliveryEnabledSpecified;
-            }
-            set {
-                this.mDigitalGoodDeliveryEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool EpidSupported {
-            get {
-                return this.mEpidSupported;
-            }
-            set {
-                this.mEpidSupported = value;
-                this.mEpidSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EpidSupportedSpecified {
-            get {
-                return this.mEpidSupportedSpecified;
-            }
-            set {
-                this.mEpidSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool KTypeSupported {
-            get {
-                return this.mKTypeSupported;
-            }
-            set {
-                this.mKTypeSupported = value;
-                this.mKTypeSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool KTypeSupportedSpecified {
-            get {
-                return this.mKTypeSupportedSpecified;
-            }
-            set {
-                this.mKTypeSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductRequiredEnabledCodeType ProductRequiredEnabled {
-            get {
-                return this.mProductRequiredEnabled;
-            }
-            set {
-                this.mProductRequiredEnabled = value;
-                this.mProductRequiredEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProductRequiredEnabledSpecified {
-            get {
-                return this.mProductRequiredEnabledSpecified;
-            }
-            set {
-                this.mProductRequiredEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsAcceptedCodeType DomesticReturnsAcceptedValues {
-            get {
-                return this.mDomesticReturnsAcceptedValues;
-            }
-            set {
-                this.mDomesticReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsAcceptedCodeType InternationalReturnsAcceptedValues {
-            get {
-                return this.mInternationalReturnsAcceptedValues;
-            }
-            set {
-                this.mInternationalReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsDurationCodeType DomesticReturnsDurationValues {
-            get {
-                return this.mDomesticReturnsDurationValues;
-            }
-            set {
-                this.mDomesticReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsDurationCodeType InternationalReturnsDurationValues {
-            get {
-                return this.mInternationalReturnsDurationValues;
-            }
-            set {
-                this.mInternationalReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsShipmentPayeeCodeType DomesticReturnsShipmentPayeeValues {
-            get {
-                return this.mDomesticReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mDomesticReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsShipmentPayeeCodeType InternationalReturnsShipmentPayeeValues {
-            get {
-                return this.mInternationalReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mInternationalReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticRefundMethodCodeType DomesticRefundMethodValues {
-            get {
-                return this.mDomesticRefundMethodValues;
-            }
-            set {
-                this.mDomesticRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalRefundMethodCodeType InternationalRefundMethodValues {
-            get {
-                return this.mInternationalRefundMethodValues;
-            }
-            set {
-                this.mInternationalRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReturnPolicyDescriptionEnabled {
-            get {
-                return this.mReturnPolicyDescriptionEnabled;
-            }
-            set {
-                this.mReturnPolicyDescriptionEnabled = value;
-                this.mReturnPolicyDescriptionEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyDescriptionEnabledSpecified {
-            get {
-                return this.mReturnPolicyDescriptionEnabledSpecified;
-            }
-            set {
-                this.mReturnPolicyDescriptionEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ListingDurationReferenceType {
-        private ListingTypeCodeType mtype;
-        private bool mtypeSpecified;
-        private int mValue;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ListingTypeCodeType type {
-            get {
-                return this.mtype;
-            }
-            set {
-                this.mtype = value;
-                this.mtypeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool typeSpecified {
-            get {
-                return this.mtypeSpecified;
-            }
-            set {
-                this.mtypeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public int Value {
-            get {
-                return this.mValue;
-            }
-            set {
-                this.mValue = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum AdFormatEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Only,
-        /// <remarks/>
-        ClassifiedAdEnabled,
-        /// <remarks/>
-        ClassifiedAdOnly,
-        /// <remarks/>
-        LocalMarketBestOfferOnly,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ClassifiedAdPaymentMethodEnabledCodeType {
-        /// <remarks/>
-        EnabledWithCheckout,
-        /// <remarks/>
-        EnabledWithoutCheckout,
-        /// <remarks/>
-        NotSupported,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ClassifiedAdBestOfferEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Required,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ItemSpecificsEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ListingEnhancementDurationReferenceType {
-        private StringCollection mDuration;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Duration", DataType="token")]
-        public StringCollection Duration {
-            get {
-                return this.mDuration;
-            }
-            set {
-                this.mDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum GeographicExposureCodeType {
-        /// <remarks/>
-        National,
-        /// <remarks/>
-        LocalOnly,
-        /// <remarks/>
-        LocalOptional,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class StoreOwnerExtendedListingDurationsType {
-        private StringCollection mDuration;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Duration", DataType="token")]
-        public StringCollection Duration {
-            get {
-                return this.mDuration;
-            }
-            set {
-                this.mDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum AttributeConversionEnabledCodeType {
-        /// <remarks/>
-        NotApplicable,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ItemCompatibilityEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        ByApplication,
-        /// <remarks/>
-        BySpecification,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ConditionEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Required,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ConditionValuesType {
-        private ConditionTypeCollection mCondition;
-        private string mConditionHelpURL;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Condition")]
-        public ConditionTypeCollection Condition {
-            get {
-                return this.mCondition;
-            }
-            set {
-                this.mCondition = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="anyURI")]
-        public string ConditionHelpURL {
-            get {
-                return this.mConditionHelpURL;
-            }
-            set {
-                this.mConditionHelpURL = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class ConditionType {
-        private int mID;
-        private bool mIDSpecified;
-        private string mDisplayName;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ID {
-            get {
-                return this.mID;
-            }
-            set {
-                this.mID = value;
-                this.mIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IDSpecified {
-            get {
-                return this.mIDSpecified;
-            }
-            set {
-                this.mIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string DisplayName {
-            get {
-                return this.mDisplayName;
-            }
-            set {
-                this.mDisplayName = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ProductCreationEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Required,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ProductIdentiferEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        Required,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ProfileCategoryGroupCodeType {
-        /// <remarks/>
-        Inherit,
-        /// <remarks/>
-        None,
-        /// <remarks/>
-        ALL,
-        /// <remarks/>
-        MOTORS_VEHICLE,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ProductRequiredEnabledCodeType {
-        /// <remarks/>
-        Disabled,
-        /// <remarks/>
-        Enabled,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsAcceptedCodeType {
-        private ReturnsAcceptedCodeTypeCollection mDomesticReturnsAccepted;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("DomesticReturnsAccepted")]
-        public ReturnsAcceptedCodeTypeCollection DomesticReturnsAccepted {
-            get {
-                return this.mDomesticReturnsAccepted;
-            }
-            set {
-                this.mDomesticReturnsAccepted = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ReturnsAcceptedCodeType {
-        /// <remarks/>
-        ReturnsAccepted,
-        /// <remarks/>
-        ReturnsNotAccepted,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsAcceptedCodeType {
-        private ReturnsAcceptedCodeTypeCollection mInternationalReturnsAccepted;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("InternationalReturnsAccepted")]
-        public ReturnsAcceptedCodeTypeCollection InternationalReturnsAccepted {
-            get {
-                return this.mInternationalReturnsAccepted;
-            }
-            set {
-                this.mInternationalReturnsAccepted = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsDurationCodeType {
-        private ReturnsDurationCodeTypeCollection mDomesticReturnsDuration;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("DomesticReturnsDuration")]
-        public ReturnsDurationCodeTypeCollection DomesticReturnsDuration {
-            get {
-                return this.mDomesticReturnsDuration;
-            }
-            set {
-                this.mDomesticReturnsDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ReturnsDurationCodeType {
-        /// <remarks/>
-        Days_14,
-        /// <remarks/>
-        Days_30,
-        /// <remarks/>
-        Days_60,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsDurationCodeType {
-        private ReturnsDurationCodeTypeCollection mInternationalReturnsDuration;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("InternationalReturnsDuration")]
-        public ReturnsDurationCodeTypeCollection InternationalReturnsDuration {
-            get {
-                return this.mInternationalReturnsDuration;
-            }
-            set {
-                this.mInternationalReturnsDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class DomesticReturnsShipmentPayeeCodeType {
-        private ReturnsShipmentPayeeCodeTypeCollection mDomesticReturnsShipmentPayee;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("DomesticReturnsShipmentPayee")]
-        public ReturnsShipmentPayeeCodeTypeCollection DomesticReturnsShipmentPayee {
-            get {
-                return this.mDomesticReturnsShipmentPayee;
-            }
-            set {
-                this.mDomesticReturnsShipmentPayee = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ReturnsShipmentPayeeCodeType {
-        /// <remarks/>
-        Buyer,
-        /// <remarks/>
-        Seller,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class InternationalReturnsShipmentPayeeCodeType {
-        private ReturnsShipmentPayeeCodeTypeCollection mInternationalReturnsShipmentPayee;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("InternationalReturnsShipmentPayee")]
-        public ReturnsShipmentPayeeCodeTypeCollection InternationalReturnsShipmentPayee {
-            get {
-                return this.mInternationalReturnsShipmentPayee;
-            }
-            set {
-                this.mInternationalReturnsShipmentPayee = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class CategoryFeatureType {
-        private string mCategoryID;
-        private ListingDurationReferenceTypeCollection mListingDuration;
-        private bool mShippingTermsRequired;
-        private bool mShippingTermsRequiredSpecified;
-        private bool mBestOfferEnabled;
-        private bool mBestOfferEnabledSpecified;
-        private bool mUserConsentRequired;
-        private bool mUserConsentRequiredSpecified;
-        private bool mHomePageFeaturedEnabled;
-        private bool mHomePageFeaturedEnabledSpecified;
-        private bool mProPackEnabled;
-        private bool mProPackEnabledSpecified;
-        private AdFormatEnabledCodeType mAdFormatEnabled;
-        private bool mAdFormatEnabledSpecified;
-        private bool mBestOfferCounterEnabled;
-        private bool mBestOfferCounterEnabledSpecified;
-        private bool mBestOfferAutoDeclineEnabled;
-        private bool mBestOfferAutoDeclineEnabledSpecified;
-        private bool mLocalMarketSpecialitySubscription;
-        private bool mLocalMarketSpecialitySubscriptionSpecified;
-        private bool mLocalMarketRegularSubscription;
-        private bool mLocalMarketRegularSubscriptionSpecified;
-        private bool mLocalMarketPremiumSubscription;
-        private bool mLocalMarketPremiumSubscriptionSpecified;
-        private bool mLocalMarketNonSubscription;
-        private bool mLocalMarketNonSubscriptionSpecified;
-        private double mMinimumReservePrice;
-        private bool mMinimumReservePriceSpecified;
-        private bool mSellerContactDetailsEnabled;
-        private bool mSellerContactDetailsEnabledSpecified;
-        private bool mTransactionConfirmationRequestEnabled;
-        private bool mTransactionConfirmationRequestEnabledSpecified;
-        private ClassifiedAdPaymentMethodEnabledCodeType mClassifiedAdPaymentMethodEnabled;
-        private bool mClassifiedAdPaymentMethodEnabledSpecified;
-        private bool mClassifiedAdShippingMethodEnabled;
-        private bool mClassifiedAdShippingMethodEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType mClassifiedAdBestOfferEnabled;
-        private bool mClassifiedAdBestOfferEnabledSpecified;
-        private bool mClassifiedAdCounterOfferEnabled;
-        private bool mClassifiedAdCounterOfferEnabledSpecified;
-        private bool mClassifiedAdAutoDeclineEnabled;
-        private bool mClassifiedAdAutoDeclineEnabledSpecified;
-        private bool mClassifiedAdContactByPhoneEnabled;
-        private bool mClassifiedAdContactByPhoneEnabledSpecified;
-        private bool mClassifiedAdContactByEmailEnabled;
-        private bool mClassifiedAdContactByEmailEnabledSpecified;
-        private bool mSafePaymentRequired;
-        private bool mSafePaymentRequiredSpecified;
-        private bool mClassifiedAdPayPerLeadEnabled;
-        private bool mClassifiedAdPayPerLeadEnabledSpecified;
-        private ItemSpecificsEnabledCodeType mItemSpecificsEnabled;
-        private bool mItemSpecificsEnabledSpecified;
-        private bool mPaisaPayFullEscrowEnabled;
-        private bool mPaisaPayFullEscrowEnabledSpecified;
-        private bool mBrandMPNIdentifierEnabled;
-        private bool mBrandMPNIdentifierEnabledSpecified;
-        private bool mClassifiedAdAutoAcceptEnabled;
-        private bool mClassifiedAdAutoAcceptEnabledSpecified;
-        private bool mBestOfferAutoAcceptEnabled;
-        private bool mBestOfferAutoAcceptEnabledSpecified;
-        private bool mCrossBorderTradeNorthAmericaEnabled;
-        private bool mCrossBorderTradeNorthAmericaEnabledSpecified;
-        private bool mCrossBorderTradeGBEnabled;
-        private bool mCrossBorderTradeGBEnabledSpecified;
-        private bool mCrossBorderTradeAustraliaEnabled;
-        private bool mCrossBorderTradeAustraliaEnabledSpecified;
-        private bool mBuyerGuaranteeEnabled;
-        private bool mBuyerGuaranteeEnabledSpecified;
-        private ListingEnhancementDurationReferenceType mGalleryFeaturedDurations;
-        private AdFormatEnabledCodeType meBayMotorsProAdFormatEnabled;
-        private bool meBayMotorsProAdFormatEnabledSpecified;
-        private bool meBayMotorsProContactByPhoneEnabled;
-        private bool meBayMotorsProContactByPhoneEnabledSpecified;
-        private int meBayMotorsProPhoneCount;
-        private bool meBayMotorsProPhoneCountSpecified;
-        private bool meBayMotorsProContactByAddressEnabled;
-        private bool meBayMotorsProContactByAddressEnabledSpecified;
-        private int meBayMotorsProStreetCount;
-        private bool meBayMotorsProStreetCountSpecified;
-        private bool meBayMotorsProCompanyNameEnabled;
-        private bool meBayMotorsProCompanyNameEnabledSpecified;
-        private bool meBayMotorsProContactByEmailEnabled;
-        private bool meBayMotorsProContactByEmailEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType meBayMotorsProBestOfferEnabled;
-        private bool meBayMotorsProBestOfferEnabledSpecified;
-        private bool meBayMotorsProAutoAcceptEnabled;
-        private bool meBayMotorsProAutoAcceptEnabledSpecified;
-        private bool meBayMotorsProAutoDeclineEnabled;
-        private bool meBayMotorsProAutoDeclineEnabledSpecified;
-        private ClassifiedAdPaymentMethodEnabledCodeType meBayMotorsProPaymentMethodCheckOutEnabled;
-        private bool meBayMotorsProPaymentMethodCheckOutEnabledSpecified;
-        private bool meBayMotorsProShippingMethodEnabled;
-        private bool meBayMotorsProShippingMethodEnabledSpecified;
-        private bool meBayMotorsProCounterOfferEnabled;
-        private bool meBayMotorsProCounterOfferEnabledSpecified;
-        private bool meBayMotorsProSellerContactDetailsEnabled;
-        private bool meBayMotorsProSellerContactDetailsEnabledSpecified;
-        private AdFormatEnabledCodeType mLocalMarketAdFormatEnabled;
-        private bool mLocalMarketAdFormatEnabledSpecified;
-        private bool mLocalMarketContactByPhoneEnabled;
-        private bool mLocalMarketContactByPhoneEnabledSpecified;
-        private int mLocalMarketPhoneCount;
-        private bool mLocalMarketPhoneCountSpecified;
-        private bool mLocalMarketContactByAddressEnabled;
-        private bool mLocalMarketContactByAddressEnabledSpecified;
-        private int mLocalMarketStreetCount;
-        private bool mLocalMarketStreetCountSpecified;
-        private bool mLocalMarketCompanyNameEnabled;
-        private bool mLocalMarketCompanyNameEnabledSpecified;
-        private bool mLocalMarketContactByEmailEnabled;
-        private bool mLocalMarketContactByEmailEnabledSpecified;
-        private ClassifiedAdBestOfferEnabledCodeType mLocalMarketBestOfferEnabled;
-        private bool mLocalMarketBestOfferEnabledSpecified;
-        private bool mLocalMarketAutoAcceptEnabled;
-        private bool mLocalMarketAutoAcceptEnabledSpecified;
-        private bool mLocalMarketAutoDeclineEnabled;
-        private bool mLocalMarketAutoDeclineEnabledSpecified;
-        private ClassifiedAdPaymentMethodEnabledCodeType mLocalMarketPaymentMethodCheckOutEnabled;
-        private bool mLocalMarketPaymentMethodCheckOutEnabledSpecified;
-        private bool mLocalMarketShippingMethodEnabled;
-        private bool mLocalMarketShippingMethodEnabledSpecified;
-        private bool mLocalMarketCounterOfferEnabled;
-        private bool mLocalMarketCounterOfferEnabledSpecified;
-        private bool mLocalMarketSellerContactDetailsEnabled;
-        private bool mLocalMarketSellerContactDetailsEnabledSpecified;
-        private int mClassifiedAdPhoneCount;
-        private bool mClassifiedAdPhoneCountSpecified;
-        private bool mClassifiedAdContactByAddressEnabled;
-        private bool mClassifiedAdContactByAddressEnabledSpecified;
-        private int mClassifiedAdStreetCount;
-        private bool mClassifiedAdStreetCountSpecified;
-        private bool mClassifiedAdCompanyNameEnabled;
-        private bool mClassifiedAdCompanyNameEnabledSpecified;
-        private GeographicExposureCodeType mSpecialitySubscription;
-        private bool mSpecialitySubscriptionSpecified;
-        private GeographicExposureCodeType mRegularSubscription;
-        private bool mRegularSubscriptionSpecified;
-        private GeographicExposureCodeType mPremiumSubscription;
-        private bool mPremiumSubscriptionSpecified;
-        private GeographicExposureCodeType mNonSubscription;
-        private bool mNonSubscriptionSpecified;
-        private INEscrowWorkflowTimelineCodeType mINEscrowWorkflowTimeline;
-        private bool mINEscrowWorkflowTimelineSpecified;
-        private bool mReviseQuantityAllowed;
-        private bool mReviseQuantityAllowedSpecified;
-        private bool mRevisePriceAllowed;
-        private bool mRevisePriceAllowedSpecified;
-        private bool mStoreOwnerExtendedListingDurationsEnabled;
-        private bool mStoreOwnerExtendedListingDurationsEnabledSpecified;
-        private StoreOwnerExtendedListingDurationsType mStoreOwnerExtendedListingDurations;
-        private bool mReturnPolicyEnabled;
-        private bool mReturnPolicyEnabledSpecified;
-        private bool mHandlingTimeEnabled;
-        private bool mHandlingTimeEnabledSpecified;
-        private AmountType mMaxFlatShippingCost;
-        private AmountType mGroup1MaxFlatShippingCost;
-        private AmountType mGroup2MaxFlatShippingCost;
-        private AmountType mGroup3MaxFlatShippingCost;
-        private BuyerPaymentMethodCodeTypeCollection mPaymentMethod;
-        private bool mVariationsEnabled;
-        private bool mVariationsEnabledSpecified;
-        private bool mFreeGalleryPlusEnabled;
-        private bool mFreeGalleryPlusEnabledSpecified;
-        private bool mFreePicturePackEnabled;
-        private bool mFreePicturePackEnabledSpecified;
-        private ItemCompatibilityEnabledCodeType mItemCompatibilityEnabled;
-        private bool mItemCompatibilityEnabledSpecified;
-        private int mMinItemCompatibility;
-        private bool mMinItemCompatibilitySpecified;
-        private int mMaxItemCompatibility;
-        private bool mMaxItemCompatibilitySpecified;
-        private ConditionEnabledCodeType mConditionEnabled;
-        private bool mConditionEnabledSpecified;
-        private ConditionValuesType mConditionValues;
-        private ConditionValuesType mSpecialFeatures;
-        private bool mValueCategory;
-        private bool mValueCategorySpecified;
-        private ProductCreationEnabledCodeType mProductCreationEnabled;
-        private bool mProductCreationEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mEANEnabled;
-        private bool mEANEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mISBNEnabled;
-        private bool mISBNEnabledSpecified;
-        private ProductIdentiferEnabledCodeType mUPCEnabled;
-        private bool mUPCEnabledSpecified;
-        private int mMaxGranularFitmentCount;
-        private bool mMaxGranularFitmentCountSpecified;
-        private string mCompatibleVehicleType;
-        private ProfileCategoryGroupCodeType mShippingProfileCategoryGroup;
-        private bool mShippingProfileCategoryGroupSpecified;
-        private ProfileCategoryGroupCodeType mPaymentProfileCategoryGroup;
-        private bool mPaymentProfileCategoryGroupSpecified;
-        private ProfileCategoryGroupCodeType mReturnPolicyProfileCategoryGroup;
-        private bool mReturnPolicyProfileCategoryGroupSpecified;
-        private bool mVINSupported;
-        private bool mVINSupportedSpecified;
-        private bool mVRMSupported;
-        private bool mVRMSupportedSpecified;
-        private bool mSellerProvidedTitleSupported;
-        private bool mSellerProvidedTitleSupportedSpecified;
-        private bool mDepositSupported;
-        private bool mDepositSupportedSpecified;
-        private bool mGlobalShippingEnabled;
-        private bool mGlobalShippingEnabledSpecified;
-        private bool mAdditionalCompatibilityEnabled;
-        private bool mAdditionalCompatibilityEnabledSpecified;
-        private XmlElementCollection mAny;
-        private bool mPickupDropOffEnabled;
-        private bool mPickupDropOffEnabledSpecified;
-        private bool mDigitalGoodDeliveryEnabled;
-        private bool mDigitalGoodDeliveryEnabledSpecified;
-        private bool mEpidSupported;
-        private bool mEpidSupportedSpecified;
-        private bool mKTypeSupported;
-        private bool mKTypeSupportedSpecified;
-        private DomesticReturnsAcceptedCodeType mDomesticReturnsAcceptedValues;
-        private InternationalReturnsAcceptedCodeType mInternationalReturnsAcceptedValues;
-        private DomesticReturnsDurationCodeType mDomesticReturnsDurationValues;
-        private InternationalReturnsDurationCodeType mInternationalReturnsDurationValues;
-        private DomesticReturnsShipmentPayeeCodeType mDomesticReturnsShipmentPayeeValues;
-        private InternationalReturnsShipmentPayeeCodeType mInternationalReturnsShipmentPayeeValues;
-        private DomesticRefundMethodCodeType mDomesticRefundMethodValues;
-        private InternationalRefundMethodCodeType mInternationalRefundMethodValues;
-        private bool mReturnPolicyDescriptionEnabled;
-        private bool mReturnPolicyDescriptionEnabledSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CategoryID {
-            get {
-                return this.mCategoryID;
-            }
-            set {
-                this.mCategoryID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("ListingDuration")]
-        public ListingDurationReferenceTypeCollection ListingDuration {
-            get {
-                return this.mListingDuration;
-            }
-            set {
-                this.mListingDuration = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ShippingTermsRequired {
-            get {
-                return this.mShippingTermsRequired;
-            }
-            set {
-                this.mShippingTermsRequired = value;
-                this.mShippingTermsRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ShippingTermsRequiredSpecified {
-            get {
-                return this.mShippingTermsRequiredSpecified;
-            }
-            set {
-                this.mShippingTermsRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferEnabled {
-            get {
-                return this.mBestOfferEnabled;
-            }
-            set {
-                this.mBestOfferEnabled = value;
-                this.mBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferEnabledSpecified {
-            get {
-                return this.mBestOfferEnabledSpecified;
-            }
-            set {
-                this.mBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool UserConsentRequired {
-            get {
-                return this.mUserConsentRequired;
-            }
-            set {
-                this.mUserConsentRequired = value;
-                this.mUserConsentRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UserConsentRequiredSpecified {
-            get {
-                return this.mUserConsentRequiredSpecified;
-            }
-            set {
-                this.mUserConsentRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool HomePageFeaturedEnabled {
-            get {
-                return this.mHomePageFeaturedEnabled;
-            }
-            set {
-                this.mHomePageFeaturedEnabled = value;
-                this.mHomePageFeaturedEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HomePageFeaturedEnabledSpecified {
-            get {
-                return this.mHomePageFeaturedEnabledSpecified;
-            }
-            set {
-                this.mHomePageFeaturedEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ProPackEnabled {
-            get {
-                return this.mProPackEnabled;
-            }
-            set {
-                this.mProPackEnabled = value;
-                this.mProPackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProPackEnabledSpecified {
-            get {
-                return this.mProPackEnabledSpecified;
-            }
-            set {
-                this.mProPackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType AdFormatEnabled {
-            get {
-                return this.mAdFormatEnabled;
-            }
-            set {
-                this.mAdFormatEnabled = value;
-                this.mAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdFormatEnabledSpecified {
-            get {
-                return this.mAdFormatEnabledSpecified;
-            }
-            set {
-                this.mAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferCounterEnabled {
-            get {
-                return this.mBestOfferCounterEnabled;
-            }
-            set {
-                this.mBestOfferCounterEnabled = value;
-                this.mBestOfferCounterEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferCounterEnabledSpecified {
-            get {
-                return this.mBestOfferCounterEnabledSpecified;
-            }
-            set {
-                this.mBestOfferCounterEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferAutoDeclineEnabled {
-            get {
-                return this.mBestOfferAutoDeclineEnabled;
-            }
-            set {
-                this.mBestOfferAutoDeclineEnabled = value;
-                this.mBestOfferAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferAutoDeclineEnabledSpecified {
-            get {
-                return this.mBestOfferAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mBestOfferAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketSpecialitySubscription {
-            get {
-                return this.mLocalMarketSpecialitySubscription;
-            }
-            set {
-                this.mLocalMarketSpecialitySubscription = value;
-                this.mLocalMarketSpecialitySubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketSpecialitySubscriptionSpecified {
-            get {
-                return this.mLocalMarketSpecialitySubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketSpecialitySubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketRegularSubscription {
-            get {
-                return this.mLocalMarketRegularSubscription;
-            }
-            set {
-                this.mLocalMarketRegularSubscription = value;
-                this.mLocalMarketRegularSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketRegularSubscriptionSpecified {
-            get {
-                return this.mLocalMarketRegularSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketRegularSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketPremiumSubscription {
-            get {
-                return this.mLocalMarketPremiumSubscription;
-            }
-            set {
-                this.mLocalMarketPremiumSubscription = value;
-                this.mLocalMarketPremiumSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPremiumSubscriptionSpecified {
-            get {
-                return this.mLocalMarketPremiumSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketPremiumSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketNonSubscription {
-            get {
-                return this.mLocalMarketNonSubscription;
-            }
-            set {
-                this.mLocalMarketNonSubscription = value;
-                this.mLocalMarketNonSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketNonSubscriptionSpecified {
-            get {
-                return this.mLocalMarketNonSubscriptionSpecified;
-            }
-            set {
-                this.mLocalMarketNonSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public double MinimumReservePrice {
-            get {
-                return this.mMinimumReservePrice;
-            }
-            set {
-                this.mMinimumReservePrice = value;
-                this.mMinimumReservePriceSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MinimumReservePriceSpecified {
-            get {
-                return this.mMinimumReservePriceSpecified;
-            }
-            set {
-                this.mMinimumReservePriceSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SellerContactDetailsEnabled {
-            get {
-                return this.mSellerContactDetailsEnabled;
-            }
-            set {
-                this.mSellerContactDetailsEnabled = value;
-                this.mSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SellerContactDetailsEnabledSpecified {
-            get {
-                return this.mSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.mSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool TransactionConfirmationRequestEnabled {
-            get {
-                return this.mTransactionConfirmationRequestEnabled;
-            }
-            set {
-                this.mTransactionConfirmationRequestEnabled = value;
-                this.mTransactionConfirmationRequestEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TransactionConfirmationRequestEnabledSpecified {
-            get {
-                return this.mTransactionConfirmationRequestEnabledSpecified;
-            }
-            set {
-                this.mTransactionConfirmationRequestEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType ClassifiedAdPaymentMethodEnabled {
-            get {
-                return this.mClassifiedAdPaymentMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdPaymentMethodEnabled = value;
-                this.mClassifiedAdPaymentMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPaymentMethodEnabledSpecified {
-            get {
-                return this.mClassifiedAdPaymentMethodEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdPaymentMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdShippingMethodEnabled {
-            get {
-                return this.mClassifiedAdShippingMethodEnabled;
-            }
-            set {
-                this.mClassifiedAdShippingMethodEnabled = value;
-                this.mClassifiedAdShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdShippingMethodEnabledSpecified {
-            get {
-                return this.mClassifiedAdShippingMethodEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType ClassifiedAdBestOfferEnabled {
-            get {
-                return this.mClassifiedAdBestOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdBestOfferEnabled = value;
-                this.mClassifiedAdBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdBestOfferEnabledSpecified {
-            get {
-                return this.mClassifiedAdBestOfferEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdCounterOfferEnabled {
-            get {
-                return this.mClassifiedAdCounterOfferEnabled;
-            }
-            set {
-                this.mClassifiedAdCounterOfferEnabled = value;
-                this.mClassifiedAdCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdCounterOfferEnabledSpecified {
-            get {
-                return this.mClassifiedAdCounterOfferEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdAutoDeclineEnabled {
-            get {
-                return this.mClassifiedAdAutoDeclineEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoDeclineEnabled = value;
-                this.mClassifiedAdAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdAutoDeclineEnabledSpecified {
-            get {
-                return this.mClassifiedAdAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByPhoneEnabled {
-            get {
-                return this.mClassifiedAdContactByPhoneEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByPhoneEnabled = value;
-                this.mClassifiedAdContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByPhoneEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByEmailEnabled {
-            get {
-                return this.mClassifiedAdContactByEmailEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByEmailEnabled = value;
-                this.mClassifiedAdContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByEmailEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByEmailEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SafePaymentRequired {
-            get {
-                return this.mSafePaymentRequired;
-            }
-            set {
-                this.mSafePaymentRequired = value;
-                this.mSafePaymentRequiredSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SafePaymentRequiredSpecified {
-            get {
-                return this.mSafePaymentRequiredSpecified;
-            }
-            set {
-                this.mSafePaymentRequiredSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdPayPerLeadEnabled {
-            get {
-                return this.mClassifiedAdPayPerLeadEnabled;
-            }
-            set {
-                this.mClassifiedAdPayPerLeadEnabled = value;
-                this.mClassifiedAdPayPerLeadEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPayPerLeadEnabledSpecified {
-            get {
-                return this.mClassifiedAdPayPerLeadEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdPayPerLeadEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemSpecificsEnabledCodeType ItemSpecificsEnabled {
-            get {
-                return this.mItemSpecificsEnabled;
-            }
-            set {
-                this.mItemSpecificsEnabled = value;
-                this.mItemSpecificsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemSpecificsEnabledSpecified {
-            get {
-                return this.mItemSpecificsEnabledSpecified;
-            }
-            set {
-                this.mItemSpecificsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool PaisaPayFullEscrowEnabled {
-            get {
-                return this.mPaisaPayFullEscrowEnabled;
-            }
-            set {
-                this.mPaisaPayFullEscrowEnabled = value;
-                this.mPaisaPayFullEscrowEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PaisaPayFullEscrowEnabledSpecified {
-            get {
-                return this.mPaisaPayFullEscrowEnabledSpecified;
-            }
-            set {
-                this.mPaisaPayFullEscrowEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BrandMPNIdentifierEnabled {
-            get {
-                return this.mBrandMPNIdentifierEnabled;
-            }
-            set {
-                this.mBrandMPNIdentifierEnabled = value;
-                this.mBrandMPNIdentifierEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BrandMPNIdentifierEnabledSpecified {
-            get {
-                return this.mBrandMPNIdentifierEnabledSpecified;
-            }
-            set {
-                this.mBrandMPNIdentifierEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdAutoAcceptEnabled {
-            get {
-                return this.mClassifiedAdAutoAcceptEnabled;
-            }
-            set {
-                this.mClassifiedAdAutoAcceptEnabled = value;
-                this.mClassifiedAdAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdAutoAcceptEnabledSpecified {
-            get {
-                return this.mClassifiedAdAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BestOfferAutoAcceptEnabled {
-            get {
-                return this.mBestOfferAutoAcceptEnabled;
-            }
-            set {
-                this.mBestOfferAutoAcceptEnabled = value;
-                this.mBestOfferAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BestOfferAutoAcceptEnabledSpecified {
-            get {
-                return this.mBestOfferAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mBestOfferAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeNorthAmericaEnabled {
-            get {
-                return this.mCrossBorderTradeNorthAmericaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeNorthAmericaEnabled = value;
-                this.mCrossBorderTradeNorthAmericaEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeNorthAmericaEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeNorthAmericaEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeNorthAmericaEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeGBEnabled {
-            get {
-                return this.mCrossBorderTradeGBEnabled;
-            }
-            set {
-                this.mCrossBorderTradeGBEnabled = value;
-                this.mCrossBorderTradeGBEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeGBEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeGBEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeGBEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CrossBorderTradeAustraliaEnabled {
-            get {
-                return this.mCrossBorderTradeAustraliaEnabled;
-            }
-            set {
-                this.mCrossBorderTradeAustraliaEnabled = value;
-                this.mCrossBorderTradeAustraliaEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CrossBorderTradeAustraliaEnabledSpecified {
-            get {
-                return this.mCrossBorderTradeAustraliaEnabledSpecified;
-            }
-            set {
-                this.mCrossBorderTradeAustraliaEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool BuyerGuaranteeEnabled {
-            get {
-                return this.mBuyerGuaranteeEnabled;
-            }
-            set {
-                this.mBuyerGuaranteeEnabled = value;
-                this.mBuyerGuaranteeEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool BuyerGuaranteeEnabledSpecified {
-            get {
-                return this.mBuyerGuaranteeEnabledSpecified;
-            }
-            set {
-                this.mBuyerGuaranteeEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingEnhancementDurationReferenceType GalleryFeaturedDurations {
-            get {
-                return this.mGalleryFeaturedDurations;
-            }
-            set {
-                this.mGalleryFeaturedDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType eBayMotorsProAdFormatEnabled {
-            get {
-                return this.meBayMotorsProAdFormatEnabled;
-            }
-            set {
-                this.meBayMotorsProAdFormatEnabled = value;
-                this.meBayMotorsProAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAdFormatEnabledSpecified {
-            get {
-                return this.meBayMotorsProAdFormatEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByPhoneEnabled {
-            get {
-                return this.meBayMotorsProContactByPhoneEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByPhoneEnabled = value;
-                this.meBayMotorsProContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByPhoneEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int eBayMotorsProPhoneCount {
-            get {
-                return this.meBayMotorsProPhoneCount;
-            }
-            set {
-                this.meBayMotorsProPhoneCount = value;
-                this.meBayMotorsProPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProPhoneCountSpecified {
-            get {
-                return this.meBayMotorsProPhoneCountSpecified;
-            }
-            set {
-                this.meBayMotorsProPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByAddressEnabled {
-            get {
-                return this.meBayMotorsProContactByAddressEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByAddressEnabled = value;
-                this.meBayMotorsProContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByAddressEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByAddressEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int eBayMotorsProStreetCount {
-            get {
-                return this.meBayMotorsProStreetCount;
-            }
-            set {
-                this.meBayMotorsProStreetCount = value;
-                this.meBayMotorsProStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProStreetCountSpecified {
-            get {
-                return this.meBayMotorsProStreetCountSpecified;
-            }
-            set {
-                this.meBayMotorsProStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProCompanyNameEnabled {
-            get {
-                return this.meBayMotorsProCompanyNameEnabled;
-            }
-            set {
-                this.meBayMotorsProCompanyNameEnabled = value;
-                this.meBayMotorsProCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProCompanyNameEnabledSpecified {
-            get {
-                return this.meBayMotorsProCompanyNameEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProContactByEmailEnabled {
-            get {
-                return this.meBayMotorsProContactByEmailEnabled;
-            }
-            set {
-                this.meBayMotorsProContactByEmailEnabled = value;
-                this.meBayMotorsProContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProContactByEmailEnabledSpecified {
-            get {
-                return this.meBayMotorsProContactByEmailEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType eBayMotorsProBestOfferEnabled {
-            get {
-                return this.meBayMotorsProBestOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProBestOfferEnabled = value;
-                this.meBayMotorsProBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProBestOfferEnabledSpecified {
-            get {
-                return this.meBayMotorsProBestOfferEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProAutoAcceptEnabled {
-            get {
-                return this.meBayMotorsProAutoAcceptEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoAcceptEnabled = value;
-                this.meBayMotorsProAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAutoAcceptEnabledSpecified {
-            get {
-                return this.meBayMotorsProAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProAutoDeclineEnabled {
-            get {
-                return this.meBayMotorsProAutoDeclineEnabled;
-            }
-            set {
-                this.meBayMotorsProAutoDeclineEnabled = value;
-                this.meBayMotorsProAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProAutoDeclineEnabledSpecified {
-            get {
-                return this.meBayMotorsProAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType eBayMotorsProPaymentMethodCheckOutEnabled {
-            get {
-                return this.meBayMotorsProPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.meBayMotorsProPaymentMethodCheckOutEnabled = value;
-                this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProPaymentMethodCheckOutEnabledSpecified {
-            get {
-                return this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProPaymentMethodCheckOutEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProShippingMethodEnabled {
-            get {
-                return this.meBayMotorsProShippingMethodEnabled;
-            }
-            set {
-                this.meBayMotorsProShippingMethodEnabled = value;
-                this.meBayMotorsProShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProShippingMethodEnabledSpecified {
-            get {
-                return this.meBayMotorsProShippingMethodEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProCounterOfferEnabled {
-            get {
-                return this.meBayMotorsProCounterOfferEnabled;
-            }
-            set {
-                this.meBayMotorsProCounterOfferEnabled = value;
-                this.meBayMotorsProCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProCounterOfferEnabledSpecified {
-            get {
-                return this.meBayMotorsProCounterOfferEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool eBayMotorsProSellerContactDetailsEnabled {
-            get {
-                return this.meBayMotorsProSellerContactDetailsEnabled;
-            }
-            set {
-                this.meBayMotorsProSellerContactDetailsEnabled = value;
-                this.meBayMotorsProSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool eBayMotorsProSellerContactDetailsEnabledSpecified {
-            get {
-                return this.meBayMotorsProSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.meBayMotorsProSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatEnabledCodeType LocalMarketAdFormatEnabled {
-            get {
-                return this.mLocalMarketAdFormatEnabled;
-            }
-            set {
-                this.mLocalMarketAdFormatEnabled = value;
-                this.mLocalMarketAdFormatEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAdFormatEnabledSpecified {
-            get {
-                return this.mLocalMarketAdFormatEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAdFormatEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByPhoneEnabled {
-            get {
-                return this.mLocalMarketContactByPhoneEnabled;
-            }
-            set {
-                this.mLocalMarketContactByPhoneEnabled = value;
-                this.mLocalMarketContactByPhoneEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByPhoneEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByPhoneEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByPhoneEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int LocalMarketPhoneCount {
-            get {
-                return this.mLocalMarketPhoneCount;
-            }
-            set {
-                this.mLocalMarketPhoneCount = value;
-                this.mLocalMarketPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPhoneCountSpecified {
-            get {
-                return this.mLocalMarketPhoneCountSpecified;
-            }
-            set {
-                this.mLocalMarketPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByAddressEnabled {
-            get {
-                return this.mLocalMarketContactByAddressEnabled;
-            }
-            set {
-                this.mLocalMarketContactByAddressEnabled = value;
-                this.mLocalMarketContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByAddressEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByAddressEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int LocalMarketStreetCount {
-            get {
-                return this.mLocalMarketStreetCount;
-            }
-            set {
-                this.mLocalMarketStreetCount = value;
-                this.mLocalMarketStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketStreetCountSpecified {
-            get {
-                return this.mLocalMarketStreetCountSpecified;
-            }
-            set {
-                this.mLocalMarketStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketCompanyNameEnabled {
-            get {
-                return this.mLocalMarketCompanyNameEnabled;
-            }
-            set {
-                this.mLocalMarketCompanyNameEnabled = value;
-                this.mLocalMarketCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketCompanyNameEnabledSpecified {
-            get {
-                return this.mLocalMarketCompanyNameEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketContactByEmailEnabled {
-            get {
-                return this.mLocalMarketContactByEmailEnabled;
-            }
-            set {
-                this.mLocalMarketContactByEmailEnabled = value;
-                this.mLocalMarketContactByEmailEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketContactByEmailEnabledSpecified {
-            get {
-                return this.mLocalMarketContactByEmailEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketContactByEmailEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdBestOfferEnabledCodeType LocalMarketBestOfferEnabled {
-            get {
-                return this.mLocalMarketBestOfferEnabled;
-            }
-            set {
-                this.mLocalMarketBestOfferEnabled = value;
-                this.mLocalMarketBestOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketBestOfferEnabledSpecified {
-            get {
-                return this.mLocalMarketBestOfferEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketBestOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketAutoAcceptEnabled {
-            get {
-                return this.mLocalMarketAutoAcceptEnabled;
-            }
-            set {
-                this.mLocalMarketAutoAcceptEnabled = value;
-                this.mLocalMarketAutoAcceptEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAutoAcceptEnabledSpecified {
-            get {
-                return this.mLocalMarketAutoAcceptEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAutoAcceptEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketAutoDeclineEnabled {
-            get {
-                return this.mLocalMarketAutoDeclineEnabled;
-            }
-            set {
-                this.mLocalMarketAutoDeclineEnabled = value;
-                this.mLocalMarketAutoDeclineEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketAutoDeclineEnabledSpecified {
-            get {
-                return this.mLocalMarketAutoDeclineEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketAutoDeclineEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ClassifiedAdPaymentMethodEnabledCodeType LocalMarketPaymentMethodCheckOutEnabled {
-            get {
-                return this.mLocalMarketPaymentMethodCheckOutEnabled;
-            }
-            set {
-                this.mLocalMarketPaymentMethodCheckOutEnabled = value;
-                this.mLocalMarketPaymentMethodCheckOutEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketPaymentMethodCheckOutEnabledSpecified {
-            get {
-                return this.mLocalMarketPaymentMethodCheckOutEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketPaymentMethodCheckOutEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketShippingMethodEnabled {
-            get {
-                return this.mLocalMarketShippingMethodEnabled;
-            }
-            set {
-                this.mLocalMarketShippingMethodEnabled = value;
-                this.mLocalMarketShippingMethodEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketShippingMethodEnabledSpecified {
-            get {
-                return this.mLocalMarketShippingMethodEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketShippingMethodEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketCounterOfferEnabled {
-            get {
-                return this.mLocalMarketCounterOfferEnabled;
-            }
-            set {
-                this.mLocalMarketCounterOfferEnabled = value;
-                this.mLocalMarketCounterOfferEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketCounterOfferEnabledSpecified {
-            get {
-                return this.mLocalMarketCounterOfferEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketCounterOfferEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool LocalMarketSellerContactDetailsEnabled {
-            get {
-                return this.mLocalMarketSellerContactDetailsEnabled;
-            }
-            set {
-                this.mLocalMarketSellerContactDetailsEnabled = value;
-                this.mLocalMarketSellerContactDetailsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LocalMarketSellerContactDetailsEnabledSpecified {
-            get {
-                return this.mLocalMarketSellerContactDetailsEnabledSpecified;
-            }
-            set {
-                this.mLocalMarketSellerContactDetailsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ClassifiedAdPhoneCount {
-            get {
-                return this.mClassifiedAdPhoneCount;
-            }
-            set {
-                this.mClassifiedAdPhoneCount = value;
-                this.mClassifiedAdPhoneCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdPhoneCountSpecified {
-            get {
-                return this.mClassifiedAdPhoneCountSpecified;
-            }
-            set {
-                this.mClassifiedAdPhoneCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdContactByAddressEnabled {
-            get {
-                return this.mClassifiedAdContactByAddressEnabled;
-            }
-            set {
-                this.mClassifiedAdContactByAddressEnabled = value;
-                this.mClassifiedAdContactByAddressEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdContactByAddressEnabledSpecified {
-            get {
-                return this.mClassifiedAdContactByAddressEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdContactByAddressEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ClassifiedAdStreetCount {
-            get {
-                return this.mClassifiedAdStreetCount;
-            }
-            set {
-                this.mClassifiedAdStreetCount = value;
-                this.mClassifiedAdStreetCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdStreetCountSpecified {
-            get {
-                return this.mClassifiedAdStreetCountSpecified;
-            }
-            set {
-                this.mClassifiedAdStreetCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ClassifiedAdCompanyNameEnabled {
-            get {
-                return this.mClassifiedAdCompanyNameEnabled;
-            }
-            set {
-                this.mClassifiedAdCompanyNameEnabled = value;
-                this.mClassifiedAdCompanyNameEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ClassifiedAdCompanyNameEnabledSpecified {
-            get {
-                return this.mClassifiedAdCompanyNameEnabledSpecified;
-            }
-            set {
-                this.mClassifiedAdCompanyNameEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType SpecialitySubscription {
-            get {
-                return this.mSpecialitySubscription;
-            }
-            set {
-                this.mSpecialitySubscription = value;
-                this.mSpecialitySubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SpecialitySubscriptionSpecified {
-            get {
-                return this.mSpecialitySubscriptionSpecified;
-            }
-            set {
-                this.mSpecialitySubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType RegularSubscription {
-            get {
-                return this.mRegularSubscription;
-            }
-            set {
-                this.mRegularSubscription = value;
-                this.mRegularSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RegularSubscriptionSpecified {
-            get {
-                return this.mRegularSubscriptionSpecified;
-            }
-            set {
-                this.mRegularSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType PremiumSubscription {
-            get {
-                return this.mPremiumSubscription;
-            }
-            set {
-                this.mPremiumSubscription = value;
-                this.mPremiumSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PremiumSubscriptionSpecified {
-            get {
-                return this.mPremiumSubscriptionSpecified;
-            }
-            set {
-                this.mPremiumSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public GeographicExposureCodeType NonSubscription {
-            get {
-                return this.mNonSubscription;
-            }
-            set {
-                this.mNonSubscription = value;
-                this.mNonSubscriptionSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NonSubscriptionSpecified {
-            get {
-                return this.mNonSubscriptionSpecified;
-            }
-            set {
-                this.mNonSubscriptionSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public INEscrowWorkflowTimelineCodeType INEscrowWorkflowTimeline {
-            get {
-                return this.mINEscrowWorkflowTimeline;
-            }
-            set {
-                this.mINEscrowWorkflowTimeline = value;
-                this.mINEscrowWorkflowTimelineSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool INEscrowWorkflowTimelineSpecified {
-            get {
-                return this.mINEscrowWorkflowTimelineSpecified;
-            }
-            set {
-                this.mINEscrowWorkflowTimelineSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReviseQuantityAllowed {
-            get {
-                return this.mReviseQuantityAllowed;
-            }
-            set {
-                this.mReviseQuantityAllowed = value;
-                this.mReviseQuantityAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReviseQuantityAllowedSpecified {
-            get {
-                return this.mReviseQuantityAllowedSpecified;
-            }
-            set {
-                this.mReviseQuantityAllowedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool RevisePriceAllowed {
-            get {
-                return this.mRevisePriceAllowed;
-            }
-            set {
-                this.mRevisePriceAllowed = value;
-                this.mRevisePriceAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RevisePriceAllowedSpecified {
-            get {
-                return this.mRevisePriceAllowedSpecified;
-            }
-            set {
-                this.mRevisePriceAllowedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool StoreOwnerExtendedListingDurationsEnabled {
-            get {
-                return this.mStoreOwnerExtendedListingDurationsEnabled;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurationsEnabled = value;
-                this.mStoreOwnerExtendedListingDurationsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StoreOwnerExtendedListingDurationsEnabledSpecified {
-            get {
-                return this.mStoreOwnerExtendedListingDurationsEnabledSpecified;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurationsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public StoreOwnerExtendedListingDurationsType StoreOwnerExtendedListingDurations {
-            get {
-                return this.mStoreOwnerExtendedListingDurations;
-            }
-            set {
-                this.mStoreOwnerExtendedListingDurations = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReturnPolicyEnabled {
-            get {
-                return this.mReturnPolicyEnabled;
-            }
-            set {
-                this.mReturnPolicyEnabled = value;
-                this.mReturnPolicyEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyEnabledSpecified {
-            get {
-                return this.mReturnPolicyEnabledSpecified;
-            }
-            set {
-                this.mReturnPolicyEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool HandlingTimeEnabled {
-            get {
-                return this.mHandlingTimeEnabled;
-            }
-            set {
-                this.mHandlingTimeEnabled = value;
-                this.mHandlingTimeEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HandlingTimeEnabledSpecified {
-            get {
-                return this.mHandlingTimeEnabledSpecified;
-            }
-            set {
-                this.mHandlingTimeEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType MaxFlatShippingCost {
-            get {
-                return this.mMaxFlatShippingCost;
-            }
-            set {
-                this.mMaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group1MaxFlatShippingCost {
-            get {
-                return this.mGroup1MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup1MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group2MaxFlatShippingCost {
-            get {
-                return this.mGroup2MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup2MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType Group3MaxFlatShippingCost {
-            get {
-                return this.mGroup3MaxFlatShippingCost;
-            }
-            set {
-                this.mGroup3MaxFlatShippingCost = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("PaymentMethod")]
-        public BuyerPaymentMethodCodeTypeCollection PaymentMethod {
-            get {
-                return this.mPaymentMethod;
-            }
-            set {
-                this.mPaymentMethod = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VariationsEnabled {
-            get {
-                return this.mVariationsEnabled;
-            }
-            set {
-                this.mVariationsEnabled = value;
-                this.mVariationsEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VariationsEnabledSpecified {
-            get {
-                return this.mVariationsEnabledSpecified;
-            }
-            set {
-                this.mVariationsEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool FreeGalleryPlusEnabled {
-            get {
-                return this.mFreeGalleryPlusEnabled;
-            }
-            set {
-                this.mFreeGalleryPlusEnabled = value;
-                this.mFreeGalleryPlusEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FreeGalleryPlusEnabledSpecified {
-            get {
-                return this.mFreeGalleryPlusEnabledSpecified;
-            }
-            set {
-                this.mFreeGalleryPlusEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool FreePicturePackEnabled {
-            get {
-                return this.mFreePicturePackEnabled;
-            }
-            set {
-                this.mFreePicturePackEnabled = value;
-                this.mFreePicturePackEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FreePicturePackEnabledSpecified {
-            get {
-                return this.mFreePicturePackEnabledSpecified;
-            }
-            set {
-                this.mFreePicturePackEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemCompatibilityEnabledCodeType ItemCompatibilityEnabled {
-            get {
-                return this.mItemCompatibilityEnabled;
-            }
-            set {
-                this.mItemCompatibilityEnabled = value;
-                this.mItemCompatibilityEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemCompatibilityEnabledSpecified {
-            get {
-                return this.mItemCompatibilityEnabledSpecified;
-            }
-            set {
-                this.mItemCompatibilityEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MinItemCompatibility {
-            get {
-                return this.mMinItemCompatibility;
-            }
-            set {
-                this.mMinItemCompatibility = value;
-                this.mMinItemCompatibilitySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MinItemCompatibilitySpecified {
-            get {
-                return this.mMinItemCompatibilitySpecified;
-            }
-            set {
-                this.mMinItemCompatibilitySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MaxItemCompatibility {
-            get {
-                return this.mMaxItemCompatibility;
-            }
-            set {
-                this.mMaxItemCompatibility = value;
-                this.mMaxItemCompatibilitySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxItemCompatibilitySpecified {
-            get {
-                return this.mMaxItemCompatibilitySpecified;
-            }
-            set {
-                this.mMaxItemCompatibilitySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionEnabledCodeType ConditionEnabled {
-            get {
-                return this.mConditionEnabled;
-            }
-            set {
-                this.mConditionEnabled = value;
-                this.mConditionEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ConditionEnabledSpecified {
-            get {
-                return this.mConditionEnabledSpecified;
-            }
-            set {
-                this.mConditionEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionValuesType ConditionValues {
-            get {
-                return this.mConditionValues;
-            }
-            set {
-                this.mConditionValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionValuesType SpecialFeatures {
-            get {
-                return this.mSpecialFeatures;
-            }
-            set {
-                this.mSpecialFeatures = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ValueCategory {
-            get {
-                return this.mValueCategory;
-            }
-            set {
-                this.mValueCategory = value;
-                this.mValueCategorySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValueCategorySpecified {
-            get {
-                return this.mValueCategorySpecified;
-            }
-            set {
-                this.mValueCategorySpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductCreationEnabledCodeType ProductCreationEnabled {
-            get {
-                return this.mProductCreationEnabled;
-            }
-            set {
-                this.mProductCreationEnabled = value;
-                this.mProductCreationEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ProductCreationEnabledSpecified {
-            get {
-                return this.mProductCreationEnabledSpecified;
-            }
-            set {
-                this.mProductCreationEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType EANEnabled {
-            get {
-                return this.mEANEnabled;
-            }
-            set {
-                this.mEANEnabled = value;
-                this.mEANEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EANEnabledSpecified {
-            get {
-                return this.mEANEnabledSpecified;
-            }
-            set {
-                this.mEANEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType ISBNEnabled {
-            get {
-                return this.mISBNEnabled;
-            }
-            set {
-                this.mISBNEnabled = value;
-                this.mISBNEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ISBNEnabledSpecified {
-            get {
-                return this.mISBNEnabledSpecified;
-            }
-            set {
-                this.mISBNEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProductIdentiferEnabledCodeType UPCEnabled {
-            get {
-                return this.mUPCEnabled;
-            }
-            set {
-                this.mUPCEnabled = value;
-                this.mUPCEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UPCEnabledSpecified {
-            get {
-                return this.mUPCEnabledSpecified;
-            }
-            set {
-                this.mUPCEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int MaxGranularFitmentCount {
-            get {
-                return this.mMaxGranularFitmentCount;
-            }
-            set {
-                this.mMaxGranularFitmentCount = value;
-                this.mMaxGranularFitmentCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxGranularFitmentCountSpecified {
-            get {
-                return this.mMaxGranularFitmentCountSpecified;
-            }
-            set {
-                this.mMaxGranularFitmentCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CompatibleVehicleType {
-            get {
-                return this.mCompatibleVehicleType;
-            }
-            set {
-                this.mCompatibleVehicleType = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType ShippingProfileCategoryGroup {
-            get {
-                return this.mShippingProfileCategoryGroup;
-            }
-            set {
-                this.mShippingProfileCategoryGroup = value;
-                this.mShippingProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ShippingProfileCategoryGroupSpecified {
-            get {
-                return this.mShippingProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mShippingProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType PaymentProfileCategoryGroup {
-            get {
-                return this.mPaymentProfileCategoryGroup;
-            }
-            set {
-                this.mPaymentProfileCategoryGroup = value;
-                this.mPaymentProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PaymentProfileCategoryGroupSpecified {
-            get {
-                return this.mPaymentProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mPaymentProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ProfileCategoryGroupCodeType ReturnPolicyProfileCategoryGroup {
-            get {
-                return this.mReturnPolicyProfileCategoryGroup;
-            }
-            set {
-                this.mReturnPolicyProfileCategoryGroup = value;
-                this.mReturnPolicyProfileCategoryGroupSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyProfileCategoryGroupSpecified {
-            get {
-                return this.mReturnPolicyProfileCategoryGroupSpecified;
-            }
-            set {
-                this.mReturnPolicyProfileCategoryGroupSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VINSupported {
-            get {
-                return this.mVINSupported;
-            }
-            set {
-                this.mVINSupported = value;
-                this.mVINSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VINSupportedSpecified {
-            get {
-                return this.mVINSupportedSpecified;
-            }
-            set {
-                this.mVINSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool VRMSupported {
-            get {
-                return this.mVRMSupported;
-            }
-            set {
-                this.mVRMSupported = value;
-                this.mVRMSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VRMSupportedSpecified {
-            get {
-                return this.mVRMSupportedSpecified;
-            }
-            set {
-                this.mVRMSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool SellerProvidedTitleSupported {
-            get {
-                return this.mSellerProvidedTitleSupported;
-            }
-            set {
-                this.mSellerProvidedTitleSupported = value;
-                this.mSellerProvidedTitleSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SellerProvidedTitleSupportedSpecified {
-            get {
-                return this.mSellerProvidedTitleSupportedSpecified;
-            }
-            set {
-                this.mSellerProvidedTitleSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DepositSupported {
-            get {
-                return this.mDepositSupported;
-            }
-            set {
-                this.mDepositSupported = value;
-                this.mDepositSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DepositSupportedSpecified {
-            get {
-                return this.mDepositSupportedSpecified;
-            }
-            set {
-                this.mDepositSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool GlobalShippingEnabled {
-            get {
-                return this.mGlobalShippingEnabled;
-            }
-            set {
-                this.mGlobalShippingEnabled = value;
-                this.mGlobalShippingEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool GlobalShippingEnabledSpecified {
-            get {
-                return this.mGlobalShippingEnabledSpecified;
-            }
-            set {
-                this.mGlobalShippingEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool AdditionalCompatibilityEnabled {
-            get {
-                return this.mAdditionalCompatibilityEnabled;
-            }
-            set {
-                this.mAdditionalCompatibilityEnabled = value;
-                this.mAdditionalCompatibilityEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdditionalCompatibilityEnabledSpecified {
-            get {
-                return this.mAdditionalCompatibilityEnabledSpecified;
-            }
-            set {
-                this.mAdditionalCompatibilityEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool PickupDropOffEnabled {
-            get {
-                return this.mPickupDropOffEnabled;
-            }
-            set {
-                this.mPickupDropOffEnabled = value;
-                this.mPickupDropOffEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PickupDropOffEnabledSpecified {
-            get {
-                return this.mPickupDropOffEnabledSpecified;
-            }
-            set {
-                this.mPickupDropOffEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DigitalGoodDeliveryEnabled {
-            get {
-                return this.mDigitalGoodDeliveryEnabled;
-            }
-            set {
-                this.mDigitalGoodDeliveryEnabled = value;
-                this.mDigitalGoodDeliveryEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DigitalGoodDeliveryEnabledSpecified {
-            get {
-                return this.mDigitalGoodDeliveryEnabledSpecified;
-            }
-            set {
-                this.mDigitalGoodDeliveryEnabledSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool EpidSupported {
-            get {
-                return this.mEpidSupported;
-            }
-            set {
-                this.mEpidSupported = value;
-                this.mEpidSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EpidSupportedSpecified {
-            get {
-                return this.mEpidSupportedSpecified;
-            }
-            set {
-                this.mEpidSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool KTypeSupported {
-            get {
-                return this.mKTypeSupported;
-            }
-            set {
-                this.mKTypeSupported = value;
-                this.mKTypeSupportedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool KTypeSupportedSpecified {
-            get {
-                return this.mKTypeSupportedSpecified;
-            }
-            set {
-                this.mKTypeSupportedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsAcceptedCodeType DomesticReturnsAcceptedValues {
-            get {
-                return this.mDomesticReturnsAcceptedValues;
-            }
-            set {
-                this.mDomesticReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsAcceptedCodeType InternationalReturnsAcceptedValues {
-            get {
-                return this.mInternationalReturnsAcceptedValues;
-            }
-            set {
-                this.mInternationalReturnsAcceptedValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsDurationCodeType DomesticReturnsDurationValues {
-            get {
-                return this.mDomesticReturnsDurationValues;
-            }
-            set {
-                this.mDomesticReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsDurationCodeType InternationalReturnsDurationValues {
-            get {
-                return this.mInternationalReturnsDurationValues;
-            }
-            set {
-                this.mInternationalReturnsDurationValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticReturnsShipmentPayeeCodeType DomesticReturnsShipmentPayeeValues {
-            get {
-                return this.mDomesticReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mDomesticReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalReturnsShipmentPayeeCodeType InternationalReturnsShipmentPayeeValues {
-            get {
-                return this.mInternationalReturnsShipmentPayeeValues;
-            }
-            set {
-                this.mInternationalReturnsShipmentPayeeValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public DomesticRefundMethodCodeType DomesticRefundMethodValues {
-            get {
-                return this.mDomesticRefundMethodValues;
-            }
-            set {
-                this.mDomesticRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public InternationalRefundMethodCodeType InternationalRefundMethodValues {
-            get {
-                return this.mInternationalRefundMethodValues;
-            }
-            set {
-                this.mInternationalRefundMethodValues = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReturnPolicyDescriptionEnabled {
-            get {
-                return this.mReturnPolicyDescriptionEnabled;
-            }
-            set {
-                this.mReturnPolicyDescriptionEnabled = value;
-                this.mReturnPolicyDescriptionEnabledSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnPolicyDescriptionEnabledSpecified {
-            get {
-                return this.mReturnPolicyDescriptionEnabledSpecified;
-            }
-            set {
-                this.mReturnPolicyDescriptionEnabledSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum INEscrowWorkflowTimelineCodeType {
-        /// <remarks/>
-        Default,
-        /// <remarks/>
-        WorkflowA,
-        /// <remarks/>
-        WorkflowB,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -43160,7 +31505,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -43409,7 +31754,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -43443,723 +31788,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MemberMessageExchangeType {
-        private ItemType mItem;
-        private MemberMessageType mQuestion;
-        private StringCollection mResponse;
-        private MessageStatusTypeCodeType mMessageStatus;
-        private bool mMessageStatusSpecified;
-        private System.DateTime mCreationDate;
-        private bool mCreationDateSpecified;
-        private System.DateTime mLastModifiedDate;
-        private bool mLastModifiedDateSpecified;
-        private MessageMediaTypeCollection mMessageMedia;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public ItemType Item {
-            get {
-                return this.mItem;
-            }
-            set {
-                this.mItem = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MemberMessageType Question {
-            get {
-                return this.mQuestion;
-            }
-            set {
-                this.mQuestion = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Response")]
-        public StringCollection Response {
-            get {
-                return this.mResponse;
-            }
-            set {
-                this.mResponse = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MessageStatusTypeCodeType MessageStatus {
-            get {
-                return this.mMessageStatus;
-            }
-            set {
-                this.mMessageStatus = value;
-                this.mMessageStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MessageStatusSpecified {
-            get {
-                return this.mMessageStatusSpecified;
-            }
-            set {
-                this.mMessageStatusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public System.DateTime CreationDate {
-            get {
-                return this.mCreationDate;
-            }
-            set {
-                this.mCreationDate = value;
-                this.mCreationDateSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CreationDateSpecified {
-            get {
-                return this.mCreationDateSpecified;
-            }
-            set {
-                this.mCreationDateSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public System.DateTime LastModifiedDate {
-            get {
-                return this.mLastModifiedDate;
-            }
-            set {
-                this.mLastModifiedDate = value;
-                this.mLastModifiedDateSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LastModifiedDateSpecified {
-            get {
-                return this.mLastModifiedDateSpecified;
-            }
-            set {
-                this.mLastModifiedDateSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("MessageMedia")]
-        public MessageMediaTypeCollection MessageMedia {
-            get {
-                return this.mMessageMedia;
-            }
-            set {
-                this.mMessageMedia = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class MemberMessageType {
-        private MessageTypeCodeType mMessageType;
-        private bool mMessageTypeSpecified;
-        private QuestionTypeCodeType mQuestionType;
-        private bool mQuestionTypeSpecified;
-        private bool mEmailCopyToSender;
-        private bool mEmailCopyToSenderSpecified;
-        private bool mDisplayToPublic;
-        private bool mDisplayToPublicSpecified;
-        private string mSenderID;
-        private string mSenderEmail;
-        private StringCollection mRecipientID;
-        private string mSubject;
-        private string mBody;
-        private string mMessageID;
-        private string mParentMessageID;
-        private MessageMediaTypeCollection mMessageMedia;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public MessageTypeCodeType MessageType {
-            get {
-                return this.mMessageType;
-            }
-            set {
-                this.mMessageType = value;
-                this.mMessageTypeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MessageTypeSpecified {
-            get {
-                return this.mMessageTypeSpecified;
-            }
-            set {
-                this.mMessageTypeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public QuestionTypeCodeType QuestionType {
-            get {
-                return this.mQuestionType;
-            }
-            set {
-                this.mQuestionType = value;
-                this.mQuestionTypeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool QuestionTypeSpecified {
-            get {
-                return this.mQuestionTypeSpecified;
-            }
-            set {
-                this.mQuestionTypeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool EmailCopyToSender {
-            get {
-                return this.mEmailCopyToSender;
-            }
-            set {
-                this.mEmailCopyToSender = value;
-                this.mEmailCopyToSenderSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EmailCopyToSenderSpecified {
-            get {
-                return this.mEmailCopyToSenderSpecified;
-            }
-            set {
-                this.mEmailCopyToSenderSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool DisplayToPublic {
-            get {
-                return this.mDisplayToPublic;
-            }
-            set {
-                this.mDisplayToPublic = value;
-                this.mDisplayToPublicSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DisplayToPublicSpecified {
-            get {
-                return this.mDisplayToPublicSpecified;
-            }
-            set {
-                this.mDisplayToPublicSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string SenderID {
-            get {
-                return this.mSenderID;
-            }
-            set {
-                this.mSenderID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string SenderEmail {
-            get {
-                return this.mSenderEmail;
-            }
-            set {
-                this.mSenderEmail = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("RecipientID")]
-        public StringCollection RecipientID {
-            get {
-                return this.mRecipientID;
-            }
-            set {
-                this.mRecipientID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Subject {
-            get {
-                return this.mSubject;
-            }
-            set {
-                this.mSubject = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Body {
-            get {
-                return this.mBody;
-            }
-            set {
-                this.mBody = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string MessageID {
-            get {
-                return this.mMessageID;
-            }
-            set {
-                this.mMessageID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ParentMessageID {
-            get {
-                return this.mParentMessageID;
-            }
-            set {
-                this.mParentMessageID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("MessageMedia")]
-        public MessageMediaTypeCollection MessageMedia {
-            get {
-                return this.mMessageMedia;
-            }
-            set {
-                this.mMessageMedia = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum MessageStatusTypeCodeType {
-        /// <remarks/>
-        Answered,
-        /// <remarks/>
-        Unanswered,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class AdFormatLeadType {
-        private string mAdditionalInformation;
-        private AddressType mAddress;
-        private string mBestTimeToCall;
-        private string mEmail;
-        private System.DateTime mSubmittedTime;
-        private bool mSubmittedTimeSpecified;
-        private string mItemID;
-        private string mItemTitle;
-        private string mUserID;
-        private MemberMessageExchangeTypeCollection mMemberMessage;
-        private AdFormatLeadStatusCodeType mStatus;
-        private bool mStatusSpecified;
-        private AmountType mLeadFee;
-        private string mExternalEmail;
-        private string mPurchaseTimeFrame;
-        private string mTradeInYear;
-        private string mTradeInMake;
-        private string mTradeInModel;
-        private bool mFinancingAnswer;
-        private bool mFinancingAnswerSpecified;
-        private bool mAnswer1;
-        private bool mAnswer1Specified;
-        private bool mAnswer2;
-        private bool mAnswer2Specified;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string AdditionalInformation {
-            get {
-                return this.mAdditionalInformation;
-            }
-            set {
-                this.mAdditionalInformation = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AddressType Address {
-            get {
-                return this.mAddress;
-            }
-            set {
-                this.mAddress = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string BestTimeToCall {
-            get {
-                return this.mBestTimeToCall;
-            }
-            set {
-                this.mBestTimeToCall = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Email {
-            get {
-                return this.mEmail;
-            }
-            set {
-                this.mEmail = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public System.DateTime SubmittedTime {
-            get {
-                return this.mSubmittedTime;
-            }
-            set {
-                this.mSubmittedTime = value;
-                this.mSubmittedTimeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SubmittedTimeSpecified {
-            get {
-                return this.mSubmittedTimeSpecified;
-            }
-            set {
-                this.mSubmittedTimeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ItemID {
-            get {
-                return this.mItemID;
-            }
-            set {
-                this.mItemID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ItemTitle {
-            get {
-                return this.mItemTitle;
-            }
-            set {
-                this.mItemTitle = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string UserID {
-            get {
-                return this.mUserID;
-            }
-            set {
-                this.mUserID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlArrayItemAttribute("MemberMessageExchange", IsNullable=false)]
-        public MemberMessageExchangeTypeCollection MemberMessage {
-            get {
-                return this.mMemberMessage;
-            }
-            set {
-                this.mMemberMessage = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatLeadStatusCodeType Status {
-            get {
-                return this.mStatus;
-            }
-            set {
-                this.mStatus = value;
-                this.mStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StatusSpecified {
-            get {
-                return this.mStatusSpecified;
-            }
-            set {
-                this.mStatusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AmountType LeadFee {
-            get {
-                return this.mLeadFee;
-            }
-            set {
-                this.mLeadFee = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ExternalEmail {
-            get {
-                return this.mExternalEmail;
-            }
-            set {
-                this.mExternalEmail = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string PurchaseTimeFrame {
-            get {
-                return this.mPurchaseTimeFrame;
-            }
-            set {
-                this.mPurchaseTimeFrame = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string TradeInYear {
-            get {
-                return this.mTradeInYear;
-            }
-            set {
-                this.mTradeInYear = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string TradeInMake {
-            get {
-                return this.mTradeInMake;
-            }
-            set {
-                this.mTradeInMake = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string TradeInModel {
-            get {
-                return this.mTradeInModel;
-            }
-            set {
-                this.mTradeInModel = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool FinancingAnswer {
-            get {
-                return this.mFinancingAnswer;
-            }
-            set {
-                this.mFinancingAnswer = value;
-                this.mFinancingAnswerSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FinancingAnswerSpecified {
-            get {
-                return this.mFinancingAnswerSpecified;
-            }
-            set {
-                this.mFinancingAnswerSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool Answer1 {
-            get {
-                return this.mAnswer1;
-            }
-            set {
-                this.mAnswer1 = value;
-                this.mAnswer1Specified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool Answer1Specified {
-            get {
-                return this.mAnswer1Specified;
-            }
-            set {
-                this.mAnswer1Specified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool Answer2 {
-            get {
-                return this.mAnswer2;
-            }
-            set {
-                this.mAnswer2 = value;
-                this.mAnswer2Specified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool Answer2Specified {
-            get {
-                return this.mAnswer2Specified;
-            }
-            set {
-                this.mAnswer2Specified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum AdFormatLeadStatusCodeType {
-        /// <remarks/>
-        New,
-        /// <remarks/>
-        Responded,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44192,7 +31821,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -44500,7 +32129,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountDetailEntryCodeType {
@@ -45290,7 +32919,7 @@ namespace eBay.Service.Core.Soap {
         DHLPaymentProcessingFeeCredit,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45324,7 +32953,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45356,7 +32985,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45427,7 +33056,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45815,7 +33444,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountStateCodeType {
@@ -45829,7 +33458,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45901,7 +33530,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -45947,7 +33576,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AckCodeType {
@@ -45963,7 +33592,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46135,7 +33764,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DiscountReasonCodeType {
@@ -46147,7 +33776,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46230,7 +33859,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46264,7 +33893,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46321,7 +33950,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46392,7 +34021,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum InvocationStatusType {
@@ -46411,7 +34040,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddSecondChanceItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddFixedPriceItemResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(VeROReportItemsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(UploadSiteHostedPicturesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SetUserPreferencesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SetUserNotesResponseType))]
@@ -46435,8 +34063,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PlaceOfferResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LeaveFeedbackResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeteBayDetailsResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetVeROReportStatusResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetVeROReasonCodeDetailsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserPreferencesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserContactDetailsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserResponseType))]
@@ -46463,12 +34089,9 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetFeedbackResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetDescriptionTemplatesResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryFeaturesResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoriesResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBidderListResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBestOffersResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAllBiddersResponseType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAdFormatLeadsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAccountResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(FetchTokenResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EndItemsResponseType))]
@@ -46487,7 +34110,7 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemsResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemResponseType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddFixedPriceItemResponseType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46717,7 +34340,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46749,7 +34372,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46859,7 +34482,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -46919,7 +34542,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47001,7 +34624,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47083,81 +34706,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VeROReportItemsResponseType : AbstractResponseType {
-        private long mVeROReportPacketID;
-        private bool mVeROReportPacketIDSpecified;
-        private VeROReportPacketStatusCodeType mVeROReportPacketStatus;
-        private bool mVeROReportPacketStatusSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        public long VeROReportPacketID {
-            get {
-                return this.mVeROReportPacketID;
-            }
-            set {
-                this.mVeROReportPacketID = value;
-                this.mVeROReportPacketIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReportPacketIDSpecified {
-            get {
-                return this.mVeROReportPacketIDSpecified;
-            }
-            set {
-                this.mVeROReportPacketIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportPacketStatusCodeType VeROReportPacketStatus {
-            get {
-                return this.mVeROReportPacketStatus;
-            }
-            set {
-                this.mVeROReportPacketStatus = value;
-                this.mVeROReportPacketStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReportPacketStatusSpecified {
-            get {
-                return this.mVeROReportPacketStatusSpecified;
-            }
-            set {
-                this.mVeROReportPacketStatusSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum VeROReportPacketStatusCodeType {
-        /// <remarks/>
-        Received,
-        /// <remarks/>
-        InProcess,
-        /// <remarks/>
-        Processed,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47203,7 +34752,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47211,7 +34760,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetUserPreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47219,7 +34768,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetUserNotesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47227,7 +34776,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetTaxTableResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47300,7 +34849,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum TaskStatusCodeType {
@@ -47316,7 +34865,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47324,7 +34873,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetShippingDiscountProfilesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47332,7 +34881,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetNotificationPreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47340,7 +34889,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SetMessagePreferencesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47348,7 +34897,7 @@ namespace eBay.Service.Core.Soap {
     public partial class SendInvoiceResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47356,7 +34905,7 @@ namespace eBay.Service.Core.Soap {
     public partial class RevokeTokenResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47364,7 +34913,7 @@ namespace eBay.Service.Core.Soap {
     public partial class ReviseMyMessagesFoldersResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47372,7 +34921,7 @@ namespace eBay.Service.Core.Soap {
     public partial class ReviseMyMessagesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47532,7 +35081,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47566,7 +35115,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47649,7 +35198,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47795,7 +35344,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47803,7 +35352,7 @@ namespace eBay.Service.Core.Soap {
     public partial class RespondToFeedbackResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47824,7 +35373,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -47884,7 +35433,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48018,7 +35567,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48164,7 +35713,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48220,7 +35769,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48240,7 +35789,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -48583,191 +36132,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetVeROReportStatusResponseType : AbstractResponseType {
-        private PaginationResultType mPaginationResult;
-        private bool mHasMoreItems;
-        private bool mHasMoreItemsSpecified;
-        private int mItemsPerPage;
-        private bool mItemsPerPageSpecified;
-        private int mPageNumber;
-        private bool mPageNumberSpecified;
-        private long mVeROReportPacketID;
-        private bool mVeROReportPacketIDSpecified;
-        private VeROReportPacketStatusCodeType mVeROReportPacketStatus;
-        private bool mVeROReportPacketStatusSpecified;
-        private VeROReportedItemTypeCollection mReportedItemDetails;
-        /// <summary>
-        /// 
-        /// </summary>
-        public PaginationResultType PaginationResult {
-            get {
-                return this.mPaginationResult;
-            }
-            set {
-                this.mPaginationResult = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool HasMoreItems {
-            get {
-                return this.mHasMoreItems;
-            }
-            set {
-                this.mHasMoreItems = value;
-                this.mHasMoreItemsSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HasMoreItemsSpecified {
-            get {
-                return this.mHasMoreItemsSpecified;
-            }
-            set {
-                this.mHasMoreItemsSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int ItemsPerPage {
-            get {
-                return this.mItemsPerPage;
-            }
-            set {
-                this.mItemsPerPage = value;
-                this.mItemsPerPageSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ItemsPerPageSpecified {
-            get {
-                return this.mItemsPerPageSpecified;
-            }
-            set {
-                this.mItemsPerPageSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int PageNumber {
-            get {
-                return this.mPageNumber;
-            }
-            set {
-                this.mPageNumber = value;
-                this.mPageNumberSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PageNumberSpecified {
-            get {
-                return this.mPageNumberSpecified;
-            }
-            set {
-                this.mPageNumberSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public long VeROReportPacketID {
-            get {
-                return this.mVeROReportPacketID;
-            }
-            set {
-                this.mVeROReportPacketID = value;
-                this.mVeROReportPacketIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReportPacketIDSpecified {
-            get {
-                return this.mVeROReportPacketIDSpecified;
-            }
-            set {
-                this.mVeROReportPacketIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportPacketStatusCodeType VeROReportPacketStatus {
-            get {
-                return this.mVeROReportPacketStatus;
-            }
-            set {
-                this.mVeROReportPacketStatus = value;
-                this.mVeROReportPacketStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReportPacketStatusSpecified {
-            get {
-                return this.mVeROReportPacketStatusSpecified;
-            }
-            set {
-                this.mVeROReportPacketStatusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlArrayItemAttribute("ReportedItem", IsNullable=false)]
-        public VeROReportedItemTypeCollection ReportedItemDetails {
-            get {
-                return this.mReportedItemDetails;
-            }
-            set {
-                this.mReportedItemDetails = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetVeROReasonCodeDetailsResponseType : AbstractResponseType {
-        private VeROSiteDetailTypeCollection mVeROReasonCodeDetails;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlArrayItemAttribute("VeROSiteDetail", IsNullable=false)]
-        public VeROSiteDetailTypeCollection VeROReasonCodeDetails {
-            get {
-                return this.mVeROReasonCodeDetails;
-            }
-            set {
-                this.mVeROReasonCodeDetails = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49102,7 +36467,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49149,7 +36514,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49196,7 +36561,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CombinedPaymentOptionCodeType {
@@ -49210,7 +36575,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49437,7 +36802,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DisplayPayNowButtonCodeType {
@@ -49449,7 +36814,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum UPSRateOptionCodeType {
@@ -49461,7 +36826,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FedExRateOptionCodeType {
@@ -49475,7 +36840,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum USPSRateOptionCodeType {
@@ -49487,7 +36852,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49635,7 +37000,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StoreItemListSortOrderCodeType {
@@ -49655,7 +37020,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49831,7 +37196,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EndOfAuctionLogoTypeCodeType {
@@ -49847,7 +37212,7 @@ namespace eBay.Service.Core.Soap {
         None,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -49966,7 +37331,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50013,7 +37378,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50061,7 +37426,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50119,7 +37484,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50139,7 +37504,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50159,7 +37524,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50206,7 +37571,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50240,7 +37605,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50260,7 +37625,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50394,7 +37759,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50503,7 +37868,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum HandlingNameCodeType {
@@ -50521,7 +37886,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CombinedPaymentPeriodCodeType {
@@ -50541,7 +37906,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50561,7 +37926,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50710,7 +38075,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50859,7 +38224,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -50906,7 +38271,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51042,7 +38407,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51140,7 +38505,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51210,7 +38575,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51386,7 +38751,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum EnableCodeType {
@@ -51398,7 +38763,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationPayloadTypeCodeType {
@@ -51408,7 +38773,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DeviceTypeCodeType {
@@ -51422,7 +38787,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51494,7 +38859,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51567,7 +38932,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51600,7 +38965,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51685,7 +39050,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationEventPropertyNameCodeType {
@@ -51695,7 +39060,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51775,7 +39140,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51929,7 +39294,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51962,7 +39327,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -51982,7 +39347,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52042,7 +39407,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52101,7 +39466,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52121,7 +39486,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52270,7 +39635,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52302,7 +39667,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52322,7 +39687,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52471,7 +39836,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52583,253 +39948,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoryFeaturesResponseType : AbstractResponseType {
-        private string mCategoryVersion;
-        private System.DateTime mUpdateTime;
-        private bool mUpdateTimeSpecified;
-        private CategoryFeatureTypeCollection mCategory;
-        private SiteDefaultsType mSiteDefaults;
-        private FeatureDefinitionsType mFeatureDefinitions;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CategoryVersion {
-            get {
-                return this.mCategoryVersion;
-            }
-            set {
-                this.mCategoryVersion = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public System.DateTime UpdateTime {
-            get {
-                return this.mUpdateTime;
-            }
-            set {
-                this.mUpdateTime = value;
-                this.mUpdateTimeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UpdateTimeSpecified {
-            get {
-                return this.mUpdateTimeSpecified;
-            }
-            set {
-                this.mUpdateTimeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Category")]
-        public CategoryFeatureTypeCollection Category {
-            get {
-                return this.mCategory;
-            }
-            set {
-                this.mCategory = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public SiteDefaultsType SiteDefaults {
-            get {
-                return this.mSiteDefaults;
-            }
-            set {
-                this.mSiteDefaults = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public FeatureDefinitionsType FeatureDefinitions {
-            get {
-                return this.mFeatureDefinitions;
-            }
-            set {
-                this.mFeatureDefinitions = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoriesResponseType : AbstractResponseType {
-        private CategoryTypeCollection mCategoryArray;
-        private int mCategoryCount;
-        private bool mCategoryCountSpecified;
-        private System.DateTime mUpdateTime;
-        private bool mUpdateTimeSpecified;
-        private string mCategoryVersion;
-        private bool mReservePriceAllowed;
-        private bool mReservePriceAllowedSpecified;
-        private double mMinimumReservePrice;
-        private bool mMinimumReservePriceSpecified;
-        private bool mReduceReserveAllowed;
-        private bool mReduceReserveAllowedSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlArrayItemAttribute("Category", IsNullable=false)]
-        public CategoryTypeCollection CategoryArray {
-            get {
-                return this.mCategoryArray;
-            }
-            set {
-                this.mCategoryArray = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int CategoryCount {
-            get {
-                return this.mCategoryCount;
-            }
-            set {
-                this.mCategoryCount = value;
-                this.mCategoryCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CategoryCountSpecified {
-            get {
-                return this.mCategoryCountSpecified;
-            }
-            set {
-                this.mCategoryCountSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public System.DateTime UpdateTime {
-            get {
-                return this.mUpdateTime;
-            }
-            set {
-                this.mUpdateTime = value;
-                this.mUpdateTimeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool UpdateTimeSpecified {
-            get {
-                return this.mUpdateTimeSpecified;
-            }
-            set {
-                this.mUpdateTimeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string CategoryVersion {
-            get {
-                return this.mCategoryVersion;
-            }
-            set {
-                this.mCategoryVersion = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReservePriceAllowed {
-            get {
-                return this.mReservePriceAllowed;
-            }
-            set {
-                this.mReservePriceAllowed = value;
-                this.mReservePriceAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReservePriceAllowedSpecified {
-            get {
-                return this.mReservePriceAllowedSpecified;
-            }
-            set {
-                this.mReservePriceAllowedSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public double MinimumReservePrice {
-            get {
-                return this.mMinimumReservePrice;
-            }
-            set {
-                this.mMinimumReservePrice = value;
-                this.mMinimumReservePriceSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MinimumReservePriceSpecified {
-            get {
-                return this.mMinimumReservePriceSpecified;
-            }
-            set {
-                this.mMinimumReservePriceSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool ReduceReserveAllowed {
-            get {
-                return this.mReduceReserveAllowed;
-            }
-            set {
-                this.mReduceReserveAllowed = value;
-                this.mReduceReserveAllowedSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReduceReserveAllowedSpecified {
-            get {
-                return this.mReduceReserveAllowedSpecified;
-            }
-            set {
-                this.mReduceReserveAllowedSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52862,7 +39981,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52945,7 +40064,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53016,7 +40135,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53353,7 +40472,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BidActionCodeType {
@@ -53389,54 +40508,7 @@ namespace eBay.Service.Core.Soap {
         Decline,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetAdFormatLeadsResponseType : AbstractResponseType {
-        private AdFormatLeadTypeCollection mAdFormatLead;
-        private int mAdFormatLeadCount;
-        private bool mAdFormatLeadCountSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("AdFormatLead")]
-        public AdFormatLeadTypeCollection AdFormatLead {
-            get {
-                return this.mAdFormatLead;
-            }
-            set {
-                this.mAdFormatLead = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int AdFormatLeadCount {
-            get {
-                return this.mAdFormatLeadCount;
-            }
-            set {
-                this.mAdFormatLeadCount = value;
-                this.mAdFormatLeadCountSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdFormatLeadCountSpecified {
-            get {
-                return this.mAdFormatLeadCountSpecified;
-            }
-            set {
-                this.mAdFormatLeadCountSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53622,7 +40694,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeenettingStatusCodeType {
@@ -53634,7 +40706,7 @@ namespace eBay.Service.Core.Soap {
         Exempted,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53692,7 +40764,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53713,7 +40785,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53747,7 +40819,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53793,7 +40865,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53801,7 +40873,7 @@ namespace eBay.Service.Core.Soap {
     public partial class DeleteMyMessagesResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53821,7 +40893,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53829,7 +40901,7 @@ namespace eBay.Service.Core.Soap {
     public partial class CompleteSaleResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53889,7 +40961,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53897,7 +40969,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddToItemDescriptionResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -53969,7 +41041,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54015,7 +41087,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54036,7 +41108,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54044,7 +41116,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddMemberMessageRTQResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54052,7 +41124,7 @@ namespace eBay.Service.Core.Soap {
     public partial class AddMemberMessageAAQToPartnerResponseType : AbstractResponseType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54073,7 +41145,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54207,7 +41279,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54353,202 +41425,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VeROReportItemType {
-        private string mItemID;
-        private long mVeROReasonCodeID;
-        private bool mVeROReasonCodeIDSpecified;
-        private string mMessageToSeller;
-        private bool mCopyEmailToRightsOwner;
-        private bool mCopyEmailToRightsOwnerSpecified;
-        private ShippingRegionCodeTypeCollection mRegion;
-        private CountryCodeTypeCollection mCountry;
-        private string mPatent;
-        private string mBrand;
-        private string mDetailedMessage;
-        private XmlElementCollection mAny;
-        /// <summary>
-        /// 
-        /// </summary>
-        public string ItemID {
-            get {
-                return this.mItemID;
-            }
-            set {
-                this.mItemID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public long VeROReasonCodeID {
-            get {
-                return this.mVeROReasonCodeID;
-            }
-            set {
-                this.mVeROReasonCodeID = value;
-                this.mVeROReasonCodeIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReasonCodeIDSpecified {
-            get {
-                return this.mVeROReasonCodeIDSpecified;
-            }
-            set {
-                this.mVeROReasonCodeIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string MessageToSeller {
-            get {
-                return this.mMessageToSeller;
-            }
-            set {
-                this.mMessageToSeller = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool CopyEmailToRightsOwner {
-            get {
-                return this.mCopyEmailToRightsOwner;
-            }
-            set {
-                this.mCopyEmailToRightsOwner = value;
-                this.mCopyEmailToRightsOwnerSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CopyEmailToRightsOwnerSpecified {
-            get {
-                return this.mCopyEmailToRightsOwnerSpecified;
-            }
-            set {
-                this.mCopyEmailToRightsOwnerSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Region")]
-        public ShippingRegionCodeTypeCollection Region {
-            get {
-                return this.mRegion;
-            }
-            set {
-                this.mRegion = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("Country")]
-        public CountryCodeTypeCollection Country {
-            get {
-                return this.mCountry;
-            }
-            set {
-                this.mCountry = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Patent {
-            get {
-                return this.mPatent;
-            }
-            set {
-                this.mPatent = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Brand {
-            get {
-                return this.mBrand;
-            }
-            set {
-                this.mBrand = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string DetailedMessage {
-            get {
-                return this.mDetailedMessage;
-            }
-            set {
-                this.mDetailedMessage = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlAnyElementAttribute()]
-        public XmlElementCollection Any {
-            get {
-                return this.mAny;
-            }
-            set {
-                this.mAny = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum ShippingRegionCodeType {
-        /// <remarks/>
-        Africa,
-        /// <remarks/>
-        Asia,
-        /// <remarks/>
-        Caribbean,
-        /// <remarks/>
-        Europe,
-        /// <remarks/>
-        LatinAmerica,
-        /// <remarks/>
-        MiddleEast,
-        /// <remarks/>
-        NorthAmerica,
-        /// <remarks/>
-        Oceania,
-        /// <remarks/>
-        SouthAmerica,
-        /// <remarks/>
-        EuropeanUnion,
-        /// <remarks/>
-        WillNotShip,
-        /// <remarks/>
-        Worldwide,
-        /// <remarks/>
-        Americas,
-        /// <remarks/>
-        None,
-        /// <remarks/>
-        CustomCode,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54582,7 +41459,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54665,7 +41542,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ApplicationDeviceTypeCodeType {
@@ -54681,7 +41558,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54754,7 +41631,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -54788,7 +41665,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55003,7 +41880,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55192,7 +42069,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemSortTypeCodeType {
@@ -55352,7 +42229,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55425,7 +42302,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum OrderStatusFilterCodeType {
@@ -55441,7 +42318,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55512,7 +42389,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55572,7 +42449,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55618,7 +42495,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55662,7 +42539,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55707,7 +42584,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -55756,7 +42633,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddSecondChanceItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VerifyAddFixedPriceItemRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(VeROReportItemsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(UploadSiteHostedPicturesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SetUserPreferencesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SetUserNotesRequestType))]
@@ -55780,8 +42656,6 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PlaceOfferRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(LeaveFeedbackRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeteBayDetailsRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetVeROReportStatusRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetVeROReasonCodeDetailsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserPreferencesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserContactDetailsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetUserRequestType))]
@@ -55808,12 +42682,9 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetFeedbackRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetDescriptionTemplatesRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoryFeaturesRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetCategoriesRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBidderListRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetBestOffersRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAllBiddersRequestType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAdFormatLeadsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GetAccountRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(FetchTokenRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EndItemsRequestType))]
@@ -55832,7 +42703,7 @@ namespace eBay.Service.Core.Soap {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemsRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddItemRequestType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddFixedPriceItemRequestType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56011,7 +42882,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DetailLevelCodeType {
@@ -56031,7 +42902,7 @@ namespace eBay.Service.Core.Soap {
         ReturnMessages,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ErrorHandlingCodeType {
@@ -56045,7 +42916,7 @@ namespace eBay.Service.Core.Soap {
         FailOnError,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum WarningLevelCodeType {
@@ -56055,7 +42926,7 @@ namespace eBay.Service.Core.Soap {
         High,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56089,7 +42960,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56176,7 +43047,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SecondChanceOfferDurationCodeType {
@@ -56192,7 +43063,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56213,7 +43084,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56234,42 +43105,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class VeROReportItemsRequestType : AbstractRequestType {
-        private string mRightsOwnerID;
-        private VeROReportItemTypeCollection mReportItems;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string RightsOwnerID {
-            get {
-                return this.mRightsOwnerID;
-            }
-            set {
-                this.mRightsOwnerID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ReportItem", IsNullable=false)]
-        public VeROReportItemTypeCollection ReportItems {
-            get {
-                return this.mReportItems;
-            }
-            set {
-                this.mReportItems = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56397,7 +43233,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum PictureUploadPolicyCodeType {
@@ -56409,7 +43245,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56656,7 +43492,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56770,7 +43606,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum SetUserNotesActionCodeType {
@@ -56782,7 +43618,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56804,7 +43640,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -56907,7 +43743,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum StoreCategoryUpdateActionCodeType {
@@ -56923,7 +43759,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57064,7 +43900,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ModifyActionCodeType {
@@ -57078,7 +43914,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57152,7 +43988,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57173,7 +44009,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57351,7 +44187,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57386,7 +44222,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57447,7 +44283,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum MyMessagesFolderOperationCodeType {
@@ -57461,7 +44297,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57564,7 +44400,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57625,7 +44461,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57659,7 +44495,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57693,7 +44529,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57806,7 +44642,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackResponseCodeType {
@@ -57818,7 +44654,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -57932,7 +44768,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum BestOfferActionCodeType {
@@ -57946,7 +44782,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58007,7 +44843,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58041,7 +44877,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58075,7 +44911,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58163,7 +44999,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58331,7 +45167,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum ItemArrivedWithinEDDCodeType {
@@ -58347,7 +45183,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -58368,7 +45204,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum DetailNameCodeType {
@@ -58426,211 +45262,7 @@ namespace eBay.Service.Core.Soap {
         ProductDetails,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetVeROReportStatusRequestType : AbstractRequestType {
-        private long mVeROReportPacketID;
-        private bool mVeROReportPacketIDSpecified;
-        private string mItemID;
-        private bool mIncludeReportedItemDetails;
-        private bool mIncludeReportedItemDetailsSpecified;
-        private System.DateTime mTimeFrom;
-        private bool mTimeFromSpecified;
-        private System.DateTime mTimeTo;
-        private bool mTimeToSpecified;
-        private PaginationType mPagination;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long VeROReportPacketID {
-            get {
-                return this.mVeROReportPacketID;
-            }
-            set {
-                this.mVeROReportPacketID = value;
-                this.mVeROReportPacketIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VeROReportPacketIDSpecified {
-            get {
-                return this.mVeROReportPacketIDSpecified;
-            }
-            set {
-                this.mVeROReportPacketIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string ItemID {
-            get {
-                return this.mItemID;
-            }
-            set {
-                this.mItemID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public bool IncludeReportedItemDetails {
-            get {
-                return this.mIncludeReportedItemDetails;
-            }
-            set {
-                this.mIncludeReportedItemDetails = value;
-                this.mIncludeReportedItemDetailsSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IncludeReportedItemDetailsSpecified {
-            get {
-                return this.mIncludeReportedItemDetailsSpecified;
-            }
-            set {
-                this.mIncludeReportedItemDetailsSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public System.DateTime TimeFrom {
-            get {
-                return this.mTimeFrom;
-            }
-            set {
-                this.mTimeFrom = value;
-                this.mTimeFromSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TimeFromSpecified {
-            get {
-                return this.mTimeFromSpecified;
-            }
-            set {
-                this.mTimeFromSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public System.DateTime TimeTo {
-            get {
-                return this.mTimeTo;
-            }
-            set {
-                this.mTimeTo = value;
-                this.mTimeToSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TimeToSpecified {
-            get {
-                return this.mTimeToSpecified;
-            }
-            set {
-                this.mTimeToSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public PaginationType Pagination {
-            get {
-                return this.mPagination;
-            }
-            set {
-                this.mPagination = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetVeROReasonCodeDetailsRequestType : AbstractRequestType {
-        private long mReasonCodeID;
-        private bool mReasonCodeIDSpecified;
-        private bool mReturnAllSites;
-        private bool mReturnAllSitesSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public long ReasonCodeID {
-            get {
-                return this.mReasonCodeID;
-            }
-            set {
-                this.mReasonCodeID = value;
-                this.mReasonCodeIDSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReasonCodeIDSpecified {
-            get {
-                return this.mReasonCodeIDSpecified;
-            }
-            set {
-                this.mReasonCodeIDSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool ReturnAllSites {
-            get {
-                return this.mReturnAllSites;
-            }
-            set {
-                this.mReturnAllSites = value;
-                this.mReturnAllSitesSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReturnAllSitesSpecified {
-            get {
-                return this.mReturnAllSitesSpecified;
-            }
-            set {
-                this.mReturnAllSitesSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59122,7 +45754,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59169,7 +45801,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59230,7 +45862,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59238,7 +45870,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetTokenStatusRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59246,7 +45878,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetTaxTableRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59281,7 +45913,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59383,7 +46015,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59391,7 +46023,7 @@ namespace eBay.Service.Core.Soap {
     public partial class GetShippingDiscountProfilesRequestType : AbstractRequestType {
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59412,7 +46044,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59663,7 +46295,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -59981,7 +46613,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GranularityLevelCodeType {
@@ -59995,7 +46627,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60273,7 +46905,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60578,7 +47210,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60653,7 +47285,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60688,7 +47320,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum NotificationRoleCodeType {
@@ -60704,7 +47336,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60804,7 +47436,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -60995,7 +47627,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61152,7 +47784,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61200,7 +47832,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61395,7 +48027,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61443,7 +48075,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61692,7 +48324,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61780,7 +48412,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -61962,7 +48594,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62088,7 +48720,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum FeedbackTypeCodeType {
@@ -62104,7 +48736,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62179,496 +48811,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoryFeaturesRequestType : AbstractRequestType {
-        private string mCategoryID;
-        private int mLevelLimit;
-        private bool mLevelLimitSpecified;
-        private bool mViewAllNodes;
-        private bool mViewAllNodesSpecified;
-        private FeatureIDCodeTypeCollection mFeatureID;
-        private bool mAllFeaturesForCategory;
-        private bool mAllFeaturesForCategorySpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CategoryID {
-            get {
-                return this.mCategoryID;
-            }
-            set {
-                this.mCategoryID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public int LevelLimit {
-            get {
-                return this.mLevelLimit;
-            }
-            set {
-                this.mLevelLimit = value;
-                this.mLevelLimitSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LevelLimitSpecified {
-            get {
-                return this.mLevelLimitSpecified;
-            }
-            set {
-                this.mLevelLimitSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public bool ViewAllNodes {
-            get {
-                return this.mViewAllNodes;
-            }
-            set {
-                this.mViewAllNodes = value;
-                this.mViewAllNodesSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ViewAllNodesSpecified {
-            get {
-                return this.mViewAllNodesSpecified;
-            }
-            set {
-                this.mViewAllNodesSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("FeatureID", Order=3)]
-        public FeatureIDCodeTypeCollection FeatureID {
-            get {
-                return this.mFeatureID;
-            }
-            set {
-                this.mFeatureID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public bool AllFeaturesForCategory {
-            get {
-                return this.mAllFeaturesForCategory;
-            }
-            set {
-                this.mAllFeaturesForCategory = value;
-                this.mAllFeaturesForCategorySpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AllFeaturesForCategorySpecified {
-            get {
-                return this.mAllFeaturesForCategorySpecified;
-            }
-            set {
-                this.mAllFeaturesForCategorySpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public enum FeatureIDCodeType {
-        /// <remarks/>
-        ListingDurations,
-        /// <remarks/>
-        BestOfferEnabled,
-        /// <remarks/>
-        DutchBINEnabled,
-        /// <remarks/>
-        ShippingTermsRequired,
-        /// <remarks/>
-        UserConsentRequired,
-        /// <remarks/>
-        HomePageFeaturedEnabled,
-        /// <remarks/>
-        AdFormatEnabled,
-        /// <remarks/>
-        DigitalDeliveryEnabled,
-        /// <remarks/>
-        BestOfferCounterEnabled,
-        /// <remarks/>
-        BestOfferAutoDeclineEnabled,
-        /// <remarks/>
-        ProPack,
-        /// <remarks/>
-        BasicUpgradePack,
-        /// <remarks/>
-        ValuePack,
-        /// <remarks/>
-        ProPackPlus,
-        /// <remarks/>
-        LocalMarketSpecialitySubscription,
-        /// <remarks/>
-        LocalMarketRegularSubscription,
-        /// <remarks/>
-        LocalMarketPremiumSubscription,
-        /// <remarks/>
-        LocalMarketNonSubscription,
-        /// <remarks/>
-        ExpressEnabled,
-        /// <remarks/>
-        ExpressPicturesRequired,
-        /// <remarks/>
-        ExpressConditionRequired,
-        /// <remarks/>
-        SellerContactDetailsEnabled,
-        /// <remarks/>
-        CustomCode,
-        /// <remarks/>
-        MinimumReservePrice,
-        /// <remarks/>
-        TransactionConfirmationRequestEnabled,
-        /// <remarks/>
-        StoreInventoryEnabled,
-        /// <remarks/>
-        LocalListingDistances,
-        /// <remarks/>
-        SkypeMeTransactionalEnabled,
-        /// <remarks/>
-        SkypeMeNonTransactionalEnabled,
-        /// <remarks/>
-        ClassifiedAdPaymentMethodEnabled,
-        /// <remarks/>
-        ClassifiedAdShippingMethodEnabled,
-        /// <remarks/>
-        ClassifiedAdBestOfferEnabled,
-        /// <remarks/>
-        ClassifiedAdCounterOfferEnabled,
-        /// <remarks/>
-        ClassifiedAdAutoDeclineEnabled,
-        /// <remarks/>
-        ClassifiedAdContactByEmailEnabled,
-        /// <remarks/>
-        ClassifiedAdContactByPhoneEnabled,
-        /// <remarks/>
-        SafePaymentRequired,
-        /// <remarks/>
-        MaximumBestOffersAllowed,
-        /// <remarks/>
-        ClassifiedAdMaximumBestOffersAllowed,
-        /// <remarks/>
-        ClassifiedAdContactByEmailAvailable,
-        /// <remarks/>
-        ClassifiedAdPayPerLeadEnabled,
-        /// <remarks/>
-        ItemSpecificsEnabled,
-        /// <remarks/>
-        PaisaPayFullEscrowEnabled,
-        /// <remarks/>
-        ISBNIdentifierEnabled,
-        /// <remarks/>
-        UPCIdentifierEnabled,
-        /// <remarks/>
-        EANIdentifierEnabled,
-        /// <remarks/>
-        BrandMPNIdentifierEnabled,
-        /// <remarks/>
-        ClassifiedAdAutoAcceptEnabled,
-        /// <remarks/>
-        BestOfferAutoAcceptEnabled,
-        /// <remarks/>
-        CrossBorderTradeEnabled,
-        /// <remarks/>
-        PayPalBuyerProtectionEnabled,
-        /// <remarks/>
-        BuyerGuaranteeEnabled,
-        /// <remarks/>
-        INEscrowWorkflowTimeline,
-        /// <remarks/>
-        CombinedFixedPriceTreatment,
-        /// <remarks/>
-        GalleryFeaturedDurations,
-        /// <remarks/>
-        PayPalRequired,
-        /// <remarks/>
-        eBayMotorsProAdFormatEnabled,
-        /// <remarks/>
-        eBayMotorsProContactByPhoneEnabled,
-        /// <remarks/>
-        eBayMotorsProContactByAddressEnabled,
-        /// <remarks/>
-        eBayMotorsProCompanyNameEnabled,
-        /// <remarks/>
-        eBayMotorsProContactByEmailEnabled,
-        /// <remarks/>
-        eBayMotorsProBestOfferEnabled,
-        /// <remarks/>
-        eBayMotorsProAutoAcceptEnabled,
-        /// <remarks/>
-        eBayMotorsProAutoDeclineEnabled,
-        /// <remarks/>
-        eBayMotorsProPaymentMethodCheckOutEnabled,
-        /// <remarks/>
-        eBayMotorsProShippingMethodEnabled,
-        /// <remarks/>
-        eBayMotorsProCounterOfferEnabled,
-        /// <remarks/>
-        eBayMotorsProSellerContactDetailsEnabled,
-        /// <remarks/>
-        LocalMarketAdFormatEnabled,
-        /// <remarks/>
-        LocalMarketContactByPhoneEnabled,
-        /// <remarks/>
-        LocalMarketContactByAddressEnabled,
-        /// <remarks/>
-        LocalMarketCompanyNameEnabled,
-        /// <remarks/>
-        LocalMarketContactByEmailEnabled,
-        /// <remarks/>
-        LocalMarketBestOfferEnabled,
-        /// <remarks/>
-        LocalMarketAutoAcceptEnabled,
-        /// <remarks/>
-        LocalMarketAutoDeclineEnabled,
-        /// <remarks/>
-        LocalMarketPaymentMethodCheckOutEnabled,
-        /// <remarks/>
-        LocalMarketShippingMethodEnabled,
-        /// <remarks/>
-        LocalMarketCounterOfferEnabled,
-        /// <remarks/>
-        LocalMarketSellerContactDetailsEnabled,
-        /// <remarks/>
-        ClassifiedAdContactByAddressEnabled,
-        /// <remarks/>
-        ClassifiedAdCompanyNameEnabled,
-        /// <remarks/>
-        SpecialitySubscription,
-        /// <remarks/>
-        RegularSubscription,
-        /// <remarks/>
-        PremiumSubscription,
-        /// <remarks/>
-        NonSubscription,
-        /// <remarks/>
-        IntangibleEnabled,
-        /// <remarks/>
-        PayPalRequiredForStoreOwner,
-        /// <remarks/>
-        ReviseQuantityAllowed,
-        /// <remarks/>
-        RevisePriceAllowed,
-        /// <remarks/>
-        StoreOwnerExtendedListingDurationsEnabled,
-        /// <remarks/>
-        StoreOwnerExtendedListingDurations,
-        /// <remarks/>
-        ReturnPolicyEnabled,
-        /// <remarks/>
-        HandlingTimeEnabled,
-        /// <remarks/>
-        PaymentMethods,
-        /// <remarks/>
-        MaxFlatShippingCost,
-        /// <remarks/>
-        MaxFlatShippingCostCBTExempt,
-        /// <remarks/>
-        Group1MaxFlatShippingCost,
-        /// <remarks/>
-        Group2MaxFlatShippingCost,
-        /// <remarks/>
-        Group3MaxFlatShippingCost,
-        /// <remarks/>
-        VariationsEnabled,
-        /// <remarks/>
-        AttributeConversionEnabled,
-        /// <remarks/>
-        FreeGalleryPlusEnabled,
-        /// <remarks/>
-        FreePicturePackEnabled,
-        /// <remarks/>
-        CompatibilityEnabled,
-        /// <remarks/>
-        MinCompatibleApplications,
-        /// <remarks/>
-        MaxCompatibleApplications,
-        /// <remarks/>
-        ConditionEnabled,
-        /// <remarks/>
-        ConditionValues,
-        /// <remarks/>
-        ValueCategory,
-        /// <remarks/>
-        ProductCreationEnabled,
-        /// <remarks/>
-        EANEnabled,
-        /// <remarks/>
-        ISBNEnabled,
-        /// <remarks/>
-        UPCEnabled,
-        /// <remarks/>
-        MaxGranularFitmentCount,
-        /// <remarks/>
-        CompatibleVehicleType,
-        /// <remarks/>
-        PaymentOptionsGroup,
-        /// <remarks/>
-        ShippingProfileCategoryGroup,
-        /// <remarks/>
-        PaymentProfileCategoryGroup,
-        /// <remarks/>
-        ReturnPolicyProfileCategoryGroup,
-        /// <remarks/>
-        VINSupported,
-        /// <remarks/>
-        VRMSupported,
-        /// <remarks/>
-        SellerProvidedTitleSupported,
-        /// <remarks/>
-        DepositSupported,
-        /// <remarks/>
-        GlobalShippingEnabled,
-        /// <remarks/>
-        AdditionalCompatibilityEnabled,
-        /// <remarks/>
-        PickupDropOffEnabled,
-        /// <remarks/>
-        DigitalGoodDeliveryEnabled,
-        /// <remarks/>
-        EpidSupported,
-        /// <remarks/>
-        KTypeSupported,
-        /// <remarks/>
-        ProductRequiredEnabled,
-        /// <remarks/>
-        DomesticReturnsAcceptedValues,
-        /// <remarks/>
-        InternationalReturnsAcceptedValues,
-        /// <remarks/>
-        DomesticReturnsDurationValues,
-        /// <remarks/>
-        InternationalReturnsDurationValues,
-        /// <remarks/>
-        DomesticReturnsShipmentPayeeValues,
-        /// <remarks/>
-        InternationalReturnsShipmentPayeeValues,
-        /// <remarks/>
-        DomesticRefundMethodValues,
-        /// <remarks/>
-        InternationalRefundMethodValues,
-        /// <remarks/>
-        ReturnPolicyDescriptionEnabled,
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetCategoriesRequestType : AbstractRequestType {
-        private string mCategorySiteID;
-        private StringCollection mCategoryParent;
-        private int mLevelLimit;
-        private bool mLevelLimitSpecified;
-        private bool mViewAllNodes;
-        private bool mViewAllNodesSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CategorySiteID {
-            get {
-                return this.mCategorySiteID;
-            }
-            set {
-                this.mCategorySiteID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute("CategoryParent", Order=1)]
-        public StringCollection CategoryParent {
-            get {
-                return this.mCategoryParent;
-            }
-            set {
-                this.mCategoryParent = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public int LevelLimit {
-            get {
-                return this.mLevelLimit;
-            }
-            set {
-                this.mLevelLimit = value;
-                this.mLevelLimitSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LevelLimitSpecified {
-            get {
-                return this.mLevelLimitSpecified;
-            }
-            set {
-                this.mLevelLimitSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public bool ViewAllNodes {
-            get {
-                return this.mViewAllNodes;
-            }
-            set {
-                this.mViewAllNodes = value;
-                this.mViewAllNodesSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ViewAllNodesSpecified {
-            get {
-                return this.mViewAllNodesSpecified;
-            }
-            set {
-                this.mViewAllNodesSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62797,7 +48940,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62871,7 +49014,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -62946,7 +49089,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum GetAllBiddersModeCodeType {
@@ -62960,136 +49103,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
-    public partial class GetAdFormatLeadsRequestType : AbstractRequestType {
-        private string mItemID;
-        private MessageStatusTypeCodeType mStatus;
-        private bool mStatusSpecified;
-        private bool mIncludeMemberMessages;
-        private bool mIncludeMemberMessagesSpecified;
-        private System.DateTime mStartCreationTime;
-        private bool mStartCreationTimeSpecified;
-        private System.DateTime mEndCreationTime;
-        private bool mEndCreationTimeSpecified;
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ItemID {
-            get {
-                return this.mItemID;
-            }
-            set {
-                this.mItemID = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public MessageStatusTypeCodeType Status {
-            get {
-                return this.mStatus;
-            }
-            set {
-                this.mStatus = value;
-                this.mStatusSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StatusSpecified {
-            get {
-                return this.mStatusSpecified;
-            }
-            set {
-                this.mStatusSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public bool IncludeMemberMessages {
-            get {
-                return this.mIncludeMemberMessages;
-            }
-            set {
-                this.mIncludeMemberMessages = value;
-                this.mIncludeMemberMessagesSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IncludeMemberMessagesSpecified {
-            get {
-                return this.mIncludeMemberMessagesSpecified;
-            }
-            set {
-                this.mIncludeMemberMessagesSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public System.DateTime StartCreationTime {
-            get {
-                return this.mStartCreationTime;
-            }
-            set {
-                this.mStartCreationTime = value;
-                this.mStartCreationTimeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StartCreationTimeSpecified {
-            get {
-                return this.mStartCreationTimeSpecified;
-            }
-            set {
-                this.mStartCreationTimeSpecified = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public System.DateTime EndCreationTime {
-            get {
-                return this.mEndCreationTime;
-            }
-            set {
-                this.mEndCreationTime = value;
-                this.mEndCreationTimeSpecified = true;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EndCreationTimeSpecified {
-            get {
-                return this.mEndCreationTimeSpecified;
-            }
-            set {
-                this.mEndCreationTimeSpecified = value;
-            }
-        }
-    }
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63406,7 +49420,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountHistorySelectionCodeType {
@@ -63422,7 +49436,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum AccountEntrySortTypeCodeType {
@@ -63444,7 +49458,7 @@ namespace eBay.Service.Core.Soap {
         CustomCode,
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63478,7 +49492,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63499,7 +49513,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63547,7 +49561,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63608,7 +49622,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63630,7 +49644,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63651,7 +49665,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63818,7 +49832,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63852,7 +49866,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63886,7 +49900,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63973,7 +49987,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -63994,7 +50008,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64015,7 +50029,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64049,7 +50063,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64083,7 +50097,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64104,7 +50118,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64125,7 +50139,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -64146,7 +50160,7 @@ namespace eBay.Service.Core.Soap {
         }
     }
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9425.20786")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.9775.33070")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="eBayAPISoapBinding", Namespace="urn:ebay:apis:eBLBaseComponents")]
@@ -64533,26 +50547,6 @@ namespace eBay.Service.Core.Soap {
         [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
         [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetAdFormatLeadsResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetAdFormatLeadsResponseType GetAdFormatLeads([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetAdFormatLeadsRequestType GetAdFormatLeadsRequest) {
-            object[] results = this.Invoke("GetAdFormatLeads", new object[] {
-                        GetAdFormatLeadsRequest});
-            return ((GetAdFormatLeadsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetAdFormatLeads(GetAdFormatLeadsRequestType GetAdFormatLeadsRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetAdFormatLeads", new object[] {
-                        GetAdFormatLeadsRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetAdFormatLeadsResponseType EndGetAdFormatLeads(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetAdFormatLeadsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
         [return: System.Xml.Serialization.XmlElementAttribute("GetAllBiddersResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
         public GetAllBiddersResponseType GetAllBidders([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetAllBiddersRequestType GetAllBiddersRequest) {
             object[] results = this.Invoke("GetAllBidders", new object[] {
@@ -64608,46 +50602,6 @@ namespace eBay.Service.Core.Soap {
         public GetBidderListResponseType EndGetBidderList(System.IAsyncResult asyncResult) {
             object[] results = this.EndInvoke(asyncResult);
             return ((GetBidderListResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetCategoriesResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetCategoriesResponseType GetCategories([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetCategoriesRequestType GetCategoriesRequest) {
-            object[] results = this.Invoke("GetCategories", new object[] {
-                        GetCategoriesRequest});
-            return ((GetCategoriesResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetCategories(GetCategoriesRequestType GetCategoriesRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetCategories", new object[] {
-                        GetCategoriesRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetCategoriesResponseType EndGetCategories(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetCategoriesResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetCategoryFeaturesResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetCategoryFeaturesResponseType GetCategoryFeatures([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetCategoryFeaturesRequestType GetCategoryFeaturesRequest) {
-            object[] results = this.Invoke("GetCategoryFeatures", new object[] {
-                        GetCategoryFeaturesRequest});
-            return ((GetCategoryFeaturesResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetCategoryFeatures(GetCategoryFeaturesRequestType GetCategoryFeaturesRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetCategoryFeatures", new object[] {
-                        GetCategoryFeaturesRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetCategoryFeaturesResponseType EndGetCategoryFeatures(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetCategoryFeaturesResponseType)(results[0]));
         }
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
@@ -65173,46 +51127,6 @@ namespace eBay.Service.Core.Soap {
         [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
         [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetVeROReasonCodeDetailsResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetVeROReasonCodeDetailsResponseType GetVeROReasonCodeDetails([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetVeROReasonCodeDetailsRequestType GetVeROReasonCodeDetailsRequest) {
-            object[] results = this.Invoke("GetVeROReasonCodeDetails", new object[] {
-                        GetVeROReasonCodeDetailsRequest});
-            return ((GetVeROReasonCodeDetailsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetVeROReasonCodeDetails(GetVeROReasonCodeDetailsRequestType GetVeROReasonCodeDetailsRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetVeROReasonCodeDetails", new object[] {
-                        GetVeROReasonCodeDetailsRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetVeROReasonCodeDetailsResponseType EndGetVeROReasonCodeDetails(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetVeROReasonCodeDetailsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("GetVeROReportStatusResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public GetVeROReportStatusResponseType GetVeROReportStatus([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GetVeROReportStatusRequestType GetVeROReportStatusRequest) {
-            object[] results = this.Invoke("GetVeROReportStatus", new object[] {
-                        GetVeROReportStatusRequest});
-            return ((GetVeROReportStatusResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginGetVeROReportStatus(GetVeROReportStatusRequestType GetVeROReportStatusRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("GetVeROReportStatus", new object[] {
-                        GetVeROReportStatusRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public GetVeROReportStatusResponseType EndGetVeROReportStatus(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((GetVeROReportStatusResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
         [return: System.Xml.Serialization.XmlElementAttribute("GeteBayDetailsResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
         public GeteBayDetailsResponseType GeteBayDetails([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] GeteBayDetailsRequestType GeteBayDetailsRequest) {
             object[] results = this.Invoke("GeteBayDetails", new object[] {
@@ -65648,26 +51562,6 @@ namespace eBay.Service.Core.Soap {
         public SetUserPreferencesResponseType EndSetUserPreferences(System.IAsyncResult asyncResult) {
             object[] results = this.EndInvoke(asyncResult);
             return ((SetUserPreferencesResponseType)(results[0]));
-        }
-        /// <remarks/>
-        [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Bare)]
-        [eBay.Service.Core.Soap.SoapExtensionExAttribute()]
-        [return: System.Xml.Serialization.XmlElementAttribute("VeROReportItemsResponse", Namespace="urn:ebay:apis:eBLBaseComponents")]
-        public VeROReportItemsResponseType VeROReportItems([System.Xml.Serialization.XmlElementAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")] VeROReportItemsRequestType VeROReportItemsRequest) {
-            object[] results = this.Invoke("VeROReportItems", new object[] {
-                        VeROReportItemsRequest});
-            return ((VeROReportItemsResponseType)(results[0]));
-        }
-        /// <remarks/>
-        public System.IAsyncResult BeginVeROReportItems(VeROReportItemsRequestType VeROReportItemsRequest, System.AsyncCallback callback, object asyncState) {
-            return this.BeginInvoke("VeROReportItems", new object[] {
-                        VeROReportItemsRequest}, callback, asyncState);
-        }
-        /// <remarks/>
-        public VeROReportItemsResponseType EndVeROReportItems(System.IAsyncResult asyncResult) {
-            object[] results = this.EndInvoke(asyncResult);
-            return ((VeROReportItemsResponseType)(results[0]));
         }
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("RequesterCredentials", Direction=System.Web.Services.Protocols.SoapHeaderDirection.InOut)]
@@ -68052,150 +53946,6 @@ namespace eBay.Service.Core.Soap {
         /// <returns></returns>
         public ShippingServicePackageDetailsType[] ToArray() {
             return ((ShippingServicePackageDetailsType[])(this.InnerList.ToArray(typeof(ShippingServicePackageDetailsType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ReasonCodeDetailTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReasonCodeDetailTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReasonCodeDetailTypeCollection(ReasonCodeDetailType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReasonCodeDetailTypeCollection(ReasonCodeDetailTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReasonCodeDetailType this[int index] {
-            get {
-                return ((ReasonCodeDetailType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ReasonCodeDetailType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReasonCodeDetailType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReasonCodeDetailTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ReasonCodeDetailType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ReasonCodeDetailType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ReasonCodeDetailType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ReasonCodeDetailType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ReasonCodeDetailType ItemAt(int index) {
-            return ((ReasonCodeDetailType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ReasonCodeDetailType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ReasonCodeDetailType[] ToArray() {
-            return ((ReasonCodeDetailType[])(this.InnerList.ToArray(typeof(ReasonCodeDetailType))));
         }
     }
     /// <summary>
@@ -76554,1014 +62304,6 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
-    public sealed class ListingDurationDefinitionTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingDurationDefinitionTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ListingDurationDefinitionTypeCollection(ListingDurationDefinitionType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ListingDurationDefinitionTypeCollection(ListingDurationDefinitionTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingDurationDefinitionType this[int index] {
-            get {
-                return ((ListingDurationDefinitionType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ListingDurationDefinitionType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ListingDurationDefinitionType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ListingDurationDefinitionTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ListingDurationDefinitionType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ListingDurationDefinitionType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ListingDurationDefinitionType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ListingDurationDefinitionType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ListingDurationDefinitionType ItemAt(int index) {
-            return ((ListingDurationDefinitionType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ListingDurationDefinitionType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ListingDurationDefinitionType[] ToArray() {
-            return ((ListingDurationDefinitionType[])(this.InnerList.ToArray(typeof(ListingDurationDefinitionType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ReturnsRefundMethodCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsRefundMethodCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsRefundMethodCodeTypeCollection(ReturnsRefundMethodCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsRefundMethodCodeTypeCollection(ReturnsRefundMethodCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsRefundMethodCodeType this[int index] {
-            get {
-                return ((ReturnsRefundMethodCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ReturnsRefundMethodCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsRefundMethodCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsRefundMethodCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ReturnsRefundMethodCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ReturnsRefundMethodCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ReturnsRefundMethodCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ReturnsRefundMethodCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ReturnsRefundMethodCodeType ItemAt(int index) {
-            return ((ReturnsRefundMethodCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ReturnsRefundMethodCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ReturnsRefundMethodCodeType[] ToArray() {
-            return ((ReturnsRefundMethodCodeType[])(this.InnerList.ToArray(typeof(ReturnsRefundMethodCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ListingDurationReferenceTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingDurationReferenceTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ListingDurationReferenceTypeCollection(ListingDurationReferenceType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ListingDurationReferenceTypeCollection(ListingDurationReferenceTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ListingDurationReferenceType this[int index] {
-            get {
-                return ((ListingDurationReferenceType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ListingDurationReferenceType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ListingDurationReferenceType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ListingDurationReferenceTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ListingDurationReferenceType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ListingDurationReferenceType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ListingDurationReferenceType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ListingDurationReferenceType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ListingDurationReferenceType ItemAt(int index) {
-            return ((ListingDurationReferenceType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ListingDurationReferenceType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ListingDurationReferenceType[] ToArray() {
-            return ((ListingDurationReferenceType[])(this.InnerList.ToArray(typeof(ListingDurationReferenceType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ConditionTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ConditionTypeCollection(ConditionType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ConditionTypeCollection(ConditionTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ConditionType this[int index] {
-            get {
-                return ((ConditionType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ConditionType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ConditionType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ConditionTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ConditionType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ConditionType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ConditionType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ConditionType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ConditionType ItemAt(int index) {
-            return ((ConditionType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ConditionType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ConditionType[] ToArray() {
-            return ((ConditionType[])(this.InnerList.ToArray(typeof(ConditionType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ReturnsAcceptedCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsAcceptedCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsAcceptedCodeTypeCollection(ReturnsAcceptedCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsAcceptedCodeTypeCollection(ReturnsAcceptedCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsAcceptedCodeType this[int index] {
-            get {
-                return ((ReturnsAcceptedCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ReturnsAcceptedCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsAcceptedCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsAcceptedCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ReturnsAcceptedCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ReturnsAcceptedCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ReturnsAcceptedCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ReturnsAcceptedCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ReturnsAcceptedCodeType ItemAt(int index) {
-            return ((ReturnsAcceptedCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ReturnsAcceptedCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ReturnsAcceptedCodeType[] ToArray() {
-            return ((ReturnsAcceptedCodeType[])(this.InnerList.ToArray(typeof(ReturnsAcceptedCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ReturnsDurationCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsDurationCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsDurationCodeTypeCollection(ReturnsDurationCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsDurationCodeTypeCollection(ReturnsDurationCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsDurationCodeType this[int index] {
-            get {
-                return ((ReturnsDurationCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ReturnsDurationCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsDurationCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsDurationCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ReturnsDurationCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ReturnsDurationCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ReturnsDurationCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ReturnsDurationCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ReturnsDurationCodeType ItemAt(int index) {
-            return ((ReturnsDurationCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ReturnsDurationCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ReturnsDurationCodeType[] ToArray() {
-            return ((ReturnsDurationCodeType[])(this.InnerList.ToArray(typeof(ReturnsDurationCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class ReturnsShipmentPayeeCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsShipmentPayeeCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsShipmentPayeeCodeTypeCollection(ReturnsShipmentPayeeCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ReturnsShipmentPayeeCodeTypeCollection(ReturnsShipmentPayeeCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReturnsShipmentPayeeCodeType this[int index] {
-            get {
-                return ((ReturnsShipmentPayeeCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ReturnsShipmentPayeeCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsShipmentPayeeCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ReturnsShipmentPayeeCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ReturnsShipmentPayeeCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ReturnsShipmentPayeeCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ReturnsShipmentPayeeCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ReturnsShipmentPayeeCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ReturnsShipmentPayeeCodeType ItemAt(int index) {
-            return ((ReturnsShipmentPayeeCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ReturnsShipmentPayeeCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ReturnsShipmentPayeeCodeType[] ToArray() {
-            return ((ReturnsShipmentPayeeCodeType[])(this.InnerList.ToArray(typeof(ReturnsShipmentPayeeCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
     public sealed class BestOfferTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -77844,150 +62586,6 @@ namespace eBay.Service.Core.Soap {
         /// <returns></returns>
         public ItemBestOffersType[] ToArray() {
             return ((ItemBestOffersType[])(this.InnerList.ToArray(typeof(ItemBestOffersType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class MemberMessageExchangeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public MemberMessageExchangeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public MemberMessageExchangeTypeCollection(MemberMessageExchangeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public MemberMessageExchangeTypeCollection(MemberMessageExchangeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public MemberMessageExchangeType this[int index] {
-            get {
-                return ((MemberMessageExchangeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(MemberMessageExchangeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(MemberMessageExchangeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(MemberMessageExchangeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(MemberMessageExchangeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(MemberMessageExchangeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(MemberMessageExchangeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, MemberMessageExchangeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public MemberMessageExchangeType ItemAt(int index) {
-            return ((MemberMessageExchangeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(MemberMessageExchangeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public MemberMessageExchangeType[] ToArray() {
-            return ((MemberMessageExchangeType[])(this.InnerList.ToArray(typeof(MemberMessageExchangeType))));
         }
     }
     /// <summary>
@@ -81882,294 +66480,6 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
-    public sealed class VeROReportedItemTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportedItemTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROReportedItemTypeCollection(VeROReportedItemType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROReportedItemTypeCollection(VeROReportedItemTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportedItemType this[int index] {
-            get {
-                return ((VeROReportedItemType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(VeROReportedItemType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROReportedItemType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROReportedItemTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(VeROReportedItemType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(VeROReportedItemType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(VeROReportedItemType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, VeROReportedItemType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public VeROReportedItemType ItemAt(int index) {
-            return ((VeROReportedItemType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(VeROReportedItemType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public VeROReportedItemType[] ToArray() {
-            return ((VeROReportedItemType[])(this.InnerList.ToArray(typeof(VeROReportedItemType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class VeROSiteDetailTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROSiteDetailTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROSiteDetailTypeCollection(VeROSiteDetailType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROSiteDetailTypeCollection(VeROSiteDetailTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROSiteDetailType this[int index] {
-            get {
-                return ((VeROSiteDetailType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(VeROSiteDetailType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROSiteDetailType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROSiteDetailTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(VeROSiteDetailType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(VeROSiteDetailType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(VeROSiteDetailType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, VeROSiteDetailType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public VeROSiteDetailType ItemAt(int index) {
-            return ((VeROSiteDetailType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(VeROSiteDetailType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public VeROSiteDetailType[] ToArray() {
-            return ((VeROSiteDetailType[])(this.InnerList.ToArray(typeof(VeROSiteDetailType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
     public sealed class EBayPLUSPreferenceTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -83322,6 +67632,150 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
+    public sealed class MemberMessageExchangeTypeCollection : System.Collections.CollectionBase {
+        /// <summary>
+        /// 
+        /// </summary>
+        public MemberMessageExchangeTypeCollection() {
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="items"></param>
+        public MemberMessageExchangeTypeCollection(MemberMessageExchangeType[] items) {
+            this.AddRange(items);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="items"></param>
+        public MemberMessageExchangeTypeCollection(MemberMessageExchangeTypeCollection items) {
+            this.AddRange(items);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public MemberMessageExchangeType this[int index] {
+            get {
+                return ((MemberMessageExchangeType)(this.InnerList[index]));
+            }
+            set {
+                this.InnerList[index] = value;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsFixedSize {
+            get {
+                return this.InnerList.IsFixedSize;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsReadOnly {
+            get {
+                return this.InnerList.IsReadOnly;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsSynchronized {
+            get {
+                return this.InnerList.IsSynchronized;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public object SyncRoot {
+            get {
+                return this.InnerList.SyncRoot;
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public int Add(MemberMessageExchangeType item) {
+            return this.InnerList.Add(item);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="items"></param>
+        public void AddRange(MemberMessageExchangeType[] items) {
+            this.InnerList.AddRange(items);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="items"></param>
+        public void AddRange(MemberMessageExchangeTypeCollection items) {
+            this.InnerList.AddRange(items);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public bool Contains(MemberMessageExchangeType item) {
+            return this.InnerList.Contains(item);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="items"></param>
+        /// <param name="index"></param>
+        public void CopyTo(MemberMessageExchangeType[] items, int index) {
+            this.InnerList.CopyTo(items, index);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public int IndexOf(MemberMessageExchangeType item) {
+            return this.InnerList.IndexOf(item);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="item"></param>
+        public void Insert(int index, MemberMessageExchangeType item) {
+            this.InnerList.Insert(index, item);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public MemberMessageExchangeType ItemAt(int index) {
+            return ((MemberMessageExchangeType)(this.InnerList[index]));
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="item"></param>
+        public void Remove(MemberMessageExchangeType item) {
+            this.InnerList.Remove(item);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public MemberMessageExchangeType[] ToArray() {
+            return ((MemberMessageExchangeType[])(this.InnerList.ToArray(typeof(MemberMessageExchangeType))));
+        }
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    [Serializable()]
     public sealed class FeedbackDetailTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -83754,294 +68208,6 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
-    public sealed class CategoryFeatureTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryFeatureTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryFeatureTypeCollection(CategoryFeatureType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryFeatureTypeCollection(CategoryFeatureTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryFeatureType this[int index] {
-            get {
-                return ((CategoryFeatureType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(CategoryFeatureType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryFeatureType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryFeatureTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(CategoryFeatureType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(CategoryFeatureType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(CategoryFeatureType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, CategoryFeatureType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public CategoryFeatureType ItemAt(int index) {
-            return ((CategoryFeatureType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(CategoryFeatureType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public CategoryFeatureType[] ToArray() {
-            return ((CategoryFeatureType[])(this.InnerList.ToArray(typeof(CategoryFeatureType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class CategoryTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryTypeCollection(CategoryType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CategoryTypeCollection(CategoryTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CategoryType this[int index] {
-            get {
-                return ((CategoryType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(CategoryType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CategoryTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(CategoryType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(CategoryType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(CategoryType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, CategoryType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public CategoryType ItemAt(int index) {
-            return ((CategoryType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(CategoryType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public CategoryType[] ToArray() {
-            return ((CategoryType[])(this.InnerList.ToArray(typeof(CategoryType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
     public sealed class OfferTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -84180,150 +68346,6 @@ namespace eBay.Service.Core.Soap {
         /// <returns></returns>
         public OfferType[] ToArray() {
             return ((OfferType[])(this.InnerList.ToArray(typeof(OfferType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class AdFormatLeadTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatLeadTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public AdFormatLeadTypeCollection(AdFormatLeadType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public AdFormatLeadTypeCollection(AdFormatLeadTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public AdFormatLeadType this[int index] {
-            get {
-                return ((AdFormatLeadType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(AdFormatLeadType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(AdFormatLeadType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(AdFormatLeadTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(AdFormatLeadType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(AdFormatLeadType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(AdFormatLeadType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, AdFormatLeadType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public AdFormatLeadType ItemAt(int index) {
-            return ((AdFormatLeadType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(AdFormatLeadType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public AdFormatLeadType[] ToArray() {
-            return ((AdFormatLeadType[])(this.InnerList.ToArray(typeof(AdFormatLeadType))));
         }
     }
     /// <summary>
@@ -84762,294 +68784,6 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
-    public sealed class ShippingRegionCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public ShippingRegionCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ShippingRegionCodeTypeCollection(ShippingRegionCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public ShippingRegionCodeTypeCollection(ShippingRegionCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public ShippingRegionCodeType this[int index] {
-            get {
-                return ((ShippingRegionCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(ShippingRegionCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ShippingRegionCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(ShippingRegionCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(ShippingRegionCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(ShippingRegionCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(ShippingRegionCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, ShippingRegionCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public ShippingRegionCodeType ItemAt(int index) {
-            return ((ShippingRegionCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(ShippingRegionCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public ShippingRegionCodeType[] ToArray() {
-            return ((ShippingRegionCodeType[])(this.InnerList.ToArray(typeof(ShippingRegionCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class CountryCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public CountryCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CountryCodeTypeCollection(CountryCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public CountryCodeTypeCollection(CountryCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public CountryCodeType this[int index] {
-            get {
-                return ((CountryCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(CountryCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CountryCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(CountryCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(CountryCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(CountryCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(CountryCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, CountryCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public CountryCodeType ItemAt(int index) {
-            return ((CountryCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(CountryCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public CountryCodeType[] ToArray() {
-            return ((CountryCodeType[])(this.InnerList.ToArray(typeof(CountryCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
     public sealed class DetailLevelCodeTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -85188,150 +68922,6 @@ namespace eBay.Service.Core.Soap {
         /// <returns></returns>
         public DetailLevelCodeType[] ToArray() {
             return ((DetailLevelCodeType[])(this.InnerList.ToArray(typeof(DetailLevelCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
-    public sealed class VeROReportItemTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportItemTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROReportItemTypeCollection(VeROReportItemType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public VeROReportItemTypeCollection(VeROReportItemTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public VeROReportItemType this[int index] {
-            get {
-                return ((VeROReportItemType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(VeROReportItemType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROReportItemType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(VeROReportItemTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(VeROReportItemType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(VeROReportItemType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(VeROReportItemType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, VeROReportItemType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public VeROReportItemType ItemAt(int index) {
-            return ((VeROReportItemType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(VeROReportItemType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public VeROReportItemType[] ToArray() {
-            return ((VeROReportItemType[])(this.InnerList.ToArray(typeof(VeROReportItemType))));
         }
     }
     /// <summary>
@@ -85914,150 +69504,6 @@ namespace eBay.Service.Core.Soap {
     /// 
     /// </summary>
     [Serializable()]
-    public sealed class FeatureIDCodeTypeCollection : System.Collections.CollectionBase {
-        /// <summary>
-        /// 
-        /// </summary>
-        public FeatureIDCodeTypeCollection() {
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public FeatureIDCodeTypeCollection(FeatureIDCodeType[] items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public FeatureIDCodeTypeCollection(FeatureIDCodeTypeCollection items) {
-            this.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public FeatureIDCodeType this[int index] {
-            get {
-                return ((FeatureIDCodeType)(this.InnerList[index]));
-            }
-            set {
-                this.InnerList[index] = value;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsFixedSize {
-            get {
-                return this.InnerList.IsFixedSize;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsReadOnly {
-            get {
-                return this.InnerList.IsReadOnly;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsSynchronized {
-            get {
-                return this.InnerList.IsSynchronized;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public object SyncRoot {
-            get {
-                return this.InnerList.SyncRoot;
-            }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int Add(FeatureIDCodeType item) {
-            return this.InnerList.Add(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(FeatureIDCodeType[] items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        public void AddRange(FeatureIDCodeTypeCollection items) {
-            this.InnerList.AddRange(items);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public bool Contains(FeatureIDCodeType item) {
-            return this.InnerList.Contains(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="items"></param>
-        /// <param name="index"></param>
-        public void CopyTo(FeatureIDCodeType[] items, int index) {
-            this.InnerList.CopyTo(items, index);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        public int IndexOf(FeatureIDCodeType item) {
-            return this.InnerList.IndexOf(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <param name="item"></param>
-        public void Insert(int index, FeatureIDCodeType item) {
-            this.InnerList.Insert(index, item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public FeatureIDCodeType ItemAt(int index) {
-            return ((FeatureIDCodeType)(this.InnerList[index]));
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="item"></param>
-        public void Remove(FeatureIDCodeType item) {
-            this.InnerList.Remove(item);
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public FeatureIDCodeType[] ToArray() {
-            return ((FeatureIDCodeType[])(this.InnerList.ToArray(typeof(FeatureIDCodeType))));
-        }
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    [Serializable()]
     public sealed class EndItemRequestContainerTypeCollection : System.Collections.CollectionBase {
         /// <summary>
         /// 
@@ -86489,6 +69935,15 @@ namespace eBay.Service.Core.Soap {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.0.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public enum AttributeConversionEnabledCodeType {
+        NotApplicable,
+        Enabled,
+        Disabled,
+        CustomCode,
+    }
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.0.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
     public enum CancelReasonCodeType {
         OutOfStock,
         BuyerNoShow,
@@ -86673,6 +70128,23 @@ namespace eBay.Service.Core.Soap {
     public enum ReturnsAcceptedOptionsCodeType {
         ReturnsAccepted,
         ReturnsNotAccepted,
+        CustomCode,
+    }
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.0.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public enum ReturnsDurationCodeType {
+        Days_14,
+        Days_30,
+        Days_60,
+        CustomCode,
+    }
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.0.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:ebay:apis:eBLBaseComponents")]
+    public enum ReturnsShipmentPayeeCodeType {
+        Buyer,
+        Seller,
         CustomCode,
     }
     [System.CodeDom.Compiler.GeneratedCodeAttribute("CodeGen", "1.0.0.0")]

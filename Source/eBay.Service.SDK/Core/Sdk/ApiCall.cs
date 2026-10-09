@@ -478,7 +478,7 @@ namespace eBay.Service.Core.Sdk
         /// (If there was no error, this returns null.) The ApiException object is used for exceptions 
         /// from the API call wrapper layer, which means it is API payload data-related. For example, you could get one of 
         /// these exceptions if you supplied an invalid category ID in an AddItem call. In this case, the server returns a response 
-        /// indicating an error with an error severity of ‘Failure’,  wrapped by the SDK as an ApiException object. 
+        /// indicating an error with an error severity of ï¿½Failureï¿½,  wrapped by the SDK as an ApiException object. 
         /// </summary>
         public ApiException ApiException
         {
@@ -572,7 +572,6 @@ namespace eBay.Service.Core.Sdk
         /// <summary>
         /// Prevents <see cref="DetailLevelList"/> from being sent if set to <b>true</b>.
         /// </summary>
-        /// <remarks>This property is set to <b>true</b> for <see cref="GetCategoriesCall.GetCategoriesVersion"/>.</remarks>
         protected internal bool DetailLevelOverride
         {
             get { return mDetailLevelOverride; }
