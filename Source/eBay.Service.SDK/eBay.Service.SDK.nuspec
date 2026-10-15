@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<package>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>eBay.Service.SDK</id>
-        <version>1.0.6</version>
+        <version>1.0.7</version>
         <title>eBay Service SDK</title>
         <owners>eBay Inc.</owners>
         <authors>Zhuowei Yang, Lokesh Rishi</authors>
@@ -11,7 +11,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary>eBay Service SDK for .NET</summary>
         <description>This SDK provides a .NET interface for interacting with eBay's APIs.</description>
-        <releaseNotes>Initial commit: Adding all files</releaseNotes>
+        <releaseNotes>Update Trading API compatibility to 1487</releaseNotes>
         <copyright>Copyright 2024 eBay Inc.</copyright>
         <readme>README.md</readme>
         <tags>Trading API .NET SDK</tags>
